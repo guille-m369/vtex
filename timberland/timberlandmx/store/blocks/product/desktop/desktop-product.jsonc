@@ -1,0 +1,80 @@
+{
+  "responsive-layout.desktop#desktop-product": {
+    "children": ["flex-layout.row#product-desktop"]
+  },
+  "flex-layout.row#product-desktop": {
+    "children": ["flex-layout.col#product-desktop"]
+  },
+  "flex-layout.col#product-desktop": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main-desktop",
+      // "__fold__.desktop",
+
+      "shelf.relatedProducts#2",
+      "product-reviews",
+      "shelf.relatedProducts"
+    ],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["poduct-description-accordion"]
+  },
+  "flex-layout.row#product-main-desktop": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "desktop"
+    },
+    "children": [
+      "flex-layout.col#stack-desktop",
+      "flex-layout.col#right-col-desktop"
+    ]
+  },
+  "flex-layout.col#stack-desktop": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "desktop"
+    }
+  },
+  "flex-layout.col#right-col-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      //"add-to-list-btn",
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "product-identifier.product",
+      "flex-layout.row#price",
+      "product-separator",
+      "similar-products-variants",
+      "product-separator",
+      "sku-selector",
+      "rich-text#mensaje-guia-tallas",
+      "modal-trigger#modal-guia-tallas",
+      "flex-layout.row#quantityBuyButton",
+      "modal-trigger#modal-politicas-devoluciones",
+      "flex-layout.row#description"
+      /*  "product-assembly-options",
+          "product-gifts",
+          "availability-subscriber",
+          "shipping-simulator",
+          "share#default"*/
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  //SECONDARY BANNER ----------------------------
+
+  //MOBILE ----------------------------
+  "flex-layout.row#component-banner-ipad": {
+    "children": ["two-block#banner-ipad"],
+    "props": {
+      "blockClass": "third-wrapper",
+      "marginBottom": "8"
+    }
+  },
+  "flex-layout.row#component-banner-applewatch": {
+    "children": ["two-block#banner-applewatch"],
+    "props": {
+      "blockClass": "third-wrapper",
+      "marginBottom": "5"
+    }
+  },
+
+  "two-block#banner-ipad": {
+    "props": {
+      "blockClass": "third",
+      "mobileImgUrl": "/arquivos/ipad.png",
+      "mobileTextLocation": "top",
+      "desktopTextLocation": "left",
+      "desktopTextPosition": "center",
+      "height": "540px",
+      "width": "400px",
+      "title2": "iPad Air",
+      "title3": "Poderoso. Vistoso. Maravilloso.",
+      "centerText": true,
+      "ctaArray": [
+        {
+          "text": "comprar",
+          "url": "/"
+        }
+      ]
+    }
+  },
+  "two-block#banner-applewatch": {
+    "props": {
+      "blockClass": "third",
+      "mobileImgUrl": "/arquivos/epplewatch.png",
+      "mobileTextLocation": "top",
+      "desktopTextLocation": "left",
+      "desktopTextPosition": "center",
+      "height": "540px",
+      "width": "400px",
+      "title2": "Watch",
+      "title3": "El futuro de la salud está en tu muñeca.",
+      "centerText": true,
+      "ctaArray": [
+        {
+          "text": "comprar",
+          "url": "/"
+        }
+      ]
+    }
+  },
+
+  // mobile
+
+
+
+  //Desktop ----------------------------
+  "flex-layout.row#component-secondary-banner": {
+    "children": [
+      "flex-layout.col#secondary-banner-ipad",
+      "flex-layout.col#secondary-banner-applewatch"
+    ],
+    "props": {
+      "blockClass": "secondary-banner-container",
+      "marginBottom": "5"
+    }
+  },
+
+  "flex-layout.col#secondary-banner-ipad": {
+    "children": ["rich-text#ipad-title",  "rich-text#ipad-subtitle", "link#product-page", "image#ipad"],
+    "props": {
+      "blockClass": "secondary-banner-container-ipad",
+      "width": "49%"
+    }
+  },
+  "rich-text#ipad-title": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "EPad Air ",
+      "blockClass": "rich-text-banner-ipad-title",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#ipad-subtitle": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Poderoso. Vistoso. Maravilloso.",
+      "blockClass": "rich-text-banner-ipad-subtitle",
+      "font": "t-heading-3"
+    }
+  },
+
+  "image#ipad": {
+    "props": {
+      "src": "/arquivos/ipad.png"
+    }
+  },
+
+  "link#product-page": {
+    "props": {
+      "blockClass": "link",
+      "href": "/{slug}/p",
+      "label": "Comprar"
+    }
+  },
+  "flex-layout.col#secondary-banner-applewatch": {
+    "children": [
+      "rich-text#applewatch-title",
+      "rich-text#applewatch-subtitle",
+      "link#product-page",
+      "image#applewatch"
+    ],
+    "props": {
+      "blockClass": "secondary-banner-container-applewatch",
+      "width": "49%"
+    }
+  },
+  "image#applewatch": {
+    "props": {
+      "blockClass": "image-epplewatch",
+      "src": "/arquivos/epplewatch.png"
+    }
+  },
+  "rich-text#applewatch-title": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Watch",
+      "blockClass": "rich-text-banner-applewatch-title",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#applewatch-subtitle": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "El futuro de la salud está en tu muñeca.",
+      "blockClass": "rich-text-banner-applewatch-subtitle",
+      "font": "t-heading-3"
+    }
+  }
+}

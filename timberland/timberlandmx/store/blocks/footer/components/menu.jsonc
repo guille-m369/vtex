@@ -1,0 +1,831 @@
+{
+  "vtex.menu@2.x:menu#categorias": {
+    "children": [
+      "menu-item#categorias",
+      "menu-item#hombre",
+      "menu-item#mujer",
+      "menu-item#ninos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  //Menu Item Hombre
+  //*----------------------------------------------------------------------------------
+  "menu-item#categorias": {
+    "props": {
+      "id": "menu-item-categorias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CATEGORIAS",
+        "text": "CATEGORÍAS"
+      },
+      "blockClass": "title-menu-footer"
+    }
+  },
+  //Menu Item Hombre
+  //*----------------------------------------------------------------------------------
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "Hombre"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Mujer
+  //*------------------------------------------------------------------------------------
+  "menu-item#mujer": {
+    "props": {
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "Mujer"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Niños
+  //*------------------------------------------------------------------------------------
+  "menu-item#ninos": {
+    "props": {
+      "id": "menu-item-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino",
+        "noFollow": false,
+        "tagTitle": "NIÑOS",
+        "text": "Niños"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Calzado
+  //*------------------------------------------------------------------------------------
+  "menu-item#calzado": {
+    "props": {
+      "id": "menu-item-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "calzado?map=departamento",
+        "noFollow": false,
+        "tagTitle": "CALZADO",
+        "text": "Calzado"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Footer Ayuda
+  "vtex.menu@2.x:menu#footer-ayuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#ayuda",
+      "menu-item#footer-guia-tallas",
+      "menu-item#footer-atencion-cliente",
+      "menu-item#garantias",
+      "menu-item#envios-devoluciones",
+      "menu-item#terminos-condiciones",
+      "menu-item#footer-tiendas"
+    ]
+  },
+  //Menu Iten Ayuda
+  //*---------------------------------------------------------------------------------
+  "menu-item#ayuda": {
+    "props": {
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ayuda",
+        "text": "AYUDA"
+      },
+      "blockClass": "title-menu-footer"
+    }
+  },
+  //Menu Iten Atencion a al cliente
+  //*---------------------------------------------------------------------------------
+  "menu-item#footer-atencion-cliente": {
+    "props": {
+      "id": "menu-item-footer-atencion-cliente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Atención al cliente",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+    //Menu Item Guía de Tallas
+  //*---------------------------------------------------------------------------------
+  "menu-item#footer-guia-tallas": {
+    "props": {
+      "id": "menu-item-footer-guia-tallas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-de-tallas-hombre",
+        "noFollow": false,
+        "tagTitle": "Guía de Tallas",
+        "text": "Guía de Tallas"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Garantias
+  //*--------------------------------------------------------------------------
+  "menu-item#garantias": {
+    "props": {
+      "id": "menu-item-garantias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantias",
+        "noFollow": false,
+        "tagTitle": "Garantias",
+        "text": "Garantías"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Envios y Devoluciones
+  //*------------------------------------------------------------
+  "menu-item#envios-devoluciones": {
+    "props": {
+      "id": "menu-item-envios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envios-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Envíos y Devoluciones",
+        "text": "Envíos y Devoluciones"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item Terminos y condicones
+  //*------------------------------------------------------------
+  "menu-item#terminos-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos",
+        "noFollow": false,
+        "tagTitle": "Términos y Condiciones",
+        "text": "Términos y Condiciones"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  }, //Menu Item Tiendas
+  //*------------------------------------------------------------
+  "menu-item#footer-tiendas": {
+    "props": {
+      "id": "menu-item-footer-tiendas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Mi Cuenta
+  //*----------------------------------------------------------------
+  "vtex.menu@2.x:menu#footer-mi-cuenta": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-mi-cuenta",
+      "menu-item#mis-pedidos",
+      "menu-item#footer-mi-cuenta",
+      "menu-item#footer-favoritos",
+      "menu-item#title-contactos",
+      "menu-item#telefono",
+      "menu-item#correo"
+    ]
+  },
+  //Menu Item MI Cuenta Title
+  //*------------------------------------------
+  "menu-item#title-mi-cuenta": {
+    "props": {
+      "id": "menu-item-title-mi-cuenta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "MI CUENTA",
+        "text": "MI CUENTA"
+      },
+      "blockClass": "title-menu-footer"
+    }
+  },
+  //MENU Item Mis Pedidos
+  //*---------------------------------------------------------------
+  "menu-item#mis-pedidos": {
+    "props": {
+      "id": "menu-item-mis-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": true,
+        "tagTitle": "Mis Pedidos",
+        "text": "Mis Pedidos"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+
+  //Menu Item MI Cuenta
+  "menu-item#footer-mi-cuenta": {
+    "props": {
+      "id": "menu-item-footer-mi-cuenta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/profile",
+        "noFollow": true,
+        "tagTitle": "Mi Cuenta",
+        "text": "Mi Cuenta"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  "menu-item#footer-favoritos": {
+    "props": {
+      "id": "menu-item-footer-favoritos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/wishlist",
+        "noFollow": true,
+        "tagTitle": "Favoritos",
+        "text": "Favoritos"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  "menu-item#title-contactos": {
+    "props": {
+      "id": "menu-item-title-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "CONTACTO",
+        "text": "CONTACTO"
+      },
+      "blockClass": "title-menu-footers"
+    }
+  },
+  "menu-item#telefonos": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "5584381815",
+        "text": "5584381815"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  "menu-item#correo": {
+    "props": {
+      "id": "menu-item-correo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "servicioalcliente@timberland.com.mx",
+        "text": "servicioalcliente@timberland.com.mx"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+
+
+
+  //Menu Contacto
+  "vtex.menu@2.x:menu#footer-contacto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-contacto",
+      "menu-item#telefono",
+      "menu-item#correo"
+    ]
+  },
+  //Menu Item Contacto Title
+  //*------------------------------------------
+  "menu-item#title-contacto": {
+    "props": {
+      "id": "menu-item-title-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "CONTACTO",
+        "text": "CONTACTO"
+      },
+      "blockClass": "title-menu-footer"
+    }
+  },
+  //MENU Item Mis Pedidos
+  //*---------------------------------------------------------------
+  "menu-item#telefono": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "5584381815",
+        "text": "5584381815"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  "menu-item#correos": {
+    "props": {
+      "id": "menu-item-correos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "hola@gmail.com",
+        "text": "hola@gmail.com"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  
+
+  //Menu Footer Marca
+  //*-------------------------------------------------------------------------------------
+  "vtex.menu@2.x:menu#footer-marca": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#marca",
+      "menu-item#nuestra-historia",
+      "menu-item#acerca-de-nosotros" /*
+      "menu-item#the-oringinal-yellow",
+      "menu-item#ediciones-limitadas",*/,
+      "menu-item#aviso-privacidad",
+      // "menu-item#conoce-nuestros-heroes",
+      "menu-item#plant-change",
+      "menu-item#ProductCare",
+      "menu-item#Natureneeds"
+      /*"menu-item#sustentabilidad"*/
+    ]
+  },
+  //Menu Item Marca
+  //*------------------------------------------------------
+  "menu-item#marca": {
+    "props": {
+      "id": "menu-item-marca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Marca",
+        "text": "TIMBERLAND"
+      },
+      "blockClass": "title-menu-footer"
+    }
+  },
+  //Menu Item nuestra historia
+  //*-----------------------------------------------------------
+  "menu-item#nuestra-historia": {
+    "props": {
+      "id": "menu-item-nuestra-historia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-historia",
+        "noFollow": true,
+        "tagTitle": "Nuestra historia",
+        "text": "Nuestra Historia"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item acerca de nosotros
+  //*-----------------------------------------------------------
+  "menu-item#acerca-de-nosotros": {
+    "props": {
+      "id": "menu-item-acerca-de-nosotros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acerca-de-nosotros",
+        "noFollow": true,
+        "tagTitle": "Acerca de nosotros",
+        "text": "Acerca de Nosotros"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item the-oringinal-yellow
+  //*-----------------------------------------------------------
+  "menu-item#the-oringinal-yellow": {
+    "props": {
+      "id": "menu-item-the-oringinal-yellow",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "the-oringinal-yellow",
+        "text": "The Origin Yellow Boot"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item menu-item#ediciones-limitadas
+  //*----------------------------------------------------------------------------
+  "menu-item#ediciones-limitadas": {
+    "props": {
+      "id": "menu-item-ediciones-limitadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Ediciones limitadas",
+        "text": "Ediciones Limitadas"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Iten Aviso Privacidad
+  //*----------------------------------------------------------------
+  "menu-item#aviso-privacidad": {
+    "props": {
+      "id": "menu-item-aviso-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso privacidad",
+        "text": "Aviso de Privacidad"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item conoce-nuestros-heroes
+  //*-----------------------------------------------------------------------
+  "menu-item#conoce-nuestros-heroes": {
+    "props": {
+      "id": "menu-item-conoce-nuestros-heroes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/meet-our-heroes",
+        "noFollow": false,
+        "tagTitle": "Conoce a nuestros héroes",
+        "text": "Conoce a Nuestros Héroes"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+
+  //Menu ProductCare
+  //*-----------------------------------------------------------------------
+  "menu-item#ProductCare": {
+    "props": {
+      "id": "menu-item-plant-change",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-care",
+        "noFollow": false,
+        "tagTitle": "ProductCare",
+        "text": "Product Care"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  "menu-item#Natureneeds": {
+    "props": {
+      "id": "menu-item-plant-change",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/meet-our-heroes",
+        "noFollow": false,
+        "tagTitle": "Nature Needs Heroes",
+        "text": "Nature Needs Heroes"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Item plant the change
+  //*-----------------------------------------------------------------------
+  "menu-item#plant-change": {
+    "props": {
+      "id": "menu-item-plant-change",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plant-change",
+        "noFollow": false,
+        "tagTitle": "Plant change",
+        "text": "Plant the Change"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+  //Menu Iten Sustentabilidad
+  //*------------------------------------------------------------------------------------
+  "menu-item#sustentabilidad": {
+    "props": {
+      "id": "menu-item-sustentabilidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sustentabilidad",
+        "text": "Sustentabilidad"
+      },
+      "blockClass": "item-menu-footer"
+    }
+  },
+
+  /*FOOTER MOBILE*/
+  /*---------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categorias-mobile",
+      "menu-item#marca-mobile",
+      "menu-item#ayuda-mobile",
+      "menu-item#mi-cuenta-mobile",
+      "menu-item#contacto-mobile",
+      "menu-item#nature-needs-mobile"
+    ]
+  },
+  /*MENU ITEM CATEGORIAS MOBILE*/
+  "menu-item#categorias-mobile": {
+    "props": {
+      "id": "menu-item-categorias-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Categorias",
+        "text": "CATEGORÍAS"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#categorias"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias": {
+    "children": ["vtex.menu@2.x:menu#categorias-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#categorias-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#hombre", "menu-item#mujer", "menu-item#ninos"]
+  },
+  /*MENU ITEM MARCA MOBILE*/
+  "menu-item#marca-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "marca",
+        "text": "TIMBERLAND"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#marca"]
+  },
+  "vtex.menu@2.x:submenu.accordion#marca": {
+    "children": ["vtex.menu@2.x:menu#footer-marca-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-marca-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#nuestra-historia",
+      "menu-item#acerca-de-nosotros" /*
+      "menu-item#the-oringinal-yellow",
+      "menu-item#ediciones-limitadas",*/,
+      "menu-item#aviso-privacidad",
+      // "menu-item#conoce-nuestros-heroes",
+      "menu-item#plant-change",
+      "menu-item#ProductCare"
+      /*"menu-item#sustentabilidad"*/
+    ]
+  },
+  /*MENU ITEM AYUDA*/
+  "menu-item#ayuda-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ayuda",
+        "text": "AYUDA"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ayuda"]
+  },
+  "vtex.menu@2.x:submenu.accordion#ayuda": {
+    "children": ["vtex.menu@2.x:menu#footer-ayuda-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-ayuda-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-guia-tallas",
+      "menu-item#footer-atencion-cliente",
+      "menu-item#garantias",
+      "menu-item#envios-devoluciones",
+      "menu-item#terminos-condiciones",
+      "menu-item#footer-tiendas"
+    ]
+  },
+
+  /*MENU ITEM MI CUENTA MOBILE*/
+  "menu-item#mi-cuenta-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Mi cuenta",
+        "text": "MI CUENTA"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#mi-cuenta"]
+  },
+  "vtex.menu@2.x:submenu.accordion#mi-cuenta": {
+    "children": ["vtex.menu@2.x:menu#footer-mi-cuenta-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-mi-cuenta-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#mis-pedidos", "menu-item#footer-mi-cuenta", "menu-item#footer-favoritos"]
+  },
+  "menu-item#contacto-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Contacto",
+        "text": "CONTACTO"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contacto-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contacto-mobile": {
+    "children": ["vtex.menu@2.x:menu#footer-contacto-mobile"]
+  },
+  
+  "vtex.menu@2.x:menu#footer-contacto-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#telefono", "menu-item#correo"]
+  },
+  "menu-item#nature-needs-mobile":{
+    "props": {
+      "itemProps": {
+        "tagTitle": "NATURE NEEDS HEROES",
+        "text": "NATURE NEEDS HEROES"
+      },
+      "blockClass": "title-menu-footer"
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#nature-needs-mobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#nature-needs-mobile": {
+    "children": ["vtex.menu@2.x:menu#footer-nature-needs-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-nature-needs-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#Natureneeds"]
+  }
+  
+
+}
+
+

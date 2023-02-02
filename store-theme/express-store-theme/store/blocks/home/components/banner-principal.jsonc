@@ -1,0 +1,31 @@
+{
+  "list-context.image-list#component-principal-banner": {
+    "children": ["slider-layout#component-principal-banner-images"],
+    "props": {
+      "height": 600,
+      "images": [
+        {
+          "image": "assets/home/banner-principal1.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "assets/home/banner-principal1.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#component-principal-banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    }
+  }
+}

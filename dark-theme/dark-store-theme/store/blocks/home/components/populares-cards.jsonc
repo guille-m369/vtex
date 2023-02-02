@@ -1,0 +1,99 @@
+{
+    "info-card#computadora": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/imac.png",
+          "headline": "Computadoras",
+          "subhead": "Encuentra laptops, all in one, almacenamiento, accesorios y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      },
+      "info-card#tv": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/tv.png",
+          "headline": "TV y Video",
+          "subhead": "Encuentra pantallas, barras de sonido, soportes, reguladores y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      },
+    
+      "info-card#playstation5": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/playstation5.png",
+          "headline": "Videojuegos",
+          "subhead": "Encuentra consolas, videojuegos, accesorios para videojuegos y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      },
+      "info-card#bocinas": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/bocinas.png",
+          "headline": "Audio",
+          "subhead": "Encuentra laptops, all in one, almacenamiento, accesorios y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      },
+      "info-card#celulares": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/iphone11.png",
+          "headline": "Celulares y Tablets",
+          "subhead": "Encuentra celulares android, iOS, tablets, iPads, accesorios y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      },
+      "info-card#reloj": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "width": "100%",
+          "textPosition": "left",
+          "imageUrl": "arquivos/reloj.png",
+          "headline": "Wearables",
+          "subhead": "Encuentra smartwatches, monitores de ejercicio, accesorios y más.",
+          "callToActionText": "Ir a comprar",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-example",
+          "textAlignment": "left",
+          "callToActionMode": "link"
+        }
+      }
+}

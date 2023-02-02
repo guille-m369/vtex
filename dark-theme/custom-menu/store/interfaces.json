@@ -1,0 +1,34 @@
+{
+  "drawer": {
+    "component": "Drawer",
+    "composition": "children",
+    "allowed": ["drawer-trigger", "drawer-header"]
+  },
+  "drawer-trigger": {
+    "component": "DrawerTrigger",
+    "composition": "children"
+  },
+  "drawer-header": {
+    "component": "DrawerHeader",
+    "composition": "children"
+  },
+  "drawer-close-button": {
+    "component": "DrawerCloseButton"
+  },
+  "custom-mobile-menu": {
+    "component": "CustomMobileMenu"
+    ,"composition": "children"
+  },
+
+  "custom-submenu": {
+    "component": "CustomSubmenuMenu"
+  },
+  "custom-desktop-menu": {
+    "component": "CustomDesktopMenu"
+    ,"composition": "children"
+  },
+  "custom-menu": {
+    "component": "CustomMenu"
+    ,"composition": "children"
+  }
+}

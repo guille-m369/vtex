@@ -1,0 +1,18 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#component-footer-row-1",
+      "flex-layout.row#desktop-footer-row-2",
+      "flex-layout.row#component-footer-row-3"
+    ]
+  },
+
+  "flex-layout.row#desktop-footer-row-2": {
+    "children": [
+      "vtex.menu@2.x:menu#desktop-ayuda",
+      "vtex.menu@2.x:menu#metodos-de-pago",
+      "vtex.menu@2.x:menu#desktop-contactanos"
+    ],
+    "props": { "blockClass": "desktop-footer-row-2", "marginTop": 6 }
+  }
+}

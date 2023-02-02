@@ -1,0 +1,14 @@
+{
+  "responsive-layout.phone": {
+    "children": [
+      "slider-layout#mainBanner",
+      "flex-layout.row#imageTextImage_temporadaLluvia",
+      "__fold__",
+      "flex-layout.row#sliderShelf_homeFirst",
+      "flex-layout.row#buttonSliderShelf_homeFirst",
+      "flex-layout.row#imageText_supaway",
+      "flex-layout.row#imageTextImage_siluetasEstilos",
+      "flex-layout.row#bottomInfoCards"
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "store.custom#landing-nino": {
+    "blocks": [
+      "responsive-layout.desktop#landing-nino",
+      "responsive-layout.tablet#landing-nino"
+    ]
+  },
+
+  "responsive-layout.desktop#landing-nino": {
+    "children": ["flex-layout.row#landing-nino-content-nino"]
+  },
+
+  "responsive-layout.tablet#landing-nino": {
+    "children": ["flex-layout.row#landing-nino-content-nino"]
+  },
+  
+
+  "flex-layout.row#shelf-nino": {
+    "children": ["list-context.product-list#demo1-nino"], "props":{
+      "paddingBottom":7
+    }
+  },
+  "list-context.product-list#demo1-nino": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-nino"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "143"
+    }
+  },
+  "slider-layout#demo-products-nino": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#landing-nino-content-nino": {
+    "children": ["flex-layout.col#landing-nino-content-nino"]
+  },
+  "flex-layout.col#landing-nino-content-nino": {
+    "children": [
+      "flex-layout.row#landing-nino-title-nino",
+      "flex-layout.row#landing-nino",
+      "flex-layout.row#feature-1-nino",//
+      "rich-text#title-destacados-nino",//primero de destacados
+      "flex-layout.row#shelf-nino"
+    ],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+  "flex-layout.row#landing-nino": {
+    "children": [
+      "flex-layout.col#botas-nino",
+      "flex-layout.col#sandalias-nino"
+    ],
+    "props": {
+      "blockClass": "imagenes-landings",
+      "justify": "center",
+      "horizontalAlign":"center",
+      "paddingTop":8,
+      "paddingBottom":9
+    }
+  },
+
+  "flex-layout.row#landing-nino-title-nino": {
+    "children": ["rich-text#title-landing-nino"]
+  },
+
+  "rich-text#title-landing-nino": {
+    "props": {
+      "text": "# NIÑOS",
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  //imagenes-landings
+
+  "flex-layout.col#botas-nino": {
+    "children": ["custom-infocard#botas-nino"],
+    "props": {
+      "blockClass": "images",
+      "width": "20%",
+      "verticalAlign":"middle"
+    }
+  },
+ 
+  "flex-layout.col#sandalias-nino": {
+    "children": ["custom-infocard#sandalias-nino"],
+    "props": {
+      "blockClass": "images",
+      "width": "20%"
+    }
+  },
+  "custom-infocard#botas-nino": {
+    "props": {
+      "width": "100%",
+      "maxHeight":"auto",
+      "src":"assets/Iconos_1/Mens/Iconos_Web_01.svg",
+      "link": "/nino/botas"
+    }
+  },
+  "custom-infocard#sandalias-nino": {
+    "props": {
+      "width": "100%",
+      "maxHeight":"auto",
+      "src":"assets/Iconos_1/Mens/Iconos_Web_03.svg",
+      "link": "/nino/sandalias"
+    }
+  },
+
+
+  //section1
+
+  // FEATURED CONTENT 1-DESKTOP
+  //-------------------------------------------------------------------
+
+  "flex-layout.row#feature-1-nino": {
+    "children": ["flex-layout.col#feature-1-nino"],
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 5,
+      "blockClass": "feature-3-home"
+    }
+  },
+
+  "flex-layout.col#feature-1-nino": {
+    "children": [ "custom-infocard#feature-1-nino"]
+  }, "custom-infocard#feature-1-nino": {
+    "props": {
+      "width": "100%",
+      "maxHeight":"auto",
+      "src":"https://timberlandmx.vteximg.com.br/arquivos/Banner-kids-landing.jpg",
+      "link": "/nino/calzado"
+    }
+  },
+  //
+  
+
+  //shelf
+  "rich-text#title-destacados-nino": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PRODUCTOS DESTACADOS",
+      "font": "t-heading-3",
+      "blockClass": "prod-dest"
+    }
+  },
+  
+  "slider-layout#shelf-nino": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  /*------------------------------Mobile--------------------------------------------------------*/
+
+  "flex-layout.row#feature-content-1-phone-landing-nino": {
+    "children": [ "custom-infocard#feature-1-nino"],
+    "props": {
+      "marginTop": 5,
+      "blockClass": "container-info-card-landing-nino-1-mobile"
+    }
+  }
+}

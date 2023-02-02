@@ -1,0 +1,61 @@
+{
+  "store.custom#landing-nino-botas": {
+    "blocks": ["search-result-layout.customQuery#landing-nino-botas"]
+  },
+  "search-result-layout.customQuery#landing-nino-botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/botas",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-nino-sandalias": {
+    "blocks": ["search-result-layout.customQuery#landing-nino-sandalias"]
+  },
+  "search-result-layout.customQuery#landing-nino-sandalias": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/sandalias",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-nino-banner-1": {
+    "blocks": ["search-result-layout.customQuery#landing-nino-banner-1"]
+  },
+  "search-result-layout.customQuery#landing-nino-banner-1": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/calzado",
+        "mapField":"genero,departamento",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

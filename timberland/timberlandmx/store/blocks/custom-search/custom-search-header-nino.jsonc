@@ -1,0 +1,267 @@
+{
+  "store.custom#nino": {
+    "blocks": ["search-result-layout.customQuery#nino"]
+  },
+  "search-result-layout.customQuery#nino": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino",
+        "mapField":"genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-destacados": {
+    "blocks": ["search-result-layout.customQuery#nino-destacados"]
+  },
+  "search-result-layout.customQuery#nino-destacados": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/143",
+        "mapField": "genero,productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  
+  "store.custom#nino-yellow-boot": {
+    "blocks": ["search-result-layout.customQuery#nino-yellow-boot"]
+  },
+  "search-result-layout.customQuery#nino-yellow-boot": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/151",
+        "mapField": "genero,productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#nino-basicos": {
+    "blocks": ["search-result-layout.customQuery#nino-basicos"]
+  },
+  "search-result-layout.customQuery#nino-basicos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/155",
+        "mapField": "genero,productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#nino-calzado": {
+    "blocks": ["search-result-layout.customQuery#nino-calzado"]
+  },
+  "search-result-layout.customQuery#nino-calzado": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/calzado",
+        "mapField": "genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-calzado-botas": {
+    "blocks": ["search-result-layout.customQuery#nino-calzado-botas"]
+  },
+  "search-result-layout.customQuery#nino-calzado-botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/botas",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-calzado-sandalias": {
+    "blocks": ["search-result-layout.customQuery#nino-calzado-sandalias"]
+  },
+  "search-result-layout.customQuery#nino-calzado-sandalias": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/sandalias",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-compra-por-edad": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/ninos",
+        "mapField": "genero,genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-compra-por-edad-bebes": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad-bebes"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad-bebes": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "infant--0-1-ano-",
+        "mapField": "categoria-de-tamano",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-compra-por-edad-infantiles": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad-infantiles"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad-infantiles": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "ninos/toddler--1-5-anos-",
+        "mapField": "genero,categoria-de-tamano",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#nino-compra-por-edad-youth": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad-youth"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad-youth": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "/youth--5-9-anos-",
+        "mapField": "categoria-de-tamano",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-compra-por-edad-junior": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad-junior"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad-junior": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "junior--9-13-anos-",
+        "mapField": "categoria-de-tamano",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nino-compra-por-edad-infant": {
+    "blocks": ["search-result-layout.customQuery#nino-compra-por-edad-infant"]
+  },
+  "search-result-layout.customQuery#nino-compra-por-edad-infant": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "infant--1-4-anos-?",
+        "mapField": "categoria-de-tamano",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+
+}

@@ -1,0 +1,29 @@
+{
+    // Calzado
+    "flex-layout.col#outlet-column-2": {
+      "children": ["vtex.menu@2.x:menu#outlet-column-2"]
+    },
+  
+    "vtex.menu@2.x:menu#outlet-column-2": {
+      "props": {
+        "blockClass": "main-menu-items",
+        "orientation": "vertical",
+        "items": [
+          {
+            "id": "menu-item-outlets-calzado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href":  "/outlet/rebajas",
+              "noFollow": true,
+              "tagTitle": "",
+              "text": ""
+            }
+          }
+        ]
+      }
+    }
+  }
+  

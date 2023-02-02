@@ -1,0 +1,15 @@
+.miniCartContainer {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 200px) {
+  :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    display: none;
+  }
+}

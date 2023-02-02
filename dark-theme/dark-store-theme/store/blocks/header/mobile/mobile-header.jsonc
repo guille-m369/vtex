@@ -1,0 +1,73 @@
+{
+  // MOBILE
+  // ------------------------------------
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  // STICKY TOP
+  // only logo and search
+  // ----------------------------------------
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile", "trigger-layout#search-mobile"],
+    "props": { "position": "top" }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "demoecomsur.custom-menu:drawer",
+      "logo#mobile",
+      /*"search-bar#mobile-intelli",*/
+      "flex-layout.col#spacer",
+      "flex-layout.col#search-button",
+     // "flex-layout.col#tiendas",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colGap": 2,
+      "colSizing": "auto"
+    }
+  },
+
+  // INTELIGENT SEARCH FOR DESKTOP
+  // ----------------------------------------
+  "search-bar#mobile-intelli": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
+      "placeholder": "Busca tu producto aqui",
+      "blockClass": "mobile-search-bar"
+    }
+  },
+  "minicart.v2#mobile": {
+    "props": {
+      "blockClass": "mobile-cart"
+    }
+  },
+  // trigger search
+  // ----------------------------------------
+
+  "flex-layout.col#search-button": {
+    "children": ["trigger#search-trigger"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "search-column"
+    }
+  },
+
+  // MOBILE LOGO
+  // ----------------------------------------
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.svg",
+      // "width": 50,
+      "mobileWidth": 82,
+      "mobileHeight": 34,
+      "blockClass": "logo-mobile"
+    }
+  }
+}

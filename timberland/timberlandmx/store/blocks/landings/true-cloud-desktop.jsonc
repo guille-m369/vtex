@@ -1,0 +1,451 @@
+{
+  "responsive-layout.desktop#true-cloud": {
+    "children": [
+      "flex-layout.row#landing-true-cloud-1-banner-desktop",
+      "flex-layout.row#landing-true-cloud-1-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-rich-text-coleccion",
+      "flex-layout.row#true-cloud",
+      "flex-layout.row#banner-true-cloud-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-2-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-rich-text-super-naturales-desktop",
+      // "flex-layout.row#landing-true-cloud-materiales-desktop",
+      "flex-layout.row#landing-true-cloud-1-materiales-desktop"
+      // "flex-layout.row#logo"
+    ]
+  },
+  "flex-layout.row#landing-true-cloud-1-banner-desktop": {
+    "props": {
+      "blockClass": "row-info-card-banner-1-desktop"
+    },
+    "children": ["flex-layout.row#landing-true-cloud-1-banner1-desktop"]
+  },
+
+  "flex-layout.row#landing-true-cloud-1-banner1-desktop": {
+    "children": ["custom-infocard-container#text-image-desktop"]
+  },
+  "custom-infocard-container#text-image-desktop": {
+    "props": {
+      "textContainerWidth": "30%",
+      "textContainerHeight": "99%",
+      "srcLogo": "assets/landing/true-cloud.svg",
+      "widthLogo": "317px",
+      "blockClass": "true-cloud-banner",
+      "maxHeightLogo": "43px",
+      "headline": "PODER",
+      "paragraph": "SUPER ",
+      "paragraph2": " NATURAL",
+      "listButton": [
+        {
+          "title": "COMPRAR",
+          "href": "/321?map=productClusterIds",
+          "blockClass": "lunar"
+        }
+      ],
+      "flex": 2,
+      "srcImage": "https://timberlandmx.vteximg.com.br/arquivos/Header34.png",
+      "widthImage": "100%",
+      "srcUnderimg": "assets/landing/true-cloud.svg",
+      "maxHeightImage": "470px"
+    }
+  },
+
+  // "flex-layout.row#landing-true-cloud-1-banner1-desktop":{
+  //   "props":{
+  //     "blockClass":"banner-true-row-cloud-2"
+  //   },
+  //   "children":["flex-layout.col#landing-true-cloud-1-text-desktop"]
+  // },
+  // "flex-layout.col#landing-true-cloud-1-text-desktop":{
+  //     "props":{
+  //         "blockClass":"col-info-card-text-1-desktop"
+  //     },
+  //     "children":[
+  //       "custom-infocard-button#text"
+
+  //       ]
+  // },
+  // "custom-infocard-button#text": {
+  //   "props": {
+  //     "blockClass":"banner-true-cloud-text2",
+  //     "width": "100%",
+  //     "maxHeight": "540px",
+  //     "src": "assets/landing/true-cloud.svg",
+  //     "headline": "PODER SUPER NATURAL",
+  //     "listButton": [
+  //       {
+  //         "title": "COMPRAR",
+  //         "href": "/lunar",
+  //         "blockClass": "lunar"
+  //       }
+  //     ]
+  //   }
+  // },
+  // "flex-layout.row#landing-true-cloud-1-banner-desktop-2":{
+  //   "props":{
+  //     "blockClass":"banner-true-row-cloud-banner-2"
+  //   },
+  //   "children":["flex-layout.col#landing-true-cloud-1-banner-desktop"]
+  // },
+  // "flex-layout.col#landing-true-cloud-1-banner-desktop":{
+  //   "props":{
+  //     "blockClass":"col-info-card-banner-1-desktop"
+  // },
+
+  //   "children":["custom-infocard#banner-2"]
+  // },
+  // "custom-infocard#banner-2":{
+  //   "props": {
+  //       "blockClass": "banner-true-cloud-2",
+  //       "width": "100%",
+  //       "maxHeight": "100%",
+  //       "src": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+  //       "link": "brillos-primaverales-y-recursos-renovables"
+  //     }
+  // },
+
+  "flex-layout.row#landing-true-cloud-1-ligeros-desktop": {
+    "props": {
+      "blockClass": "true-cloud-ligeros-desktop"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-1-ligeros-desktop-left",
+      "flex-layout.col#landing-true-cloud-1-ligeros-desktop-right"
+    ]
+  },
+  "flex-layout.col#landing-true-cloud-1-ligeros-desktop-left": {
+    "props": {
+      "blockClass": "col-true-cloud-ligeros-desktop"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-1-ligeros-desktop-rich-text",
+      "custom-infocard#banner-home-true-cloud-12",
+      "rich-text#banner-home-true-cloudes-1",
+      "link#banner-home-true-cloud-button-1-desktop"
+    ]
+  },
+  "rich-text#banner-home-true-cloudes-12": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TRUECLOUDTM EK+ CHUKKA",
+      "blockClass": "title-banner-home-true-cloud"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-1-ligeros-desktop-rich-text": {
+    "props": {
+      "blockClass": "ligeros-rich-text-desktop-row"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-1-ligeros-desktop-rich-text"
+    ]
+  },
+  "flex-layout.col#landing-true-cloud-1-ligeros-desktop-rich-text": {
+    "props": {
+      "blockClass": "ligeros-rich-text-desktop-col"
+    },
+    "children": [
+      "rich-text#ligeros-desktop",
+      "rich-text#ligeros-para-el-planeta-desktop"
+    ]
+  },
+  "rich-text#ligeros-desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "LIGEROS PARA TI.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "ligeros-rich-text-desktop"
+    }
+  },
+  "rich-text#ligeros-para-el-planeta-desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "LIGEROS PARA EL PLANETA.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "ligeros-para-el-planeta-rich-text-desktop"
+    }
+  },
+
+  "link#banner-home-true-cloud-button-1-desktop": {
+    "props": {
+      "href": "/timberland-truecloud-ek--slip-ons-para-hombre-tb0a25yabw0/p",
+      "label": "COMPRAR",
+      "blockClass": "true-cloud-landing-button-desktop"
+    }
+  },
+  "custom-infocard#banner-home-true-cloud-12": {
+    "props": {
+      "maxWidth": "427px",
+      "maxHeight": "427px",
+      "src": "/arquivos/sapato-true-cloud-desktop.png"
+    }
+  },
+  "flex-layout.col#landing-true-cloud-1-ligeros-desktop-right": {
+    "props": {
+      "blockClass": "col-true-cloud-ligeros-desktop"
+    },
+    "children": [
+      "custom-infocard#banner-true-cloud-desktop",
+      "rich-text#banner-home-true-cloudes-1-desktop"
+    ]
+  },
+  "custom-infocard#banner-true-cloud-desktop": {
+    "props": {
+      "maxWidth": "563px",
+      "maxHeight": "502px",
+      "src": "/arquivos/true-cloud-desktop.png"
+    }
+  },
+  "rich-text#banner-home-true-cloudes-1-desktop": {
+    "props": {
+      "width": "552px",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Estos ligeros sneakers están a la \n vanguardia de la eco-innovación.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "true-cloud-desktop-rich-text"
+    }
+  },
+  "flex-layout.row#banner-true-cloud-ligeros-desktop": {
+    "children": ["flex-layout.col#banner-true-cloud-ligeros-desktop"]
+  },
+  "flex-layout.col#banner-true-cloud-ligeros-desktop": {
+    "props": {
+      "blockClass": "banner-true-cloud-ligeros-desktop"
+    },
+    "children": ["image#example", "info-card#true-cloud-ligeros-desktop"]
+  },
+  "image#example": {
+    "props": {
+      "src": "assets/landing/true-cloud.svg",
+      "blockClass": "image-logo",
+      "maxHeight": 36
+    }
+  },
+  "info-card#true-cloud-ligeros-desktop": {
+    "props": {
+      "height": "100%",
+      "maxHeight": "100%",
+      "id": "info-card-home-true-cloud-ligeros-desktop",
+      "blockClass": "info-card-home-true-cloud-ligeros-desktop",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Group26.png",
+      "headline": " \n ##  \n naturalmente ligeros a través de un diseño minimalista así como los materiales utilizados para hacerlos. ",
+      "subhead": "[COMPRAR](/325?map=productClusterIds)",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-2-ligeros-desktop": {
+    "props": {
+      "blockClass": "banner-true-cloud-2-ligeros-desktop"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-2-ligeros-desktop-right",
+      "flex-layout.col#landing-true-cloud-2-ligeros-desktop-left"
+    ]
+  },
+
+  "flex-layout.col#landing-true-cloud-2-ligeros-desktop-right": {
+    "props": {
+      "blockClass": "col-true-cloud-ligeros-desktop"
+    },
+    "children": ["custom-infocard#banner-true-cloud-desktop-2"]
+  },
+  "custom-infocard#banner-true-cloud-desktop-2": {
+    "props": {
+      "maxWidth": "502px",
+      "maxHeight": "536px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/true-cloud-botas-2-desktop.png"
+    }
+  },
+  "flex-layout.col#landing-true-cloud-2-ligeros-desktop-left": {
+    "props": {
+      "blockClass": "col-true-cloud-2-ligeros-desktop"
+    },
+    "children": [
+      "custom-infocard#banner-home-true-cloud-2",
+      "rich-text#banner-home-true-cloudes-12",
+      "link#banner-home-true-cloud-button-2-desktop"
+    ]
+  },
+  "link#banner-home-true-cloud-button-2-desktop": {
+    "props": {
+      "href": "/timberland-truecloud-ek--chukka-para-hombre-tb0a24h6f48/p",
+      "label": "COMPRAR",
+      "blockClass": "true-cloud-landing-button-desktop"
+    }
+  },
+  "custom-infocard#banner-home-true-cloud-2": {
+    "props": {
+      "blockClass": "image-left",
+      "maxWidth": "427px",
+      "maxHeight": "427px",
+      "src": "/arquivos/true-cloud-botas-desktop.png"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-rich-text-super-naturales-desktop": {
+    "children": [
+      "flex-layout.col#landing-true-cloud-rich-text-super-naturales-desktop"
+    ]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-super-naturales-desktop": {
+    "children": ["rich-text#super-naturales-desktop"]
+  },
+  "rich-text#super-naturales-desktop": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "MATERIALES SUPER\n NATURALES",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "super-naturales-rich-text"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-materiales-desktop": {
+    "props": {
+      "blockClass": "banner-true-cloud-row-materiales-desktop"
+    },
+    "children": ["flex-layout.col#landing-true-cloud-materiales-desktop"]
+  },
+  "flex-layout.col#landing-true-cloud-materiales-desktop": {
+    "props": {
+      "blockClass": "banner-true-cloud-col-2-materiales-desktop"
+    },
+    "children": ["custom-infocard#banner-home-true-cloud-materiales"]
+  },
+  "custom-infocard#banner-home-true-cloud-materiales": {
+    "props": {
+      "blockClass": "image-materiales",
+      "maxWidth": "100%",
+      "maxHeight": "519px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Group19.png"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-rich-text-materiales": {
+    "props": {
+      "blockClass": "row-materiales-rich-text"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-rich-text-materiales-left",
+      "flex-layout.col#landing-true-cloud-rich-text-materiales-right"
+    ]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-materiales-left": {
+    "props": {
+      "blockClass": "col-materiales-rich-text-left"
+    },
+    "children": ["rich-text#materiales-left"]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-materiales-right": {
+    "props": {
+      "blockClass": "col-materiales-rich-text-right"
+    },
+    "children": ["rich-text#materiales-right"]
+  },
+  "rich-text#materiales-left": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "La parte superior está hecha de 50% lana de origen responsable y 50% de una mezcla de nylon.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "materiales-left-rich-text"
+    }
+  },
+  "rich-text#materiales-right": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Los forros interiores están hechos de 70% eucalipto renovable y 30% algodón reciclado que requiere un 95% menos de agua para su fabricación que la tela de algodón tradicional.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "materiales-right-rich-text"
+    }
+  },
+  "flex-layout.row#landing-true-cloud-1-materiales-desktop": {
+    "props": {
+      "rowGap": "5",
+      "blockClass": "banner-true-cloud-1-materiales-desktop"
+    },
+    "children": [
+      "flex-layout.row#landing-true-cloud-2-materiales-desktop",
+      "flex-layout.row#landing-true-cloud-1-materiales-nuvem-desktop",
+      "flex-layout.row#landing-true-cloud-1-materiales-algodon-desktop"
+    ]
+  },
+  "flex-layout.row#landing-true-cloud-2-materiales-desktop": {
+    "props": {
+      "width": "25%"
+    },
+    "children": ["flex-layout.col#landing-true-cloud-1-materiales-desktop"]
+  },
+  "flex-layout.row#landing-true-cloud-1-materiales-nuvem-desktop": {
+    "props": {
+      "width": "25%"
+    },
+    "children": [
+      "flex-layout.col#landing-true-cloud-1-materiales-nuvem-desktop"
+    ]
+  },
+  "flex-layout.row#landing-true-cloud-1-materiales-algodon-desktop": {
+    "children": [
+      "flex-layout.col#landing-true-cloud-1-materiales-algodon-desktop"
+    ]
+  },
+  "flex-layout.col#landing-true-cloud-1-materiales-desktop": {
+    "children": ["custom-infocard#materiales", "rich-text#materiales-left"]
+  },
+  "custom-infocard#materiales": {
+    "props": {
+      "height": "100%",
+      "id": "custom-infocard-materiales",
+      "blockClass": "custom-infocard-materiales",
+      "src": "/arquivos/materiales-desktop.png"
+    }
+  },
+  "flex-layout.col#landing-true-cloud-1-materiales-nuvem-desktop": {
+    "children": ["custom-infocard#nuvem", "rich-text#materiales-right"]
+  },
+  "custom-infocard#nuvem": {
+    "props": {
+      "height": "100%",
+      "id": "custom-infocard-nuvem",
+      "blockClass": "custom-infocard-nuvem",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/materiales-nuvem-desktop.png"
+    }
+  },
+  "flex-layout.col#landing-true-cloud-1-materiales-algodon-desktop": {
+    "children": ["custom-infocard#algodon"]
+  },
+  "custom-infocard#algodon": {
+    "props": {
+      "height": "100%",
+      "id": "custom-infocard-algodon",
+      "blockClass": "custom-infocard-algodon",
+      "src": "/arquivos/materiales-algodon2-desktop.png"
+    }
+  }
+  // "flex-layout.row#logo":{
+  //   "children":[ "flex-layout.col#logo"]
+  // },
+  // "flex-layout.col#logo":{
+  //   "children":["custom-infocard-logo"]
+  // },
+  // "custom-infocard-logo":{
+  //   "props":{
+  //     "imageUrl":"assets/landing/Group26.png",
+  //     "height": "100%",
+  //     "logoUrl": "assets/landing/true-cloud.svg",
+  //     "title":"COMPRAR",
+  //     "subtitle": "productos"
+
+  //   }
+  // }
+}

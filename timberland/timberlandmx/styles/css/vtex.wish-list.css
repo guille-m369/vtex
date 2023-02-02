@@ -1,0 +1,15 @@
+.wishlistIconContainer{
+  text-align: end !important;
+}
+
+.wishlistIconContainer
+:global(.vtex-button){
+    border: unset;
+    background-color: unset;
+}
+
+.wishlistIconContainer
+:global(.vtex-wish-list-1-x-wishlistIcon){
+  width: 20px;
+  height: 20px;
+}

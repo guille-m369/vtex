@@ -1,0 +1,134 @@
+{
+  /*--------------------------------------------- Tab-layout -----------------------------------*/
+  "flex-layout.row#desktop-tab": {
+    "props": {
+      "blockClass": "desktop-tab"
+    },
+    "children": ["flex-layout.col#desktop-tab"]
+  },
+  "flex-layout.col#desktop-tab": {
+    "children": ["tab-layout#product"],
+    "props": { "horizontalAlign": "left" }
+  },
+  "tab-layout#product": {
+    "children": ["tab-list#product", "tab-content#product"],
+    "props": {
+      "blockClass": "product",
+      "defaultActiveTabId": "description"
+    }
+  },
+  "tab-list#product": {
+    "children": [
+      "tab-list.item#description",
+      "tab-list.item#compatibility",
+      "tab-list.item#comentarios"
+    ],
+    "props": {
+      "blockClass": "tab-list-container"
+    }
+  },
+  "tab-list.item#description": {
+    "props": {
+      "tabId": "description",
+      "label": "Descripción",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list-item"
+    }
+  },
+  "tab-list.item#compatibility": {
+    "props": {
+      "tabId": "compatibility",
+      "label": "Especificaciones técnicas",
+      "blockClass": "tab-list-item"
+    }
+  },
+  "tab-list.item#comentarios": {
+    "props": {
+      "tabId": "comentarios",
+      "label": "Calificación y Reseñas",
+      "blockClass": "tab-list-item"
+    }
+  },
+  "tab-content#product": {
+    "children": [
+      "tab-content.item#description",
+      "tab-content.item#compatibility",
+      "tab-content.item#comentarios"
+    ]
+  },
+  "tab-content.item#description": {
+    "children": ["flex-layout.row#desktop-specifications"],
+    "props": {
+      "tabId": "description"
+    }
+  },
+  "tab-content.item#compatibility": {
+    "children": ["flex-layout.row#desktop-compatibility"],
+    "props": {
+      "tabId": "compatibility"
+    }
+  },
+  "tab-content.item#comentarios": {
+    "children": ["flex-layout.row#desktop-reviews"],
+    "props": {
+      "tabId": "comentarios"
+    }
+  },
+
+  "flex-layout.row#desktop-specifications": {
+    "props": {
+      "blockClass": "product-specifications"
+    },
+    "children": [
+      "flex-layout.col#desktop-specifications"
+    ]
+  },
+
+  "flex-layout.row#desktop-compatibility": {
+    "props": {
+      "blockClass": "product-specifications"
+    },
+    "children": [
+      "flex-layout.col#desktop-compatibility"
+    ]
+  },
+
+  "flex-layout.col#desktop-specifications": {
+    "children": [
+      "custom-product-description"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#desktop-compatibility": {
+    "children": ["csv-characteristics"
+    ],
+    "props": {}
+  },
+
+  //Custom block------
+  //"product-description-list": {
+  // "props": {
+  //    "type": 0
+   // }
+  //},
+  //"product-description-list#compatibilyty": {
+  //  "props": {
+  //    "type": 1
+  //  }
+  //},
+  //------------------
+
+  // ------------------- reviews -----------------
+  "flex-layout.row#desktop-reviews": {
+    "children": ["flex-layout.col#component-reviews"],
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 7,
+      "blockClass": "desktop-reviews"
+    }
+  },
+  "flex-layout.col#component-reviews": {
+    "children": ["product-reviews"]
+    // "props": { "marginRight": 8, "marginLeft": 8 }
+  }
+}

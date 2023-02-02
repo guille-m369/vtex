@@ -1,0 +1,88 @@
+{
+  //Submenu----------------------------------------------------------------
+  "menu-item#component-cambios-devoluciones": {
+    "props": {
+      "id": "menu-item-cambios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cambios-y-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+
+  "menu-item#component-terminos-y-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-y-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+
+  "menu-item#component-politica-de-privacidad": {
+    "props": {
+      "id": "menu-item-politica-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Política de privacidad",
+        "text": "Política de privacidad"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+
+  //Submenu----------------------------------------------------------------
+  "menu-item#component-email": {
+    "props": {
+      "id": "menu-item-politicas-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "tagTitle": "Email",
+        "text": "contacto@midominio.cl"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  },
+
+  "menu-item#component-telefono": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "#",
+        "noFollow": true,
+        "tagTitle": "Telefono",
+        "text": "+56 2 266269735"
+      },
+      "blockClass": "menu-item-footer"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#component-main-banner",
+      "flex-layout.row#contact",
+      "rich-text#categoria-populares",
+      "rich-text#categoria-populares-2",
+      "flex-layout.row#categoria-populares",
+      "flex-layout.row#categoria-populares-button",
+      "flex-layout.row#component-secondary-banner",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-destacados",
+      "back-to-top-button"
+    ]
+  },
+  "back-to-top-button":{
+   "props":{
+     "displayThreshold": 800,
+     "display": "caret-icon"
+   }
+ }
+}

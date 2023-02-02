@@ -1,0 +1,36 @@
+{
+  // item3
+
+  "menu-item#mobile-item3": {
+    "props": {
+      "id": "menu-item3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "item3",
+        "text": "item3"
+      },
+      "blockClass": "mobile-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#item3"]
+  },
+  "vtex.menu@2.x:submenu.accordion#item3": {
+    "children": ["vtex.menu@2.x:menu#accordion-item3"],
+    "props": { "width": "100%" }
+  },
+  "vtex.menu@2.x:menu#accordion-item3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-items"
+    },
+    "children": [
+      "menu-item#item3-subitem-1",
+      "menu-item#item3-subitem-2",
+      "menu-item#item3-subitem-3"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "product-summary.shelf#true-cloud": {
+        "children": [
+          "product-summary-image",
+          // "product-summary-sku-selector",
+          "product-summary-name",
+          "product-summary-column#1"
+          
+         
+        ],
+        "props": {
+          "blockClass": "ver-producto"
+        }
+      },
+      "product-summary-column#1": {
+          "props":{
+              "blockClass":"shelf-button-mobile"
+          },
+        "children": [
+          "product-summary-buy-button"
+        ]
+      }
+}

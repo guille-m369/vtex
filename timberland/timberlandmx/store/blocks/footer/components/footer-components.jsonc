@@ -1,0 +1,145 @@
+{
+  /*------------------social networks---------------------*/
+
+  /*Rich text of social networks*/
+  /*--------------------------------------------------------------------------------------------------*/
+  "rich-text#social-networks": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**SÍGUENOS**",
+      "blockClass": "rich-text-social-networks"
+    }
+  },
+  /*Component social networks*/
+  /*---------------------------------------------------------------------------------------------------------*/
+  "flex-layout.row#social-networks": {
+    "children": [
+      "image#instagram",
+      "image#facebook",
+      "image#pinterest",
+      "image#twitter",
+      "image#youtube"
+    ],
+    "props": { "blockClass": "images-social-netwoks" }
+  },
+  "image#pinterest": {
+    "props": {
+      "src": "assets/social-networks/pinterest.svg",
+      "link": {
+        "url": "https://www.pinterest.com.mx/pin/762656518118618433/"
+      },
+      "maxHeight": 20
+    }
+  },
+  "image#twitter": {
+    "props": {
+      "src": "assets/social-networks/twitter.svg",
+      "link": {
+        "url": "https://twitter.com/timberland_mx"
+      },
+      "maxHeight": 20
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "src": "assets/social-networks/facebook-white.svg",
+      "link": {
+        "url": "https://www.facebook.com/Timberland.mx/"
+      },
+      "text": "",
+      "maxHeight": 20
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "assets/social-networks/instagram-white.svg",
+      "link": {
+        "url": "https://www.instagram.com/timberland_mx/"
+      },
+      "maxHeight": 20
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "assets/social-networks/youtube-white.svg",
+      "link": {
+        "url": "https://www.youtube.com/timberland_mx"
+      },
+      "maxHeight": 20
+    }
+  },
+
+  /*--------------------------------------------------------------------------------------------------*/
+  "rich-text#pago-seguro": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**PAGO SEGURO**",
+      "blockClass": "rich-text-pago-seguro"
+    }
+  },
+
+  "flex-layout.row#logos-footer": {
+    "children": ["flex-layout.row#logo-ecomsur", "flex-layout.row#logo-vtex"],
+    "props": {
+      "blockClass": "logos-footer"
+    }
+  },
+  /*IMAGE TIMBERLAND */
+  "flex-layout.row#image-logo-timberland": {
+    "children": ["flex-layout.col#image-logo-timberland"],
+    "props": {
+      "paddingTop": 4,
+      "blockClass": "desktop-logo-footer"
+    }
+  },
+  "flex-layout.col#image-logo-timberland": {
+    "children": ["image#logo"],
+    "props": {}
+  },
+  /*Image logo footer*/
+  /*-------------------------------------------------------------------------------------------------------------------------------*/
+  "image#logo": {
+    "props": {
+      "src": "assets/logos/Timberland_white.svg",
+      "maxHeight": 130,
+      "blockClass": "image-logo-timberland-footer"
+    }
+  },
+
+  /*Images pagos */
+  "flex-layout.row#partner-logo-pagos": {
+    "children": ["image#paypal", "image#mercado-pago"],
+    "props": { "blockClass": "image-metodos-pagos" }
+  },
+  "image#paypal": {
+    "props": {
+      "src": "assets/paypal_logo.svg",
+      "maxHeight": 20
+    }
+  },
+  "image#mercado-pago": {
+    "props": {
+      "src": "assets/mercadopago.svg",
+      "maxHeight": 30,
+      "width": 100
+    }
+  } /*Component Rich text Company Left */,
+  /*-------------------------------------------------------------------------------------------------------*/
+  "rich-text#company-left": {
+    "props": {
+      "text": "&#169; Timberland México, a VF Company.",
+      "blockClass": "rich-text-company-footer"
+    }
+  },
+  "customNewsletter": {
+    "props": {
+      "title": "SUSCRÍBETE",
+      "heading": "Ofertas especiales, novedades y noticias",
+      "termsText": "Otorgas tus consentimiento para el procesamiento de tus datos personales con fines de marketing y elaboración de perfiles tal como se describe en nuestra [Políticas de Privacidad](/privacidad)",
+      "textButton": "Subscribirse",
+      "mode": "normal"
+    }
+  }
+}

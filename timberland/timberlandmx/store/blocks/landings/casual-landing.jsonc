@@ -1,0 +1,22 @@
+{
+  "store.custom#casual": {
+    "blocks": ["search-result-layout.customQuery"]
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByScoreDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 20,
+        "queryField": "/boat-shoes/sandalias/hombre/mujer/casual",
+        "mapField": "categoria,categoria,genero,genero,categoria",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

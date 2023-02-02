@@ -1,0 +1,28 @@
+{
+  // MAIN MENU DRAWER
+
+  "menu-item#mobile-drawer-menu-item-expandable-card-menu": {
+    "props": {
+      "id": "mobile-header-menu-item-charms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      },
+      "blockClass": "mobile-main-menu-container-item"
+    },
+
+    "children": ["flex-layout.row#mobile-drawer-expandable-card-menu"]
+  },
+  "flex-layout.row#mobile-drawer-expandable-card-menu": {
+    "props": {
+      "blockClass": "mobile-drawer-expandable-card-menu"
+    },
+    "children": ["custom-menu"]
+  }
+}

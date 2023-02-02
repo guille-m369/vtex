@@ -1,0 +1,571 @@
+.drawer {
+  width: 100% !important;
+}
+
+/*Color of the burger icon*/
+.menuIcon {
+  color: white;
+}
+
+/*Style of the header drawer*/
+.drawerHeader {
+  background: #202020;
+  align-items: center;
+  /*padding-bottom: 15px;
+  padding-top: 5px;*/
+}
+
+.closeIconButton {
+  color: #dedede;
+}
+.closeIcon{
+  width: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--close-button) {
+  align-items: flex-end;
+  width: 0%;
+}
+
+/*
+:global(.vtex-flex-layout-0-x-flexCol--mobile-logo-drawer) {
+  align-items: center;
+}
+*/
+
+.menuTitle {
+  display: flex;
+  padding: 21px 12px 7px 15px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*With of the container of items*/
+:global(.vtex-menu-2-x-menuContainerNav--mobile-main-menu) {
+  width: 100%;
+}
+
+:global(.vtex-menu-2-x-menuItem--mobile-main-menu-container-item) {
+  width: 100%;
+}
+
+.textContainerTitle {
+  display: flex;
+  padding: 0 12px 0px 15px;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-expandable-card-menu)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  .itemContainer
+  .textContainerTitle {
+  margin: 0;
+}
+
+.itemContainer:first-child {
+  /*border-top: 1.24px solid #eeeeee;*/
+}
+.itemContainer {
+  /* border-bottom: 1.24px solid #eeeeee;*/
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-expandable-card-menu)
+  .textTitle {
+  width: 100%;
+  font-size: 16px;
+  margin: 14px 0;
+}
+
+.textContainerTitle .itemIcon {
+  margin-right: 25px;
+}
+
+.accordeonItemContainer .itemIcon {
+  display: block;
+  margin-right: 8px;
+}
+
+.image {
+  width: 16px;
+  filter: invert(58%) sepia(0%) saturate(13%) hue-rotate(153deg)
+    brightness(103%) contrast(100%);
+}
+
+@media (max-width: 640px) {
+  .image {
+    width: 7px;
+  }
+}
+
+.textContainerRegresar {
+  display: flex;
+  height: 47px;
+  padding: 0 30px 0px 20px;
+
+  align-items: center;
+  position: relative;
+}
+
+.textContainerRegresar .image {
+  margin-right: 25px;
+  width: 12px;
+}
+
+.imageContainerRegresar {
+  height: 24px;
+  align-items: center;
+  display: flex;
+}
+
+.textContainerRegresar .textTitle {
+  font-size: 22px;
+  font-weight: 500;
+  color: #DEDEDE;
+  text-transform: uppercase;
+  width: auto;
+
+}
+
+.categoryTextTitleContainer {
+  padding: 0 10px 0px 15px;
+  margin: 20px 0 26px 0;
+}
+
+.menuContainer {
+  padding: 0 10px 0px 20px;
+}
+
+.categoryTextTitle {
+  font-size: 24px;
+  margin-right: 15px;
+  width: 60%;
+}
+
+.seeAllText {
+  border: 1px solid #000000;
+  padding: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.seeAllContainer {
+  align-items: flex-end;
+}
+
+.accordionTitle {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 11px 0px;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+
+.iconBox .icon {
+  margin-left: auto;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+.separator {
+  border: none;
+  margin: 0;
+}
+.ulContent {
+  padding-left: 10px;
+}
+
+/*Style of contact row in drawer*/
+
+.childrenContainer1 {
+  margin-top: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-drawer-row-contact) {
+  padding-top: 20px;
+  border-top: 1px solid #363636;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-drawer-intern-row-contact) {
+  /*background-color: #014b8f;*/
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-intern-row-contact) {
+  display: flex;
+}
+
+/*:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-intern-row-contact)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 10% !important;
+  margin-left: 15px;
+}*/
+:global(.vtex-flex-layout-0-x-flexCol--mobile-drawer-col-contact-icon) {
+  height: min-content;
+  align-self: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col-contact-icon) {
+  align-self: center;
+  height: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-drawer-col-text) {
+  margin-left: 15px;
+}
+:global(.vtex-menu-2-x-menuItem--desktop-main-menu-contact) {
+  margin-top: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-drawer-col-text-contact-us) {
+  margin-left: 14px;
+  position: relative;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-drawer-col-text-contact-us)
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col-text-contact-us):last-child {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--mobile-drawer-col-text-contact-us)
+  :global(.vtex-flex-layout-0-x-flexColChild--mobile-drawer-col-text-contact-us) {
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-store-footer-2-x-socialNetworkWrapper)
+  :global(.vtex-store-footer-2-x-socialNetworksContainer) {
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-store-footer-2-x-socialNetworkWrapper)
+  :global(.vtex-store-footer-2-x-socialNetworksContainer)
+  :global(.vtex-store-footer-2-x-socialNetworkLink) {
+  margin: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row-contact)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row-contact) {
+  flex-flow: column;
+}
+
+:global(.vtex-menu-2-x-menuContainer--mobile-main-menu)
+  :global(.vtex-flex-layout-0-x-flexRow--col-mobile-network) {
+  background-color: #ffffff;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row-contact)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: white;
+  margin: 10px 0 10px 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--mobile-drawer-row-contact)
+  :global(.vtex-rich-text-0-x-link) {
+  text-decoration: unset;
+  color: #999999;
+}
+/*------------------------------------------- Desktop styles ------------------------------------------**/
+/*Style for menu row*/
+
+.itemIcon {
+  width: 32px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-main-menu) {
+  padding: 0 110px;
+  background-color: #fff;
+  justify-content: flex-start;
+  /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);*/
+  height: 43px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-main-menu) {
+  justify-content: flex-start;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--main-submenu-container) {
+  width: auto;
+  /*width: 1200px;*/
+  left: 74px;
+
+  /*box-shadow: 15px 0 50px rgba(0, 0, 0, 0.2);*/
+  /* min-height: 300px;*/
+  background: transparent;
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  /*box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);*/
+}
+
+:global(.vtex-menu-2-x-submenu--main-submenu-container) {
+  justify-content: flex-start;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-submenu)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  .itemContainer
+  .textContainerTitle {
+  margin: 0;
+}
+
+.desktopMenuContainer {
+  width: 255px;
+  margin-right: 8px;
+  border-radius: 0px 0px 8px 8px;
+  height: fit-content;
+  height: -moz-fit-content;
+
+  /*border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;*/
+}
+
+.textTitle {
+  width: 100%;
+  font-size: 14px;
+  margin: 14px 0;
+}
+
+.activeItemContainer .textTitle {
+  color: #5391f3;
+}
+
+.activeItemContainer .image {
+  filter: invert(54%) sepia(15%) saturate(2150%) hue-rotate(180deg)
+    brightness(98%) contrast(94%);
+}
+@media screen and (min-width: 1026px) {
+  .textContainer {
+    cursor: pointer;
+  }
+}
+/*.subMenuItem{
+  font-size: 12px !important;
+}*/
+
+.subMenuItemList {
+  padding-left: 10px;
+}
+
+.subMenuContainer {
+  min-width: 847px;
+  max-height: 413px;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding-top: 15px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.subMenuContainerInactive {
+  display: none;
+}
+
+.subMenuItemListContainer {
+  max-width: 200px;
+  padding-bottom: 20px;
+}
+
+/*Big submenucontainer*/
+
+.subMenuContainerBig .subMenuItem {
+  font-size: 12px !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.subMenuContainerBig {
+  width: 1000px;
+}
+
+.subMenuItem:hover {
+  color: #5391f3 !important;
+}
+
+/*-------------------------Styles for second side menu--------------------------------------------*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-submenu)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  .sideItemContainer
+  .textSideContainerTitle {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.subMenuDesktopSideContainer {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.desktopSideMenuContainer {
+  width: 220px;
+  /*border-right: 1px solid #eeeeee;*/
+  border-radius: 0px 0px 8px 8px;
+}
+
+.textSideTitle {
+  width: 100%;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.sideImage {
+  width: 15px;
+  filter: invert(58%) sepia(0%) saturate(13%) hue-rotate(153deg)
+    brightness(103%) contrast(100%);
+}
+
+.activeSideItemContainer .textSideTitle {
+  color: #5391f3;
+}
+
+.activeSideItemContainer .sideImage {
+  filter: invert(54%) sepia(15%) saturate(2150%) hue-rotate(180deg)
+    brightness(98%) contrast(94%);
+}
+
+.textSideContainer {
+  cursor: pointer;
+}
+.subMenuSideContainer {
+  min-width: 350px;
+  max-height: 600px;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding-top: 15px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.submenuSideItemText {
+  font-size: 14px;
+  font-weight: normal;
+  color: #999999;
+  padding: 0;
+}
+
+.submenuSideItemText:hover {
+  color: #5391f3;
+}
+
+.submenuSideItem {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1367px) {
+  .textTitle {
+    margin: 10px 0;
+  }
+
+  .subMenuItem {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .subMenuContainer {
+    max-height: 450px;
+  }
+  /*-------------------------Styles for second side menu--------------------------------------------*/
+
+  .textSideTitle {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .subMenuSideContainer {
+    /*min-width: 450px;*/
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .textTitle {
+    font-size: 15px;
+    margin: 8px 0;
+  }
+
+  .desktopMenuContainer .itemIcon {
+    width: 30px;
+  }
+
+  .subMenuItem {
+    font-size: 12px !important;
+  }
+
+  .subMenuItem {
+    margin-bottom: 0.4rem;
+  }
+
+  .subMenuContainer {
+    max-height: 370px;
+  }
+
+  /*-------------------------Styles for second side menu--------------------------------------------*/
+  .subMenuSideContainer {
+    /*min-width: 450px;*/
+    max-height: 370px;
+  }
+
+  .textSideTitle {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 12px;
+  }
+
+  .submenuSideItemText {
+    font-size: 12px;
+  }
+
+  .submenuSideItem {
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  :global(.vtex-menu-2-x-submenuWrapper--main-submenu-container) {
+    left: 50px;
+  }
+
+  .textTitle {
+    font-size: 13px;
+    margin: 6px 0;
+  }
+
+  .desktopMenuContainer .itemIcon {
+    width: 28px;
+  }
+
+  .subMenuItem {
+    margin-bottom: 0.4rem;
+    font-size: 12px !important;
+  }
+
+  .subMenuContainer {
+    max-height: 320px;
+    min-width: 600px;
+  }
+
+  /*-------------------------Styles for second side menu--------------------------------------------*/
+  .subMenuSideContainer {
+    /*min-width: 450px;*/
+    max-height: 320px;
+  }
+
+  .textSideTitle {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 12px;
+  }
+
+  .submenuSideItemText {
+    font-size: 12px;
+  }
+
+  .submenuSideItem {
+    margin-bottom: 0.3rem;
+  }
+}

@@ -1,0 +1,99 @@
+{
+  // mujer
+
+  "menu-item#mobile-mujer-header": {
+    "props": {
+      "id": "mobile-menu-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "width": "100%",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": true,
+        "tagTitle": "mujer",
+        "text": "mujer"
+      },
+      "blockClass": "mobile-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#mujer"]
+  },
+  "vtex.menu@2.x:submenu.accordion#mujer": {
+    "children": ["vtex.menu@2.x:menu#accordion-mujer"],
+    "props": { "width": "100%" }
+  },
+  "vtex.menu@2.x:menu#accordion-mujer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-items",
+      "items": [
+        {
+          "id": "mobile-menu-item-mujeres",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/colecciones-mujeres",
+            "noFollow": true,
+            "tagTitle": "Ir a Mujer",
+            "text": "Ir a Mujer"
+          }
+        },
+        {
+          "id": "mobile-menu-item-mujer-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado",
+            "noFollow": true,
+            "tagTitle": "Calzado",
+            "text": "Calzado"
+          }
+        },
+        {
+          "id": "mobile-menu-item-mujere-ropa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/ropa",
+            "noFollow": true,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+          }
+        },
+        {
+          "id": "mobile-menu-item-mujere-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/accesorios",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        {
+          "id": "mobile-menu-item-mujer-productos-de-limpieza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/accesorios/productos-de-limpieza",
+            "noFollow": true,
+            "tagTitle": "Productos de Limpieza",
+            "text": "Productos de Limpieza"
+          }
+        }
+      ]
+    }
+  }
+}

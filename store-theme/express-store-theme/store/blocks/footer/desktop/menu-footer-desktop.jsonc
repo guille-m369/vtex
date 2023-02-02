@@ -1,0 +1,95 @@
+{
+  /*Ayuda MENU */
+  "vtex.menu@2.x:menu#desktop-ayuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#desktop-title-row-one",
+      "menu-item#component-cambios-devoluciones",
+      "menu-item#component-terminos-y-condiciones",
+      "menu-item#component-politica-de-privacidad"
+    ]
+  },
+  /*Menu Ite title-row-one of ayuda MENU*/
+  "menu-item#desktop-title-row-one": {
+    "props": {
+      "id": "ayuda-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  /*Metodos de pago MENU*/
+  /*-------------------------------------------------------------------------------------------*/
+  "vtex.menu@2.x:menu#metodos-de-pago": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-row-metodos-de-pago",
+      "flex-layout.row#footer-mercado-pago"
+    ]
+  },
+  /*Menu item title-row-metodos-de-pago */
+  "menu-item#title-row-metodos-de-pago": {
+    "props": {
+      "id": "menu-item-metodos-de-pago",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "FORMAS DE PAGO",
+        "text": "FORMAS DE PAGO"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  /*contactanos MENU*/
+  /*-------------------------------------------------------------------------------------------*/
+  "vtex.menu@2.x:menu#desktop-contactanos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#title-row-two",
+      "menu-item#component-email",
+      "menu-item#component-telefono",
+      "flex-layout.row#footer-redes-sociales"
+    ]
+  },
+  /*Menu item title-row-two of contactanos menu */
+  "menu-item#title-row-two": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CONTÁCTANOS",
+        "text": "CONTÁCTANOS"
+      },
+      /*This class is to modify the size of the menu title*/
+      "blockClass": "title-menu-footer"
+    }
+  }
+
+  
+}

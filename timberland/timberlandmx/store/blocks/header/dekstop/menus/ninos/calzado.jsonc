@@ -1,0 +1,54 @@
+{
+  // Calzado
+  "flex-layout.col#nino-column-2": {
+    "children": ["vtex.menu@2.x:menu#nino-column-2"]
+  },
+
+  "vtex.menu@2.x:menu#nino-column-2": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ninos-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/calzado",
+            "noFollow": true,
+            "tagTitle": "CALZADO",
+            "text": "CALZADO"
+          }
+        },
+        {
+          "id": "menu-item-ninos-botas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/calzado/botas",
+            "noFollow": true,
+            "tagTitle": "Botas",
+            "text": "Botas"
+          }
+        },
+        {
+          "id": "menu-item-ninos-hiking",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/calzado/hiking",
+            "noFollow": true,
+            "tagTitle": "Hiking",
+            "text": "Hiking"
+          }
+        }
+      ]
+    }
+  }
+}

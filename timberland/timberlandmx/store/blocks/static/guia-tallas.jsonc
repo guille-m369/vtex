@@ -1,0 +1,115 @@
+{
+  "store.custom#tallasHombre": {
+      "blocks": ["rich-text#guia-de-tallas","flex-layout.row#menuTallas","flex-layout.row#tallasHombre"]
+    },
+
+    "flex-layout.row#tituloTallas": {
+      "children": ["rich-text#guia-de-tallas"],
+      "props": {
+
+      }
+    },
+
+    "rich-text#guia-de-tallas":{
+      "props": {
+        "text": "## Guía de Tallas",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass":"rich-text-guia-de-tallas"
+      }
+    },
+
+    "flex-layout.row#menuTallas": {
+      "children": ["flex-layout.col#menuTallas"],
+      "props": {
+        "blockClass": "menu-block-tallas"
+      }
+    },
+    "flex-layout.col#menuTallas": {
+      "children": ["menu#optionsTallas"],
+      "props": {
+        "horizontalAlign": "center"
+      }
+    },
+    "menu#optionsTallas": {
+      "children": [
+        "menu-item#HombreTallas",
+        "menu-item#guia-tallas-space",
+        "menu-item#MujerTallas"
+      ],
+      "props": {
+        "blockClass": "item-options"
+      }
+    },
+    "menu-item#HombreTallas": {
+      "props": {
+        "blockClass": "item-guia-tallas",
+        "id": "menu-item-option",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/guia-de-tallas-hombre",
+          "noFollow": false,
+          "tagTitle": "Hombre",
+          "text": "Hombre"
+        }
+      }
+    },
+    "menu-item#guia-tallas-space": {
+      "props": {
+        "blockClass": "guia-tallas-space",
+        "id": "menu-item-option",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "",
+          "text": ""
+        }
+      }
+    },
+    "menu-item#MujerTallas": {
+      "props": {
+        "blockClass": "item-guia-tallas",
+        "id": "menu-item-option",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/guia-de-tallas-mujer",
+          "noFollow": false,
+          "tagTitle": "Mujer",
+          "text": "Mujer"
+        }
+      }
+    },
+  /*Hombre*/
+
+ "flex-layout.row#tallasHombre": {
+    "children": ["product-size-all#Hombre"]
+  },
+  "product-size-all#Hombre": {
+    "props":{
+      "genero": "Hombre"
+    }
+},
+
+/*Mujer*/
+
+
+  "store.custom#tallasMujer": {
+    "blocks": ["rich-text#guia-de-tallas","flex-layout.row#menuTallas","flex-layout.row#tallasMujer"]
+  },
+  "flex-layout.row#tallasMujer": {
+    "children": ["product-size-all#Mujer"]
+  },
+  "product-size-all#Mujer": {
+    "props":{
+      "genero": "Mujer"
+    }
+}
+
+}

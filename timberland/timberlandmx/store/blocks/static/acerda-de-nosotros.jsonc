@@ -1,0 +1,66 @@
+{
+  "store.custom#acerca-de-nosotros": {
+    "blocks": ["flex-layout.row#acerca-de-nosotros"]
+  },
+  "flex-layout.row#acerca-de-nosotros": {
+    "children": ["flex-layout.col#acerca-de-nosotros"],"props":{
+      "blockClass":"acerca-de-nosotros-container"
+    }
+  },
+  "flex-layout.col#acerca-de-nosotros": {
+    "children": [
+      "image#acerca-de-nosotros",
+      "rich-text#text-acerca-de-nosotros",
+      "flex-layout.row#images-acerca-de-nosotros"
+    ],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+  "image#acerca-de-nosotros": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/acerca-de-nosotros.jpg",
+      "blockClass": "image-acerca-de-nosotros"
+    }
+  },
+  //-----------------Text-acerca de nosotros----------------------------
+  "rich-text#text-acerca-de-nosotros": {
+    "props": {
+      "text": "\nNuestra misión es equipar a las personas para que marquen la diferencia en el mundo. Hacemos esto creando productos sobresalientes y tratando de hacer una diferencia en las comunidades en las que vivimos y trabajamos. Demostramos esta filosofía en todas las facetas de nuestra empresa, desde nuestros productos hasta la participación de nuestros empleados en nuestras comunidades."
+    }
+  },
+
+  "flex-layout.row#images-acerca-de-nosotros": {
+    "children": [
+      "flex-layout.col#nustra-historia-2",
+      "flex-layout.col#contactanos"
+    ],
+    "props": {
+      "blockClass": "images-acerca-de-nosotros",
+      "marginTop": 5,
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#nustra-historia-2": {
+    "children": ["image#nustra-historia-2"]
+  },
+  "image#nustra-historia-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/nuestra-historia-2.jpg",
+      "link": {
+        "url": "/nuestra-historia"
+      },
+      "blockClass": "sub-image-acerca-de-nosotros"
+    }
+  },
+  "flex-layout.col#contactanos": {
+    "children": ["image#contactanos"]
+  },
+  "image#contactanos": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/image-contactanos.jpg",
+      "link": {
+        "url": "javascript:void($zopim.livechat.window.openPopout())"
+      },
+      "blockClass": "sub-image-acerca-de-nosotros"
+    }
+  }
+}

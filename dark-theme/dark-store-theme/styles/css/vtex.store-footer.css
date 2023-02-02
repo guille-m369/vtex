@@ -1,0 +1,368 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-footer-row-2)
+  :global(.vtex-menu-2-x-menuContainerNav) {
+  width: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-footer-row-2)
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer) {
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--component-footer-row-3) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--component-footer-row-3)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--component-footer-row-3)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  margin-right: 50px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu-footer) {
+  padding-bottom: 15px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-footer) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-footer-row-3){
+  margin-top: 40px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--row-image-item-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--component-footer-row-3) {
+    display: flex;
+  }
+  :global(.vtex-menu-2-x-styledLinkContent--title-menu-footer) {
+    font-size: 1rem;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--row-image-item-footer) {
+    margin-bottom: 15px;
+   
+  }
+
+  /*space for menu bottom for the bottom sticky layout */
+  :global(.vtex-store-footer-2-x-footerLayout--footer-layout-mobile) {
+    margin-bottom: 62px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--component-NewsLetter){
+  
+  padding-bottom: 2em;
+}
+:global(.vtex-rich-text-0-x-strong--rich-text-component-NewsLetter-Title){
+  color: #DEDEDE;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-form){
+  padding-top: 2em;
+}
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-checkbox){
+  padding-top: 1em;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer-items){
+  background-color: #121212;
+  padding-top: 2em;
+padding-bottom: 2em;
+}
+:global(.vtex-flex-layout-0-x-flexRow--component-NewsLetter){
+  background-color: #171717;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-image-item-footer){
+  background-color: #121212;
+  padding-bottom: 2em;
+}
+:global(.vtex-menu-2-x-menuContainer--title-menu-two){
+  padding-top: 1.7em;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--footer-items){
+  padding-right: 6em;
+  padding-left: 6em;
+}
+@media screen and (min-width: 800px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--footer-section-e-shop){
+    padding-left: 7.5em;
+    padding-top: 2em;
+  }
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--newsletter-submit){
+  padding-left: .5em;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-metodos-de-pago-img-paypal){
+  padding-left: 7em;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-metodos-de-pago-text){
+  padding-left: 2em;
+}
+:global(.vtex-menu-2-x-styledLinkContent--title-menu){
+  color: #999999;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-two){
+  color: #999999;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-redes-sociales-text){
+  padding-right: 1em;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-logos-ecomsur-and-vtex){
+  background-color: #121212;
+  border-top: solid 2px #363636;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--footer-logos-ecomsur-and-vtex){
+  padding-top: 1em;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-logo-vtex){
+  padding-left: 1em;
+}
+:global(.vtex-rich-text-0-x-wrapper--footer-logos-texto){
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-logos-texto){
+  padding-left: 8em;
+}
+:global(.vtex-store-newsletter-1-x-labelLink--first){
+  color: #DEDEDE;
+}
+:global(.vtex-store-newsletter-1-x-labelLink--text-confirmation--second){
+  color: #DEDEDE;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer-redes-sociales-text){
+  font-weight: bold;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer-metodos-de-pago-text){
+  font-weight: bold;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-redes-sociales-facebook){
+  padding-top: 2px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-redes-sociales-twitter){
+  padding-top: 2px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu){
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 600px) {
+  :global(.vtex-rich-text-0-x-wrapper--rich-text-component-NewsLetter-Title){
+    width: 80%;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexColChild--component-NewsLetter-Title){
+  padding-left: 15em;
+}
+:global(.vtex-rich-text-0-x-wrapper--newsletter-text){
+  color: #DEDEDE;
+}
+:global(.vtex-rich-text-0-x-wrapper--newsletter-text)
+:global(.vtex-rich-text-0-x-paragraph){
+  margin: 3px;
+
+}
+@media screen and (min-width: 600px) {
+  :global(.vtex-rich-text-0-x-strong--rich-text-component-NewsLetter-Title){
+    font-size: 39px;
+  }
+}
+@media screen and (max-width: 600px) {
+  :global(.vtex-rich-text-0-x-strong--rich-text-component-NewsLetter-Title){
+    font-size: 32px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-redes-sociales-text){
+  color: #DEDEDE;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer-metodos-de-pago-text){
+  color: #DEDEDE;
+}
+/*---------------------------style-footer-mobile---------------------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--mobile-component-NewsLetter-text){
+  background-color: #171717;
+}
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-container-mobile){
+  background-color: #171717;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile-container){
+  background-color: #121212;
+}
+
+@media screen and (max-width: 600px) {
+  :global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-form){
+    padding-top: 0em;
+  }
+}
+@media screen and (max-width: 600px) {
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer--newsletter-submit){
+    padding-left: 0em;
+  }
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu-mobile-text){
+ 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: .5rem;
+margin-right: .5rem;
+}
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-mobile-text){
+  color: #DEDEDE;
+font-weight: bold;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile-redes-sociales){
+  background-color: #121212;
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 800px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--footer-section-e-shop){
+    padding-left: 1em;
+padding-top: 2em;
+  }
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile-logo-redes-sociales){
+  padding-left: 1em;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile-section-metodos-de-pago){
+  padding-left: 1em;
+}
+@media screen and (max-width: 768px) {
+:global(.vtex-rich-text-0-x-paragraph--footer-logos-texto){
+  margin: 0;
+}
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-mobile-section-ecomsur){
+  padding-bottom: 10px;
+  background-color: #121212;
+  border-top: solid 1px #363636;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-mobile-text){
+  position: relative;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile-redes-sociales-twitter){
+  padding-top: 2px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile-redes-sociales-facebook){
+  padding-top: 2px;
+}
+:global(.vtex-menu-2-x-styledLink){
+  color: #999;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile-image-metodos-de-pago-paypal){
+  padding-right: 1em;
+}
+
+:global(.vtex-rich-text-0-x-strong--newsletter-success){
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  :global(.vtex-rich-text-0-x-heading--rich-text-component-NewsLetter-Title){
+    text-align: center;
+    margin: 0;
+padding-top: 1em;
+  }
+  }
+
+  :global(.vtex-menu-2-x-menuItem--title-menu-mobile-text){
+    border-bottom: solid 1px #363636;
+  }
+
+  /*-----------------------------fotter ipad--------------------------------*/
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-container){
+    flex-direction: column;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+  }
+
+  
+    @media screen and (min-width: 700px) {
+      :global(.vtex-flex-layout-0-x-flexRowContent--mobile-component-NewsLetter-text){
+        padding-left: 3em;
+      }
+      }
+ 
+      @media screen and (min-width: 700px) {
+        :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-logo-redes-sociales){
+          flex-direction: column;
+        }
+        }
+        @media screen and (min-width: 700px) {
+          :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-section-metodos-de-pago){
+            flex-direction: column;
+          }
+          }
+    @media screen and (min-width: 700px) {
+      :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-logo-redes-sociales)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+         }
+       }
+       @media screen and (min-width: 700px) {
+        :global(.vtex-flex-layout-0-x-flexRow--footer-mobile-logo-redes-sociales){
+          padding-right: 7em;
+          padding-left: 7em;
+           }
+         }
+    @media screen and (min-width: 700px) {
+      :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-section-metodos-de-pago)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+         }
+       }
+
+       @media screen and (min-width: 700px) {
+        :global(.vtex-flex-layout-0-x-flexColChild--footer-mobile-img-instagram){
+          text-align: right;
+           
+         }
+        }
+        @media screen and (min-width: 700px) {
+          :global(.vtex-flex-layout-0-x-flexColChild--footer-mobile-redes-sociales-facebook){
+            text-align: center;
+             
+           }
+          }
+
+@media screen and (min-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-redes-sociales){
+    padding-left: 3em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-section-logo-ecomsur){
+    padding-left: 5em;
+  }
+}
+@media screen and (min-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-mobile-section-vtex){
+    padding-right: 2em;
+  }
+}
+
+@media screen and (min-width: 765px) and (max-width: 770px)  {
+  :global(.vtex-store-newsletter-1-x-newsletterForm--newsletter-form){
+    padding-left: 10em;
+  }
+}

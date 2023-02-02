@@ -1,0 +1,303 @@
+{
+    "store.custom#hot-sale": {
+      "blocks": ["search-result-layout.customQuery#hot-sale"]
+    },
+    "search-result-layout.customQuery#hot-sale": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "351",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByReleaseDateDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-hombre": {
+      "blocks": ["search-result-layout.customQuery#hot-sale-hombre"]
+    },
+    "search-result-layout.customQuery#hot-sale-hombre": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "hombre/351",
+          "mapField":"genero,productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-mujer": {
+      "blocks": ["search-result-layout.customQuery#hot-sale-mujer"]
+    },
+    "search-result-layout.customQuery#hot-sale-mujer": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "mujer/351",
+          "mapField":"genero,productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-hombre-50": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-hombre-50"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-hombre-50": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "362",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-hombre-40": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-hombre-40"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-hombre-40": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "361",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-hombre-30": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-hombre-30"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-hombre-30": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "360",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-mujer-50": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-mujer-50"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-mujer-50": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "365",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-mujer-40": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-mujer-40"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-mujer-40": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "364",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#hot-sale-mujer-30": {
+      "blocks": ["search-result-layout.customQuery#store.custom#hot-sale-mujer-30"]
+    },
+    "search-result-layout.customQuery#store.custom#hot-sale-mujer-30": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "363",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-segundo-dia": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-segundo-dia"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-segundo-dia": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "369",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-tercer-dia": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-tercer-dia"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-tercer-dia": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "368",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-chamarras-mujer": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-chamarras-mujer"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-chamarras-mujer": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "377",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-chamarras-hombre": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-chamarras-hombre"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-chamarras-hombre": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "376",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-sexto-dia": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-sexto-dia"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-sexto-dia": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "374",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "store.custom#lo-mas-hot-ultimo-dia": {
+      "blocks": ["search-result-layout.customQuery#store.custom#lo-mas-hot-ultimo-dia"]
+    },
+    "search-result-layout.customQuery#store.custom#lo-mas-hot-ultimo-dia": {
+      "props": {
+        "querySchema": {
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 24,
+          "queryField": "372",
+          "mapField":"productClusterIds",
+          "orderByField": "OrderByBestDiscountDESC",
+          "__unstableProductOriginVtex": true
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#hot-sale",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    }
+  }
+  

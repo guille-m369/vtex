@@ -1,0 +1,31 @@
+{
+  "store.custom#custom-landing": {
+    "blocks": [
+      "flex-layout.row#container-custom-landing"
+      // "responsive-layout.desktop#custom-landing"
+      /* "responsive-layout.tablet#landing-mujer",
+      "responsive-layout.phone#landing-mujer"*/
+    ]
+  },
+
+  "responsive-layout.desktop#custom-landing": {
+    "children": ["flex-layout.row#container-custom-landing"]
+  },
+  "flex-layout.row#container-custom-landing": {
+    "children": ["custom-landing"],
+    "props": {
+      "fullWidth": true
+    }
+  }
+  // "video#custom-landing": {
+  //   "props": {
+  //     "width": "100%",
+  //     "height": "600px",
+  //     "loop": false,
+  //     "autoPlay": true,
+  //     "muted": false,
+  //     "src": "assets/videolanding.mp4",
+  //     "blockClass": "videoEl"
+  //   }
+  // }
+}

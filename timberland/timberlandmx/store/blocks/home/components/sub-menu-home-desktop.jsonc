@@ -1,0 +1,114 @@
+{
+  /*------------------sub menu home-----------------*/
+  "flex-layout.row#row-sub-menu-home": {
+    "children": [
+      "flex-layout.row#col-sub-menu-home-1",
+      "flex-layout.col#spacer-home",
+      "flex-layout.row#col-sub-menu-home-2",
+      "flex-layout.col#spacer-home",
+      "flex-layout.row#col-sub-menu-home-3",
+      "flex-layout.col#spacer-home",
+      "flex-layout.row#col-sub-menu-home-4",
+      "flex-layout.col#spacer-home",
+      "flex-layout.row#col-sub-menu-home-5",
+      "flex-layout.col#spacer-home",
+      "flex-layout.row#col-sub-menu-home-6"
+    ],
+    "props": {
+      "blockClass": "row-sub-menu-home",
+      "marginTop": 6,
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#spacer-home": {
+    "props": {
+      "blockClass": "col-spacer-home",
+      "width": "1%",
+      "height": "30px"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-1": {
+    "children": ["link#sub-menu-home-1"],
+    "props": {
+      "width": "16%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-1": {
+    "props": {
+      "href": "/hombre/botas",
+      "label": "BOTAS PARA HOMBRE",
+      "blockClass": "sub-menu-home"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-2": {
+    "children": ["link#sub-menu-home-2"],
+    "props": {
+      "width": "16%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-2": {
+    "props": {
+      "href": "/mujer/botas",
+      "label": "BOTAS PARA MUJER",
+      "blockClass": "sub-menu-home"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-3": {
+    "children": ["link#sub-menu-home-3"],
+    "props": {
+      "width": "8%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-3": {
+    "props": {
+      "href": "/hiking",
+      "label": "HIKING",
+      "blockClass": "sub-menu-home"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-4": {
+    "children": ["link#sub-menu-home-4"],
+    "props": {
+      "width": "9%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-4": {
+    "props": {
+      "href": "/casuales",
+      "label": "CASUALES",
+      "blockClass": "sub-menu-home"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-5": {
+    "children": ["link#sub-menu-home-5"],
+    "props": {
+      "width": "6%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-5": {
+    "props": {
+      "href": "/ropa",
+      "label": "ROPA",
+      "blockClass": "sub-menu-home"
+    }
+  },
+  "flex-layout.row#col-sub-menu-home-6": {
+    "children": ["link#sub-menu-home-6"],
+    "props": {
+      "width": "11%",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#sub-menu-home-6": {
+    "props": {
+      "href": "/accesorios",
+      "label": "ACCESORIOS",
+      "blockClass": "sub-menu-home"
+    }
+  }
+}

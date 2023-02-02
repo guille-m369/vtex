@@ -1,0 +1,59 @@
+{
+  "store.custom#product-care": {
+    "blocks": [
+      "responsive-layout.desktop#landing-product-care",
+      "responsive-layout.tablet#landing-product-care",
+      "responsive-layout.phone#landing-product-care"
+    ]
+  },
+  "responsive-layout.desktop#landing-product-care": {
+    "children": [
+      "landing-product-care",
+      "rich-text#shelf-landing-product-care-header",
+      "flex-layout.row#shelf-landing-product-care"
+    ]
+  },
+  "responsive-layout.tablet#landing-product-care": {
+    "children": [
+      "landing-product-care",
+      "rich-text#shelf-landing-product-care-header-mobile",
+      "flex-layout.row#shelf-landing-product-care"
+    ]
+  },
+  "responsive-layout.phone#landing-product-care": {
+    "children": [
+      "landing-product-care",
+      "rich-text#shelf-landing-product-care-header-mobile",
+      "flex-layout.row#shelf-landing-product-care"
+    ]
+  },
+
+  "rich-text#shelf-landing-product-care-header": {
+    "props": {
+      "text": "Ahora que tus botas lucen increíbles\n cámbiales el color a las agujetas",
+      "blockClass": ["shelf-landing-product-care-header", "PC_shelfTitle"]
+    }
+  },
+  "rich-text#shelf-landing-product-care-header-mobile": {
+    "props": {
+      "text": "Ahora que tus botas lucen increíbles cámbiales el color a las agujetas",
+      "blockClass": ["shelf-landing-product-care-header", "PC_shelfTitle", "PC_shelfTitleMobile"]
+    }
+  },
+  "flex-layout.row#shelf-landing-product-care": {
+    "children": ["list-context.product-list#shelf-landing-product-care"],
+    "props": {
+      "paddingBottom": 8
+    }
+  },
+  "list-context.product-list#shelf-landing-product-care": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "category": "22/52",
+      "maxItems": 10,
+      "arrows": true,
+      "blockClass": "shelf-home"
+    }
+  }
+}

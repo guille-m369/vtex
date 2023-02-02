@@ -1,0 +1,21 @@
+{
+  "slider-layout#shelf-home": {
+    "props": {
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+
+      "infinite": true,
+      "fullWidth": true
+      // "blockClass": "shelf"
+    }
+  }
+}

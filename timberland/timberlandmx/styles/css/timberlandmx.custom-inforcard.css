@@ -1,0 +1,1050 @@
+.CustomInfocardButtonContainer {
+  position: relative;
+}
+
+/* .mainContainer--third{
+  flex-direction: row-reverse;
+} */
+/* GREENSTIRE HOME BANNER */
+
+.ButtonVideoInfocardContainer--greenStride {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  z-index: 50;
+}
+
+.CustomInfocardContainer--principal-info-card {
+  margin-top: 0px;
+}
+
+.ButtonVideoInfocard--greenStride {
+  height: 40px;
+  color: black;
+  background: #eb8102;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+@media only screen and (min-width: 768px) {
+  .ButtonVideoInfocard--greenStride {
+    min-width: 200px;
+    font-size: 24px;
+  }
+}
+
+.ButtonVideoInfocard--greenStride:hover {
+  color: black;
+  background: #fff;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1) .ButtonInfocardlunar {
+  position: absolute;
+  top: 65%;
+  left: 64%;
+  height: 40px;
+  width: 200px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: "SourceCodePro-Bold";
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardlunar:hover {
+  color: white;
+  background: #eb8102;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellos {
+  position: absolute;
+  top: 65%;
+  left: 32%;
+  height: 45px;
+  width: 200px;
+  color: white;
+  background: #eb8102;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellas {
+  position: absolute;
+  top: 65%;
+  right: 32%;
+  height: 45px;
+  width: 200px;
+  color: white;
+  background: #eb8102;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellas:hover,
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellos:hover {
+  background: white;
+  color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+    .ButtonInfocardpara-ellos {
+    left: 18%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+    .ButtonInfocardpara-ellas {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 690px) {
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+    .ButtonInfocardpara-ellos {
+    left: 10%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+    .ButtonInfocardpara-ellas {
+    right: 10%;
+  }
+}
+/*--------------------mobile------------------*/
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardlunary-mobile {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  height: 30px;
+  width: 100px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellos-mobile {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  height: 30px;
+  width: 150px;
+  color: white;
+  background: #eb8102;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-home-1)
+  .ButtonInfocardpara-ellas-mobile {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  height: 30px;
+  width: 150px;
+  color: white;
+  background: #eb8102;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/*------------------landing hombre--------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+  .ButtonInfocardlunar {
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  height: 40px;
+  width: 200px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+  .ButtonInfocardlunar:hover {
+  color: white;
+  background: #eb8102;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+  .ButtonInfocardlanding-lo-nuevo {
+  position: absolute;
+  top: 66%;
+  left: 8.5%;
+  height: 40px;
+  width: 200px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+  .ButtonInfocardlanding-lo-nuevo:hover {
+  color: white;
+  background: #eb8102;
+}
+/*---------mobile---------*/
+@media screen and (max-width: 600px) {
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+    .ButtonInfocardlunar,
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-hombre-1)
+    .ButtonInfocardlanding-lo-nuevo {
+    height: 20px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
+/*------------------landing mujer--------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-mujer)
+  .ButtonInfocardlanding-mujer-lo-nuevo {
+  position: absolute;
+  top: 65%;
+  left: 8.5%;
+  height: 40px;
+  width: 200px;
+  color: black;
+  background: white;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: SourceCodePro-TBL;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-mujer)
+  .ButtonInfocardlanding-mujer-lo-nuevo:hover {
+  color: white;
+  background: #eb8102;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--banner-true-cloud-col-2-materiales-desktop)
+  .CustomInfocardContainer {
+  margin: 2rem;
+}
+
+.CustomInfocardButtonContainer--banner-true-cloud-text2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.CustomInfocardButton--banner-true-cloud-text2 {
+  max-height: 540px;
+  width: 300px;
+}
+/*---------mobile---------*/
+@media screen and (max-width: 600px) {
+  :global(.vtex-flex-layout-0-x-flexRow--row-banner-landing-mujer)
+    .ButtonInfocardlanding-mujer-lo-nuevo {
+    height: 20px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .CustomInfocardButtonContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .headlineInfoCardButton {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #afc5d0;
+  }
+  .CustomInfocard--banner-true-cloud {
+    max-height: 293px !important;
+    width: 100%;
+    margin-top: -2rem;
+    height: 100%;
+  }
+  .CustomInfocardContainer--banner-true-cloud {
+    height: 293px;
+  }
+  .ButtonInfocard--banner-true-cloud-image2lunar {
+    background-color: black;
+    width: 124px;
+    height: 43px;
+    color: white;
+    border: none;
+  }
+  .CustomInfoCardContainerText--true-cloud-banner {
+    width: 100% !important;
+    height: 318px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #afc5d0;
+  }
+
+  .CustomInfocardContainerContainer--true-cloud-banner {
+    flex-direction: column;
+  }
+  .CustomInfoCardImage--true-cloud-banner {
+    width: 100%;
+    height: 293px;
+    object-fit: cover;
+  }
+
+  .CustomInfocardContainerContainer {
+    display: flex;
+  }
+  .CustomInfocardHeadline--true-cloud-banner {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    font-size: 35px;
+    font-weight: 700;
+    max-height: 87px;
+    font-family: "GT-Flexa-BlackOutline-TBL";
+    text-align: center;
+    color: #afc5d0;
+  }
+  /* .CustomInfocardHeadline */
+
+  /* .CustomInfocardButton{
+    background-color: #afc5d0;
+  } */
+}
+.ButtonInfocard--true-cloud-bannerlunar {
+  background-color: black;
+  width: 157px;
+  height: 54px;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+}
+.CustomInfoCardContainerText--true-cloud-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #afc5d0;
+}
+
+.CustomInfocardHeadline--true-cloud-banner {
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-family: "GT-Flexa-BlackOutline-TBL";
+  text-align: center;
+  color: #afc5d0;
+}
+/* "Anti-Fatigue - Tecnología Anti-Fatigue proporciona una comodidad de pie excepcional, absorción de impactos y retorno de energía durante todo el día | Better Leather - Procedente de una curtiduría Silver o Gold, calificada así por su responsabilidad ambiental | Waterproof - Con costuras selladas para mayor protección, estas prendas están hechas o tratadas con caucho, plástico u otro agente sellador | EcoAislamiento Primaloft - Elaborado con fibras sintéticas que incluyen un mínimo de 50% de PET reciclado forman una estructura de aislamiento dinámico | Defender Repellent Systems - Este tratamiento repele las manchas a base de agua y aceite"
+
+"IMPERMEABLE - Proporciona una barrera impenetrable de protección contra la humedad para garantizar que el tejido esté siempre seco| RESISTENTE AL VIENTO - Tejido WindWall® reduce los efectos del enfriamiento provocado por el viento a la vez que conserva la comodidad y la flexibilidad| DWR REPELENTE AL AGUA - Acabado hidrófugo duradero (DWR) sin compuestos perfluorados para protegerte frente a lluvias ligeras." */
+
+.CustomInfocardContainer--custom-infocard-algodon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16rem;
+}
+
+.CustomInfocardContainer--custom-infocard-nuvem {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.CustomInfocardContainer--custom-infocard-materiales {
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonInfocard {
+  font-size: 15px;
+  margin-top: 2rem;
+  font-family: "SourceCodePro-Bold";
+}
+
+.CustomInfocard--image-left {
+  margin-top: -5rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .CustomInfocardHeadline--true-cloud-banner {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "GT-Flexa-BlackOutline-TBL";
+    text-align: center;
+    color: #afc5d0;
+  }
+  .ButtonInfocardimpermeables {
+    position: absolute;
+    bottom: 9em !important;
+    width: 204px;
+    left: 22em !important;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: "GT-Flexa-TBL";
+    padding: 1em 1.5em;
+  }
+  .ButtonInfocardpara-ellas {
+    position: absolute;
+    bottom: 8em !important;
+    width: 204px;
+    left: 1.9em !important;
+    background-color: black;
+    font-family: "GT-Flexa-TBL";
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+  }
+  .ButtonInfocarddisenada {
+    position: absolute;
+    bottom: 10em !important;
+    width: 204px;
+    left: 1.5em !important;
+    background-color: black;
+    font-family: "GT-Flexa-TBL";
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+  }
+  .ButtonInfocardprincipal {
+    position: absolute;
+    bottom: 4em !important;
+    width: 204px;
+    left: 4.5em !important;
+    background-color: black;
+    color: white;
+    font-family: "GT-Flexa-TBL";
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+  }
+}
+
+.ButtonInfocardpara-ellas {
+  position: absolute;
+  bottom: 12em;
+  width: 204px;
+  left: 2.5em;
+  background-color: black;
+  color: white;
+  font-family: "GT-Flexa-TBL";
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+.ButtonInfocardimpermeables {
+  position: absolute;
+  bottom: 13em;
+  width: 204px;
+  left: 32em;
+  font-family: "GT-Flexa-TBL";
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+.ButtonInfocarddisenada {
+  position: absolute;
+  bottom: 13em;
+  width: 204px;
+  font-family: "GT-Flexa-TBL";
+  left: 2.5em;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+.ButtonInfocardprincipal {
+  position: absolute;
+  bottom: 6em;
+  width: 204px;
+  left: 8.5em;
+  font-family: "GT-Flexa-TBL";
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+.CustomInfocardContainer--disenadas-banner {
+  margin-top: 4rem;
+}
+
+/* MAIN BANNER */
+
+.topLeftContainer--mainBanner {
+  background-color: #afc5d0;
+  padding-top: 3rem;
+}
+@media only screen and (min-width: 1026px) {
+  /* For desktop: */
+  .topLeftContainer--mainBanner {
+    padding-top: inherit;
+  }
+}
+.title--mainBanner {
+  font-size: 2.5rem;
+  font-family: "GT-Flexa-BlackOutline-TBL";
+  line-height: 95%;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+/* SECONDARY BANNERS */
+
+/* FIRST */
+
+.title--first {
+  font-family: "GT-Flexa-TBL";
+  font-size: 2.7rem;
+}
+
+.ctaButton--first {
+  background-color: black;
+}
+.ctaButton--first:hover {
+  background-color: #eb8102 !important;
+  color: black !important;
+}
+
+/* SECOND */
+
+.title--second {
+  font-family: "GT-Flexa-TBL";
+  line-height: 95%;
+  font-size: 2rem;
+}
+
+/* .ctaContainer--second {
+  justify-content: center;
+} */
+
+/* THIRD */
+
+.title--third {
+  font-family: "GT-Flexa-TBL";
+  line-height: 95%;
+  font-size: 2rem;
+}
+
+/* BUTTON HOVER FOR ALL BANNERS */
+
+.ctaButton:hover {
+  background-color: #eb8102;
+  color: #000;
+}
+
+/* GT-Flexa-BlackOutline-TBL */
+
+/* .copy--first {
+  font-size: 2rem;
+  font-family: "GT-Flexa-TBL";
+} */
+
+.mainContainer--third {
+  padding: 20px;
+  /* margin-top: 3rem; */
+}
+@media only screen and (max-width: 480px) {
+  .mainContainer--third-mobile {
+    padding: 0;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .mainContainer--second {
+    /* margin-top: 5rem; */
+  }
+}
+
+.ctaButton--second {
+  margin-top: 2rem;
+}
+/* .textContainer--example{
+  align-items: flex-start;
+  width: 85%;
+  margin-top: 5rem;
+} */
+.ctaButton--mainBanner2 {
+  margin-top: 118%;
+  background-color: #ac0202;
+  width: 193px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaButton--mainBanner1 {
+  margin-top: 29.5%;
+  width: 193px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+
+  font-size: 0.8rem;
+  width: auto;
+  min-width: 193px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For desktop: */
+  .mainContainer--first {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .ctaButton--mainBanner2 {
+    background-color: #ac0202;
+    margin-top: 20.5%;
+    width: 193px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctaContainer--mainBanner1 {
+    justify-content: center;
+    /* justify-content: flex-start; */
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  .ctaContainer--mainBanner2 {
+    justify-content: flex-end;
+    width: 103%;
+  }
+}
+@media only screen and (max-width: 1026px) {
+  .textContainer--mainBanner1 {
+    height: 100% !important;
+    justify-content: flex-end;
+  }
+  .ctaContainer--mainBanner1 {
+    /* justify-content: space-between; */
+    margin-bottom: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .ctaButton--mainBanner1 {
+    margin: 1.5rem auto 5rem;
+    font-size: 1rem;
+    width: 230px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--third-wrapper) {
+    margin-bottom: 8rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .ctaButton--mainBanner2 {
+    margin-left: -4%;
+  }
+  .timberlandmx-custom-inforcard-0-x-mainContainer--third {
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ctaButton--mainBanner1 {
+    margin-bottom: 3rem;
+  }
+  .timberlandmx-custom-inforcard-0-x-mainContainer--third {
+    flex-direction: column-reverse !important;
+  }
+  .ctaButton--second {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .ctaButton--third {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .ctaButton--first {
+    background-color: black;
+    width: 100%;
+  }
+
+  .ctaContainer--mainBanner2 {
+    justify-content: flex-start;
+    width: 80%;
+  }
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel)
+    :global(.vtex-flex-layout-0-x-flexRow) {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ctaButton--mainBanner1 {
+    margin-bottom: 0;
+  }
+}
+
+.CustomInfocard--hombre-bota {
+  height: 82px !important;
+}
+
+.CustomInfocard--mujer-bota {
+  height: 82px !important;
+}
+
+.textContainer--mainBanner1 {
+  height: auto;
+}
+
+/* Landing waterproof */
+.ctaContainer--mainBanner-waterproof {
+  margin-top: 15rem;
+  margin-left: 4%;
+}
+.ctaButton--mainBanner-waterproof {
+  border: 1px solid;
+}
+.CustomInfocardButton--image-dblok,
+.CustomInfocard--image-dblok {
+  display: block;
+}
+.headlineInfoCardButton--hide-headline {
+  display: none;
+}
+.ButtonInfocard--hide-headlineimage-button,
+.ButtonInfocard--two-in-colsimage-button,
+.ButtonInfocard--full-image-ellasimage-button,
+.ButtonInfocard--outfits-mobilesimage-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ButtonInfocard--hide-headlineimage-button::after,
+.ButtonInfocard--two-in-colsimage-button::after,
+.ButtonInfocard--full-image-ellasimage-button::after,
+.ButtonInfocard--outfits-mobilesimage-button::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url("assets/bag.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.CustomInfocardButtonContainer--two-in-cols {
+  position: inherit;
+}
+.CustomInfocardButton--two-in-cols {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.CustomInfocardButton--full-image-ellas {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1026px) {
+  .mainContainer--mainBanner-waterproof {
+    padding-top: 33% !important;
+  }
+  .textContainer--mainBanner-waterproof {
+    align-items: flex-start;
+    width: 80%;
+    right: 0;
+    margin: 0 auto;
+  }
+  .ctaContainer--mainBanner-waterproof {
+    width: auto;
+    margin-top: 12rem;
+    margin-left: 1rem;
+  }
+  .ctaButton--mainBanner-waterproof {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mainContainer--mainBanner-waterproof {
+    padding-top: 40% !important;
+  }
+  .textContainer--mainBanner-waterproof {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .mainContainer--mainBanner-waterproof {
+    padding-top: 45% !important;
+  }
+  .textContainer--mainBanner-waterproof {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}
+
+/* MOBILE */
+.textContainer--mainBanner-waterproof-mobile {
+  justify-content: center;
+  align-items: flex-start;
+}
+.ctaContainer--mainBanner-waterproof-mobile {
+  margin-top: 8rem;
+  width: auto;
+}
+.ctaButton--mainBanner-waterproof-mobile {
+  border: 1px solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (max-width: 640px) {
+  .CustomInfocardButtonContainer--outfits-mobiles,
+  .CustomInfocardButtonContainer--full-image-ellas {
+    margin: 0;
+  }
+  .ButtonInfocard--hide-headlineimage-button::after,
+  .ButtonInfocard--two-in-colsimage-button::after,
+  .ButtonInfocard--full-image-ellasimage-button::after,
+  .ButtonInfocard--outfits-mobilesimage-button::after {
+    width: 30px;
+    height: 30px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--waterproof-video-area)
+    .CustomVideoInfocard {
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* Landing waterproof */
+
+/* Sale Banner */
+.textContainer--saleBanner1 {
+  justify-content: flex-end;
+}
+.ctaContainer--saleBanner1 {
+  width: 50%;
+  padding-right: 7rem;
+  align-self: flex-start;
+}
+.ctaButton--saleBanner1 {
+  margin: 0 auto;
+  min-width: 200px;
+}
+.ctaButton--saleBanner1:hover {
+  color: #fff;
+}
+@media screen and (max-width: 1026px) {
+  .ctaContainer--saleBanner1 {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  .ctaButton--saleBanner1 {
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ctaButton--saleBanner1 {
+    margin-bottom: 1rem;
+  }
+}
+/* Sale Banner */
+
+
+/* Para optimizar style */
+/* -------------------- HOME -------------------- */
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainBannerCarousel){
+  margin-bottom: 3rem;
+}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--mainBannerCarousel) {
+  padding-bottom: .5rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerRow){
+  width: 100%;
+  height: 100%;
+}
+.ctaButton--mainBannerItem{
+  min-width: 200px;
+  margin-right: 25rem;
+  margin-bottom: 5rem;
+}
+.title--threeBlockItem, .title--twoBlockItem  {
+  font-family: "GT-Flexa-TBL";
+  line-height: 95%;
+  font-size: 2rem;
+}
+.ctaButton--threeBlockItem {
+  min-width: 160px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+:global(.vtex-store-link-0-x-link--buttonSliderShelf_homeFirst) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 40px;
+  max-width: 260px;
+  margin: 0 auto 3rem auto;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border: solid 2px #282321;
+  transition: ease all .3s;
+}
+:global(.vtex-store-link-0-x-link--buttonSliderShelf_homeFirst):hover{
+  color: #fff;
+  background-color: #282321;
+}
+.ctaButton--twoBlockItem {
+  margin-top: 2rem;
+}
+.mainContainer--twoBlockItem{
+  max-height: 100%;
+}
+.textContainer--secondBannerItem{
+  align-items: flex-end;
+}
+.ctaButton--secondBannerItem{
+  min-width: 200px;
+  margin-right: 4rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bottomInfoCards){
+  margin: 5rem 0;
+}
+:global(.vtex-rich-text-0-x-paragraph--titleBottomInfocard){
+  font-size: 16px;
+  font-weight: 700;
+  color: #282321;
+  text-align: center;
+}
+:global(.vtex-store-link-0-x-label--buttonBottomInfoCard){
+  font-size: 16px;
+  font-weight: 700;
+ }
+:global(.vtex-store-link-0-x-link--buttonBottomInfoCard){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 40px;
+  margin: 1.5rem auto;
+  color: #282321;
+  text-decoration: none;
+  border: 2px solid #282321;
+  transition: ease all .3s;
+}
+:global(.vtex-store-link-0-x-link--buttonBottomInfoCard):hover{
+  background: #eb8102;
+  border-color: #eb8102;
+  color: #fff;
+}
+
+/* RESPONSIVOS */
+
+@media screen and (min-width: 1450px) {
+  .ctaButton--mainBannerItem{
+    margin-right: 35rem;
+    margin-bottom: 8rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ctaButton--mainBannerItem{
+    margin-right: 22rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .textContainer--mainBannerItem, .textContainer--secondBannerItem{
+    justify-content: flex-end;
+  }
+  .ctaButton--mainBannerItem{
+    max-width: 300px;
+    margin: 0 auto 5rem auto;
+  }
+  .ctaButton--secondBannerItem{
+    max-width: 250px;
+    margin: 0 auto;
+    color: #fff !important;
+    background-color: #000 !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--imageTextRow){
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--bottomInfoCards){
+    display: flex;
+    flex-wrap: wrap;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--bottomInfoCards) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 50% !important;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ctaContainer--mainBannerItem, .ctaContainer--secondBannerItem{
+    margin: 0;
+  }
+  .ctaButton--mainBannerItem{
+    margin-bottom: 0;
+    max-width: 100px;
+  }
+  .topLeftContainer--twoBlockItem{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ctaButton--twoBlockItem{
+    width: 100%;
+    margin-right: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bottomInfoCards){
+    margin: 2rem 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--bottomInfoCards) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding: 0 .5rem;
+  }
+}

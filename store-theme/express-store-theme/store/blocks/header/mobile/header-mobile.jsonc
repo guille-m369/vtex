@@ -1,0 +1,120 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile",
+      "sticky-layout#header-mobile-sticky-layout"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"],
+    "props": {
+      "blockClass": "sticky-header-mobile"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      //"drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "flex-layout.col#component-search-bar"
+      //"login"
+      //"minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  /// BOTTOM STICKY
+  // Drawer, user, cart, locations and help
+  // TODO: links are still just placeholders.
+  // ----------------------------------------
+  "sticky-layout#header-mobile-sticky-layout": {
+    "children": ["flex-layout.row#header-mobile-sticky-layout-bottom"],
+    "props": {
+      "position": "bottom",
+      "blockClass": "sticky-header-mobile-bottom"
+    }
+  },
+  "flex-layout.row#header-mobile-sticky-layout-bottom": {
+    "children": [
+      "flex-layout.col#header-mobile-drawer-button",
+      "flex-layout.col#header-mobile-login",
+      "flex-layout.col#header-mobile-minicart",
+      //"flex-layout.col#header-mobile-tiendas",
+      "flex-layout.col#header-mobile-ayuda"
+    ],
+
+    "props": {
+      "blockClass": "header-mobile-sticky-layout-bottom",
+      // "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center"
+      //"colSizing": "equal"
+    }
+  },
+  /*-----------------------------section drawer button --------------------------------------------------*/
+  "flex-layout.col#header-mobile-drawer-button": {
+    "children": ["drawer"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  /*-------------------------------------Section login--------------------------*/
+  "flex-layout.col#header-mobile-login": {
+    "children": ["login#sticky-mobile"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "login#sticky-mobile": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "sticky-mobile",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky-mobile"]
+  },
+  "icon-profile#sticky-mobile": {
+    "props": {
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  },
+
+  /*-------------------------------------Section minicart--------------------------*/
+  "flex-layout.col#header-mobile-minicart": {
+    "children": ["minicart.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  /*-------------------------------------Section Tiendas--------------------------*/
+  "flex-layout.col#header-mobile-tiendas": {
+    "children": ["image#tiendas"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "sticky-mobile-image"
+    }
+  },
+  /*-------------------------------------Section ayuda--------------------------*/
+  "flex-layout.col#header-mobile-ayuda": {
+    "children": ["image#ayuda"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "sticky-mobile-image"
+    }
+  }
+}

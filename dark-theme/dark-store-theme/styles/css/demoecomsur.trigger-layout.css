@@ -1,0 +1,24 @@
+:global(.vtex-store-components-3-x-imageElement--header-icon-mobile-search) {
+  width: 19px;
+  height: 19px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--search-column){
+  margin-right: 6px;
+}
+.layoutContainer--mobile--active {
+ height: 72px;
+}
+.layoutContainer--mobile--active
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  min-width: none;
+}
+
+.layoutContainer--mobile--inactive {
+  height: 0;
+}
+
+.layoutContainer--mobile {
+  transition: height 0.3s;
+  overflow: hidden;
+  background-color: #202020;
+}

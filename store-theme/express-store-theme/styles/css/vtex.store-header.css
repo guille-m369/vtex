@@ -1,0 +1,85 @@
+/*Style for header container in mobile and desktop*/
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-mobile)
+  :global(.vtex-sticky-layout-0-x-container--sticky-header-mobile),
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header)
+  :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+  background: white;
+}
+/*Styles for desktop*/
+:global(.vtex-flex-layout-0-x-flexRow--main-header-desktop) {
+  margin: 0 70px 0 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--main-menu-desktop) {
+  margin-right: 70px;
+}
+
+/*Styles for mobile*/
+@media (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-logoImage) {
+    width: 100px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    align-items: center;
+  }
+
+  :global(.vtex-store-components-3-x-logoContainer) {
+    padding-left: 0.5rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--component-search-bar) {
+    width: 240px;
+  }
+
+  :global(.vtex-store-drawer-0-x-openIconContainer) {
+    color: white;
+  }
+
+  /*Color for icons in header*/
+  :global(.vtex-minicart-2-x-minicartIconContainer),
+  :global(.vtex-store-icons-0-x-profileIcon) {
+    color: white;
+  }
+}
+
+/*Font size in items of main menu*/
+:global(.vtex-menu-2-x-styledLinkContent--desktop-main-menu-title) {
+  font-size: 18px;
+}
+
+/*Style for the bottom sticky mobile*/
+:global(.vtex-flex-layout-0-x-flexRow--header-mobile-sticky-layout-bottom) {
+  background: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 998;
+  justify-content: space-between;
+  height: 62px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--sticky-mobile-image)
+  :global(.vtex-store-components-3-x-imageElement) {
+  width: 20px;
+  height: 20px;
+}
+
+/* MOBILE MENU */
+:global(.vtex-menu-2-x-menuContainerNav--mobile-menu) {
+  width: 100%;
+  height: 100%;
+}
+
+:global(.vtex-menu-2-x-menuItem--mobile-menu-block) {
+  border-bottom: 1px solid black;
+}
+
+:global(.vtex-menu-2-x-menuItem--mobile-menu-block):first-child {
+  border-top: 1px solid black;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--mobile-menu-block) {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0.7rem 0;
+}

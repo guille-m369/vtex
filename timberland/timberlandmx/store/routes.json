@@ -1,0 +1,560 @@
+{
+  "store.custom#landing": {
+    "path": "/colecciones-hombres"
+  },
+  "store.custom#landing-mujer": {
+    "path": "/colecciones-mujeres"
+  },
+  "store.custom#custom-landing-true-cloud": {
+    "path": "/trueCloud"
+  },
+  "store.custom#landing-nino": {
+    "path": "/colecciones-ninos"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#tallasHombre": {
+    "path": "/guia-de-tallas-hombre"
+  },
+  "store.custom#tallasMujer": {
+    "path": "/guia-de-tallas-mujer"
+  },
+  "store.custom#envios-devoluciones": {
+    "path": "/envios-devoluciones"
+  },
+  "store.custom#garantias": {
+    "path": "/garantias"
+  },
+  "store.custom#terminos": {
+    "path": "/terminos"
+  },
+  "store.custom#nuestra-historia": {
+    "path": "/nuestra-historia"
+  },
+  "store.custom#acerca-de-nosotros": {
+    "path": "/acerca-de-nosotros"
+  },
+  "store.custom#privacidad": {
+    "path": "/privacidad"
+  },
+  "store.custom#plant-change": {
+    "path": "/plant-change"
+  },
+  "store.custom#ProductCare": {
+    "path": "/ProductCare"
+  },
+  "store.custom#meet-our-heroes": {
+    "path": "/meet-our-heroes"
+  },
+  "store.custom#erica-valencia": {
+    "path": "/back-meet-our-heroes/erica-valencia"
+  },
+  "store.custom#irma-ochoa": {
+    "path": "/back-meet-our-heroes/irma-ochoa"
+  },
+  "store.custom#aislinn-derbez": {
+    "path": "/back-meet-our-heroes/aislinn-derbez"
+  },
+  "store.custom#tiendas": {
+    "path": "/tiendas"
+  },
+  "store.custom#hombre-destacados": {
+    "path": "/hombre/destacados"
+  },
+  "store.custom#hombre-lo-nuevo": {
+    "path": "/hombre/lo-nuevo"
+  },
+  "store.custom#hombre-yellow-boot": {
+    "path": "/hombre/yellow-boot"
+  },
+  "store.custom#hombre-basicos": {
+    "path": "/hombre/basicos"
+  },
+  "store.custom#hombre-ultimas-piezas": {
+    "path": "/hombre/ultimas-piezas"
+  },
+  "store.custom#hombre-calzado": {
+    "path": "/hombre/calzado"
+  },
+  "store.custom#hombre-calzado-sandalias": {
+    "path": "/hombre/sandalias"
+  },
+  "store.custom#temporada-de-sandalias": {
+    "path": "/temporada-de-sandalias"
+  },
+  "store.custom#nuestra-bota-iconica": {
+    "path": "/nuestra-bota-iconica"
+  },
+  "store.custom#brillos-primaverales-y-recursos-renovables": {
+    "path": "/brillos-primaverales-y-recursos-renovables"
+  },
+  "store.custom#dulce-innovacion": {
+    "path": "/dulce-innovacion"
+  },
+  "store.custom#esenciales-para-tus-viajes": {
+    "path": "/esenciales-para-tus-viajes"
+  },
+  "store.custom#botas-hiv5": {
+    "path": "botas-HIVIS"
+  },
+  "store.custom#sweetpants": {
+    "path": "sweetpants"
+  },
+  "store.custom#frescura-y-comodidad": {
+    "path": "/frescura-y-comodidad"
+  },
+
+  "store.custom#hombre-botas-hiking": {
+    "path": "/hombre/calzado/botas-y-hiking"
+  },
+  "store.custom#hombre-botas": {
+    "path": "/hombre/calzado/botas"
+  },
+  "store.custom#hombre-hiking": {
+    "path": "/hombre/calzado/hiking"
+  },
+  "store.custom#mujer-vestidos-y-faldas": {
+    "path": "mujer/pantalones/vestidos-y-pantalones"
+  },
+  "store.custom#nino-hiking": {
+    "path": "/nino/calzado/hiking"
+  },
+  "store.custom#hombre-calzado-casual": {
+    "path": "/hombre/calzado/casual"
+  },
+  "store.custom#mujer-guantes-bufandas-y-gorras": {
+    "path": "/mujer/accesorios/guantes-bufandas-y-gorras"
+  },
+  "store.custom#hombre-calzado-sneakers---sneaker-boots": {
+    "path": "/hombre/calzado/sneakers"
+  },
+  "store.custom#mujer-calzado-sneakers---sneaker-boots": {
+    "path": "/mujer/calzado/sneakers"
+  },
+  "store.custom#hombre-calzado-boat-shoes": {
+    "path": "/hombre/calzado/boat-shoes"
+  },
+  "store.custom#hombre-calzado-winter-boots": {
+    "path": "/hombre/calzado/winter-boots"
+  },
+  "store.custom#hombre-ropa": {
+    "path": "/hombre/ropa"
+  },
+  "store.custom#hombre-ropa-chalecos-y-chamarras": {
+    "path": "/hombre/ropa/chalecos-y-chamarras"
+  },
+  "store.custom#hombre-ropa-sudaderas": {
+    "path": "/hombre/ropa/sudaderas"
+  },
+  "store.custom#hombre-ropa-polos": {
+    "path": "/hombre/ropa/polos"
+  },
+  "store.custom#hombre-ropa-playeras": {
+    "path": "/hombre/ropa/playeras"
+  },
+  "store.custom#hombre-ropa-camisas": {
+    "path": "/hombre/ropa/camisas"
+  },
+  "store.custom#hombre-ropa-pantalones": {
+    "path": "/hombre/ropa/pantalones"
+  },
+  "store.custom#hombre-accesorios": {
+    "path": "/hombre/accesorios"
+  },
+  "store.custom#hombre-accesorios-carteras": {
+    "path": "/hombre/accesorios/carteras"
+  },
+  "store.custom#hombre-accesorios-cinturones": {
+    "path": "/hombre/accesorios/cinturones"
+  },
+  "store.custom#hombre-accesorios-gorras": {
+    "path": "/hombre/accesorios/gorras"
+  },
+  "store.custom#hombre-accesorios-mochilas": {
+    "path": "/hombre/accesorios/mochilas"
+  },
+  "store.custom#hombre-accesorios-productos-limpieza": {
+    "path": "/hombre/accesorios/productos-de-limpieza"
+  },
+  "store.custom#venta-corporativa": {
+    "path": "/venta-corporativa"
+  },
+  "store.custom#hombre-accesorios-guantes-bufandas": {
+    "path": "/hombre/accesorios/guantes-y-bufandas"
+  },
+  "store.custom#mujer-accesorios-guantes-bufandas-y-gorras": {
+    "path": "/mujer/accesorios/guantes-bufandas-y-gorras"
+  },
+  "store.custom#hombre-accesorios-calcetines": {
+    "path": "/hombre/accesorios/calcetines"
+  },
+  "store.custom#hombre-accesorios-fundas": {
+    "path": "/hombre/accesorios/fundas"
+  },
+  "store.custom#mujer": {
+    "path": "/mujer"
+  },
+  "store.custom#mujer-destacados": {
+    "path": "/mujer/destacados"
+  },
+  "store.custom#mujer-lo-nuevo": {
+    "path": "/mujer/lo-nuevo"
+  },
+  "store.custom#mujer-yellow-boot": {
+    "path": "/mujer/yellow-boot"
+  },
+  "store.custom#mujer-basicos": {
+    "path": "/mujer/basicos"
+  },
+  "store.custom#mujer-ultimas-piezas": {
+    "path": "/mujer/ultimas-piezas"
+  },
+  "store.custom#mujer-calzado": {
+    "path": "/mujer/calzado"
+  },
+
+  "store.custom#mujer-botas-hiking": {
+    "path": "/mujer/calzado/botas-y-hiking"
+  },
+  "store.custom#mujer-botas": {
+    "path": "/mujer/calzado/botas"
+  },
+  "store.custom#mujer-hiking": {
+    "path": "/mujer/calzado/hiking"
+  },
+  "store.custom#mujer-calzado-casual": {
+    "path": "/mujer/calzado/casual"
+  },
+
+  "store.custom#mujer-calzado-boat-shoes": {
+    "path": "/mujer/calzado/boat-shoes"
+  },
+  "store.custom#mujer-calzado-sandalias": {
+    "path": "/mujer/calzado/sandalias"
+  },
+  "store.custom#mujer-ropa": {
+    "path": "/mujer/ropa"
+  },
+  "store.custom#mujer-ropa-sudaderas": {
+    "path": "/mujer/ropa/sudaderas"
+  },
+  "store.custom#mujer-ropa-playeras": {
+    "path": "/mujer/ropa/playeras"
+  },
+  "store.custom#mujer-ropa-vestidos-faldas": {
+    "path": "/mujer/ropa/vestidos-y-faldas"
+  },
+  "store.custom#mujer-accesorios": {
+    "path": "/mujer/accesorios"
+  },
+
+  "store.custom#mujer-accesorios-mochilas": {
+    "path": "/mujer/accesorios/mochilas"
+  },
+  "store.custom#mujer-accesorios-mochilas-y-bolsas": {
+    "path": "/mujer/accesorios/mochilas-y-bolsas"
+  },
+  "store.custom#mujer-accesorios-productos-limpieza": {
+    "path": "/mujer/accesorios/productos-de-limpieza"
+  },
+  "store.custom#mujer-accesorios-calcetines": {
+    "path": "/mujer/accesorios/calcetines"
+  },
+  "store.custom#mujer-accesorios-fundas": {
+    "path": "/mujer/accesorios/fundas"
+  },
+  "store.custom#nino": {
+    "path": "/nino"
+  },
+  "store.custom#nino-destacados": {
+    "path": "/nino/destacados"
+  },
+  "store.custom#nino-yellow-boot": {
+    "path": "/nino/yellow-boot"
+  },
+  "store.custom#nino-basicos": {
+    "path": "/nino/basicos"
+  },
+  "store.custom#nino-calzado": {
+    "path": "/nino/calzado"
+  },
+  "store.custom#nino-calzado-botas": {
+    "path": "/nino/calzado/botas"
+  },
+  "store.custom#nino-calzado-sandalias": {
+    "path": "/nino/calzado/sandalias"
+  },
+  "store.custom#nino-compra-por-edad": {
+    "path": "/nino/compra-por-edad"
+  },
+  "store.custom#nino-compra-por-edad-bebes": {
+    "path": "/compra-por-edad/bebes"
+  },
+  "store.custom#nino-compra-por-edad-infantiles": {
+    "path": "/compra-por-edad/infantiles"
+  },
+
+  "store.custom#nino-compra-por-edad-youth": {
+    "path": "/compra-por-edad/ninos"
+  },
+  "store.custom#nino-compra-por-edad-junior": {
+    "path": "/compra-por-edad/jovenes"
+  },
+  "store.custom#nino-compra-por-edad-infant": {
+    "path": "/nino/compra-por-edad/infant"
+  },
+  "store.custom#outlet-destacados": {
+    "path": "/outlet/destacados"
+  },
+  "store.custom#outlet-ultimas-piezas": {
+    "path": "/outlet/ultimas-piezas"
+  },
+  "store.custom#outlet-no-te-lo-pierdas": {
+    "path": "/outlet/no-te-lo-pierdas"
+  },
+
+  "store.custom#outlet": {
+    "path": "/123xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "store.custom#outlet-theme-fix": {
+    "path": "/outlet"
+  },
+  "store.custom#outlet-hombre": {
+    "path": "/outlet/hombre"
+  },
+  "store.custom#outlet-hombre-calzado": {
+    "path": "/outlet/hombre/calzado"
+  },
+  "store.custom#outlet-hombre-ropa": {
+    "path": "/outlet/hombre/ropa"
+  },
+  "store.custom#outlet-hombre-accesorios": {
+    "path": "/outlet/hombre/accesorios"
+  },
+
+  "store.custom#outlet-mujer": {
+    "path": "/outlet/mujer"
+  },
+  "store.custom#outlet-mujer-calzado": {
+    "path": "/outlet/mujer/calzado"
+  },
+  "store.custom#outlet-mujer-ropa": {
+    "path": "/outlet/mujer/ropa"
+  },
+  "store.custom#outlet-mujer-accesorios": {
+    "path": "/outlet/mujer/accesorios"
+  },
+
+  "store.custom#outlet-ninos": {
+    "path": "/outlet/ninos"
+  },
+  "store.custom#outlet-ninos-calzado": {
+    "path": "/outlet/ninos/calzado"
+  },
+
+  "store.custom#hot-sale": {
+    "path": "/hot-sale"
+  },
+  "store.custom#hot-sale-hombre": {
+    "path": "/hot-sale-hombre"
+  },
+  "store.custom#hot-sale-hombre-50": {
+    "path": "/hot-sale-hombre-50"
+  },
+  "store.custom#hot-sale-hombre-40": {
+    "path": "/hot-sale-hombre-40"
+  },
+  "store.custom#hot-sale-hombre-30": {
+    "path": "/hot-sale-hombre-30"
+  },
+  "store.custom#hot-sale-mujer-50": {
+    "path": "/hot-sale-mujer-50"
+  },
+  "store.custom#hot-sale-mujer-40": {
+    "path": "/hot-sale-mujer-40"
+  },
+  "store.custom#hot-sale-mujer-30": {
+    "path": "/hot-sale-mujer-30"
+  },
+  "store.custom#hot-sale-mujer": {
+    "path": "/hot-sale-mujer"
+  },
+  "store.custom#lo-mas-hot-segundo-dia": {
+    "path": "/lo-mas-hot-segundo-dia"
+  },
+  "store.custom#lo-mas-hot-tercer-dia": {
+    "path": "/lo-mas-hot-tercer-dia"
+  },
+  "store.custom#lo-mas-hot-chamarras-mujer": {
+    "path": "/lo-mas-hot-chamarras-mujer"
+  },
+  "store.custom#lo-mas-hot-chamarras-hombre": {
+    "path": "/lo-mas-hot-chamarras-hombre"
+  },
+  "store.custom#outlet-rebajas": {
+    "path": "/outlet/rebajas"
+  },
+  "store.custom#outlet-rebajas-novedades": {
+    "path": "/outlet/rebajas/novedades"
+  },
+  "store.custom#outlet-rebajas-favoritos": {
+    "path": "/outlet/rebajas/favoritos"
+  },
+  "store.custom#lo-mas-hot-sexto-dia": {
+    "path": "/lo-mas-hot-sexto-dia"
+  },
+  "store.custom#lo-mas-hot-ultimo-dia": {
+    "path": "/lo-mas-hot-ultimo-dia"
+  },
+  "store.custom#banner-slider-home-1": {
+    "path": "/la-pareja-perfecta"
+  },
+  "store.custom#banner-slider-home-2": {
+    "path": "/pareja-perfecta"
+  },
+  "store.custom#banner-slider-home-3": {
+    "path": "/amor-primera-a-vista"
+  },
+  "store.custom#botas": {
+    "path": "/botas"
+  },
+  "store.custom#hiking": {
+    "path": "/hiking"
+  },
+  "store.custom#casuales": {
+    "path": "/casuales"
+  },
+  "store.custom#ropa": {
+    "path": "/ropa"
+  },
+  "store.custom#accesorios": {
+    "path": "/accesorios"
+  },
+  "store.custom#banner-home-1": {
+    "path": "/lunar"
+  },
+  "store.custom#solar-wave": {
+    "path": "/SOLARWAVE"
+  },
+  "store.custom#premium-boots": {
+    "path": "/PREMIUMBOOTS"
+  },
+  "store.custom#brad-street": {
+    "path": "/BRAD-STREET"
+  },
+  "store.custom#banner-home-2": {
+    "path": "/new-arrivals-hombre"
+  },
+  "store.custom#banner-home-2-2": {
+    "path": "/new-arrivals-mujer"
+  },
+  "store.custom#landing-hombre-botas": {
+    "path": "/hombre/botas"
+  },
+  "store.custom#landing-hombre-casual": {
+    "path": "/hombre/casual"
+  },
+  "store.custom#landing-hombre-hiking": {
+    "path": "/hombre/hiking"
+  },
+  "store.custom#landing-hombre-ropa": {
+    "path": "/hombre/ropa"
+  },
+  "store.custom#landing-hombre-accesorios": {
+    "path": "/hombre/accesorios"
+  },
+  "store.custom#landing-hombre-banner-1": {
+    "path": "/hombre/rebajas"
+  },
+  "store.custom#landing-hombre-banner-2": {
+    "path": "/hombre/de-temporada"
+  },
+  "store.custom#landing-mujer-botas": {
+    "path": "/mujer/botas"
+  },
+  "store.custom#landing-mujer-casual": {
+    "path": "/mujer/casual"
+  },
+  "store.custom#landing-mujer-hiking": {
+    "path": "/mujer/hiking"
+  },
+  "store.custom#landing-mujer-sandalias": {
+    "path": "/mujer/sandalias"
+  },
+  "store.custom#landing-mujer-ropa": {
+    "path": "/mujer/ropa"
+  },
+  "store.custom#landing-mujer-ropa-chalecos-y-chamarras": {
+    "path": "/mujer/ropa/chalecos-y-chamarras"
+  },
+  "store.custom#landing-mujer-accesorios": {
+    "path": "/mujer/accesorios"
+  },
+  "store.custom#landing-mujer-banner-1": {
+    "path": "/mujer/rebajas"
+  },
+  "store.custom#landing-mujer-banner-2": {
+    "path": "/mujer/de-temporada"
+  },
+  "store.custom#landing-nino-botas": {
+    "path": "/nino/botas"
+  },
+  "store.custom#landing-nino-sandalias": {
+    "path": "/nino/sandalias"
+  },
+  "store.custom#landing-nino-banner-1": {
+    "path": "/nino/calzado"
+  },
+  "store.custom#casual": {
+    "path": "/casual"
+  },
+  "store.custom#hombre-calcetines": {
+    "path": "/calcetines"
+  },
+  "store.custom#custom-landing": {
+    "path": "/greenstride"
+  },
+  "store.custom#landing-waterproof": {
+    "path": "/waterproof"
+  },
+  "store.custom#sale": {
+    "path": "/sale"
+  },
+  "store.custom#outfitwaterproof": {
+    "path": "/outfit-waterproof"
+  },
+  "store.custom#top-chamarras-waterproof": {
+    "path": "/chamarras-y-chalecos-waterproof"
+  },
+  "store.custom#rompevientos": {
+    "path": "/rompevientos"
+  },
+  "store.custom#bota-timberland-amarillo": {
+    "path": "/bota-timberland/team-amarillo"
+  },
+  "store.custom#bota-timberland-negro": {
+    "path": "/bota-timberland/team-negro"
+  },
+  "store.custom#conoce-nuestros-jeans": {
+    "path": "/jeans"
+  },
+  "store.custom#nuevas-llegadas": {
+    "path": "/nuevos-timberland"
+  },
+  "store.custom#lo-mas-fashion": {
+    "path": "/lo-mas-fashion"
+  },
+  "store.custom#bota-iconica-hombre": {
+    "path": "/timberland-bota-iconica/hombre"
+  },
+  "store.custom#bota-iconica-mujer": {
+    "path": "/timberland-bota-iconica/mujer"
+  },
+  "store.custom#productos-de-limpieza": {
+    "path": "/productos-de-limpieza-y-cuidado"
+  },
+  "store.custom#bape": {
+    "path": "/bape"
+  }
+}

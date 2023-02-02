@@ -1,0 +1,25 @@
+{
+    "product-specification-group#summary": {
+      "children": [
+        "product-specification#summary",
+        "responsive-layout.mobile#productSummaryList"
+      ]
+    },
+    "product-specification#summary": {
+      "children": [
+        "flex-layout.row#summarySpecificationValues"
+      ]
+    },
+    "flex-layout.row#summarySpecificationValues": {
+      "props": {
+        "preventHorizontalStretch": true,
+        "colGap": 3
+      },
+      "children": [
+        "product-specification-values"
+      ]
+    }
+  
+      
+  }
+  

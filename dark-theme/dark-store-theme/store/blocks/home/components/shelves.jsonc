@@ -1,0 +1,76 @@
+{
+  "list-context.product-list#component-shelf-productos-destacados": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#component-shelf-productos-destacados"],
+    "props": {
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-destacados": {
+    "props": {
+      //"showPaginationDots": "desktopOnly",
+      "showNavigationArrows": "desktopOnly",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+      // "blockClass": "shelf"
+    }
+  },
+
+
+  //-------------------------------------------productos-relacionados----------------------------
+  "list-context.product-list#component-shelf-productos-relaciodados": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#component-shelf-productos-relaciodados"],
+    "props": {
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-relaciodados": {
+    "props": {
+      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+      // "blockClass": "shelf"
+    }
+
+},
+//----------------------------------------------otros que tambien vieron-----------------------------
+"list-context.product-list#component-shelf-tambien-vieron": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#component-shelf-tambien-vieron"],
+  "props": {
+    "orderBy": "OrderByPriceDESC"
+  }
+},
+
+"slider-layout#component-shelf-tambien-vieron": {
+  "props": {
+    "showPaginationDots": "always",
+    "showNavigationArrows": "desktopOnly",
+    "itemsPerPage": {
+      "desktop": 4,
+      "tablet": 3,
+      "phone": 2
+    },
+    "infinite": true,
+    "fullWidth": true
+    // "blockClass": "shelf"
+  }
+
+}
+
+}
+

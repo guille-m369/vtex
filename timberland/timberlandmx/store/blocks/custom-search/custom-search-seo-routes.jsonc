@@ -1,0 +1,185 @@
+{
+  //Lo mas top en chamarras waterproof - Custom page
+  "store.custom#outfitwaterproof": {
+    "blocks": ["search-result-layout.customQuery#outfitwaterproof"]
+  },
+  "search-result-layout.customQuery#outfitwaterproof": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "417",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Lo mas top en chamarras waterproof - Custom page
+
+  //Lo mas top en chamarras waterproof - Custom page
+  "store.custom#top-chamarras-waterproof": {
+    "blocks": ["search-result-layout.customQuery#top-chamarras-waterproof"]
+  },
+  "search-result-layout.customQuery#top-chamarras-waterproof": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "418",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Lo mas top en chamarras waterproof - Custom page
+
+  //Rompevientos - Custom page
+  "store.custom#rompevientos": {
+    "blocks": ["search-result-layout.customQuery#rompevientos"]
+  },
+  "search-result-layout.customQuery#rompevientos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "420",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Rompevientos - Custom page
+
+  //Bota timberland team amarillo - Custom page
+  "store.custom#bota-timberland-amarillo": {
+    "blocks": ["search-result-layout.customQuery#bota-timberland-amarillo"]
+  },
+  "search-result-layout.customQuery#bota-timberland-amarillo": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "421",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Bota timberland team amarillo - Custom page
+
+  //Bota timberland team negro - Custom page
+  "store.custom#bota-timberland-negro": {
+    "blocks": ["search-result-layout.customQuery#bota-timberland-negro"]
+  },
+  "search-result-layout.customQuery#bota-timberland-negro": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "422",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Bota timberland team negro - Custom page
+
+  //Conoce nuestros jeans - Custom page
+  "store.custom#conoce-nuestros-jeans": {
+    "blocks": ["search-result-layout.customQuery#conoce-nuestros-jeans"]
+  },
+  "search-result-layout.customQuery#conoce-nuestros-jeans": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "423",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Conoce nuestros jeans - Custom page
+
+  //Nuevas llegadas - Custom page
+  "store.custom#nuevas-llegadas": {
+    "blocks": ["search-result-layout.customQuery#nuevas-llegadas"]
+  },
+  "search-result-layout.customQuery#nuevas-llegadas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "424",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  //Nuevas llegadas - Custom page
+
+  //Hot fashion - Custom page
+  "store.custom#lo-mas-fashion": {
+    "blocks": ["search-result-layout.customQuery#lo-mas-fashion"]
+  },
+  "search-result-layout.customQuery#lo-mas-fashion": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "439",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByBestDiscountDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+  //Hot fashion - Custom page
+}

@@ -1,0 +1,396 @@
+{
+  // Popup newsletter
+  "modal-trigger#offers-popup": {
+    "children": ["modal-layout#offers-popup"],
+    "props": {
+      "trigger": "load-session",
+      "blockClass": "modal-trigger-offers-popup"
+    }
+  },
+  "modal-layout#offers-popup": {
+    "props": {
+      "blockClass": "offers-modal-layout"
+    },
+    "children": [
+      "modal-header#offers-popup",
+      "flex-layout.row#offers"
+    ]
+  },
+  "flex-layout.row#offers": {
+    "children": ["customNewsletter#popups"],
+    "props": {
+      "blockClass": "modal-cupon-10-row"
+    }
+  },
+  "image#timberland": {
+    "props": {
+      "blockClass": "image-popup",
+      "src": "assets/logos/timberland-popup.svg",
+      "width": "100px"
+    }
+  },
+  "modal-header#offers-popup": {
+    "children": ["image#timberland"],
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "modal-cupon-10"
+    }
+  },
+  "customNewsletter#popups": {
+    "props": {
+      "headerClass": "modal-cupon-10",
+      "banner": "https://timberlandmx.vteximg.com.br/arquivos/bannerPopup.jpg",
+      "title": "ÚNETE A NUESTRA COMUNIDAD Y",
+      "title_part2": "ENTÉRATE PRIMERO.",
+      "title_part3:": "10% DE DESCUENTOs",
+      "termsText": "Acepto términos y condiciones",
+      "textButton": "REGISTRAR",
+      "messageLevel1": "BIENVENIDO",
+      "messageLevel2": "¡Hemos registrado tus datos con éxito!",
+      "messageLevel3": "¡GRACIAS POR REGISTRARTE!",
+      "messageLevel4": "Muy pronto recibirás nuestros Newsletters.",
+      "mode": "popup",
+      "blockClass": "popup-home"
+    }
+  },
+
+  // Main Banners
+  "slider-layout#mainBanner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "mainBannerCarousel"
+    },
+    "children": ["flex-layout.row#mainBanner", "flex-layout.row#secondBanner"]
+  },
+  "flex-layout.row#mainBanner": {
+    "children": ["one-block#mainBanner"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "bannerRow"
+    }
+  },
+  "one-block#mainBanner": {
+    "props": {
+      "blockClass": "mainBannerItem",
+      "imgUrl": "https://timberlandmx.vteximg.com.br/arquivos/botas_earthkeepers_2_desktop.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/botas_earthkeepers_2_mobile.jpg",
+      "desktopTextLocation": "center",
+      "desktopTextPosition": "end",
+      "mobileTextPosition": "bottom",
+      "stackedButtons": false,
+      "centerText": true,
+      "height": "650px",
+      "textWidth": "80%",
+      "ctaArray": [
+        {
+          "text": "¡CONÓCELAS!",
+          "url": "/timberland-botas-original-de-6-pulgadas-para-hombre-cafe-medio-tb0a2jg6f13/p"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#secondBanner": {
+    "children": ["one-block#secondBanner"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "bannerRow"
+    }
+  },
+  "one-block#secondBanner": {
+    "props": {
+      "blockClass": "secondBannerItem",
+      "imgUrl": "https://timberlandmx.vteximg.com.br/arquivos/avances_temporada_otono_invierno_desktop.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/avances_temporada_otono_invierno_mobile.jpg",
+      "desktopTextLocation": "center",
+      "desktopTextPosition": "end",
+      "mobileTextPosition": "end",
+      "stackedButtons": false,
+      "height": "650px",
+      "textWidth": "80%",
+      "ctaArray": [
+        {
+          "text": "VER MÁS",
+          "url": "/470?map=productClusterIds"
+        }
+      ]
+    }
+  },
+
+  // Seccion temporada de lluvia
+  "flex-layout.row#imageTextImage_temporadaLluvia": {
+    "children": ["three-block#temporadaLluvia"]
+  },
+  "three-block#temporadaLluvia": {
+    "props": {
+      "blockClass": "threeBlockItem",
+      "firstImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/bota_amarilla_lluvia_desktop.jpg",
+      "secondImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/chamarra_lluvia_desktop.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/bota_amarilla_y_chamarra_lluvia_mobile.jpg",
+      "height": "540px",
+      "width": "500px",
+      "title": "LA TEMPORADA DE LLUVIA AÚN NO TERMINA",
+      "copy": "Un elemento que nos acompaña durante todo el año y el cual nos encanta.",
+      "mobileTextLocation": "bottom",
+      "desktopTextPosition": "center",
+      "centerText": false,
+      "ctaArray": [
+        {
+          "text": "CALZADO",
+          "url": "/472?map=productClusterIds"
+        },
+        {
+          "text": "ROPA",
+          "url": "/471?map=productClusterIds"
+        }
+      ]
+    }
+  },
+  
+  // Seccion carrusel de productos (shelf)
+  "flex-layout.row#sliderShelf_homeFirst": {
+    "children": ["list-context.product-list#sliderShelf_homeFirst"],
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 5
+    }
+  },
+  "list-context.product-list#sliderShelf_homeFirst": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-home"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "419",
+      "maxItems": 10,
+      "arrows": true
+    }
+  },
+  // Boton en seccion carrusel de productos (shelf)
+  "flex-layout.row#buttonSliderShelf_homeFirst": {
+    "children": ["link#buttonSliderShelf_homeFirst"]
+  },
+  "link#buttonSliderShelf_homeFirst": {
+    "props": {
+      "href": "/419?map=productClusterIds",
+      "label": "VER COLECCIÓN",
+      "blockClass": "buttonSliderShelf_homeFirst"
+    }
+  },
+
+  // Seccion supaway y nuevos sneakers
+  "flex-layout.row#imageText_supaway": {
+    "children": ["two-block#supaway"],
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 9,
+      "blockClass": "imageTextRow"
+    }
+  },
+  "two-block#supaway": {
+    "props": {
+      "blockClass": "twoBlockItem",
+      "imgUrl": "https://timberlandmx.vteximg.com.br/arquivos/tenis_supaway_desktop.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/tenis_supaway_mobile.jpg",
+      "mobileTextLocation": "top",
+      "desktopTextLocation": "right",
+      "desktopTextPosition": "middle",
+      "height": "540px",
+      "width": "400px",
+      "title": "SUPAWAY Y NUEVOS SNEAKERS",
+      "copy": "Propuestas innovadoras y nuevos diseños. Descubrelos ahora.",
+      "centerText": false,
+      "ctaArray": [
+        {
+          "text": "VER MÁS",
+          "url": "/473?map=productClusterIds"
+        }
+      ]
+    }
+  },
+
+  // Seccion siluetas y estilos
+  "flex-layout.row#imageTextImage_siluetasEstilos": {
+    "children": ["three-block#siluetasEstilos"]
+  },
+  "three-block#siluetasEstilos": {
+    "props": {
+      "blockClass": "threeBlockItem",
+      "firstImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/tenis_silueta_leopardo_desktop.jpg",
+      "secondImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/tenis_silueta_normal_desktop.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/tenis_silueta_mobile.jpg",
+      "height": "540px",
+      "width": "500px",
+      "title": "SILUETAS Y ESTILOS QUE TE CAUTIVARÁN",
+      "copy": "Es dificil elegir un estilo cuando nosotras lo creamos.",
+      "mobileTextLocation": "bottom",
+      "desktopTextPosition": "center",
+      "centerText": false,
+      "ctaArray": [
+        {
+          "text": "BOTAS",
+          "url": "/475?map=productClusterIds"
+        },
+        {
+          "text": "SNEAKERS",
+          "url": "/474?map=productClusterIds"
+        }
+      ]
+    }
+  },
+
+  // Seccion info cards
+  "flex-layout.row#bottomInfoCards": {
+    "children": [
+      "flex-layout.col#bottomInfoCard-1",
+      "flex-layout.col#bottomInfoCard-2",
+      "flex-layout.col#bottomInfoCard-3",
+      "flex-layout.col#bottomInfoCard-4"
+    ],
+    "props": {
+      "blockClass": "bottomInfoCards",
+      "colSizing": "auto",
+      "colGap": 5
+    }
+  },
+  // InfoCard 1
+  "flex-layout.col#bottomInfoCard-1": {
+    "children": [
+      "rich-text#titleBottomInfocard-1",
+      "custom-infocard#imageBottomInfoCard-1",
+      "link#buttonBottomInfoCard-1"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titleBottomInfocard-1": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "BOOT LOGO COLLECTION",
+      "blockClass": "titleBottomInfocard"
+    }
+  },
+  "custom-infocard#imageBottomInfoCard-1": {
+    "props": {
+      "width": "300px",
+      "maxHeight": "300px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/boot_logo_sudadera_roja.jpg",
+      "link": "/476?map=productClusterIds"
+    }
+  },
+  "link#buttonBottomInfoCard-1": {
+    "props": {
+      "href": "/476?map=productClusterIds",
+      "label": "VER MÁS",
+      "blockClass": "buttonBottomInfoCard"
+    }
+  },
+  // InfoCard 2
+  "flex-layout.col#bottomInfoCard-2": {
+    "children": [
+      "rich-text#titleBottomInfocard-2",
+      "custom-infocard#imageBottomInfoCard-2",
+      "link#buttonBottomInfoCard-2"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titleBottomInfocard-2": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "SUPAWAY PARA ELLAS",
+      "blockClass": "titleBottomInfocard"
+    }
+  },
+  "custom-infocard#imageBottomInfoCard-2": {
+    "props": {
+      "width": "300px",
+      "maxHeight": "300px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/supaway_tenis_para_mujer2.jpg",
+      "link": "/477?map=productClusterIds"
+    }
+  },
+  "link#buttonBottomInfoCard-2": {
+    "props": {
+      "href": "/477?map=productClusterIds",
+      "label": "VER MÁS",
+      "blockClass": "buttonBottomInfoCard"
+    }
+  },
+  // InfoCard 3
+  "flex-layout.col#bottomInfoCard-3": {
+    "children": [
+      "rich-text#titleBottomInfocard-3",
+      "custom-infocard#imageBottomInfoCard-3",
+      "link#buttonBottomInfoCard-3"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titleBottomInfocard-3": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "¿CÓMO LIMPIAR TU CALZADO?",
+      "blockClass": "titleBottomInfocard"
+    }
+  },
+  "custom-infocard#imageBottomInfoCard-3": {
+    "props": {
+      "width": "300px",
+      "maxHeight": "300px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Homepage-Novedades-03-Mov.jpg",
+      "link": "/product-care"
+    }
+  },
+  "link#buttonBottomInfoCard-3": {
+    "props": {
+      "href": "/product-care",
+      "label": "VER MÁS",
+      "blockClass": "buttonBottomInfoCard"
+    }
+  },
+  // InfoCard 4
+  "flex-layout.col#bottomInfoCard-4": {
+    "children": [
+      "rich-text#titleBottomInfocard-4",
+      "custom-infocard#imageBottomInfoCard-4",
+      "link#buttonBottomInfoCard-4"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titleBottomInfocard-4": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "DIRECTORIO DE TIENDAS",
+      "blockClass": "titleBottomInfocard"
+    }
+  },
+  "custom-infocard#imageBottomInfoCard-4": {
+    "props": {
+      "width": "300px",
+      "maxHeight": "300px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-home-store-finder.jpg",
+      "link": "/tiendas"
+    }
+  },
+  "link#buttonBottomInfoCard-4": {
+    "props": {
+      "href": "/tiendas",
+      "label": "VER MÁS",
+      "blockClass": "buttonBottomInfoCard"
+    }
+  }
+}

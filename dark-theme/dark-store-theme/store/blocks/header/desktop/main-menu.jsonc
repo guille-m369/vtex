@@ -1,0 +1,12 @@
+{
+  // MAIN MENU
+  // We are only putting the top menu in here
+  // The inside of each category will have its
+  // own file
+  "vtex.menu@2.x:menu#main-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": ["menu-item#desktop-header-menu-item-categorias"]
+  }
+}

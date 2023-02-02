@@ -1,0 +1,246 @@
+/*Styles for static pages*/
+
+/*Styles for categorias*/
+
+/*desktop styles*/
+/*Style for title and subtile*/
+
+:global(.vtex-rich-text-0-x-heading--categorias-title) {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--categorias-subtitle) {
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--categorias-subtitle) {
+  margin-bottom: 64px;
+}
+
+/*Style for grid*/
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-categorias-grid) {
+  margin-bottom: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--categoria-row) {
+  margin-bottom: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--categoria-row) {
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:last-child) {
+  margin-right: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:first-child) {
+  margin-left: 15px;
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--grid-link) {
+  background: #202020;
+  border-radius: 8px;
+}
+
+:global(.vtex-store-link-0-x-link--grid-link):hover
+  :global(.vtex-rich-text-0-x-container--component-categorias-title) {
+  color: #5391f3;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-categorias-image) {
+  padding: 18px 0;
+  background: #363636;
+  border-radius: 8px;
+}
+:global(.vtex-rich-text-0-x-container--component-categorias-title) {
+  justify-content: center;
+  font-weight: bold;
+}
+
+/*shelf marcas populares*/
+:global(.vtex-flex-layout-0-x-flexRow--component-marcas-populares) {
+  margin-bottom: 100px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--component-marcas-populares) {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 57px;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--marcas-populares) {
+  width: 15px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--marcas-populares) {
+  padding-bottom: 42px;
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--grid-link) {
+  height: 220px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--component-categorias-image) {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--component-categorias-image)
+  :global(.vtex-store-components-3-x-imageElement) {
+  max-width: 90%;
+}
+
+:global(.vtex-rich-text-0-x-container--component-categorias-title) {
+  height: 25%;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--component-categorias-title) {
+  margin: 0;
+}
+
+/*Mobile styles*/
+@media (max-width: 640px) {
+  /*Style for title and subtile*/
+  :global(.vtex-rich-text-0-x-heading--categorias-title) {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--categorias-subtitle) {
+    margin-bottom: 56px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--mobile-categorias-grid) {
+  margin-bottom: 48px;
+}
+@media (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row) {
+    display: flex;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:last-child) {
+    margin-right: 6px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:first-child) {
+    margin-left: 6px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--categoria-row) {
+    margin-bottom: 16px;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--component-marcas-populares) {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--component-marcas-populares) {
+    margin-bottom: 63px;
+  }
+}
+
+/*style for home office*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-office-cover)
+  :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--home-office-cover) {
+  position: relative;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--home-office-cover)
+  :global(.vtex-flex-layout-0-x-flexColChild--home-office-cover):last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto !important;
+  width: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--home-office-subtitle) {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--home-office-title) {
+  margin: 0;
+  font-size: 54px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid)
+  :global(.vtex-store-link-0-x-childrenContainer--grid-link) {
+  height: 300px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid) {
+  position: relative;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-home-office-title-grid) {
+  position: absolute;
+  top: -52px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-home-office)
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-categorias-grid) {
+  margin-top: 310px;
+}
+
+/*Mobile*/
+
+@media (max-width: 1024px) {
+  :global(.vtex-rich-text-0-x-paragraph--home-office-subtitle) {
+    font-size: 14px;
+  }
+
+  :global(.vtex-rich-text-0-x-headingLevel2--home-office-title) {
+    font-size: 32px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid)
+    :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row) {
+    display: initial;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid)
+    :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:last-child) {
+    margin-right: 0;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid)
+    :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:first-child) {
+    margin-left: 0;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--desktop-home-office-title-grid)
+    :global(.vtex-flex-layout-0-x-flexRowContent--categoria-row)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin-bottom: 16px;
+    width: 100%!important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--row-home-office)
+  :global(.vtex-flex-layout-0-x-flexRow--mobile-categorias-grid) {
+  margin-top: 581px;
+}
+}

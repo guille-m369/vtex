@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#footer-mercado-pago": {
+    "children": ["image#mercado-pago"],
+    "props": {
+      "blockClass": "row-image-item-footer"
+    }
+  },
+  "image#mercado-pago": {
+    "props": {
+      "src": "assets/footer/mercado-pago.png",
+      /* "link": {
+        "url": "#"
+      },*/
+      "text": "",
+      "maxHeight": 37
+    }
+  }
+}

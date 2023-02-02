@@ -1,0 +1,379 @@
+{
+  //----------------------------Components ---------------------------------------//
+  "flex-layout.row#home-office-cover": {
+    "children": ["flex-layout.col#home-office-cover"],
+    "props": {
+      "blockClass": "home-office-cover",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home-office-cover": {
+    "props": {
+      "blockClass": "home-office-cover"
+    },
+    "children": [
+      "image#component-cover-desktop",
+      "flex-layout.row#home-office-title"
+    ]
+  },
+  "image#component-cover-desktop": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 80.png"
+      // "maxHeight": 130
+    }
+  },
+  "flex-layout.row#home-office-cover-mobile": {
+    "children": ["flex-layout.col#home-office-cover-mobile"],
+    "props": {
+      "blockClass": "home-office-cover",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home-office-cover-mobile": {
+    "props": {
+      "blockClass": "home-office-cover"
+    },
+    "children": [
+      "image#component-cover-mobile",
+      "flex-layout.row#home-office-title"
+    ]
+  },
+  "image#component-cover-mobile": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 81.png"
+      // "maxHeight": 130
+    }
+  },
+  "flex-layout.row#home-office-title": {
+    "children": ["flex-layout.col#home-office-title"],
+    "props": {
+      "blockClass": "home-office-title"
+    }
+  },
+
+  "flex-layout.col#home-office-title": {
+    "children": [
+      "rich-text#home-office-subtitle",
+      "rich-text#home-office-title"
+    ],
+    "props": {
+      "blockClass": "home-office-title"
+    }
+  },
+
+  "flex-layout.row#home-office-subtitle": {
+    "children": ["rich-text#home-office-subtitle"],
+    "props": { "blockClass": "home-office-subtitle" }
+  },
+  "rich-text#home-office-title": {
+    "props": {
+      "blockClass": "home-office-title",
+      "text": "## Arma tu Home Office",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home-office-subtitle": {
+    "props": {
+      "blockClass": "home-office-subtitle",
+      "text": "Computadoras",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  /*-----------------------------------title components------------------------------------------*/
+  /*component 1*/
+
+  "flex-layout.col#component-home-office-title-grid-1": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-title-grid-1"]
+  },
+
+  "link#component-home-office-title-grid-1": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-office-portatiles",
+      "rich-text#component-home-office-portatiles"
+    ]
+  },
+  "flex-layout.row#component-home-office-portatiles": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-office-portatiles"]
+  },
+  "image#component-home-office-portatiles": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 71.png"
+    }
+  },
+  "rich-text#component-home-office-portatiles": {
+    "props": {
+      "text": "Laptops",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 2*/
+  "flex-layout.col#component-home-office-title-grid-2": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-title-grid-2"]
+  },
+
+  "link#component-home-office-title-grid-2": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-office-all-in-one",
+      "rich-text#component-home-office-all-in-one"
+    ]
+  },
+  "flex-layout.row#component-home-office-all-in-one": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-office-all-in-one"]
+  },
+  "image#component-home-office-all-in-one": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 72.png"
+    }
+  },
+  "rich-text#component-home-office-all-in-one": {
+    "props": {
+      "text": "All in One",
+      "blockClass": "component-categorias-title"
+    }
+  },
+
+  /*-----------------------------------Grid components------------------------------------------*/
+  /*component 1*/
+
+  "flex-layout.col#component-home-office-grid-1": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-1"]
+  },
+
+  "link#component-home-office-grid-1": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-office-laptops",
+      "rich-text#component-home-office-laptops"
+    ]
+  },
+  "flex-layout.row#component-home-office-laptops": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-office-laptops"]
+  },
+  "image#component-home-office-laptops": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 73.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-office-laptops": {
+    "props": {
+      "text": "Laptops",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 2*/
+  "flex-layout.col#component-home-office-grid-2": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-2"]
+  },
+
+  "link#component-home-office-grid-2": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-office-almacenamiento",
+      "rich-text#component-home-office-almacenamiento"
+    ]
+  },
+  "flex-layout.row#component-home-office-almacenamiento": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-office-almacenamiento"]
+  },
+  "image#component-home-office-almacenamiento": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 75.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-office-almacenamiento": {
+    "props": {
+      "text": "Almacenamiento",
+      "blockClass": "component-categorias-title"
+    }
+  },
+
+  /*component 3*/
+  "flex-layout.col#component-home-office-grid-3": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-3"]
+  },
+
+  "link#component-home-office-grid-3": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-office-accesorios",
+      "rich-text#component-home-office-accesorios"
+    ]
+  },
+  "flex-layout.row#component-home-office-accesorios": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-office-accesorios"]
+  },
+  "image#component-home-office-accesorios": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 76.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-office-accesorios": {
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "component-categorias-title"
+    }
+  },
+
+  /*component 4*/
+  "flex-layout.col#component-home-office-grid-4": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-4"]
+  },
+
+  "link#component-home-office-grid-4": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-pc-gaming",
+      "rich-text#component-home-pc-gaming"
+    ]
+  },
+  "flex-layout.row#component-home-pc-gaming": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-pc-gaming"]
+  },
+  "image#component-home-pc-gaming": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 77.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-pc-gaming": {
+    "props": {
+      "text": "PC Gaming",
+      "blockClass": "component-categorias-title"
+    }
+  },
+
+  /*component 5*/
+  "flex-layout.col#component-home-office-grid-5": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-5"]
+  },
+
+  "link#component-home-office-grid-5": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-redes",
+      "rich-text#component-home-redes"
+    ]
+  },
+  "flex-layout.row#component-home-redes": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-redes"]
+  },
+  "image#component-home-redes": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 78.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-redes": {
+    "props": {
+      "text": "Redes",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 6*/
+  "flex-layout.col#component-home-office-grid-6": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-home-office-grid-6"]
+  },
+
+  "link#component-home-office-grid-6": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-home-impresion",
+      "rich-text#component-home-impresion"
+    ]
+  },
+  "flex-layout.row#component-home-impresion": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-home-impresion"]
+  },
+  "image#component-home-impresion": {
+    "props": {
+      "src": "assets/static/home-office/Imagen 79.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-home-impresion": {
+    "props": {
+      "text": "Impresión",
+      "blockClass": "component-categorias-title"
+    }
+  }
+}

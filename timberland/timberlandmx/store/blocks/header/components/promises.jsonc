@@ -1,0 +1,72 @@
+{
+  // PROMISES SLIDER
+  // ----------------------------------------
+  "slider-layout#promises": {
+    "children": [
+      "rich-text#promieses",
+      "rich-text#promieses-one",
+      "rich-text#promieses-two",
+      "rich-text#promieses-three"
+    ],
+    "props": {
+      "blockClass": "home-promises",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "showPaginationDots": "never",
+
+      "arrowSize": "15",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+  // SLIDER CONTENTS
+  // ----------------------------------------
+  "rich-text#promieses": {
+    "props": {
+      "text": "**Tienda En Línea Oficial**",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": ""
+    }
+  },
+  "rich-text#promieses-one": {
+    "props": {
+      "text": "**Envío Gratis a Partir de $2,999**",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": ""
+    }
+  },
+
+  "rich-text#promieses-two": {
+    "props": {
+      "text": "**3 MSI a partir de $3,499**",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": ""
+    }
+  },
+  "rich-text#promieses-three": {
+    "props": {
+      "text": "**Pago seguro**",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": ""
+    }
+  },
+  "rich-text#promieses-four": {
+    "props": {
+      "text": "**Hasta 50% de descuento  -  Hot sale**",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": ""
+    }
+  }
+}

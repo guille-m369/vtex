@@ -1,0 +1,63 @@
+{
+  "vtex.menu@2.x:submenu#mujer": {
+    "props": {
+      "width": "100%",
+      "blockClass": "main-submenu-container"
+    },
+    "children": ["flex-layout.row#menu-mujer"]
+  },
+  "flex-layout.row#menu-mujer": {
+    "children": [
+      "flex-layout.col#menu-mujer",
+      "flex-layout.col#menu-mujer-info-card"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-submenu"
+    }
+  },
+  // Two rows divide the menu
+  "flex-layout.col#menu-mujer": {
+    "children": ["flex-layout.row#mujer-top-row"],
+    "props": {
+      "width": "75%"
+    }
+  },
+  // TOP ROW
+  // ----------------------------------------
+  // Find each column as their own file insde
+  // the 'hombre' folder
+
+  "flex-layout.row#mujer-top-row": {
+    "children": [
+      // "flex-layout.col#destacados-header-mujer",
+      "flex-layout.col#mujer-column-2",
+      "flex-layout.col#mujer-column-3",
+      "flex-layout.col#mujer-column-4"
+    ],
+    "props": {
+      "marginBottom": 6
+    }
+  },
+
+  // EMPTY COLUMN
+  "flex-layout.col#mujer-column-8": {},
+
+  // INFO CARD
+  // -----------------------------------------
+  "flex-layout.col#menu-mujer-info-card": {
+    "children": ["info-card#mujer"]
+  },
+  "info-card#mujer": {
+    "props": {
+      "id": "info-card-womens-menu",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/ArteMenuCascada_Mujer_400x400.jpg",
+      "callToActionText": "VER TODO",
+      "callToActionUrl": "/mujer",
+      "blockClass": "info-card-main-menu",
+      "textAlignment": "center"
+    }
+  }
+}

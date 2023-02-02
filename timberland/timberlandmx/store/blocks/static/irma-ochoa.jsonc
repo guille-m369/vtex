@@ -1,0 +1,380 @@
+{
+  "store.custom#irma-ochoa": {
+    "blocks": [
+      "responsive-layout.desktop#irma-ochoa",
+      "responsive-layout.mobile#irma-ochoa"
+    ]
+  },
+  "responsive-layout.desktop#irma-ochoa": {
+    "children": [
+      "flex-layout.row#irma-ochoa",
+      "flex-layout.row#irma-ochoa-text-center",
+      "flex-layout.row#irma-ochoa-image",
+      "flex-layout.row#irma-ochoa-text-final"
+    ]
+  },
+
+  "flex-layout.row#irma-ochoa": {
+    "children": [
+      "flex-layout.col#irma-ochoa-image",
+      "flex-layout.col#irma-ochoa-text"
+    ],
+    "props": {}
+  },
+
+  "flex-layout.col#irma-ochoa-image": {
+    "children": ["flex-layout.row#irma-ochoa-image-row"],
+    "props": {
+      "blockClass": "irma-ochoa-image",
+      "horizontalAlign": "right",
+      "marginRight": 8
+    }
+  },
+  "flex-layout.row#irma-ochoa-image-row": {
+    "children": ["image#irma-ochoa"],
+    "props": {
+      "marginTop": 9,
+      "blockClass": "irma-ochoa-image-row"
+    }
+  },
+
+  "image#irma-ochoa": {
+    "props": {
+      "blockClass": "image-erica-valeria",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img18-meet.png"
+    }
+  },
+  "flex-layout.col#irma-ochoa-text": {
+    "children": [
+      "flex-layout.row#irma-ochoa-text-row-text",
+      "flex-layout.row#irma-ochoa-text-row-text-sub"
+    ],
+    "props": {
+      "blockClass": "irma-ochoa-text"
+    }
+  },
+  "flex-layout.row#irma-ochoa-text-row-text": {
+    "children": ["rich-text#irma-ochoa-title-sub"]
+  },
+
+  "flex-layout.row#irma-ochoa-text-row-text-sub": {
+    "children": ["rich-text#irma-ochoa-text-sub"],
+    "props": {
+      "blockClass": "irma-ochoa-text-row-text-sub"
+    }
+  },
+
+  "rich-text#irma-ochoa-title-sub": {
+    "props": {
+      "text": "IRMA OCHOA",
+      "blockClass": "irma-ochoa-title-sub"
+    }
+  },
+
+  "rich-text#irma-ochoa-text-sub": {
+    "props": {
+      "text": "###### EMPRENDEDORA. INSPIRADA POR UNA VIDA VEGANA. ORGÁNICA Y NATURAL. FUNDADORA DE @ELHUERTOPALOVERDE. GUADALAJARA \n  Irma Ochoa nació en Ciudad Guzmán, actualmente vive en Guadalajara, Jalisco. Creció en una familia agricultora, desde pequeña sus convivencias y momentos de recreación siempre fueron en el campo, teniendo contacto directo con la naturaleza.",
+      "blockClass": "text-irma-ochoa"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#irma-ochoa-text-center": {
+    "children": [
+      "flex-layout.col#irma-ochoa-col-vacio",
+      "flex-layout.col#irma-ochoa-col-text",
+      "flex-layout.col#irma-ochoa-col-vacio2"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#irma-ochoa-col-vacio": {
+    "children": ["image#irma-ochoa-comilla1"],
+    "props": {
+      "width": "30%",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#irma-ochoa-comilla1": {
+    "props": {
+      "blockClass": "irma-ochoa-comilla1",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-1.png"
+    }
+  },
+  "flex-layout.col#irma-ochoa-col-text": {
+    "children": ["rich-text#irma-ochoa-center"]
+  },
+
+  "rich-text#irma-ochoa-center": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### Para mí, las personas que se preocupan por nuestro planeta respetan a los animales y cuidan los recursos humanos; más que héroes, son ejemplos a seguir."
+    }
+  },
+
+  "flex-layout.col#irma-ochoa-col-vacio2": {
+    "children": ["image#irma-ochoa-comilla2"],
+    "props": {
+      "blockClass": "irma-ochoa-col-vacio2",
+      "width": "30%",
+      "horizontalAlign": "left"
+    }
+  },
+  "image#irma-ochoa-comilla2": {
+    "props": {
+      "blockClass": "irma-ochoa-comilla2",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-2.png"
+    }
+  },
+
+  "flex-layout.row#irma-ochoa-image": {
+    "children": [
+      "flex-layout.col#irma-ochoa-image-one",
+      "flex-layout.col#irma-ochoa-image-two",
+      "flex-layout.col#irma-ochoa-image-three"
+    ],
+    "props": {
+      "blockClass": "irma-ochoa-image",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#irma-ochoa-image-one": {
+    "children": ["image#irma-ochoa-image-one"]
+  },
+  "image#irma-ochoa-image-one": {
+    "props": {
+      "blockClass": "irma-ochoa-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-01.jpg"
+    }
+  },
+  "flex-layout.col#irma-ochoa-image-two": {
+    "children": ["image#irma-ochoa-image-two"]
+  },
+  "image#irma-ochoa-image-two": {
+    "props": {
+      "blockClass": "irma-ochoa-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-02.jpg"
+    }
+  },
+  "flex-layout.col#irma-ochoa-image-three": {
+    "children": ["image#irma-ochoa-image-three"]
+  },
+  "image#irma-ochoa-image-three": {
+    "props": {
+      "blockClass": "irma-ochoa-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-03.jpg"
+    }
+  },
+
+  //---------------------------------Description-text---------------------------//
+  "flex-layout.row#irma-ochoa-text-final": {
+    "children": [
+      "flex-layout.col#irma-ochoa-text-final-one",
+      "flex-layout.col#irma-ochoa-text-final-two",
+      "flex-layout.col#irma-ochoa-text-final-three"
+    ]
+  },
+  "flex-layout.col#irma-ochoa-text-final-one": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#irma-ochoa-text-final-two": {
+    "children": [
+      "rich-text#irma-ochoa-text-final",
+      "rich-text#irma-ochoa-text-final-2"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#irma-ochoa-text-final": {
+    "props": {
+      "blockClass": "irma-ochoa-text-final",
+      "text": "Hasta hace algunas semanas, Irma visitaba diversas ciudades de la república mexicana con una “gira verde” para compartir las bases necesarias para poder comenzar desde el principio y platicar sobre el impacto positivo de tener un huerto en el hogar; hoy en día, lo realiza desde sus redes sociales. \n Actualmente administra El Huerto Paloverde desde su casa, un espacio que ha contribuido en generar un mensaje ecológico a más de 400 personas de forma presencial. \n \n  "
+    }
+  },
+  "rich-text#irma-ochoa-text-final-2": {
+    "props": {
+      "blockClass": "irma-ochoa-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo: [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#irma-ochoa-text-final-three": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  //-------------------------------------------------mobile----------------------------
+  "responsive-layout.mobile#irma-ochoa": {
+    "children": [
+      "flex-layout.row#irma-ochoa-mobile",
+      "flex-layout.row#irma-ochoa-text-center-mobile",
+      "flex-layout.row#irma-ochoa-image-mobile",
+      "flex-layout.row#irma-ochoa-text-final-mobile"
+    ]
+  },
+
+  "flex-layout.row#irma-ochoa-mobile": {
+    "children": [
+      "flex-layout.col#irma-ochoa-image-mobile",
+      "flex-layout.col#irma-ochoa-text-mobile"
+    ],
+    "props": {
+      "paddingBottom": 9,
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#irma-ochoa-image-mobile": {
+    "children": ["image#irma-ochoa-mobile"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#irma-ochoa-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img18-meet.png"
+    }
+  },
+  "flex-layout.col#irma-ochoa-text-mobile": {
+    "children": [
+      "rich-text#irma-ochoa-title-sub-mobile",
+      "rich-text#irma-ochoa-text-sub-mobile"
+    ],
+    "props": {
+      "width": "35%",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#irma-ochoa-title-sub-mobile": {
+    "props": {
+      "text": "IRMA OCHOA",
+      "blockClass": "irma-ochoa-title-sub",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#irma-ochoa-text-sub-mobile": {
+    "props": {
+      "text": "###### EMPRENDEDORA. INSPIRADA POR UNA VIDA VEGANA. ORGÁNICA Y NATURAL. FUNDADORA DE @ELHUERTOPALOVERDE. GUADALAJARA \n  Irma Ochoa nació en Ciudad Guzmán, actualmente vive en Guadalajara, Jalisco. Creció en una familia agricultora, desde pequeña sus convivencias y momentos de recreación siempre fueron en el campo, teniendo contacto directo con la naturaleza.",
+      "blockClass": "text-irma-ochoa",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#irma-ochoa-vacio2-mobile": {
+    "children": [],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#irma-ochoa-text-center-mobile": {
+    "children": ["flex-layout.col#irma-ochoa-col-text-mobile"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#irma-ochoa-col-text-mobile": {
+    "children": ["rich-text#irma-ochoa-center-mobile"]
+  },
+
+  "rich-text#irma-ochoa-center-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### Para mí, las personas que se preocupan por nuestro planeta respetan a los animales y cuidan los recursos humanos; más que héroes, son ejemplos a seguir."
+    }
+  },
+
+  "flex-layout.row#irma-ochoa-image-mobile": {
+    "children": [
+      "flex-layout.col#irma-ochoa-image-one-mobile",
+      "flex-layout.col#irma-ochoa-image-two-mobile",
+      "flex-layout.col#irma-ochoa-image-three-mobile"
+    ]
+  },
+  "flex-layout.col#irma-ochoa-image-one-mobile": {
+    "children": ["image#irma-ochoa-image-one-mobile"],
+    "props": {}
+  },
+  "image#irma-ochoa-image-one-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-01.jpg"
+    }
+  },
+  "flex-layout.col#irma-ochoa-image-two-mobile": {
+    "children": ["image#irma-ochoa-image-two-mobile"],
+    "props": {}
+  },
+  "image#irma-ochoa-image-two-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-02.jpg"
+    }
+  },
+  "flex-layout.col#irma-ochoa-image-three-mobile": {
+    "children": ["image#irma-ochoa-image-three-mobile"],
+    "props": {}
+  },
+  "image#irma-ochoa-image-three-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/NH-irma-ochoa-galeria-03.jpg"
+    }
+  },
+
+  "flex-layout.row#irma-ochoa-text-final-mobile": {
+    "children": [
+      "flex-layout.col#irma-ochoa-text-final-one-mobile",
+      "flex-layout.col#irma-ochoa-text-final-two-mobile",
+      "flex-layout.col#irma-ochoa-text-final-three-mobile"
+    ]
+  },
+  "flex-layout.col#irma-ochoa-text-final-one-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#irma-ochoa-text-final-two-mobile": {
+    "children": [
+      "rich-text#irma-ochoa-text-final-mobile",
+      "rich-text#irma-ochoa-text-final-2-mobile"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#irma-ochoa-text-final-mobile": {
+    "props": {
+      "blockClass": "irma-ochoa-text-final",
+      "text": "Hasta hace algunas semanas, Irma visitaba diversas ciudades de la república mexicana con una “gira verde” para compartir las bases necesarias para poder comenzar desde el principio y platicar sobre el impacto positivo de tener un huerto en el hogar; hoy en día, lo realiza desde sus redes sociales. \n Actualmente administra El Huerto Paloverde desde su casa, un espacio que ha contribuido en generar un mensaje ecológico a más de 400 personas de forma presencial. \n  \n "
+    }
+  },
+  "rich-text#irma-ochoa-text-final-2-mobile": {
+    "props": {
+      "blockClass": "irma-ochoa-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo: [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#irma-ochoa-text-final-three-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "demoecomsur.custom-menu:drawer": {
+    "children": ["menu-item#mobile-drawer-menu-item-expandable-card-menu"],
+    "blocks": ["demoecomsur.custom-menu:drawer-header#my-drawer"]
+  },
+  "demoecomsur.custom-menu:drawer-header#my-drawer": {
+    "children": [
+      // you need to include the block `drawer-close-button` somewhere inside here
+      "flex-layout.col#mobile-logo-drawer",
+      "flex-layout.col#close-button"
+    ]
+  },
+  "flex-layout.col#mobile-logo-drawer": {
+    "props": {
+      "blockClass": "mobile-logo-drawer",
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#mobile-logo-drawer"]
+  },
+  "logo#mobile-logo-drawer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.svg",
+      "width": "82",
+      "blockClass": "mobile-logo-drawer"
+    }
+  },
+  "flex-layout.col#close-button": {
+    "props": {
+      "blockClass": "close-button",
+      "verticalAlign": "middle"
+    },
+    "children": ["demoecomsur.custom-menu:drawer-close-button"]
+  }
+}

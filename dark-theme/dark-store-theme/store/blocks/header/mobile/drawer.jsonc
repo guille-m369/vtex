@@ -1,0 +1,174 @@
+{
+  
+  /*---------------------------Children to renderize a row in menu-----------------------------------------*/
+  /*---------------------------Children to renderize a row in menu-----------------------------------------*/
+  //rose row contact
+  "flex-layout.row#mobile-drawer-row-contact": {
+    "children": [
+      "flex-layout.row#mobile-drawer-intern-row-contact-1",
+      "flex-layout.row#mobile-drawer-intern-row-contact-2",
+      "flex-layout.row#mobile-drawer-intern-row-contact-3",
+      "flex-layout.row#mobile-drawer-intern-row-contact-4"
+    ],
+    "props": {
+      "blockClass": "mobile-drawer-row-contact",
+      "fullWidth": true
+      //"preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#mobile-drawer-intern-row-contact-1": {
+    "children": [
+     // "flex-layout.col#mobile-drawer-col-contact-icon-1",
+      "flex-layout.col#mobile-drawer-col-text-1"
+    ],
+    "props": {
+      "blockClass": "mobile-drawer-intern-row-contact",
+      "fullWidth": true
+      //"preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-contact-icon-1": {
+    "props": {
+      "blockClass": "mobile-drawer-col-contact-icon",
+      "width": "10%"
+    },
+    "children": ["image#icon-drawer-1"]
+  },
+  "image#icon-drawer-1": {
+    "props": {
+      "blockClass": "icon-drawer-1",
+      "src": "assets/mobile-drawer/Icon-User-Hint.svg",
+      "maxHeight": "20"
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-text-1": {
+    "props": {
+      "blockClass": "mobile-drawer-col-text"
+    },
+    "children": ["rich-text#mobile-drawer-text1"]
+  },
+  /*Title of seccion network*/
+  "rich-text#mobile-drawer-text1": {
+    "props": {
+      "blockClass": "mobile-drawer-text1",
+      "text": "[Mi Cuenta](/account#/profile)"
+    }
+  },
+  //intern row 2
+  "flex-layout.row#mobile-drawer-intern-row-contact-2": {
+    "children": [
+     // "flex-layout.col#mobile-drawer-col-contact-icon-2",
+      "flex-layout.col#mobile-drawer-col-text-2"
+    ],
+    "props": {
+      "blockClass": "mobile-drawer-intern-row-contact",
+      "fullWidth": true
+      //"preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-contact-icon-2": {
+    "props": {
+      "blockClass": "mobile-drawer-col-contact-icon",
+      "width": "10%"
+    },
+    "children": ["image#icon-drawer-2"]
+  },
+  "image#icon-drawer-2": {
+    "props": {
+      "blockClass": "icon-drawer-2",
+      "src": "assets/mobile-drawer/Icon-Heart-Default.svg",
+      "maxHeight": "20"
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-text-2": {
+    "props": {
+      "blockClass": "mobile-drawer-col-text"
+    },
+    "children": ["rich-text#mobile-drawer-text2"]
+  },
+  /*Title of seccion network*/
+  "rich-text#mobile-drawer-text2": {
+    "props": {
+      "blockClass": "mobile-drawer-text2",
+      "text": "[Favoritos](/account#/wishlist)"
+    }
+  },
+  //intern row 3
+  "flex-layout.row#mobile-drawer-intern-row-contact-3": {
+    "children": [
+     // "flex-layout.col#mobile-drawer-col-contact-icon-3",
+      "flex-layout.col#mobile-drawer-col-text-3"
+    ],
+    "props": {
+      "blockClass": "mobile-drawer-intern-row-contact",
+      "fullWidth": true
+      //"preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-contact-icon-3": {
+    "props": {
+      "blockClass": "mobile-drawer-col-contact-icon",
+      "width": "10%"
+    },
+    "children": ["image#icon-drawer-3"]
+  },
+  "image#icon-drawer-3": {
+    "props": {
+      "blockClass": "icon-drawer-3",
+      "src": "assets/mobile-drawer/Icon-Info-Hint.svg",
+      "maxHeight": "20"
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-text-3": {
+    "props": {
+      "blockClass": "mobile-drawer-col-text"
+    },
+    "children": ["rich-text#mobile-drawer-text3"]
+  },
+  /*Title of seccion network*/
+  "rich-text#mobile-drawer-text3": {
+    "props": {
+      "blockClass": "mobile-drawer-text3",
+      "text": "[Ayuda](/preguntas-frecuentes)"
+    }
+  },
+  //intern row 4
+  "flex-layout.row#mobile-drawer-intern-row-contact-4": {
+    "children": [
+     // "flex-layout.col#mobile-drawer-col-contact-icon-4",
+      "flex-layout.col#mobile-drawer-col-text-4"
+    ],
+    "props": {
+      "blockClass": "mobile-drawer-intern-row-contact",
+      "fullWidth": true
+      //"preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-contact-icon-4": {
+    "props": {
+      "blockClass": "mobile-drawer-col-contact-icon",
+      "width": "10%"
+    },
+    "children": ["image#icon-drawer-4"]
+  },
+  "image#icon-drawer-4": {
+    "props": {
+      "blockClass": "icon-drawer-4",
+      "src": "assets/mobile-drawer/Icon-map-marker-Default.svg",
+      "maxHeight": "20"
+    }
+  },
+  "flex-layout.col#mobile-drawer-col-text-4": {
+    "props": {
+      "blockClass": "mobile-drawer-col-text"
+    },
+    "children": ["rich-text#mobile-drawer-text4"]
+  },
+  /*Title of seccion network*/
+  "rich-text#mobile-drawer-text4": {
+    "props": {
+      "blockClass": "mobile-drawer-text4",
+      "text": "[Localizar tienda](/stores)"
+    }
+  }
+}

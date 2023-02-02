@@ -1,0 +1,99 @@
+{
+  // HOMBRE
+
+  "menu-item#mobile-hombre-header": {
+    "props": {
+      "id": "mobile-menu-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "width": "100%",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      },
+      "blockClass": "mobile-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#hombre"]
+  },
+  "vtex.menu@2.x:submenu.accordion#hombre": {
+    "children": ["vtex.menu@2.x:menu#accordion-hombre"],
+    "props": { "width": "100%" }
+  },
+  "vtex.menu@2.x:menu#accordion-hombre": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-items",
+      "items": [
+        {
+          "id": "mobile-menu-item-hombres",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/colecciones-hombres",
+            "noFollow": true,
+            "tagTitle": "Ir a Hombres",
+            "text": "Ir a Hombres"
+          }
+        },
+        {
+          "id": "mobile-menu-item-hombres-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado",
+            "noFollow": true,
+            "tagTitle": "Calzado",
+            "text": "Calzado"
+          }
+        },
+        {
+          "id": "mobile-menu-item-hombres-ropa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa",
+            "noFollow": true,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+          }
+        },
+        {
+          "id": "mobile-menu-item-hombres-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        {
+          "id": "mobile-menu-item-hombres-productos-de-limpieza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/productos-de-limpieza",
+            "noFollow": true,
+            "tagTitle": "Productos de Limpieza",
+            "text": "Productos de Limpieza"
+          }
+        }        
+      ]
+    }
+  }
+}

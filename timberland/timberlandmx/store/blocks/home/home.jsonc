@@ -1,0 +1,10 @@
+{
+  "store.home": {
+    "blocks": [
+      "modal-trigger#offers-popup",
+      "responsive-layout.desktop",
+      "responsive-layout.phone",
+      "responsive-layout.tablet"
+    ]
+  }
+}

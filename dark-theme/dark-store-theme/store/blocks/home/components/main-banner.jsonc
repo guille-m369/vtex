@@ -1,0 +1,35 @@
+{
+    //MAIN BANNER ----------------------------
+  "flex-layout.row#component-main-banner": {
+    "children": ["two-block#main-banner"],
+    "props": {
+      "blockClass": "third-wrapper"
+      // "marginBottom": "0"
+    }
+  },
+
+  "two-block#main-banner": {
+    "props": {
+      "blockClass": "third",
+      "imgUrl": "arquivos/MainBanner.jpg",
+      "mobileImgUrl": "arquivos/main-banner-mobile2.jpg",
+      "mobileTextLocation": "top",
+      "desktopTextLocation": "left",
+      "desktopTextPosition": "center",
+      "height": "540px",
+      "width": "400px",
+      "title":"Nuevo",
+      "title1": "Modelo de 13 pulgadas",
+      "title2": " Mecbook Pro",
+      "title3": "Todos los sistemas Pro.",
+      "copy": "<br> Desde $1,299.00 o <br> $ 108.25 / mes. Durante 12 meses**",
+      "centerText": false,
+      "ctaArray": [
+        {
+          "text": "comprar",
+          "url": "/"
+        }
+      ]
+    }
+  }
+}

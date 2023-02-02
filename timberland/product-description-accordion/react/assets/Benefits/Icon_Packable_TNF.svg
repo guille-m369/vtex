@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 48" style="enable-background:new 0 0 32 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<title>Icon_Packable_white</title>
+<path class="st0" d="M26,40.4c-0.1,0.9-0.8,1.6-1.8,1.6H6.8c-0.9,0-1.7-0.7-1.8-1.6v-9.8C5.1,29.7,5.8,29,6.8,29
+	c2.8,0.7,5.8,1.1,8.7,1c2.9,0.1,5.9-0.3,8.7-1c0.9,0,1.7,0.7,1.8,1.6V40.4z"/>
+<path class="st1" d="M31,18v24.6c0,2.4-1.9,4.4-4.3,4.4c0,0,0,0-0.1,0H5.4C3,47,1,45,1,42.6V18"/>
+<polyline class="st0" points="12,22 16,26 20,22 "/>
+<line class="st0" x1="16" y1="26" x2="16" y2="1"/>
+<polyline class="st0" points="4,14 8,18 12,14 "/>
+<line class="st0" x1="8" y1="18" x2="8" y2="4"/>
+<polyline class="st0" points="20,14 24,18 28,14 "/>
+<line class="st0" x1="24" y1="18" x2="24" y2="4"/>
+<line class="st2" x1="5" y1="36" x2="26" y2="36"/>
+<line class="st2" x1="5" y1="39" x2="26" y2="39"/>
+<line class="st2" x1="5" y1="33" x2="26" y2="33"/>
+</svg>

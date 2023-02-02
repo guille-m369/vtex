@@ -1,0 +1,26 @@
+{
+  // MOBILE DRAWER
+  // ----------------------------------------
+  /*"drawer": {
+    "children": ["vtex.menu@2.x:menu#mobile-main-menu"]
+  },
+
+  "menu#drawer": {
+    "children": ["logo"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#mobile-main-menu": {
+    "children": [
+      "menu-item#mobile-item1",
+      "menu-item#mobile-item2",
+      "menu-item#mobile-item3",
+      "menu-item#mobile-item4"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-menu"
+    }
+  }*/
+}

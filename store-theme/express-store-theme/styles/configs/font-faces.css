@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014Bold.otf),
+    url(assets/fonts/ParaType-DIN2014Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014.otf),
+    url(assets/fonts/ParaType-DIN2014.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014BoldItalic.otf),
+    url(assets/fonts/ParaType-DIN2014BoldItalic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014Italic.otf),
+    url(assets/fonts/ParaType-DIN2014Italic.otf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014Italic.otf),
+    url(assets/fonts/ParaType-DIN2014Italic.otf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014Light.otf),
+    url(assets/fonts/ParaType-DIN2014Light.otf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "ParaType";
+  src: url(assets/fonts/ParaType-DIN2014LightItalic.otf),
+    url(assets/fonts/ParaType-DIN2014LightItalic.otf);
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OstrichProperInline";
+  src: url(assets/fonts/OstrichProperInline-Open.otf),
+    url(assets/fonts/OstrichProperInline-Open.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TylerFinck";
+  src: url(assets/fonts/TylerFinck-OstrichProper-Bold.otf),
+    url(assets/fonts/TylerFinck-OstrichProper-Bold.otf);
+  font-weight: bold;
+}

@@ -1,0 +1,65 @@
+{
+    "store.custom#terminos-y-condiciones": {
+      "blocks": [
+        "responsive-layout.desktop#terminos-y-condiciones",
+        "responsive-layout.mobile#terminos-y-condiciones"
+      ]
+    },
+    "responsive-layout.desktop#terminos-y-condiciones": {
+      "children": ["flex-layout.row#desktop-terminos-y-condiciones"]
+    },
+  
+    "flex-layout.row#desktop-terminos-y-condiciones": {
+      "children": ["flex-layout.col#desktop-terminos-y-condiciones"],
+      "props": {
+        "blockClass": "static-row"
+      }
+    },
+  
+    "flex-layout.col#desktop-terminos-y-condiciones": {
+      "children": [
+        "flex-layout.row#terminos-y-condiciones-title",
+        "flex-layout.row#terminos-y-condiciones-content"
+      ]
+    },
+  
+    //--------------------------terminos-y-condiciones-mobile---------------------------------//
+  
+    "responsive-layout.mobile#terminos-y-condiciones": {
+      "children": ["flex-layout.row#mobile-terminos-y-condiciones"]
+    },
+    "flex-layout.row#mobile-terminos-y-condiciones": {
+      "children": ["flex-layout.col#mobile-terminos-y-condiciones"]
+    },
+  
+    "flex-layout.col#mobile-terminos-y-condiciones": {
+      "children": [
+        "flex-layout.row#terminos-y-condiciones-title",
+        "flex-layout.row#terminos-y-condiciones-content"
+      ],
+      "props": {}
+    },
+  
+    //----------------------------Components ---------------------------------------//
+    "flex-layout.row#terminos-y-condiciones-title": {
+      "children": ["rich-text#terminos-y-condiciones-title"],
+      "props": {
+        "blockClass": "title"
+      }
+    },
+    "flex-layout.row#terminos-y-condiciones-content": {
+      "children": ["rich-text#terminos-y-condiciones-content"],
+      "props": { "blockClass": "static-row-content" }
+    },
+    "rich-text#terminos-y-condiciones-title": {
+      "props": {
+        "text": "## Términos y condiciones"
+      }
+    },
+    "rich-text#terminos-y-condiciones-content": {
+      "props": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    }
+  }
+  

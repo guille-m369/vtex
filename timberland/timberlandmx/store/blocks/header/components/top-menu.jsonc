@@ -1,0 +1,123 @@
+//Menu code without scroll
+{
+  "vtex.menu@2.x:menu#topMenu": {
+    "children": [
+      "menu-item#tiendas",
+      "menu-item#atencion-cliente",
+      "login#non-sticky"
+    ]
+  },
+  //Item Menu TIENDAS
+  "menu-item#tiendas": {
+    "props": {
+      "id": "tiendas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": false,
+        "tagTitle": "TIENDAS",
+        "text": "TIENDAS"
+      },
+      "iconProps": {
+        "id": "hpa-location-marker",
+        "size": 12,
+        "viewBox": "0 0 8.673 11.564"
+      }
+    }
+  },
+  //Item Menu ATENCION CLIENTES
+  "menu-item#atencion-cliente": {
+    "props": {
+      "id": "atencio-cliente",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "ATENCIÓN AL CLIENTE",
+        "text": "AYUDA"
+      },
+      "iconProps": {
+        "id": "inf-tooltip--filled",
+        "size": 12,
+        "viewBox": "0 0 13.881 13.881"
+      }
+    }
+  },
+  //Itrm Menu MI CUENTA
+  "login#non-sticky": {
+    "props": {
+      "iconLabel": "MI CUENTA",
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "login-block",
+      "logInButtonBehavior": "link"
+    }
+  },
+
+  "vtex.menu@2.x:menu#stickyTopMenu": {
+    "children": ["menu-item#iconTiendas", "menu-item#iconAyuda", "login#sticky"]
+  },
+  "menu-item#iconTiendas": {
+    "props": {
+      "id": "tiendas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": ""
+      },
+      "iconProps": {
+        "id": "mpa-location-input",
+        "size": 18
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#iconAyuda": {
+    "props": {
+      "id": "ayuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Ayuda",
+        "text": ""
+      },
+      "iconProps": {
+        "id": "inf-tooltip--filled",
+        "size": 16
+        // "viewBox": "0 0 16 16"
+        // "activeClassName": "rebel-pink",
+        // "mutedClassName": "c-action-primary"
+      }
+      // "iconToTheRight": true
+    }
+  },
+  "menu-item#iconMiCuenta": {
+    "props": {
+      "id": "mi-cuenta",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/micuenta",
+        "noFollow": false,
+        "tagTitle": "MI CUENTA",
+        "text": ""
+      },
+      "iconProps": {
+        "id": "inf-tooltip--filled",
+        "size": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "150"
+    }
+  },
+  /*-------------------------------------Login--------------------------*/
+  "login#sticky": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      // "blockClass": "login-block",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky"]
+  },
+  "icon-profile#sticky": {
+    "props": {
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  }
+}

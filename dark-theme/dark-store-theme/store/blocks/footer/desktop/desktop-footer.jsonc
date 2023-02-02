@@ -1,0 +1,54 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#component-NewsLetter",
+      "flex-layout.row#footer-items",
+      "flex-layout.row#footer-redes-sociales",
+      "flex-layout.row#footer-logos-ecomsur-and-vtex"
+    ]
+  },
+  "flex-layout.row#component-NewsLetter":{
+    "children":["flex-layout.col#component-NewsLetter-Title","flex-layout.col#component-NewsLetter"],
+    "props":{
+      "blockClass": "component-NewsLetter"
+    }
+  },
+  "flex-layout.col#component-NewsLetter-Title":{
+    "children":["rich-text#component-NewsLetter-Title"],
+    "props":{
+      "blockClass": "component-NewsLetter-Title",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#component-NewsLetter-Title":{
+    "props":{
+      "blockClass": "rich-text-component-NewsLetter-Title",
+      "text": "## **Recibe las mejores   Ofertas y más**" 
+    }
+  },
+  "flex-layout.col#component-NewsLetter":{
+    "children":["flex-layout.col#footer-component-newsletter"],
+    "props":{
+      "blockClass": "footer-component-newsletter"
+    }
+  },
+
+  //----------------items----------------//
+  "flex-layout.row#footer-items": {
+    "children":[
+      "vtex.menu@2.x:menu#Categorias",
+      "vtex.menu@2.x:menu#Categorias-two",
+      "vtex.menu@2.x:menu#Acerca-de",
+      "vtex.menu@2.x:menu#stores",
+      "vtex.menu@2.x:menu#Servicio-al-cliente"
+    ],
+    "props":{
+      "blockClass": "footer-items"
+    }
+  }
+
+  
+
+
+ 
+}

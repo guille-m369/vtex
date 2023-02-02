@@ -1,0 +1,94 @@
+{
+  // Destacados
+  "flex-layout.col#destacados-header-nino": {
+    "children": ["vtex.menu@2.x:menu#nino-column-1"]
+  },
+
+  "vtex.menu@2.x:menu#nino-column-1": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ninos-destacados",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/destacados",
+            "noFollow": true,
+            "tagTitle": "Destacados",
+            "text": "Destacados"
+          }
+        },
+        /*
+        {
+          "id": "menu-item-ninos-lanzamientos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/156/nino?map=productClusterIds,genero",
+            "noFollow": true,
+            "tagTitle": "Lanzamientos",
+            "text": "Lanzamientos"
+          }
+        },
+        {
+          "id": "menu-item-ninos-lo-nuevo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/152/nino?map=productClusterIds,genero",
+            "noFollow": true,
+            "tagTitle": "Lo nuevo",
+            "text": "Lo nuevo"
+          }
+        },*/
+        {
+          "id": "menu-item-hombres-lanzamiento",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "291?map=productClusterIds",
+            "noFollow": true,
+            "tagTitle": "Lanzamiento",
+            "text": "Lanzamiento"
+          }
+        },
+        {
+          "id": "menu-item-ninos-yellow-boot",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/yellow-boot",
+            "noFollow": true,
+            "tagTitle": "Yellow Boot",
+            "text": "Yellow Boot"
+          }
+        },
+        {
+          "id": "menu-item-ninos-basicos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/basicos",
+            "noFollow": true,
+            "tagTitle": "Basicos",
+            "text": "Básicos"
+          }
+        }
+      ]
+    }
+  }
+}

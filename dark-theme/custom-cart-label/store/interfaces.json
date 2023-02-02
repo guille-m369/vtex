@@ -1,0 +1,6 @@
+{
+  "custom-cart-label": {
+    "component": "CustomCartLabel",
+    "composition": "children"
+  }
+}

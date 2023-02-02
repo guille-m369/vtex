@@ -1,0 +1,451 @@
+{
+  "store.custom#custom-landing-true-cloud": {
+    "blocks": [
+      "responsive-layout.desktop#true-cloud",
+      "responsive-layout.tablet#true-cloud",
+      "responsive-layout.phone#true-cloud"
+    ]
+  },
+  "responsive-layout.tablet#true-cloud": {
+    "children": [
+      "flex-layout.row#landing-true-cloud-1-banner-desktop",
+      "flex-layout.row#landing-true-cloud-1-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-rich-text-coleccion",
+      "flex-layout.row#true-cloud",
+      "flex-layout.row#banner-true-cloud-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-2-ligeros-desktop",
+      "flex-layout.row#landing-true-cloud-rich-text-super-naturales-desktop",
+      // "flex-layout.row#landing-true-cloud-materiales-desktop",
+      "flex-layout.row#landing-true-cloud-1-materiales-desktop"
+      // "flex-layout.row#logo"]
+    ]
+  },
+
+  "flex-layout.row#landing-true-cloud-1-banner-tablet": {
+    "props": {
+      "blockClass": "row-info-card-banner-1-tablet"
+    },
+    "children": ["flex-layout.row#landing-true-cloud-1-banner1-tablet"]
+  },
+
+  "flex-layout.row#landing-true-cloud-1-banner1-tablet": {
+    "props": {
+      "blockClass": "row2-info-card-banner-1-tablet"
+    },
+    "children": ["custom-infocard-container#text-image"]
+  },
+  "custom-infocard-container#text-image-tablet": {
+    "props": {
+      "textContainerWidth": "100%",
+      "textContainerHeight": "99%",
+      "srcLogo": "assets/landing/true-cloud.svg",
+      "widthLogo": "317px",
+      "blockClass": "true-cloud-banner-tablet",
+      "maxHeightLogo": "43px",
+      "headline": "PODER SUPER NATURAL",
+      "listButton": [
+        {
+          "title": "COMPRAR",
+          "href": "/321?map=productClusterIds",
+          "blockClass": "lunar"
+        }
+      ],
+      "flex": 2,
+      "srcImage": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+      "widthImage": "100%",
+      "maxHeightImage": "470px"
+    }
+  },
+
+  "responsive-layout.phone#true-cloud": {
+    "children": [
+      // "flex-layout.row#landing-true-cloud-1-banner",
+      // "flex-layout.row#banner-true-cloud-image",
+      "flex-layout.row#landing-true-cloud-1-banner-mobile",
+      "flex-layout.row#landing-true-cloud-rich-text-ligeros",
+      "flex-layout.row#col-banner-home-true-cloud-1",
+      "flex-layout.row#banner-true-cloud",
+      "flex-layout.row#landing-true-cloud-rich-text-coleccion",
+      "flex-layout.row#true-cloud",
+      "flex-layout.row#banner-true-cloud-ligeros",
+      "flex-layout.row#col-banner-home-true-cloud-bota",
+      "flex-layout.row#banner-true-cloud-botas-2",
+      "flex-layout.row#landing-true-cloud-rich-text-super-naturales",
+      "flex-layout.row#banner-true-cloud-sapatos-y-materiales"
+      // "flex-layout.row#banner-true-cloud-image"
+    ]
+  },
+  "flex-layout.row#landing-true-cloud-1-banner-mobile": {
+    "props": {
+      "blockClass": "row-info-card-banner-1-mobile"
+    },
+    "children": ["flex-layout.row#landing-true-cloud-1-banner1-mobile"]
+  },
+
+  "flex-layout.row#landing-true-cloud-1-banner1-mobile": {
+    "children": ["custom-infocard-container#text-image"]
+  },
+  "custom-infocard-container#text-image": {
+    "props": {
+      "textContainerWidth": "30%",
+      "textContainerHeight": "99%",
+      "srcLogo": "assets/landing/true-cloud.svg",
+      "widthLogo": "317px",
+      "blockClass": "true-cloud-banner",
+      "maxHeightLogo": "43px",
+      "headline": "PODER SUPER NATURAL",
+      "listButton": [
+        {
+          "title": "COMPRAR",
+          "href": "/321?map=productClusterIds",
+          "blockClass": "lunar"
+        }
+      ],
+      "flex": 2,
+      "srcImage": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+      "widthImage": "100%",
+      "maxHeightImage": "470px"
+    }
+  },
+  "flex-layout.row#true-cloud": {
+    "children": ["list-context.product-list#true-cloud"],
+    "props": {
+      "paddingBottom": 8
+    }
+  },
+  "list-context.product-list#true-cloud": {
+    "blocks": ["product-summary.shelf#true-cloud"],
+    "children": ["slider-layout#shelf-true-cloud"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "321"
+    }
+  },
+  "slider-layout#shelf-true-cloud": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#landing-true-cloud-1-banner": {
+    "props": {
+      "blockClass": "row-info-card-banner-1"
+    },
+    "children": ["flex-layout.col#landing-true-cloud-1-banner"]
+  },
+  "flex-layout.col#landing-true-cloud-1-banner": {
+    "props": {
+      "blockClass": "col-info-card-banner-1"
+    },
+    "children": ["info-card"]
+  },
+  "flex-layout.row#landing-true-cloud-rich-text-ligeros": {
+    "children": ["flex-layout.col#landing-true-cloud-rich-text-ligeros"]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-ligeros": {
+    "children": ["rich-text#ligeros", "rich-text#ligeros-para-el-planeta"]
+  },
+  "rich-text#ligeros": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "LIGEROS PARA TI.",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "ligeros-rich-text"
+    }
+  },
+  //   "flex-layout.row#landing-true-cloud-rich-text-ligeros-para-el-planeta":{
+  //     "children":["flex-layout.col#landing-true-cloud-rich-text-ligeros-para-el-planeta"]
+  //   },
+  //   "flex-layout.col#landing-true-cloud-rich-text-ligeros-para-el-planeta":{
+  //     "children":["rich-text#ligeros-para-el-planeta"]
+  // },
+  "rich-text#ligeros-para-el-planeta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "LIGEROS PARA\nEL PLANETA.\n ",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "ligeros-para-el-planeta-rich-text"
+    }
+  },
+
+  "custom-infocard#banner-true-cloud-1": {
+    "props": {
+      "blockClass": "banner-true-cloud",
+      "width": "100%",
+      "maxHeight": "500px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+      "link": "brillos-primaverales-y-recursos-renovables"
+    }
+  },
+  "info-card": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+      "headline": " PODER SUPER NATURAL",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#col-banner-home-true-cloud-1": {
+    "props": {
+      "blockClass": "sapato-true-cloud-mobile"
+    },
+    "children": ["flex-layout.col#col-banner-home-true-cloud-1"]
+  },
+  "flex-layout.col#col-banner-home-true-cloud-1": {
+    "children": [
+      "custom-infocard#banner-home-true-cloud-1",
+      "rich-text#banner-home-true-cloudes-1",
+      "link#banner-home-true-cloud-button-1"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-home-true-cloudes-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TRUECLOUDTM EK+ SLIP-ONS",
+      "blockClass": "title-banner-home-true-cloud"
+    }
+  },
+  "custom-infocard#banner-home-true-cloud-1": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "300px",
+      "src": "/arquivos/sapato-true-cloud-mobile.png",
+      "link": "/timberland-truecloud-ek--slip-ons-para-hombre-tb0a25yabw0/p"
+    }
+  },
+  "link#banner-home-true-cloud-button-1": {
+    "props": {
+      "href": "/timberland-truecloud-ek--slip-ons-para-hombre-tb0a25yabw0/p",
+      "label": "COMPRAR",
+      "blockClass": "true-cloud-landing-button"
+    }
+  },
+  "flex-layout.row#banner-true-cloud": {
+    "props": {
+      "blockClass": "banner-true-cloud"
+    },
+    "children": ["flex-layout.col#banner-true-cloud"]
+  },
+  "flex-layout.col#banner-true-cloud": {
+    "props": {
+      "blockClass": "banner-true-clouds"
+    },
+    "children": ["custom-infocard#banner-true-cloud"]
+  },
+  "custom-infocard#banner-true-cloud": {
+    "props": {
+      "maxWidth": "314px",
+      "maxHeight": "300px",
+      "src": "/arquivos/true-cloud-mobile.png",
+      "link": ""
+    }
+  },
+  "flex-layout.row#landing-true-cloud-rich-text-coleccion": {
+    "children": ["flex-layout.col#landing-true-cloud-rich-text-coleccion"]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-coleccion": {
+    "children": ["rich-text#coleccion"]
+  },
+  "rich-text#coleccion": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "COLECCIÓN",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "coleccion-rich-text"
+    }
+  },
+  "flex-layout.row#banner-true-cloud-ligeros": {
+    "children": ["flex-layout.col#banner-true-cloud-ligeros"]
+  },
+  "flex-layout.col#banner-true-cloud-ligeros": {
+    "props": {
+      "blockClass": "banner-true-cloud-ligeros"
+    },
+    "children": ["image#example-mobile", "info-card#true-cloud-ligeros"]
+  },
+  "image#example-mobile": {
+    "props": {
+      "blockClass": "image-logo-mobile",
+      "src": "assets/landing/true-cloud.svg",
+      "maxHeight": 34
+    }
+  },
+  "info-card#true-cloud-ligeros": {
+    "props": {
+      "height": "100%",
+      "id": "info-card-home-true-cloud-ligeros",
+      "blockClass": "info-card-home-true-cloud-ligeros",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/true-cloud-mobile-ligeros.png",
+      "mobileImageUrl": "/arquivos/true-cloud-mobile-ligeros.png",
+      "headline": " \n naturalmente ligeros a través de un diseño minimalista así como los materiales utilizados para hacerlos. ",
+      "subhead": "[COMPRAR](/325?map=productClusterIds)",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+  "flex-layout.row#col-banner-home-true-cloud-bota": {
+    "children": ["flex-layout.col#col-banner-home-true-cloud-bota"]
+  },
+  "flex-layout.col#col-banner-home-true-cloud-bota": {
+    "children": [
+      "custom-infocard#banner-home-true-cloud-bota",
+      "rich-text#banner-home-true-cloud-botas",
+      "link#banner-home-true-cloud-botas-button"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-home-true-cloud-botas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TRUECLOUDTM EK+ CHUKKA",
+      "blockClass": "title-banner-home-true-cloud"
+    }
+  },
+  "custom-infocard#banner-home-true-cloud-bota": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "300px",
+      "src": "/arquivos/true-cloud-botas-mobile.png",
+      "link": "/timberland-truecloud-ek--chukka-para-hombre-tb0a24h6f48/p"
+    }
+  },
+  "link#banner-home-true-cloud-botas-button": {
+    "props": {
+      "href": "/timberland-truecloud-ek--chukka-para-hombre-tb0a24h6f48/p",
+      "label": "COMPRAR",
+      "blockClass": "true-cloud-landing-button"
+    }
+  },
+  "flex-layout.row#banner-true-cloud-botas-2": {
+    "props": {
+      "blockClass": "banner-true-cloud"
+    },
+    "children": ["flex-layout.col#banner-true-cloud-botas-2"]
+  },
+  "flex-layout.col#banner-true-cloud-botas-2": {
+    "props": {
+      "blockClass": "banner-true-clouds"
+    },
+    "children": ["custom-infocard#banner-true-cloud-botas-2"]
+  },
+  "custom-infocard#banner-true-cloud-botas-2": {
+    "props": {
+      "maxWidth": "314px",
+      "maxHeight": "300px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/true-cloud-botas-2-mobile.png",
+      "link": ""
+    }
+  },
+  "flex-layout.row#landing-true-cloud-rich-text-super-naturales": {
+    "children": ["flex-layout.col#landing-true-cloud-rich-text-super-naturales"]
+  },
+  "flex-layout.col#landing-true-cloud-rich-text-super-naturales": {
+    "children": ["rich-text#super-naturales"]
+  },
+  "rich-text#super-naturales": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "MATERIALES SUPER NATURALES",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "super-naturales-rich-text"
+    }
+  },
+  "flex-layout.row#banner-true-cloud-sapatos-y-materiales": {
+    "children": ["flex-layout.col#banner-true-cloud-sapatos-y-materiales"]
+  },
+  "flex-layout.col#banner-true-cloud-sapatos-y-materiales": {
+    "props": {
+      "blockClass": "banner-true-cloud-sapatos-y-materiales"
+    },
+    "children": ["info-card#true-cloud-sapatos-y-materiales"]
+  },
+  "info-card#true-cloud-sapatos-y-materiales": {
+    "props": {
+      "height": "784px",
+      "id": "info-card-home-true-cloud-ligeros",
+      "blockClass": "info-card-home-true-cloud-sapatos-y-materiales",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://thenorthfacemx.vteximg.com.br/arquivos/coleccion_01.jpg",
+      "mobileImageUrl": "/arquivos/true-cloud-sapatos-y-materiales-mobile.png",
+      "headline": " La parte superior está hecha de 50% lana de origen responsable y 50% de una mezcla de nylon. \n\n Los forros interiores están hechos de 70% eucalipto renovable y 30% algodón reciclado que requiere un 95% menos de agua para su fabricación que la tela de algodón tradicional. ",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "callToActionMode": "none"
+    }
+  },
+  "flex-layout.row#banner-true-cloud-image": {
+    "children": [
+      "flex-layout.col#banner-true-cloud-image",
+      "flex-layout.col#banner-true-cloud-image2"
+    ]
+  },
+  "flex-layout.col#banner-true-cloud-image": {
+    "props": {
+      "blockClass": "banner-true-cloud-image1"
+    },
+    "children": ["custom-infocard-button#image"]
+  },
+  "flex-layout.col#banner-true-cloud-image2": {
+    "props": {
+      "blockClass": "banner-true-cloud-image2"
+    },
+    "children": ["custom-infocard#image-2"]
+  },
+  "custom-infocard-button#image": {
+    "props": {
+      "blockClass": "banner-true-cloud-image2",
+      "width": "100%",
+      "maxHeight": "540px",
+      "src": "assets/landing/true-cloud.svg",
+      "headline": "PODER SUPER NATURAL",
+      "listButton": [
+        {
+          "title": "COMPRAR",
+          "href": "/lunar",
+          "blockClass": "lunar"
+        }
+      ]
+    }
+  },
+  "custom-infocard#image-2": {
+    "props": {
+      "blockClass": "banner-true-cloud",
+      "width": "317px",
+      "maxHeight": "36px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/sapato-principal-mobile2.png",
+      "link": "brillos-primaverales-y-recursos-renovables"
+    }
+  }
+}

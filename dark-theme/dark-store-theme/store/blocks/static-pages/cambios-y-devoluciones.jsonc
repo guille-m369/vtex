@@ -1,0 +1,64 @@
+{
+  "store.custom#cambios-y-devoluciones": {
+    "blocks": [
+      "responsive-layout.desktop#cambios-y-devoluciones",
+      "responsive-layout.mobile#cambios-y-devoluciones"
+    ]
+  },
+  "responsive-layout.desktop#cambios-y-devoluciones": {
+    "children": ["flex-layout.row#desktop-cambios-y-devoluciones"]
+  },
+
+  "flex-layout.row#desktop-cambios-y-devoluciones": {
+    "children": ["flex-layout.col#desktop-cambios-y-devoluciones"],
+    "props": {
+      "blockClass": "static-row"
+    }
+  },
+
+  "flex-layout.col#desktop-cambios-y-devoluciones": {
+    "children": [
+      "flex-layout.row#cambios-y-devoluciones-title",
+      "flex-layout.row#cambios-y-devoluciones-content"
+    ]
+  },
+
+  //--------------------------cambios-y-devoluciones-mobile---------------------------------//
+
+  "responsive-layout.mobile#cambios-y-devoluciones": {
+    "children": ["flex-layout.row#mobile-cambios-y-devoluciones"]
+  },
+  "flex-layout.row#mobile-cambios-y-devoluciones": {
+    "children": ["flex-layout.col#mobile-cambios-y-devoluciones"]
+  },
+
+  "flex-layout.col#mobile-cambios-y-devoluciones": {
+    "children": [
+      "flex-layout.row#cambios-y-devoluciones-title",
+      "flex-layout.row#cambios-y-devoluciones-content"
+    ],
+    "props": {}
+  },
+
+  //----------------------------Components ---------------------------------------//
+  "flex-layout.row#cambios-y-devoluciones-title": {
+    "children": ["rich-text#cambios-y-devoluciones-title"],
+    "props": {
+      "blockClass": "title"
+    }
+  },
+  "flex-layout.row#cambios-y-devoluciones-content": {
+    "children": ["rich-text#cambios-y-devoluciones-content"],
+    "props": { "blockClass": "static-row-content" }
+  },
+  "rich-text#cambios-y-devoluciones-title": {
+    "props": {
+      "text": "## Cambios y devoluciones"
+    }
+  },
+  "rich-text#cambios-y-devoluciones-content": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  }
+}

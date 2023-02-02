@@ -1,0 +1,17 @@
+{
+  "store.custom#cambios-y-devoluciones": {
+    "path": "/cambios-y-devoluciones"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#politica-de-privacidad": {
+    "path": "/politica-de-privacidad"
+  },
+  "store.custom#categorias": {
+    "path": "/categorias"
+  },
+  "store.custom#home-office": {
+    "path": "/home-office"
+  }
+}

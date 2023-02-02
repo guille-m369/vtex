@@ -1,0 +1,6 @@
+{
+  "modal-custom-quick-shop": {
+    "component": "ModalLayout",
+    "composition": "children"
+  }
+}

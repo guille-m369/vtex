@@ -1,0 +1,105 @@
+:global(.vtex-flex-layout-0-x-flexRow--main-header)
+  :global(.vtex-minicart-2-x-openIconContainer) {
+  background-color: #282321;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header)
+  :global(.vtex-minicart-2-x-openIconContainer)
+  :hover {
+  background-color: #282321;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header)
+  :global(.vtex-minicart-2-x-openIconContainer)
+  :hover
+  :global(.vtex-minicart-2-x-cartIcon) {
+  color: #eb8102;
+}
+.minicartTitle {
+  visibility: hidden;
+}
+
+:global(.vtex-minicart-2-x-minicartTitle)::before {
+  content: "CARRO DE COMPRAS";
+  visibility: visible;
+  width: 100%;
+  display: block;
+}
+:global(.vtex-product-list-0-x-productName) {
+  font-size: 16px;
+  line-height: 1.1;
+  color: #282321;
+}
+
+:global(.vtex-product-list-0-x-productBrandName),
+:global(.vtex-product-list-0-x-productVariationsItem) {
+  display: none;
+}
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-product-list-0-x-price) {
+  font-weight: 700;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+  margin: 0;
+  padding: 0;
+}
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+  color: #000;
+  font-size: 20px;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button__label) {
+  margin: 0;
+}
+
+.minicartTitle {
+  text-align: center;
+  font-size: 22px;
+  color: #282321;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button__label) {
+  text-shadow: none;
+  box-shadow: none;
+  text-indent: -9999px;
+  line-height: 0;
+  visibility: hidden;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button__label)::after {
+  content: "FINALIZAR COMPRA";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  visibility: visible;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+/* Update ON NON STICKY MINICART */
+:global(.vtex-flex-layout-0-x-flexRowContent--non-sticky)
+  :global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0%;
+  margin-right: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+/* CHANGE ICON COLOR */
+:global(.vtex-minicart-2-x-cartIcon) {
+  color: white;
+}
+
+/* .openIconContainer.openIconContainer--non-sticky-cart:hover {
+} */
+
+.minicartQuantityBadge {
+  background: #eb8102;
+  border-radius: 50%;
+}
+
+.closeIconButton {
+  color: #eb8102;
+}

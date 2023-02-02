@@ -1,0 +1,23 @@
+{
+  "custom-infocard": {
+    "component": "CustomInfocard"
+  },
+  "custom-infocard-button": {
+    "component": "CustomInfocardButton"
+  },
+  "custom-video-card": {
+    "component": "CustomVideoInfocard"
+  },
+  "custom-infocard-container": {
+    "component": "CustomInfocardContainer"
+  },
+  "one-block": {
+    "component": "OneBlock"
+  },
+  "two-block": {
+    "component": "TwoBlock"
+  },
+  "three-block": {
+    "component": "ThreeBlock"
+  }
+}

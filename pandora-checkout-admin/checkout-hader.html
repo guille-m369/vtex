@@ -1,0 +1,131 @@
+
+<style>
+
+    .fixedBar {
+      width: 100%;
+      z-index: 500;
+    }
+    
+    .barShipping {
+      background: #27251f;
+      color: white;
+      text-align: center;
+      height: 50px;
+      font-weight: bold;
+      position: relative;
+    }
+    
+    .tagShipping {
+      display: grid;
+      grid-template-columns: auto auto;
+      width: fit-content;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .shippingText {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
+    
+    .progressBarComponent {
+      padding: 0 1.5rem;
+      display: flex;
+    }
+    
+    .progressBarContainer {
+      background: #fff;
+      display: inline-grid;
+      margin: 0 10px;
+      width: 310px;
+      height: fit-content;
+      margin-top: 7px;
+      height: 5px;
+    }
+    
+    .progressBar {
+      background: #f2a1b2;
+      height: 5px;
+      position: relative;
+    }
+    
+    .punto {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #f2a1b2;
+      position: absolute;
+      right: -7px;
+      top: -4px;
+    }
+    
+    @media (max-width: 1400px) {
+      .tagShipping{
+        width: 100%;
+      }
+    }
+    
+    
+    @media (max-width: 760px) {
+    
+      .barShipping{
+        font-size: 10px;
+        height: 70px;
+      }
+      .tagShipping{
+        /* width: 100%; */
+        display: unset;
+      }
+    
+      .shippingText {
+        width: 100%;
+        padding: 0;
+      }
+    
+      .progressBarComponent {
+        padding: 5px 0;
+        display: block;
+      }
+    
+      .progressBarContainer {
+        width: 60%;
+      }
+    }
+    
+    
+    </style>
+    
+    <div class="container">
+      <a href="/" title="Go to homepage">
+          <img src="https://pandoraco.vteximg.com.br/arquivos/logotipo.png">
+      </a>
+      <hr>
+    </div>
+    
+     <div class = "fixedBar" >
+       <div class = "barShipping">
+          <span class = "tagShipping">
+              <div class ="shippingText"></div>
+               <div class="progressCheck">             
+                  <div class = "progressBarComponent">
+                    <span class="pBInitial"></span>
+                    <div class = "progressBarContainer">
+                      <div style = "width: 20%" class = "progressBar">
+                        <div class = "punto"></div>
+                      </div>
+                    </div>
+                    <span class="pBGoal"></span>
+                  </div>
+                </div>
+           </span>
+        </div>
+    
+     </div>
+    
+    
+    
+    

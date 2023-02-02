@@ -1,0 +1,55 @@
+{
+  "vtex.menu@2.x:submenu#menu-nature-needs-heroes": {
+    "props": {
+      "width": "100%",
+      "blockClass": "main-submenu-container"
+    },
+    "children": ["flex-layout.row#menu-nature-needs-heroes"]
+  },
+  "flex-layout.row#menu-nature-needs-heroes": {
+    "children": ["flex-layout.col#menu-nature-needs-heroes"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-submenu"
+    }
+  },
+  // Two rows divide the menu
+  "flex-layout.col#menu-nature-needs-heroes": {
+    "children": ["flex-layout.row#nature-needs-heroes-top-row"],
+    "props": {
+      "width": "75%"
+    }
+  },
+  // TOP ROW
+  // ----------------------------------------
+  // Find each column as their own file insde
+  // the 'hombre' folder
+
+  "flex-layout.row#nature-needs-heroes-top-row": {
+    "children": ["flex-layout.col#nature-needs-heroes-column-1"],
+    "props": {
+      "marginBottom": 6
+    }
+  },
+
+  // EMPTY COLUMN
+  "flex-layout.col#nature-needs-heroes-column-8": {},
+
+  // INFO CARD
+  // -----------------------------------------
+  "flex-layout.col#menu-nature-needs-heroes-info-card": {
+    "children": ["info-card#nature-needs-heroes"]
+  },
+  "info-card#nature-needs-heroes": {
+    "props": {
+      "id": "info-card-womens-menu",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "",
+      "callToActionText": "VER COLECCIÓN",
+      "callToActionUrl": "/nature-needs-heroes",
+      "blockClass": "info-card-main-menu",
+      "textAlignment": "center"
+    }
+  }
+}

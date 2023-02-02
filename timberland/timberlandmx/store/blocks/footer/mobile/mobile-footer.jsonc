@@ -1,0 +1,102 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#row-footer-container-mobile-1",
+      "flex-layout.row#row-footer-container-mobile-2"
+    ]
+  },
+  "flex-layout.row#row-footer-container-mobile-1": {
+    "children": ["flex-layout.col#col-footer-container-mobile-1"],
+    "props": { "blockClass": "row-footer-container-mobile-1" }
+  },
+  "flex-layout.col#col-footer-container-mobile-1": {
+    "children": [
+      "flex-layout.row#image-logo-timberland",
+      "flex-layout.row#mobile-accordion"
+    ],
+    "props": {
+      "paddingLeft": 3,
+      "paddingRight": 3
+    }
+  },
+
+  "flex-layout.row#mobile-accordion": {
+    "children": ["vtex.menu@2.x:menu#footer-mobile"],
+    "props": {
+      "blockClass": "footer-menu-mobile"
+    }
+  },
+  "flex-layout.row#row-footer-container-mobile-2": {
+    "children": ["flex-layout.col#col-footer-container-mobile-2"],
+    "props": { "blockClass": "row-footer-container-mobile-2" }
+  },
+  "flex-layout.col#col-footer-container-mobile-2": {
+    "children": [
+      "customNewsletter",
+      "rich-text#social-networks",
+      "flex-layout.row#social-networks",
+      "rich-text#pago-seguro",
+      "flex-layout.row#partner-logo-pagos",
+      "rich-text#company-left",
+      "flex-layout.row#logos-footer"
+    ],
+    "props": {
+      "paddingLeft": 3,
+      "paddingRight": 3
+    }
+  },
+
+  "flex-layout.row#mobile-social-netwoks": {
+    "children": [
+      "rich-text#social-networks",
+      "flex-layout.row#social-networks"
+    ],
+    "props": {
+      "blockClass": "footer-color-secondary"
+    }
+  },
+  "flex-layout.row#mobile-metodo-pago": {
+    "children": ["flex-layout.row#partner-logo-pagos"],
+    "props": {
+      "blockClass": "footer-color-secondary"
+    }
+  },
+  "flex-layout.row#mobile-newletter": {
+    "children": ["customNewsletter"],
+    "props": { "paddingTop": 6, "blockClass": "footer-color-secondary" }
+  },
+
+  "flex-layout.row#mobile-brand--logo": {
+    "children": ["rich-text#company-left"],
+    "props": {
+      "blockClass": "footer-color-secondary"
+    }
+  },
+
+  "flex-layout.row#logo-vtex": {
+    "children": ["image#logo-vtex"],
+    "props": {
+      "blockClass": "logo-vtex"
+    }
+  },
+  "flex-layout.row#logo-ecomsur": {
+    "children": ["image#logo-ecomsur"],
+    "props": {
+      "blockClass": "logo-ecomsur"
+    }
+  },
+  "image#logo-ecomsur": {
+    "props": {
+      "src": "assets/logo_ecomsur.svg",
+
+      "maxHeight": 20
+    }
+  },
+  "image#logo-vtex": {
+    "props": {
+      "src": "assets/logo_vtex.svg",
+
+      "maxHeight": 20
+    }
+  }
+}

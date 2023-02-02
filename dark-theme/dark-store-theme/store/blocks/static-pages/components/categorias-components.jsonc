@@ -1,0 +1,443 @@
+{
+  //----------------------------Components ---------------------------------------//
+  "flex-layout.row#categorias-title": {
+    "children": ["rich-text#categorias-title"],
+    "props": {
+      "blockClass": "categorias-title"
+    }
+  },
+
+  "flex-layout.row#categorias-subtitle": {
+    "children": ["rich-text#categorias-subtitle"],
+    "props": { "blockClass": "categorias-subtitle" }
+  },
+  "rich-text#categorias-title": {
+    "props": {
+      "blockClass": "categorias-title",
+      "text": "## Todas las Categorías"
+    }
+  },
+  "rich-text#categorias-subtitle": {
+    "props": {
+      "blockClass": "categorias-subtitle",
+      "text": "Consulte todas nuestras categorías para obtener lo que necesita."
+    }
+  },
+
+  /*-----------------------------------Grid components------------------------------------------*/
+  /*component 1*/
+
+  "flex-layout.col#component-categorias-grid-1": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-1"]
+  },
+
+  "link#component-grid-1": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-computadoras",
+      "rich-text#component-categorias-computadoras"
+    ]
+  },
+  "flex-layout.row#component-categorias-computadoras": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-computadoras"]
+  },
+  "image#component-categorias-computadoras": {
+    "props": {
+      "src": "assets/static/categorias/computadoras.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-computadoras": {
+    "props": {
+      "text": "Computadoras",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 2*/
+  "flex-layout.col#component-categorias-grid-2": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-2"]
+  },
+
+  "link#component-grid-2": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-tv-y-video",
+      "rich-text#component-categorias-tv-y-video"
+    ]
+  },
+  "flex-layout.row#component-categorias-tv-y-video": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-tv-y-video"]
+  },
+  "image#component-categorias-tv-y-video": {
+    "props": {
+      "src": "assets/static/categorias/tv-y-video.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-tv-y-video": {
+    "props": {
+      "text": "TV y Video",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 3*/
+  "flex-layout.col#component-categorias-grid-3": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-3"]
+  },
+  "link#component-grid-3": {
+    "props": {
+      "blockClass": "grid-link",
+      "href": "#"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-videojuegos",
+      "rich-text#component-categorias-videojuegos"
+    ]
+  },
+  "flex-layout.row#component-categorias-videojuegos": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-videojuegos"]
+  },
+  "image#component-categorias-videojuegos": {
+    "props": {
+      "src": "assets/static/categorias/videojuegos.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-videojuegos": {
+    "props": {
+      "text": "Videojuegos",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 4*/
+  "flex-layout.col#component-categorias-grid-4": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-4"]
+  },
+  "link#component-grid-4": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-audio",
+      "rich-text#component-categorias-audio"
+    ]
+  },
+  "flex-layout.row#component-categorias-audio": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-audio"]
+  },
+  "image#component-categorias-audio": {
+    "props": {
+      "src": "assets/static/categorias/audio.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-audio": {
+    "props": {
+      "text": "Audio",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 5*/
+  "flex-layout.col#component-categorias-grid-5": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-5"]
+  },
+  "link#component-grid-5": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-celulares-y-tablets",
+      "rich-text#component-categorias-celulares-y-tablets"
+    ]
+  },
+  "flex-layout.row#component-categorias-celulares-y-tablets": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-celulares-y-tablets"]
+  },
+  "image#component-categorias-celulares-y-tablets": {
+    "props": {
+      "src": "assets/static/categorias/celulares-y-tablets.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-celulares-y-tablets": {
+    "props": {
+      "text": "Celulares y Tablets",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 6*/
+  "flex-layout.col#component-categorias-grid-6": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-6"]
+  },
+  "link#component-grid-6": {
+    "props": {
+      "blockClass": "grid-link",
+      "href": "#"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-wearables",
+      "rich-text#component-categorias-wearables"
+    ]
+  },
+  "flex-layout.row#component-categorias-wearables": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-wearables"]
+  },
+  "image#component-categorias-wearables": {
+    "props": {
+      "src": "assets/static/categorias/wearables.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-wearables": {
+    "props": {
+      "text": "Wearables",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 7*/
+  "flex-layout.col#component-categorias-grid-7": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-7"]
+  },
+  "link#component-grid-7": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-camaras",
+      "rich-text#component-categorias-camaras"
+    ]
+  },
+  "flex-layout.row#component-categorias-camaras": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-camaras"]
+  },
+  "image#component-categorias-camaras": {
+    "props": {
+      "src": "assets/static/categorias/camaras.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-camaras": {
+    "props": {
+      "text": "Cámaras",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 8*/
+  "flex-layout.col#component-categorias-grid-8": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-8"]
+  },
+  "link#component-grid-8": {
+    "props": {
+      "href": "#",
+      "blockClass": "grid-link"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-hogar-inteligente",
+      "rich-text#component-categorias-hogar-inteligente"
+    ]
+  },
+  "flex-layout.row#component-categorias-hogar-inteligente": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-hogar-inteligente"]
+  },
+  "image#component-categorias-hogar-inteligente": {
+    "props": {
+      "src": "assets/static/categorias/hogar-inteligente.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-hogar-inteligente": {
+    "props": {
+      "text": "Hogar Inteligente",
+      "blockClass": "component-categorias-title"
+    }
+  },
+  /*component 9*/
+  "flex-layout.col#component-categorias-grid-9": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": ["link#component-grid-9"]
+  },
+  "link#component-grid-9": {
+    "props": {
+      "blockClass": "grid-link",
+      "href": "#"
+    },
+    "children": [
+      "flex-layout.row#component-categorias-comunicacion",
+      "rich-text#component-categorias-comunicacion"
+    ]
+  },
+  "flex-layout.row#component-categorias-comunicacion": {
+    "props": {
+      "blockClass": "component-categorias-image"
+    },
+    "children": ["image#component-categorias-comunicacion"]
+  },
+  "image#component-categorias-comunicacion": {
+    "props": {
+      "src": "assets/static/categorias/comunicacion.png",
+      "maxHeight": 130
+    }
+  },
+  "rich-text#component-categorias-comunicacion": {
+    "props": {
+      "text": "Comunicacion",
+      "blockClass": "component-categorias-title"
+    }
+  },
+/*Compoent 10*/
+  "flex-layout.col#component-categorias-grid-10": {
+    "props": {
+      "blockClass": "categoria-col"
+    },
+    "children": []
+  },
+
+  /*------------------------------ component Marcas populares -------------------------*/
+  "flex-layout.row#component-marcas-populares": {
+    "props": {
+      "blockClass": "component-marcas-populares"
+    },
+    "children": ["flex-layout.col#component-marcas-populares"]
+  },
+
+  "flex-layout.col#component-marcas-populares": {
+    "props": {
+      "blockClass": "component-marcas-populares"
+    },
+    "children": [
+      "rich-text#component-marcas-populares",
+      "slider-layout#marcas-populares"
+    ]
+  },
+  "rich-text#component-marcas-populares": {
+    "props": {
+      "blockClass": "component-marcas-populares",
+      "text": "## Marcas Populares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "slider-layout#marcas-populares": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "marcas-populares"
+    },
+    "children": [
+      "image#component-marca-1",
+      "image#component-marca-2",
+      "image#component-marca-3",
+      "image#component-marca-4",
+      "image#component-marca-5",
+      "image#component-marca-6",
+      "image#component-marca-7"
+    ]
+  },
+
+  "image#component-marca-1": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 59.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-2": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 68.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-3": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 66.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-4": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 69.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-5": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 67.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-6": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 70.png",
+      "maxHeight": 60
+    }
+  },
+  "image#component-marca-7": {
+    "props": {
+      "src": "assets/static/categorias/marcas/Imagen 59.png",
+      "maxHeight": 60
+    }
+  }
+}

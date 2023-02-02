@@ -1,0 +1,1337 @@
+{
+  "store.custom#landing-waterproof": {
+    "blocks": [
+      "responsive-layout.desktop#landing-waterproof",
+      "responsive-layout.tablet#landing-waterproof",
+      "responsive-layout.phone#landing-waterproof"
+    ]
+  },
+  //Desktop
+  "responsive-layout.desktop#landing-waterproof": {
+    "children": ["flex-layout.row#container-landing-waterproof-desktop"]
+  },
+  "flex-layout.row#container-landing-waterproof-desktop": {
+    "children": ["flex-layout.col#container-landing-waterproof-desktop"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#container-landing-waterproof-desktop": {
+    "children": [
+      "flex-layout.row#main-banner-waterproof-landing",
+      "flex-layout.row#background-group",
+      "flex-layout.row#waterproof-video-area",
+      "flex-layout.row#boots-collections",
+      "flex-layout.row#title-outfits-ellos-waterproof-landing",
+      "flex-layout.row#images-grid-outfits-ellos",
+      "flex-layout.row#title-outfits-ellas-waterproof-landing",
+      "flex-layout.row#images-grid-outfits-ellas",
+      "flex-layout.row#title-impermeables-waterproof-landing",
+      "flex-layout.row#images-grid-impermeables",
+      "flex-layout.row#shelf-waterproof-landing",
+      "flex-layout.row#brands-waterproof-landing"
+    ],
+    "props": {
+      "blockClass": "container-landing-waterproof"
+    }
+  },
+  //Tablet
+  "responsive-layout.tablet#landing-waterproof": {
+    "children": ["flex-layout.row#container-landing-waterproof-desktop"]
+  },
+  //Mobile
+  "responsive-layout.phone#landing-waterproof": {
+    "children": ["flex-layout.row#container-landing-waterproof-mobile"]
+  },
+  "flex-layout.row#container-landing-waterproof-mobile": {
+    "children": ["flex-layout.col#container-landing-waterproof-mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#container-landing-waterproof-mobile": {
+    "children": [
+      "flex-layout.row#main-banner-waterproof-landing-mobile",
+      "flex-layout.row#background-group-mobile",
+      "flex-layout.row#waterproof-video-area-mobile",
+      "flex-layout.row#boots-collections",
+      "flex-layout.row#title-outfits-ellos-waterproof-landing",
+      "flex-layout.row#images-grid-outfits-ellos-mobile",
+      "flex-layout.row#title-outfits-ellas-waterproof-landing",
+      "flex-layout.row#images-grid-outfits-ellas-mobile",
+      "flex-layout.row#title-impermeables-waterproof-landing-mobile",
+      "flex-layout.row#images-grid-impermeables",
+      "flex-layout.row#shelf-waterproof-landing",
+      "flex-layout.row#brands-waterproof-landing-mobile"
+    ],
+    "props": {
+      "blockClass": "container-landing-waterproof"
+    }
+  },
+
+  //Main Banner
+  "flex-layout.row#main-banner-waterproof-landing": {
+    "children": ["one-block#main-banner-waterproof-landing"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "one-block#main-banner-waterproof-landing": {
+    "props": {
+      "blockClass": "mainBanner-waterproof",
+      "imgUrl": "https://timberlandmx.vteximg.com.br/arquivos/MainBanner.jpg",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/MainBanner.jpg",
+      "desktopTextLocation": "end",
+      "desktopTextPosition": "center",
+      "mobileTextPosition": "end",
+      "stackedButtons": false,
+      "centerText": false,
+      "height": "650px",
+      "textWidth": "80%",
+      "ctaArray": [
+        {
+          "text": "VER COLECCIÓN",
+          "url": "/378?map=productClusterIds"
+        }
+      ]
+    }
+  },
+  //Background group
+  "flex-layout.row#background-group": {
+    "children": ["flex-layout.col#bgImage"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#bgImage": {
+    "children": [
+      "image#absolute-image",
+      "flex-layout.col#info-text-waterproof-landing",
+      "flex-layout.row#image-text-waterproof-landing",
+      "flex-layout.row#text-image-waterproof-landing"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["1920max", "bgImage"]
+    }
+  },
+  //Background image
+  "image#absolute-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/BlackTextureWEB.jpg",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "absolute-image"
+    }
+  },
+  //Info text
+  "flex-layout.col#info-text-waterproof-landing": {
+    "children": ["rich-text#outline-title", "rich-text#bold-title"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-text-waterproof-landing"
+    }
+  },
+  "rich-text#outline-title": {
+    "props": {
+      "text": "Conoce las bondades\nde la tecnología",
+      "blockClass": "outline-title"
+    }
+  },
+  "rich-text#bold-title": {
+    "props": {
+      "text": "WATERPROOF",
+      "blockClass": "bold-title"
+    }
+  },
+  //Image - text
+  "flex-layout.row#image-text-waterproof-landing": {
+    "children": ["flex-layout.col#images-area", "flex-layout.col#texts-area"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "image-text-waterproof-landing"
+    }
+  },
+  "flex-layout.col#images-area": {
+    "children": ["image#images-area-background", "image#images-area-main"],
+    "props": {
+      "blockClass": "image-text-waterproof-images-area"
+    }
+  },
+  "image#images-area-background": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Splash_03.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "images-area-background"
+    }
+  },
+  "image#images-area-main": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/WP_PiecesBoot.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "images-area-main"
+    }
+  },
+  "flex-layout.col#texts-area": {
+    "children": [
+      "flex-layout.col#text-block-1",
+      "flex-layout.col#text-block-2"
+    ],
+    "props": {
+      "blockClass": "image-text-text-area"
+    }
+  },
+  "flex-layout.col#text-block-1": {
+    "children": [
+      "rich-text#image-text-waterproof-landing-block-1-header",
+      "rich-text#image-text-waterproof-landing-block-1-content"
+    ],
+    "props": {
+      "blockClass": "image-text-text-block"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-1-header": {
+    "props": {
+      "text": "## ¿Cómo funciona?",
+      "blockClass": "image-text-header"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-1-content": {
+    "props": {
+      "text": "• Pieles impregnadas de silicona.\n• Membranas impermeables GORE-TEX®.\n• Construcción de suela de fijación directa.",
+      "blockClass": "image-text-content"
+    }
+  },
+  "flex-layout.col#text-block-2": {
+    "children": [
+      "rich-text#image-text-waterproof-landing-block-2-header",
+      "rich-text#image-text-waterproof-landing-block-2-content"
+    ],
+    "props": {
+      "blockClass": "image-text-text-block"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-2-header": {
+    "props": {
+      "text": "## PIEL A PRUEBA DE AGUA",
+      "blockClass": "image-text-header"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-2-content": {
+    "props": {
+      "text": "Las pieles nubuck de grano entero de la más fina calidad, son cuidadosamente cortadas y cosidas para formación de la bota. Cada costura está completamente sellada para asegurar que sean completamente a prueba de agua.",
+      "blockClass": "image-text-content"
+    }
+  },
+  //Text - image
+  "flex-layout.row#text-image-waterproof-landing": {
+    "children": [
+      "flex-layout.col#texts-area-inverted",
+      "flex-layout.col#images-area-inverted"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "image-text-waterproof-landing"
+    }
+  },
+  "flex-layout.col#texts-area-inverted": {
+    "children": [
+      "flex-layout.row#text-blocks-header",
+      "flex-layout.row#text-block-1-inverted",
+      "flex-layout.row#text-block-2-inverted"
+    ],
+    "props": {
+      "blockClass": "image-text-text-area"
+    }
+  },
+  "flex-layout.row#text-blocks-header": {
+    "children": [
+      "rich-text#image-text-waterproof-landing-text-blocks-header-text"
+    ]
+  },
+  "rich-text#image-text-waterproof-landing-text-blocks-header-text": {
+    "props": {
+      "text": "## PRUEBAS DE CALZADO",
+      "blockClass": "image-text-header"
+    }
+  },
+
+  "flex-layout.row#text-block-1-inverted": {
+    "children": ["image#drop-svg", "flex-layout.col#text-block-1-col"],
+    "props": {
+      "blockClass": "image-text-text-block",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    }
+  },
+  "image#drop-svg": {
+    "props": {
+      "src": "assets/drops.svg",
+      "minWidth": "20px",
+      "maxHeight": "40px",
+      "blockClass": "images-drops"
+    }
+  },
+  "flex-layout.col#text-block-1-col": {
+    "children": [
+      "rich-text#image-text-waterproof-landing-block-1-title-inverted",
+      "rich-text#image-text-waterproof-landing-block-1-content-inverted"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "blockClass": "image-text-text-block"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-1-title-inverted": {
+    "props": {
+      "text": "Pruebas estáticas:",
+      "blockClass": "image-text-title"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-1-content-inverted": {
+    "props": {
+      "text": "El calzado se sumergirá en agua durante cuatro horas y debe permanecer seco en el interior.",
+      "blockClass": "image-text-content"
+    }
+  },
+
+  "flex-layout.row#text-block-2-inverted": {
+    "children": ["image#drop-svg", "flex-layout.col#text-block-2-col"],
+    "props": {
+      "blockClass": "image-text-text-block",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#text-block-2-col": {
+    "children": [
+      "rich-text#image-text-waterproof-landing-block-2-title-inverted",
+      "rich-text#image-text-waterproof-landing-block-2-content-inverted"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "blockClass": "image-text-text-block"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-2-title-inverted": {
+    "props": {
+      "text": "Pruebas de flexión:",
+      "blockClass": "image-text-title"
+    }
+  },
+  "rich-text#image-text-waterproof-landing-block-2-content-inverted": {
+    "props": {
+      "text": "El interior del calzado permanecerá seco después de 15,000 flexiones o pisadas mientras está sumergido en agua.",
+      "blockClass": "image-text-content"
+    }
+  },
+
+  "flex-layout.col#images-area-inverted": {
+    "children": [
+      "image#images-area-background-inverted",
+      "image#images-area-main-inverted"
+    ],
+    "props": {
+      "minHeight": "600px",
+      "blockClass": ["image-text-waterproof-images-area", "inverted"]
+    }
+  },
+  "image#images-area-background-inverted": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Splash_05.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": [
+        "images-area-background",
+        "images-area-background-inverted"
+      ]
+    }
+  },
+  "image#images-area-main-inverted": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/WP_Landing_Desk.gif",
+      "maxHeight": "500px",
+      "blockClass": ["images-area-main", "images-area-main-inverted"]
+    }
+  },
+  // ******************** Video Area ********************
+  "flex-layout.row#waterproof-video-area": {
+    "children": [
+      "image#absolute-image-video",
+      "custom-video-card#landing-waterproof"
+    ],
+    "props": {
+      "blockClass": "waterproof-video-area",
+      "colSizing": "auto"
+    }
+  },
+  //Background image
+  "image#absolute-image-video": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/fondoDropsVideo.jpg",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "absolute-image"
+    }
+  },
+  "custom-video-card#landing-waterproof": {
+    "props": {
+      "maxHeight": "500px",
+      "src": "https://publictimberlandmx.blob.core.windows.net/files/landingWaterproof/TIMBERLAND_WATERPROOF_WEB_30S_16_9.mp4",
+      "autoPlay": false,
+      "loop": false,
+      "controls": true,
+      "muted": false,
+      "customPlayIcon": "assets/play-arrow.svg"
+    }
+  },
+  // ******************** Video Area ********************
+
+  // ******************** Botas: 3 colecciones ********************
+  "flex-layout.row#boots-collections": {
+    "children": [
+      "flex-layout.col#col-boots-collections-1",
+      "flex-layout.col#col-boots-collections-2",
+      "flex-layout.col#col-boots-collections-3"
+    ],
+    "props": {
+      "blockClass": "boots-collections",
+      "colSizing": "auto",
+      "colGap": 10,
+      "marginTop": 10,
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#col-boots-collections-1": {
+    "children": [
+      "custom-infocard#thumb-boots-collections-1",
+      "rich-text#link-boots-collections-1"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "custom-infocard#thumb-boots-collections-1": {
+    "props": {
+      "width": "280px",
+      "maxHeight": "280px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/10061713-ALT4.jpg",
+      "link": "/399?map=productClusterIds",
+      "blockClass": "thumb-boots-collections-1"
+    }
+  },
+  "rich-text#link-boots-collections-1": {
+    "props": {
+      "text": "[Botas Premium\n Waterproof](/399?map=productClusterIds)",
+      "blockClass": "link-boots-collections"
+    }
+  },
+  "flex-layout.col#col-boots-collections-2": {
+    "children": [
+      "custom-infocard#thumb-boots-collections-2",
+      "rich-text#link-boots-collections-2"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "custom-infocard#thumb-boots-collections-2": {
+    "props": {
+      "width": "280px",
+      "maxHeight": "280px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/10073001-ALT4.jpg",
+      "link": "/400?map=productClusterIds",
+      "blockClass": "thumb-boots-collections-2"
+    }
+  },
+  "rich-text#link-boots-collections-2": {
+    "props": {
+      "text": "[Botas Premium\n Waterproof](/400?map=productClusterIds)",
+      "blockClass": "link-boots-collections"
+    }
+  },
+  "flex-layout.col#col-boots-collections-3": {
+    "children": [
+      "custom-infocard#thumb-boots-collections-3",
+      "rich-text#link-boots-collections-3"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "custom-infocard#thumb-boots-collections-3": {
+    "props": {
+      "width": "280px",
+      "maxHeight": "280px",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/A25BS231-ALT4.jpg",
+      "link": "/401?map=productClusterIds",
+      "blockClass": "thumb-boots-collections-3"
+    }
+  },
+  "rich-text#link-boots-collections-3": {
+    "props": {
+      "text": "[Botas Kinsley\n Waterproof](/401?map=productClusterIds)",
+      "blockClass": "link-boots-collections"
+    }
+  },
+  // ******************** Botas: 3 colecciones ********************
+
+  // ******************** Title: outfits para ellos ********************
+  "flex-layout.row#title-outfits-ellos-waterproof-landing": {
+    "children": ["flex-layout.col#title-outfits-ellos"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#title-outfits-ellos": {
+    "children": [
+      "rich-text#outline-title-outfits-ellos",
+      "rich-text#bold-title-outfits-ellos"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-text-waterproof-landing"
+    }
+  },
+  "rich-text#outline-title-outfits-ellos": {
+    "props": {
+      "text": "OUTFITS",
+      "blockClass": ["outline-title", "black-text"]
+    }
+  },
+  "rich-text#bold-title-outfits-ellos": {
+    "props": {
+      "text": "PARA ELLOS",
+      "blockClass": ["bold-title", "black-text"]
+    }
+  },
+  // ******************** Title: outfits para ellos ********************
+
+  // ******************** Images grid: outfits para ellos ********************
+  "flex-layout.row#images-grid-outfits-ellos": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellos-1",
+      "flex-layout.col#images-grid-outfits-ellos-2",
+      "flex-layout.col#images-grid-outfits-ellos-two-images"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "images-grid-outfits-ellos",
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-1": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-1"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-1": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/MenChamVerd_Op2copy.jpg",
+      "blockClass": ["image-dblok", "hide-headline"],
+      "maxHeight": "700px",
+      "listButton": [
+        {
+          "href": "/402?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-2": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-2"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaWhitecopy.jpg",
+      "blockClass": ["image-dblok", "hide-headline"],
+      "maxHeight": "700px",
+      "listButton": [
+        {
+          "href": "/405?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-two-images": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellos-3",
+      "flex-layout.col#images-grid-outfits-ellos-4"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-3": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-3"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-3": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaTranspacopy.jpg",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/403?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-4": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-4"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-4": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamarraBlack_01copy.jpg",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/404?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  // ******************** Images grid: outfits para ellos ********************
+
+  // ******************** Title: outfits para ellas ********************
+  "flex-layout.row#title-outfits-ellas-waterproof-landing": {
+    "children": ["flex-layout.col#title-outfits-ellas"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#title-outfits-ellas": {
+    "children": [
+      "rich-text#outline-title-outfits-ellas",
+      "rich-text#bold-title-outfits-ellas"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-text-waterproof-landing"
+    }
+  },
+  "rich-text#outline-title-outfits-ellas": {
+    "props": {
+      "text": "OUTFITS",
+      "blockClass": ["outline-title", "black-text"]
+    }
+  },
+  "rich-text#bold-title-outfits-ellas": {
+    "props": {
+      "text": "PARA ELLAS",
+      "blockClass": ["bold-title", "black-text"]
+    }
+  },
+  // ******************** Title: outfits para ellas ********************
+
+  // ******************** Images grid: outfits para ellas ********************
+  "flex-layout.row#images-grid-outfits-ellas": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellas-two-images",
+      "flex-layout.col#images-grid-outfits-ellas-3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["images-grid-outfits-ellos", "images-grid-outfits-ellas"],
+      "colGap": 7
+    }
+  },
+
+  "flex-layout.col#images-grid-outfits-ellas-two-images": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellas-1",
+      "flex-layout.col#images-grid-outfits-ellas-2"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellas-1": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-1"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-1": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/GabaNegra_01copy.jpg",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/408?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellas-2": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-2"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Wmns_ChamaWhitecopy.jpg",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/407?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#images-grid-outfits-ellas-3": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-3"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-3": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaTranspa_Wmnscopy.jpg",
+      "blockClass": ["image-dblok", "hide-headline", "full-image-ellas"],
+      "maxHeight": "700px",
+      "listButton": [
+        {
+          "href": "/406?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  // ******************** Images grid: outfits para ellas ********************
+
+  // ******************** Title: chamarras impermeables ********************
+  "flex-layout.row#title-impermeables-waterproof-landing": {
+    "children": ["flex-layout.col#title-impermeables"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#title-impermeables": {
+    "children": [
+      "rich-text#bold-title-impermeables",
+      "rich-text#outline-title-impermeables",
+      "rich-text#normal-text-impermeables"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-text-impermeables-waterproof-landing"
+    }
+  },
+  "rich-text#bold-title-impermeables": {
+    "props": {
+      "text": "CHAMARRAS",
+      "blockClass": ["bold-title", "black-text"]
+    }
+  },
+  "rich-text#outline-title-impermeables": {
+    "props": {
+      "text": "IMPERMEABLES",
+      "blockClass": ["outline-title", "black-text"]
+    }
+  },
+  "rich-text#normal-text-impermeables": {
+    "props": {
+      "text": "Con costuras selladas para mayor protección, estas\n prendas están hechas o tratadas con caucho,\n plástico u otro agente sellador para evitar la\n penetración de agua.",
+      "textAlignment": "CENTER",
+      "blockClass": "normal-text"
+    }
+  },
+  // ******************** Title: chamarras impermeables ********************
+
+  // ******************** Images grid: chamarras impermeables ********************
+  "flex-layout.row#images-grid-impermeables": {
+    "children": ["flex-layout.col#images-grid-impermeables"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "images-grid-impermeables"
+    }
+  },
+  "flex-layout.col#images-grid-impermeables": {
+    "children": [
+      "flex-layout.row#images-grid-impermeables-1",
+      "flex-layout.row#images-grid-impermeables-2"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "flex-layout.row#images-grid-impermeables-1": {
+    "children": [
+      "flex-layout.col#images-grid-impermeables-1-1",
+      "flex-layout.col#images-grid-impermeables-1-2"
+    ],
+    "props": {
+      "blockClass": "row-images-grid-impermeables"
+    }
+  },
+  "flex-layout.col#images-grid-impermeables-1-1": {
+    "children": ["custom-infocard#image-grid-impermeables-1-1"]
+  },
+  "flex-layout.col#images-grid-impermeables-1-2": {
+    "children": ["custom-infocard#image-grid-impermeables-1-2"]
+  },
+  "custom-infocard#image-grid-impermeables-1-1": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/TIMBERLAND_9copy.jpg",
+      "link": "/378?map=category-2,category-2,productClusterIds&page=2&query=/chalecos-y-chamarras/ropa/378&searchState",
+      "maxHeight": "330px",
+      "width": "100%",
+      "blockClass": "image-dblok"
+    }
+  },
+  "custom-infocard#image-grid-impermeables-1-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/TIMBERLAND_2copy.jpg",
+      "link": "/378?map=category-2,category-2,productClusterIds&page=2&query=/chalecos-y-chamarras/ropa/378&searchState",
+      "maxHeight": "330px",
+      "width": "100%",
+      "blockClass": "image-dblok"
+    }
+  },
+  "flex-layout.row#images-grid-impermeables-2": {
+    "children": [
+      "flex-layout.col#images-grid-impermeables-2-1",
+      "flex-layout.col#images-grid-impermeables-2-2"
+    ],
+    "props": {
+      "blockClass": "row-images-grid-impermeables"
+    }
+  },
+  "flex-layout.col#images-grid-impermeables-2-1": {
+    "children": ["custom-infocard#image-grid-impermeables-2-1"]
+  },
+  "flex-layout.col#images-grid-impermeables-2-2": {
+    "children": ["custom-infocard#image-grid-impermeables-2-2"]
+  },
+  "custom-infocard#image-grid-impermeables-2-1": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/TIMBERLAND_16copy.jpg",
+      "link": "/378?map=category-2,category-2,productClusterIds&page=2&query=/chalecos-y-chamarras/ropa/378&searchState",
+      "maxHeight": "330px",
+      "width": "100%",
+      "blockClass": "image-dblok"
+    }
+  },
+  "custom-infocard#image-grid-impermeables-2-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/TIMBERLAND_17copy.jpg",
+      "link": "/378?map=category-2,category-2,productClusterIds&page=2&query=/chalecos-y-chamarras/ropa/378&searchState",
+      "maxHeight": "330px",
+      "width": "100%",
+      "blockClass": "image-dblok"
+    }
+  },
+  // ******************** Images grid: chamarras impermeables ********************
+
+  // ******************** Shelf ********************
+  "flex-layout.row#shelf-waterproof-landing": {
+    "children": ["list-context.product-list#shelf-waterproof-landing"],
+    "props": {
+      "blockClass": "shelf-waterproof-landing"
+    }
+  },
+  "list-context.product-list#shelf-waterproof-landing": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-waterproof-landing"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "409",
+      "arrows": true
+    }
+  },
+  "slider-layout#shelf-waterproof-landing": {
+    "props": {
+      "showPaginationDots": "never",
+      "infinite": true,
+      "fullWidth": false,
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "blockClass": "slider-waterproof-landing"
+    }
+  },
+  // ******************** Shelf ********************
+
+  // ******************** Brands Footer ********************
+  "flex-layout.row#brands-waterproof-landing": {
+    "children": ["flex-layout.col#brands-waterproof-landing"],
+    "props": {
+      "blockClass": "brands-waterproof-landing"
+    }
+  },
+  "flex-layout.col#brands-waterproof-landing": {
+    "children": [
+      "image#absolute-image-brands-waterproof-landing",
+      "flex-layout.row#brands"
+    ],
+    "props": {
+      "blockClass": "col-brands-waterproof-landing",
+      "height": "auto"
+    }
+  },
+  "image#absolute-image-brands-waterproof-landing": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/BannerLogos_Desk.jpg",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "absolute-image-brands"
+    }
+  },
+  "flex-layout.row#brands": {
+    "children": [
+      "flex-layout.row#inner-brands-group-1",
+      "flex-layout.row#inner-brands-group-2"
+    ],
+    "props": {
+      "blockClass": "row-brands"
+    }
+  },
+  "flex-layout.row#inner-brands-group-1": {
+    "children": ["image#brand-1", "image#brand-2"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "inner-brands-group-1"
+    }
+  },
+  "image#brand-1": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Group35.svg",
+      "maxHeight": "70px",
+      "link": {
+        "url": "/378?map=category-1,productClusterIds&query=/calzado/378&searchState"
+      }
+    }
+  },
+  "image#brand-2": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Layer1.svg",
+      "width": "250px",
+      "link": {
+        "url": "/378?map=category-1,productClusterIds&query=/calzado/378&searchState"
+      }
+    }
+  },
+  "flex-layout.row#inner-brands-group-2": {
+    "children": ["image#brand-3", "image#brand-4"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "inner-brands-group-2"
+    }
+  },
+  "image#brand-3": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Layer_1-1.svg",
+      "width": "250px",
+      "link": {
+        "url": "/378?map=category-1,productClusterIds&query=/calzado/378&searchState"
+      }
+    }
+  },
+  "image#brand-4": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Layer_1.svg",
+      "maxHeight": "70px",
+      "link": {
+        "url": "/378?map=category-1,productClusterIds&query=/calzado/378&searchState"
+      }
+    }
+  },
+  // ******************** Brands Footer ********************
+
+  // **************************************** COMPONENTES MOBILE ****************************************
+  //Main Banner MOBILE
+  "flex-layout.row#main-banner-waterproof-landing-mobile": {
+    "children": ["one-block#main-banner-waterproof-landing-mobile"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "one-block#main-banner-waterproof-landing-mobile": {
+    "props": {
+      "blockClass": "mainBanner-waterproof-mobile",
+      "mobileImgUrl": "https://timberlandmx.vteximg.com.br/arquivos/MainBanner_WP_01-mobile.jpg",
+      "desktopTextLocation": "end",
+      "desktopTextPosition": "center",
+      "mobileTextPosition": "end",
+      "stackedButtons": false,
+      "centerText": false,
+      "height": "650px",
+      "textWidth": "80%",
+      "ctaArray": [
+        {
+          "text": "VER COLECCIÓN",
+          "url": "/378?map=productClusterIds"
+        }
+      ]
+    }
+  },
+  //Background group
+  "flex-layout.row#background-group-mobile": {
+    "children": ["flex-layout.col#bgImage-mobile"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#bgImage-mobile": {
+    "children": [
+      "image#absolute-image-mobile",
+      "flex-layout.row#image-text-waterproof-landing-mobile",
+      "flex-layout.row#text-image-waterproof-landing-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["1920max", "bgImage"]
+    }
+  },
+  //Background image
+  "image#absolute-image-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Back-mobile.jpg",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": ["absolute-image", "absolute-image-mobile"]
+    }
+  },
+  //Image - text
+  "flex-layout.row#image-text-waterproof-landing-mobile": {
+    "children": [
+      "flex-layout.col#images-area-mobile",
+      "flex-layout.col#texts-area"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "image-text-waterproof-landing"
+    }
+  },
+  "flex-layout.col#images-area-mobile": {
+    "children": [
+      "image#images-area-background-mobile",
+      "image#images-area-main-mobile"
+    ],
+    "props": {
+      "blockClass": "image-text-waterproof-images-area"
+    }
+  },
+  "image#images-area-background-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Splash_03-mobile.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "images-area-background"
+    }
+  },
+  "image#images-area-main-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/WP_PiecesBoot-mobile.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "images-area-main"
+    }
+  },
+  //Text - image
+  "flex-layout.row#text-image-waterproof-landing-mobile": {
+    "children": [
+      "flex-layout.col#texts-area-inverted",
+      "flex-layout.col#images-area-inverted-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "image-text-waterproof-landing",
+        "image-text-waterproof-landing-inverted"
+      ]
+    }
+  },
+  "flex-layout.col#images-area-inverted-mobile": {
+    "children": [
+      "image#images-area-background-inverted-mobile",
+      "image#images-area-main-inverted-mobile"
+    ],
+    "props": {
+      "minHeight": "600px",
+      "blockClass": ["image-text-waterproof-images-area", "inverted"]
+    }
+  },
+  "image#images-area-background-inverted-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Splash_05-mobile.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": [
+        "images-area-background",
+        "images-area-background-inverted",
+        "images-area-background-inverted-mobile"
+      ]
+    }
+  },
+  "image#images-area-main-inverted-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/WP_Landing_Desk.gif",
+      "maxHeight": "500px",
+      "blockClass": ["images-area-main", "images-area-main-inverted"]
+    }
+  },
+
+  // ******************** Video Area ********************
+  "flex-layout.row#waterproof-video-area-mobile": {
+    "children": [
+      "image#absolute-image-video",
+      "custom-video-card#landing-waterproof-mobile"
+    ],
+    "props": {
+      "blockClass": "waterproof-video-area",
+      "colSizing": "auto"
+    }
+  },
+  "custom-video-card#landing-waterproof-mobile": {
+    "props": {
+      "maxHeight": "330px",
+      "src": "https://publictimberlandmx.blob.core.windows.net/files/landingWaterproof/TIMBERLAND_FINAL_30s_1_1.mp4",
+      "autoPlay": false,
+      "loop": false,
+      "controls": true,
+      "muted": false,
+      "customPlayIcon": "assets/play-arrow.svg"
+    }
+  },
+  // ******************** Video Area ********************
+
+  // ******************** Images grid: outfits para ellos MOBILE ********************
+  "flex-layout.row#images-grid-outfits-ellos-mobile": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellos-1-mobile",
+      "flex-layout.col#images-grid-outfits-ellos-2-mobile",
+      "flex-layout.col#images-grid-outfits-ellos-3-mobile",
+      "flex-layout.col#images-grid-outfits-ellos-4-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "images-grid-outfits-ellos",
+        "images-grid-outfits-ellos-mobile"
+      ],
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-1-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-1-mobile"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-1-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/MenChamVerd_Op2copy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "outfits-mobiles"],
+      "width": "100%",
+      "listButton": [
+        {
+          "href": "/402?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-2-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-2-mobile"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-2-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaTranspacopy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "outfits-mobiles"],
+      "width": "100%",
+      "listButton": [
+        {
+          "href": "/403?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-3-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-3-mobile"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-3-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamarraBlack_01copy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "outfits-mobiles"],
+      "width": "100%",
+      "listButton": [
+        {
+          "href": "/404?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellos-4-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellos-4-mobile"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellos-4-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaWhitecopy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "outfits-mobiles"],
+      "width": "100%",
+      "listButton": [
+        {
+          "href": "/405?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  // ******************** Images grid: outfits para ellos MOBILE ********************
+  // ******************** Images grid: outfits para ellas MOBILE ********************
+  "flex-layout.row#images-grid-outfits-ellas-mobile": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellas-two-images-mobile",
+      "flex-layout.col#images-grid-outfits-ellas-3-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "images-grid-outfits-ellos",
+        "images-grid-outfits-ellas",
+        "images-grid-outfits-ellas-mobile"
+      ],
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellas-two-images-mobile": {
+    "children": [
+      "flex-layout.col#images-grid-outfits-ellas-1-mobile",
+      "flex-layout.col#images-grid-outfits-ellas-2-mobile"
+    ],
+    "props": {
+      "rowGap": 7
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellas-1-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-1-mobile"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-1-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/ChamaTranspa_Wmnscopy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/406?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  "flex-layout.col#images-grid-outfits-ellas-2-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-2-mobile"],
+    "props": {
+      "blockClass": "relative-two-in-cols"
+    }
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-2-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Wmns_ChamaWhitecopy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "two-in-cols"],
+      "listButton": [
+        {
+          "href": "/407?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#images-grid-outfits-ellas-3-mobile": {
+    "children": ["custom-infocard-button#image-grid-outfits-ellas-3-mobile"]
+  },
+  "custom-infocard-button#image-grid-outfits-ellas-3-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/GabaNegra_01copy-mobile.png",
+      "blockClass": ["image-dblok", "hide-headline", "full-image-ellas"],
+      "width": "100%",
+      "listButton": [
+        {
+          "href": "/408?map=productClusterIds",
+          "blockClass": "image-button"
+        }
+      ]
+    }
+  },
+  // ******************** Images grid: outfits para ellas MOBILE ********************
+  // ******************** Title: chamarras impermeables MOBILE ********************
+  "flex-layout.row#title-impermeables-waterproof-landing-mobile": {
+    "children": ["flex-layout.col#title-impermeables-mobile"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "1920max"
+    }
+  },
+  "flex-layout.col#title-impermeables-mobile": {
+    "children": [
+      "rich-text#bold-title-impermeables",
+      "rich-text#outline-title-impermeables",
+      "rich-text#normal-text-impermeables-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "info-text-impermeables-waterproof-landing"
+    }
+  },
+  "rich-text#normal-text-impermeables-mobile": {
+    "props": {
+      "text": "Con costuras selladas para mayor protección, estas prendas están hechas o tratadas con caucho, plástico u otro agente sellador para evitar la penetración de agua.",
+      "textAlignment": "CENTER",
+      "blockClass": "normal-text"
+    }
+  },
+  // ******************** Title: chamarras impermeables MOBILE ********************
+  // ******************** Brands Footer ********************
+  "flex-layout.row#brands-waterproof-landing-mobile": {
+    "children": ["flex-layout.col#brands-waterproof-landing-mobile"],
+    "props": {
+      "blockClass": "brands-waterproof-landing"
+    }
+  },
+  "flex-layout.col#brands-waterproof-landing-mobile": {
+    "children": [
+      "image#absolute-image-brands-waterproof-landing-mobile",
+      "flex-layout.row#brands"
+    ],
+    "props": {
+      "blockClass": "col-brands-waterproof-landing",
+      "height": "auto"
+    }
+  },
+  "image#absolute-image-brands-waterproof-landing-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/BannerLogos_Mobile.png",
+      "width": "100%",
+      "height": "100%",
+      "blockClass": "absolute-image-brands"
+    }
+  }
+  // ******************** Brands Footer ********************
+  // **************************************** COMPONENTES MOBILE ****************************************
+}

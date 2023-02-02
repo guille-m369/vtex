@@ -1,0 +1,107 @@
+{
+  // Ropa
+  "flex-layout.col#hombre-column-3": {
+    "children": ["vtex.menu@2.x:menu#hombre-column-3"]
+  },
+
+  "vtex.menu@2.x:menu#hombre-column-3": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-hombres-ropa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa",
+            "noFollow": true,
+            "tagTitle": "ROPA",
+            "text": "ROPA"
+          }
+        },
+        {
+          "id": "menu-item-hombres-playeras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa/playeras",
+            "noFollow": true,
+            "tagTitle": "Playeras",
+            "text": "Playeras"
+          }
+        },
+        {
+          "id": "menu-item-hombres-camisas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa/camisas",
+            "noFollow": true,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+          }
+        },
+        {
+          "id": "menu-item-hombres-pantalones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa/pantalones",
+            "noFollow": true,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+          }
+        },
+        {
+          "id": "menu-item-hombres-entrenamiento-polos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href":  "/hombre/ropa/polos",
+            "noFollow": true,
+            "tagTitle": "Polos",
+            "text": "Polos"
+          }
+        },
+        {
+          "id": "menu-item-hombres-chamarras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/ropa/chalecos-y-chamarras",
+            "noFollow": true,
+            "tagTitle": "Chalecos y Chamarras",
+            "text": "Chalecos y Chamarras"
+          }
+        },
+
+        {
+          "id": "menu-item-hombres-sudaderas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href":  "/hombre/ropa/sudaderas",
+            "noFollow": true,
+            "tagTitle": "Sudaderas",
+            "text": "Sudaderas"
+          }
+        }
+      ]
+    }
+  }
+}

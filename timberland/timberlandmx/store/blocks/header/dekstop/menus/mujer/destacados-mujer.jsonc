@@ -1,0 +1,67 @@
+{
+  // Destacados
+  "flex-layout.col#destacados-header-mujer": {
+    "children": ["vtex.menu@2.x:menu#mujer-column-1"]
+  },
+
+  "vtex.menu@2.x:menu#mujer-column-1": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-mujeres-destacados",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/154?map=productClusterIds",
+            "noFollow": true,
+            "tagTitle": "DESTACADOS",
+            "text": "DESTACADOS"
+          }
+        },
+        // {
+        //   "id": "menu-item-hombres-lanzamiento",
+        //   "type": "custom",
+        //   "iconId": null,
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/223?map=productClusterIds",
+        //     "noFollow": true,
+        //     "tagTitle": "Lo nuevo",
+        //     "text": "Lo nuevo"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-mujeres-lo-nuevo",
+        //   "type": "custom",
+        //   "iconId": null,
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/225?map=productClusterIds",
+        //     "noFollow": true,
+        //     "tagTitle": "Últimas Piezas",
+        //     "text": "Últimas Piezas"
+        //   }
+        // },
+        {
+          "id": "menu-item-mujeres-basicos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/basicos",
+            "noFollow": true,
+            "tagTitle": "Basicos",
+            "text": "Básicos"
+          }
+        }
+      ]
+    }
+  }
+}

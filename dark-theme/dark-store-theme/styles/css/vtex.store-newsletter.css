@@ -1,0 +1,55 @@
+/*------------------------footer---------------------*/
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+  :global(.vtex-input-prefix__group) {
+  border: none;
+}
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+:global(.vtex-styleguide-9-x-input){
+    border:  solid 2px #3D3D3D;
+    background-color: #171717;
+    
+}
+.emailInputContainer
+.input::placeholder{
+  color: #999;
+}
+
+:global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email){
+    border-radius: 15px;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer--newsletter-submit)
+:global(.vtex-button){
+  width: 36%;
+  background-color: #0F59D2;
+border: none;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+:global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer--text-confirmation)
+:global(.vtex-checkbox__label){
+  color: #DEDEDE;
+}
+
+/*-------------------------css-mobile-------------------------------*/
+@media screen and (max-width: 600px) {
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer--newsletter-submit)
+  :global(.vtex-button){
+    width: 100%;
+    background-color: #0F59D2;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: .5em;
+    padding: .6em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer--text-confirmation){
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}

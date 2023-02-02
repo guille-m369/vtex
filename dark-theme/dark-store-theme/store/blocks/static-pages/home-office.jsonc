@@ -1,0 +1,162 @@
+{
+  "store.custom#home-office": {
+    "blocks": [
+      "responsive-layout.desktop#home-office",
+      "responsive-layout.mobile#home-office"
+    ]
+  },
+  "responsive-layout.desktop#home-office": {
+    "children": [
+      "flex-layout.row#home-office-cover",
+      "flex-layout.row#desktop-home-office"
+    ]
+  },
+
+  "flex-layout.row#desktop-home-office": {
+    "children": ["flex-layout.col#desktop-home-office"],
+    "props": {
+      "blockClass": "row-home-office"
+    }
+  },
+
+  "flex-layout.col#desktop-home-office": {
+    "children": [
+      "flex-layout.row#desktop-home-office-title-grid",
+      "flex-layout.row#desktop-home-office-grid",
+      "flex-layout.row#component-marcas-populares",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-destacados",
+      "flex-layout.row#contact"
+    ],
+    "props": {
+      "blockClass": "col-home-office"
+    }
+  },
+
+  /*Title grid*/
+  "flex-layout.row#desktop-home-office-title-grid": {
+    "props": {
+      "blockClass": "desktop-home-office-title-grid"
+    },
+    "children": ["flex-layout.col#desktop-home-office-title-grid"]
+  },
+
+  "flex-layout.col#desktop-home-office-title-grid": {
+    "children": ["flex-layout.row#desktop-home-office-title-grid-1"]
+  },
+  "flex-layout.row#desktop-home-office-title-grid-1": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-title-grid-1",
+      "flex-layout.col#component-home-office-title-grid-2"
+    ]
+  },
+
+  /*Grid*/
+  "flex-layout.row#desktop-home-office-grid": {
+    "props": {
+      "blockClass": "desktop-categorias-grid"
+    },
+    "children": ["flex-layout.col#desktop-home-office-grid"]
+  },
+
+  "flex-layout.col#desktop-home-office-grid": {
+    "children": [
+      "flex-layout.row#desktop-home-office-grid-1",
+      "flex-layout.row#desktop-home-office-grid-2"
+    ]
+  },
+  "flex-layout.row#desktop-home-office-grid-1": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-grid-1",
+      "flex-layout.col#component-home-office-grid-2",
+      "flex-layout.col#component-home-office-grid-3"
+    ]
+  },
+
+  "flex-layout.row#desktop-home-office-grid-2": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-grid-4",
+      "flex-layout.col#component-home-office-grid-5",
+      "flex-layout.col#component-home-office-grid-6"
+    ]
+  },
+
+  //--------------------------categorias-mobile---------------------------------//
+
+  "responsive-layout.mobile#home-office": {
+    "children": [
+      "flex-layout.row#home-office-cover-mobile",
+      "flex-layout.row#mobile-home-office"
+    ]
+  },
+  "flex-layout.row#mobile-home-office": {
+    "children": ["flex-layout.col#mobile-home-office"],
+    "props": {
+      "blockClass": "row-home-office"
+    }
+  },
+
+  "flex-layout.col#mobile-home-office": {
+    "children": [
+      "flex-layout.row#desktop-home-office-title-grid",
+      "flex-layout.row#mobile-home-office-grid",
+      "flex-layout.row#component-marcas-populares",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-destacados",
+      "flex-layout.row#contact"
+    ],
+    "props": {
+      "blockClass": "col-home-office"
+    }
+  },
+
+  "flex-layout.row#mobile-home-office-grid": {
+    "props": {
+      "blockClass": "mobile-categorias-grid"
+    },
+    "children": ["flex-layout.col#mobile-home-office-grid"]
+  },
+  "flex-layout.col#mobile-home-office-grid": {
+    "children": [
+      "flex-layout.row#mobile-home-office-grid-1",
+      "flex-layout.row#mobile-home-office-grid-2",
+      "flex-layout.row#mobile-home-office-grid-3"
+    ]
+  },
+  "flex-layout.row#mobile-home-office-grid-1": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-grid-1",
+      "flex-layout.col#component-home-office-grid-2"
+    ]
+  },
+  "flex-layout.row#mobile-home-office-grid-2": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-grid-3",
+      "flex-layout.col#component-home-office-grid-4"
+    ]
+  },
+  "flex-layout.row#mobile-home-office-grid-3": {
+    "props": {
+      "blockClass": "categoria-row"
+    },
+    "children": [
+      "flex-layout.col#component-home-office-grid-5",
+      "flex-layout.col#component-home-office-grid-6"
+    ]
+  }
+}

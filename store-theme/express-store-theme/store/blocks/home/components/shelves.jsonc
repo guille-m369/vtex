@@ -1,0 +1,23 @@
+{
+  "list-context.product-list#component-shelf-productos-destacados": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#component-shelf-productos-destacados"],
+    "props": {
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+
+  "slider-layout#component-shelf-productos-destacados": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop":4 ,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true
+      // "blockClass": "shelf"
+    }
+  }
+}

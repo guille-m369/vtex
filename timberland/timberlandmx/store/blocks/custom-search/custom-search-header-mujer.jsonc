@@ -1,0 +1,472 @@
+{
+  "store.custom#mujer": {
+    "blocks": ["search-result-layout.customQuery#mujer"]
+  },
+  "search-result-layout.customQuery#mujer": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer",
+        "mapField":"genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-destacados": {
+    "blocks": ["search-result-layout.customQuery#destacados-mujer"]
+  },
+  "search-result-layout.customQuery#destacados-mujer": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/154",
+        "mapField": "genero,productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-lo-nuevo": {
+    "blocks": ["search-result-layout.customQuery#mujer-lo-nuevo"]
+  },
+  "search-result-layout.customQuery#mujer-lo-nuevo": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/223",
+        "mapField": "genero,productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-yellow-boot": {
+    "blocks": ["search-result-layout.customQuery#mujer-yellow-boot"]
+  },
+  "search-result-layout.customQuery#mujer-yellow-boot": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/151",
+        "mapField": "genero,productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-basicos": {
+    "blocks": ["search-result-layout.customQuery#mujer-basicos"]
+  },
+  "search-result-layout.customQuery#mujer-basicos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/155",
+        "mapField": "genero,productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-ultimas-piezas": {
+    "blocks": ["search-result-layout.customQuery#mujer-ultimas-piezas"]
+  },
+  "search-result-layout.customQuery#mujer-ultimas-piezas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "225",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-calzado": {
+    "blocks": ["search-result-layout.customQuery#mujer-calzado"]
+  },
+  "search-result-layout.customQuery#mujer-calzado": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/calzado",
+        "mapField": "genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-botas-hiking": {
+    "blocks": ["search-result-layout.customQuery#mujer-botas-hiking"]
+  },
+  "search-result-layout.customQuery#mujer-botas-hiking": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "491",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-botas": {
+    "blocks": ["search-result-layout.customQuery#mujer-botas"]
+  },
+  "search-result-layout.customQuery#mujer-botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/botas",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-hiking": {
+    "blocks": ["search-result-layout.customQuery#mujer-hiking"]
+  },
+  "search-result-layout.customQuery#mujer-hiking": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/hiking",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-calzado-casual": {
+    "blocks": ["search-result-layout.customQuery#mujer-calzado-casual"]
+  },
+  "search-result-layout.customQuery#mujer-calzado-casual": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/casual",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-calzado-boat-shoes": {
+    "blocks": ["search-result-layout.customQuery#mujer-calzado-boat-shoes"]
+  },
+  "search-result-layout.customQuery#mujer-calzado-boat-shoes": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/boat-shoes",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-calzado-sandalias": {
+    "blocks": ["search-result-layout.customQuery#mujer-calzado-sandalias"]
+  },
+  "search-result-layout.customQuery#mujer-calzado-sandalias": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/sandalias",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-ropa": {
+    "blocks": ["search-result-layout.customQuery#mujer-ropa"]
+  },
+  "search-result-layout.customQuery#mujer-ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/ropa",
+        "mapField": "genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#mujer-ropa-sudaderas": {
+    "blocks": ["search-result-layout.customQuery#mujer-ropa-sudaderas"]
+  },
+  "search-result-layout.customQuery#mujer-ropa-sudaderas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/sudaderas",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  
+  "store.custom#mujer-ropa-playeras": {
+    "blocks": ["search-result-layout.customQuery#mujer-ropa-playeras"]
+  },
+  "search-result-layout.customQuery#mujer-ropa-playeras": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/playeras",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-ropa-vestidos-faldas": {
+    "blocks": ["search-result-layout.customQuery#mujer-ropa-vestidos-faldas"]
+  },
+  "search-result-layout.customQuery#mujer-ropa-vestidos-faldas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/vestidos-y-faldas",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-accesorios": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/accesorios",
+        "mapField": "genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-accesorios-mochilas": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios-mochilas"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios-mochilas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/mochilas",
+        "mapField": "genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },"store.custom#mujer-accesorios-mochilas-y-bolsas": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios-mochilas-y-bolsas"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios-mochilas-y-bolsas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/mochilas/bolsas",
+        "mapField": "genero,categoria,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-accesorios-productos-limpieza": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios-productos-limpieza"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios-productos-limpieza": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "142",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  
+  "store.custom#mujer-accesorios-calcetines": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios-calcetines"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios-calcetines": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "234",
+        "mapField": "/mujer/accesorios/calcetines",
+        "orderByField": "genero,categoria,categoria",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#mujer-accesorios-fundas": {
+    "blocks": ["search-result-layout.customQuery#mujer-accesorios-fundas"]
+  },
+  "search-result-layout.customQuery#mujer-accesorios-fundas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "fundas",
+        "mapField":"categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+
+
+
+
+}

@@ -1,0 +1,18 @@
+{
+  "trigger": {
+    "component": "Trigger",
+    "composition": "children"
+  },
+  "trigger-intersection": {
+    "component": "TriggerIntersection",
+    "composition": "children"
+  },
+  "trigger-layout": {
+    "component": "TriggerLayout",
+    "composition": "children"
+  },
+  "trigger-url": {
+    "component": "TriggerUrl",
+    "composition": "children"
+  }
+}

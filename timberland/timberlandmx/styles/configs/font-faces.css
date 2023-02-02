@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "GT-Flexa-TBL";
+  src: url(assets/fonts/GT-Flexa-TL-Black.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT-Flexa-BlackOutline-TBL";
+  src: url(assets/fonts/GT-Flexa-TL-BlackOutline.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceCodePro-Bold";
+  src: url(assets/fonts/SourceCodePro-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceCodePro-TBL";
+  src: url(assets/fonts/SourceCodePro-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceCodePro-Regular";
+  src: url(assets/fonts/SourceCodePro-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}

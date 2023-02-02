@@ -1,0 +1,168 @@
+{
+  /*Seccion social network images*/
+  /*Ron of images social network*/
+  "flex-layout.row#footer-redes-sociales": {
+    "children": [
+      "flex-layout.col#footer-section-e-shop",
+      "flex-layout.col#footer-redes-sociales",
+      "flex-layout.col#footer-metodos-de-pago"],
+    "props": {
+      "blockClass": "row-image-item-footer"
+    }
+  },
+  /*------------------------------- section e-shop-----------------------*/
+
+  "flex-layout.col#footer-section-e-shop":{
+    "children":["image#component-e-shop"],
+    "props":{
+     "blockClass": "footer-section-e-shop"
+    }
+  },
+  "image#component-e-shop":{
+    "props":{
+      "src": "assets/footer/e-shop.svg"
+    }
+  },
+
+  //---------------------------section redes sociales---------------*//
+
+  "flex-layout.col#footer-redes-sociales": {
+    "children": [
+     "flex-layout.row#footer-redes-sociales-text",
+     "flex-layout.row#footer-redes-sociales-img"
+    ],
+    "props":{
+      "blockClass": "footer-redes-sociales"
+    }
+  },
+  "flex-layout.row#footer-redes-sociales-text":{
+    "children":["flex-layout.col#footer-redes-sociales-text"]
+  },
+  "flex-layout.col#footer-redes-sociales-text":{
+    "children":["rich-text#footer-redes-sociales-text"],
+    "props":{
+      "blockClass": "footer-redes-sociales-text",
+      "horizontalAlign": "center"
+    }
+  },
+  
+  "rich-text#footer-redes-sociales-text":{
+    "props":{
+      "blockClass": "footer-redes-sociales-text",
+      "text": "Sigue a eshop"
+    }
+  },
+  "flex-layout.row#footer-redes-sociales-img":{
+    "children":[
+      "flex-layout.col#footer-redes-sociales-twitter",
+      "flex-layout.col#footer-redes-sociales-facebook",
+      "flex-layout.col#footer-redes-sociales-instagram"
+    ],
+    "props":{
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#footer-redes-sociales-twitter":{
+    "children":[
+      "image#footer-redes-sociales-twitter"
+    ],
+    "props":{
+      "blockClass": "footer-redes-sociales-twitter",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#footer-redes-sociales-twitter":{
+    "props":{
+      
+      "src": "assets/footer/Twitter.svg"
+    }
+  },
+  "flex-layout.col#footer-redes-sociales-facebook":{
+    "children":[
+      "image#footer-redes-sociales-facebook"
+    ],
+    "props":{
+      "width": "15%",
+      "blockClass": "footer-redes-sociales-facebook",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#footer-redes-sociales-facebook":{
+    "props":{
+      "src": "assets/footer/Facebook.svg"
+    }
+  },
+  "flex-layout.col#footer-redes-sociales-instagram":{
+    "children":[
+      "image#footer-redes-sociales-instragram"
+    ]
+  },
+  "image#footer-redes-sociales-instragram":{
+    "props":{
+      "src": "assets/footer/instagram.svg"
+    }
+  },
+
+  //------------------------metodos-de-pago---------------------------//
+
+  "flex-layout.col#footer-metodos-de-pago":{
+    "children":[
+      "flex-layout.row#footer-metodos-de-pago-text",
+      "flex-layout.row#footer-metodos-de-pago-img"]
+  },
+  "flex-layout.row#footer-metodos-de-pago-text":{
+    "children":["flex-layout.col#footer-metodos-de-pago-text"],
+    "props":{
+      
+      "blockClass": "footer-metodos-de-pago-text"
+    }
+  },
+  "flex-layout.col#footer-metodos-de-pago-text":{
+    "children":["rich-text#footer-metodos-de-pago-text"],
+    "props":{
+       "horizontalAlign": "center",
+      "blockClass": "footer-metodos-de-pago-text"
+    }
+  },
+  "rich-text#footer-metodos-de-pago-text":{
+    "props":{
+      "blockClass": "footer-metodos-de-pago-text",
+       "text": "Métodos de pago"
+    }
+  },
+  "flex-layout.row#footer-metodos-de-pago-img":{
+    "children":["flex-layout.col#footer-metodos-de-pago-img-paypal",
+      "flex-layout.col#footer-metodos-de-pago-img-mercadopago"],
+      "props":{
+        "preserveLayoutOnMobile": "true"
+      }
+  },
+  "flex-layout.col#footer-metodos-de-pago-img-paypal":{
+    "children":[
+     "image#footer-metodos-de-pago-img-paypal"
+    ],
+    "props":{
+      "blockClass": "footer-metodos-de-pago-img-paypal",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#footer-metodos-de-pago-img-paypal":{
+    "props":{
+      "src": "assets/footer/image-paypal.png"
+    }
+  },
+  "flex-layout.col#footer-metodos-de-pago-img-mercadopago":{
+    "children":["image#footer-metodos-de-pago-img-mercadopago"],
+    "props":{
+      "width": "40%",
+      "blockClass": "footer-metodos-de-pago-img-mercadopago"
+    }
+  },
+  "image#footer-metodos-de-pago-img-mercadopago":{
+    "props":{
+      "src": "assets/footer/image-mercadopago.png"
+    }
+  }
+
+
+}

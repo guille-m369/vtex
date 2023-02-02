@@ -1,0 +1,291 @@
+@media screen and (max-width: 40em) {
+  .triggerContainer--politicas-devoluciones
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 2.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  padding: 0.75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
+  .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+/*MOdal politicas y devoluciones */
+.triggerContainer--politicas-devoluciones
+  :global(.vtex-rich-text-0-x-container) {
+  display: inline-block;
+  margin-left: 15px;
+  text-decoration: underline;
+  color: #282321;
+}
+
+.triggerContainer--politicas-devoluciones
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: auto !important;
+  padding: 0;
+}
+.triggerContainer--politicas-devoluciones
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+}
+.triggerContainer--politicas-devoluciones {
+  margin: 14px 0;
+}
+
+.triggerContainer--politicas-devoluciones
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  display: flex;
+}
+
+.triggerContainer--politicas-devoluciones
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+  padding: 0;
+}
+
+/*MOdal politicas y devoluciones */
+.triggerContainer--guia-tallas :global(.vtex-rich-text-0-x-container),
+:global(.vtex-rich-text-0-x-strong--mensaje-guia-tallas-mobile) {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #282321;
+  font-size: 15px;
+}
+:global(.vtex-rich-text-0-x-container--mensaje-guia-tallas-mobile) {
+  text-decoration: none !important;
+  margin-bottom: 2rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--mensaje-guia-tallas-mobile) {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: #e37600;
+  text-decoration: none;
+}
+
+.paperNotFullScreen {
+  width: 70%;
+  height: 80%;
+}
+
+/*Guia de tallas*/
+
+.headerContainer--header-guia-tallas {
+  background-color: black;
+}
+:global(.vtex-rich-text-0-x-paragraph--rich-guia-tallas) {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+.closeButton--header-guia-tallas .closeIcon--header-guia-tallas {
+  color: white !important;
+  padding: 1.5rem;
+}
+
+.closeButton--header-guia-tallas:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .paperNotFullScreen {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .closeButton--header-guia-tallas .closeIcon--header-guia-tallas {
+    padding: 0;
+  }
+  :global(.vtex-modal-layout-0-x-closeButton--modal-header-politicas-devoluciones) {
+    padding: 0 !important;
+  }
+
+  :global(.vtex-modal-layout-0-x-headerContainer--modal-header-politicas-devoluciones)
+    :global(.vtex-rich-text-0-x-wrapper) {
+    font-size: 0.9rem !important;
+  }
+
+  :global(.vtex-modal-layout-0-x-paper--text-politicas-devoluciones)
+    :global(.vtex-rich-text-0-x-heading) {
+    font-size: 12px !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--rich-guia-tallas) {
+    font-size: 1rem;
+  }
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer--modal-header-politicas-devoluciones) {
+  background: black;
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer--modal-header-politicas-devoluciones)
+  :global(.vtex-rich-text-0-x-wrapper) {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+
+:global(.vtex-modal-layout-0-x-closeButton--modal-header-politicas-devoluciones) {
+  color: white;
+  padding: 1.5rem;
+}
+
+:global(.vtex-modal-layout-0-x-paper--text-politicas-devoluciones)
+  :global(.vtex-rich-text-0-x-heading) {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+:global(.vtex-modal-layout-0-x-paper--offers-modal-layout) {
+  height: auto;
+  width: 500px;
+}
+:global(.vtex-modal-layout-0-x-paper--offers-modal-layout)
+  :global(.vtex-modal-layout-0-x-closeButton) {
+  color: white;
+}
+:global(.vtex-modal-layout-0-x-paper--offers-modal-layout) {
+  background: #ededed;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-logo-modal-layout-footer) {
+  width: 50px;
+  padding: 20px;
+  margin-top: -76px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-logo-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: flex-end;
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer) {
+  border: none;
+}
+
+:global(.vtex-modal-layout-0-x-paper--offers-modal-layout)
+  :global(.vtex-modal-layout-0-x-closeButton) {
+  color: black;
+}
+
+/* Modal del cupon */
+:global(.vtex-modal-layout-0-x-paper--cupon-modal-layout) {
+  width: 500px;
+  height: 500px;
+}
+:global(.vtex-modal-layout-0-x-paper--cupon-modal-layout)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+/* Modal del cupon 10% */
+:global(.vtex-modal-layout-0-x-headerContainer--modal-cupon-10_absolutex) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+}
+:global(.vtex-modal-layout-0-x-headerContainer--modal-cupon-10_absolutex) :global(.vtex-store-components-3-x-imageElement--image-popup){
+  opacity: 0;
+}
+:global(.vtex-modal-layout-0-x-closeButton--modal-cupon-10) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--modal-cupon-10-row)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}

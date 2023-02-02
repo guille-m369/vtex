@@ -1,0 +1,73 @@
+{
+  // MAIN MENU
+  // We are only putting the top menu in here
+  // The inside of each category will have its
+  // own file
+  "vtex.menu@2.x:menu#main-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#item1",
+      "menu-item#item2",
+      "menu-item#item3",
+      "menu-item#item4"
+    ]
+  },
+  "menu-item#item1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "item1",
+        "text": "item1"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#item1"] // Defining a submenu
+  },
+  "menu-item#item2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "item2",
+        "text": "item2"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#item2"] // Defining a submenu
+  },
+  "menu-item#item3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "item3",
+        "text": "item3"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#item3"] // Defining a submenu
+  },
+  "menu-item#item4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "item4",
+        "text": "item4"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#item4"] // Defining a submenu
+  }
+}

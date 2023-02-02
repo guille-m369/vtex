@@ -1,0 +1,63 @@
+{
+  "vtex.menu@2.x:submenu#hombre": {
+    "props": {
+      "width": "100%",
+      "blockClass": "main-submenu-container"
+    },
+    "children": ["flex-layout.row#menu-hombre"]
+  },
+  "flex-layout.row#menu-hombre": {
+    "children": [
+      "flex-layout.col#menu-hombre",
+      "flex-layout.col#menu-hombre-info-card"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-submenu"
+    }
+  },
+  // Two rows divide the menu
+  "flex-layout.col#menu-hombre": {
+    "children": ["flex-layout.row#hombre-top-row"],
+    "props": {
+      "width": "75%"
+    }
+  },
+  // TOP ROW
+  // ----------------------------------------
+  // Find each column as their own file insde
+  // the 'hombre' folder
+
+  "flex-layout.row#hombre-top-row": {
+    "children": [
+      // "flex-layout.col#destacados-header-hombre",
+      "flex-layout.col#hombre-column-2",
+      "flex-layout.col#hombre-column-3",
+      "flex-layout.col#hombre-column-4"
+    ],
+    "props": {
+      "marginBottom": 6
+    }
+  },
+
+  // EMPTY COLUMN
+  "flex-layout.col#hombre-column-8": {},
+
+  // INFO CARD
+  // -----------------------------------------
+  "flex-layout.col#menu-hombre-info-card": {
+    "children": ["info-card#hombres"]
+  },
+  "info-card#hombres": {
+    "props": {
+      "id": "info-card-mens-menu",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/ArteMenuCascada_Hombre_400x400.jpg",
+      "callToActionText": "VER TODO",
+      "callToActionUrl": "/hombre",
+      "blockClass": "info-card-main-menu",
+      "textAlignment": "center"
+    }
+  }
+}

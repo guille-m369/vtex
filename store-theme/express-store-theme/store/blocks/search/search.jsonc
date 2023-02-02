@@ -1,0 +1,75 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 20,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#department": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      //"add-to-list-btn",
+      "product-summary-image",
+      "product-specifications-list",
+      "product-summary-name",
+      //"product-rating-summary",
+      "flex-layout.row#list-price",
+      "flex-layout.row#selling-price-savings"
+    ]
+  },
+  "product-summary-image": { "props": { "aspectRatio": "1:1" } },
+  "flex-layout.row#list-price": {
+    "props": {
+      //  "colGap": 0,
+      //"preventHorizontalStretch": true,
+      "blockClass": "list-price"
+    },
+    "children": ["flex-layout.col#list-price"]
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+  "flex-layout.col#list-price": {
+    "props": {
+      "blockClass": "list-price",
+      "horizontalAlign": "left"
+    },
+    "children": ["product-list-price"]
+  },
+
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      //  "colGap": 0,
+      //"preventHorizontalStretch": true,
+      "blockClass": "selling-price-savings"
+    },
+    "children": ["product-selling-price", "product-price-savings#summary"]
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": ["discount"],
+      "message": "Ahorro {savingsValue}",
+      "blockClass": "summary"
+    }
+  }
+}

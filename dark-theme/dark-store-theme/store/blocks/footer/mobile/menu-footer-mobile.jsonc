@@ -1,0 +1,441 @@
+{
+    /*******menu-mobile*********/
+    "vtex.menu@2.x:menu#mobile-categorias": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "title-menu-mobile"
+      },
+      "children": ["menu-item#special-Categorias"]
+    },
+    "menu-item#special-Categorias": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Categorías",
+          "text": "Categorías"
+        },
+        "blockClass": "title-menu-mobile-text"
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#sub-categorias"]
+    },
+    "vtex.menu@2.x:submenu.accordion#sub-categorias": {
+      "children": ["vtex.menu@2.x:menu#inner-sub-categorias"]
+    },
+    "vtex.menu@2.x:menu#inner-sub-categorias": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#computadoras",
+         "menu-item#tv-video",
+         "menu-item#video-juegos",
+         "menu-item#audio",
+         "menu-item#celulares-tablet",
+        "menu-item#wearebles",
+        "menu-item#camaras",
+        "menu-item#hogar-inteligente",
+        "menu-item#salud-belleza"]
+    },
+    "menu-item#computadoras": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/sobre-nosotros",
+          "noFollow": false,
+          "tagTitle": "Computadoras",
+          "text": "Computadoras"
+        }
+      }
+    },
+    "menu-item#tv-video": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.levi.com/US/en_US/features/our-values",
+          "noFollow": false,
+          "tagTitle": "TV y Video",
+          "text": "TV y Video"
+        }
+      }
+    },
+    "menu-item#video-juegos": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/ofertas-dia-del-padre",
+          "noFollow": false,
+          "tagTitle": "Videojuegos",
+          "text": "Videojuegos"
+        }
+      }
+    },
+    "menu-item#audio": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Audio",
+            "text": "Audio"
+          }
+        }
+      },
+      "menu-item#celulares-tablet": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Celulares y Tablets",
+            "text": "Celulares y Tablets"
+          }
+        }
+      },
+      "menu-item#wearebles": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Wearebles",
+            "text": "Wearebles"
+          }
+        }
+      },
+      "menu-item#camaras": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Camaras",
+            "text": "Camaras"
+          }
+        }
+      },
+      "menu-item#hogar-inteligente": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Hogar Inteligente",
+            "text": "Hogar Inteligente"
+          }
+        }
+      },
+      "menu-item#salud-belleza": {
+        "props": {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas-dia-del-padre",
+            "noFollow": false,
+            "tagTitle": "Salud y Belleza",
+            "text": "Salud y Belleza"
+          }
+        }
+      },
+  
+    /*******acerca de*********/
+  
+    "vtex.menu@2.x:menu#accordion-support": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "title-menu-mobile"
+      },
+      "children": ["menu-item#acerca-de"]
+    },
+  
+    "menu-item#acerca-de": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Acerca de",
+          "text": "Acerca de"
+        },
+        "blockClass": "title-menu-mobile-text"
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#acerca-de"]
+    },
+  
+    "vtex.menu@2.x:submenu.accordion#acerca-de": {
+      "children": ["vtex.menu@2.x:menu#inner-acerca-de"]
+    },
+    "vtex.menu@2.x:menu#inner-acerca-de": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#nosotros",
+        "menu-item#aviso-privacidad",
+        "menu-item#politica-privacidad",
+        "menu-item#Terminos-condiciones"
+      ]
+    },
+    "menu-item#nosotros": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contacto",
+          "noFollow": false,
+          "tagTitle": "Nosotros",
+          "text": "Nosotros"
+        }
+      }
+    },
+    "menu-item#aviso-privacidad": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cambios-devoluciones",
+          "noFollow": false,
+          "tagTitle": "Aviso de Privacidad",
+          "text": "Aviso de Privacidad"
+        }
+      }
+    },
+    "menu-item#politica-privacidad": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/guia-de-tallas",
+          "noFollow": false,
+          "tagTitle": "Politicas de Privacidad",
+          "text": "Politicas de Privacidad"
+        }
+      }
+    },
+    "menu-item#Terminos-condiciones": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/politicas-envio",
+          "noFollow": false,
+          "tagTitle": "Terminos y Condiciones",
+          "text": "Terminos y Condiciones"
+        }
+      }
+    },
+  
+   
+  
+    /*******TIENDA*********/
+  
+    "vtex.menu@2.x:menu#tiendas": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "title-menu-mobile"
+      },
+      "children": ["menu-item#tiendas"]
+    },
+    "menu-item#tiendas": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Tiendas",
+          "text": "Tiendas"
+        },
+        "blockClass": "title-menu-mobile-text"
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#tiendas"]
+    },
+  
+    "vtex.menu@2.x:submenu.accordion#tiendas": {
+      "children": ["vtex.menu@2.x:menu#inner-tiendas"]
+    },
+  
+    "vtex.menu@2.x:menu#inner-tiendas": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#encontrar-tienda",
+        "menu-item#preguntas-frecuentes",
+        "menu-item#servicio-cliente-tienda",
+        "menu-item#cambios-tiendas"
+
+      ]
+    },
+    "menu-item#encontrar-tienda": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas",
+          "noFollow": true,
+          "tagTitle": "Encontrar una tienda",
+          "text": "Encontrar una tienda"
+        }
+      }
+    },
+    "menu-item#preguntas-frecuentes": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/curbside",
+          "noFollow": true,
+          "tagTitle": "Preguntas Frecuentes",
+          "text": "Preguntas Frecuentes"
+        }
+      }
+    },
+    "menu-item#servicio-cliente-tienda": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/curbside",
+          "noFollow": true,
+          "tagTitle": "Serivicio al cliente",
+          "text": "Serivicio al cliente"
+        }
+      }
+    },
+    "menu-item#cambios-tiendas": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/curbside",
+          "noFollow": true,
+          "tagTitle": "Cambios de Tiendas",
+          "text": "Cambios de Tiendas"
+        }
+      }
+    },
+    /*******servicio al cliente*********/
+    "vtex.menu@2.x:menu#accordion-servicio-cliente": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "title-menu-mobile"
+      },
+      "children": ["menu-item#servicio-cliente"]
+    },
+    "menu-item#servicio-cliente": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Servicio al cliente",
+          "text": "Servicio al cliente"
+        },
+        "blockClass": "title-menu-mobile-text"
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#servicio-cliente"]
+    },
+  
+    "vtex.menu@2.x:submenu.accordion#servicio-cliente": {
+      "children": ["vtex.menu@2.x:menu#inner-servicio-cliente"]
+    },
+  
+    "vtex.menu@2.x:menu#inner-servicio-cliente": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#envios-devoluciones",
+        "menu-item#Preguntas-frecuentes",
+        "menu-item#servicio-al-cliente",
+        "menu-item#Cambios-tiendas"
+      ]
+    },
+    "menu-item#envios-devoluciones": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": true,
+          "tagTitle": "Envios y Devoluciones",
+          "text": "Envios y Devoluciones"
+        }
+      }
+    },
+    "menu-item#Preguntas-frecuentes": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "https://www.dockers.com.mx/",
+          "noFollow": true,
+          "tagTitle": "Preguntas Frecuentes",
+          "text": "Preguntas Frecuentes"
+        }
+      }
+    },
+    "menu-item#servicio-al-cliente": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "https://denizen.com.mx",
+          "noFollow": true,
+          "tagTitle": "Servicio al Cliente",
+          "text": "Servicio al Cliente"
+        }
+      }
+    },
+    "menu-item#Cambios-tiendas": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": " https://www.levistrauss.com/who-we-are/brands/signature-by-levi-strauss-co/",
+          "noFollow": true,
+          "tagTitle": "Cambios en Tiendas",
+          "text": "Cambios en Tiendas"
+        }
+      }
+    }
+  }
+  

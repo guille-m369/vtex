@@ -1,0 +1,741 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "verificacion-meta-tag",
+      "custom-menu#nuevo",
+      "slider-layout#promises"
+
+      // "sticky-layout#header-desktop",
+      // //  "countdownText"
+      // // "shipping-bar"
+    ]
+  },
+  "custom-menu#nuevo": {
+    "children": ["minicart.v2", "search-bar#desktop"],
+    "props": {
+      "brandLogo": "https://timberlandmx.vteximg.com.br/arquivos/logo_timberland_dark.png",
+      "brandLogoMobile": "https://timberlandmx.vteximg.com.br/arquivos/logo_timberland_circle_white.png",
+      "secondaryLogo": "https://timberlandmx.vteximg.com.br/arquivos/logo_timberland_white.png",
+      "secondaryLogoMobile": "https://timberlandmx.vteximg.com.br/arquivos/logo_timberland_dark.png",
+      "threshold": 100,
+      "topBarMenu": [
+        {
+          "icon": "assets/menuIcons/iconTiendas_dark.svg",
+          "text": "Tiendas",
+          "link": "/tiendas"
+        },
+        {
+          "icon": "assets/menuIcons/iconAyuda_dark.svg",
+          "text": "Ayuda",
+          "link": "/preguntas-frecuentes"
+        },
+        {
+          "icon": "assets/menuIcons/iconCuenta_dark.svg",
+          "text": "Mi cuenta",
+          "special": "login"
+        },
+        {
+          "icon": "assets/menuIcons/iconFavoritos.svg",
+          "text": "Favoritos",
+          "link": "/wishlist"
+        }
+      ],
+      "mainMenu": [
+        {
+          "text": "Hombre",
+          "link": {
+            "url": "/hombre",
+            "urlMobile": "/hombre",
+            "activeIn": "desktop"
+          },
+          "subMenu": [
+            {
+              "text": "Calzado",
+              "link": {
+                "url": "/hombre/calzado",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Bota icónica",
+                  "link": {
+                    "url": "/timberland-bota-iconica/hombre",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Botas y hiking",
+                  "link": {
+                    "url": "/hombre/calzado/botas-y-hiking",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Casual",
+                  "link": {
+                    "url": "/hombre/calzado/casual",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Sneakers",
+                  "link": {
+                    "url": "/hombre/calzado/sneakers",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Boat shoes",
+                  "link": {
+                    "url": "/hombre/calzado/boat-shoes",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Ropa",
+              "link": {
+                "url": "/hombre/ropa",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Playeras",
+                  "link": {
+                    "url": "/hombre/ropa/playeras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Camisas",
+                  "link": {
+                    "url": "/hombre/ropa/camisas",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Pantalones",
+                  "link": {
+                    "url": "/hombre/ropa/pantalones",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Polos",
+                  "link": {
+                    "url": "/hombre/ropa/polos",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Chalecos y chamarras",
+                  "link": {
+                    "url": "/hombre/ropa/chalecos-y-chamarras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Sudaderas",
+                  "link": {
+                    "url": "/hombre/ropa/sudaderas",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Accesorios",
+              "link": {
+                "url": "/hombre/accesorios?map=category-1,genero,genero&query=/accesorios/hombre/unisex&searchState",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Agujetas",
+                  "link": {
+                    "url": "/accesorios?map=category-1,category-2,genero&query=/accesorios/agujetas/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Carteras",
+                  "link": {
+                    "url": "/hombre/accesorios/carteras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Cinturones",
+                  "link": {
+                    "url": "/hombre/accesorios/cinturones",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Gorras",
+                  "link": {
+                    "url": "/hombre/accesorios/gorras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Mochilas",
+                  "link": {
+                    "url": "/hombre/accesorios/mochilas?map=category-1,category-2,genero,genero&query=/accesorios/mochilas/hombre/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Productos de limpieza",
+                  "link": {
+                    "url": "/productos-de-limpieza-y-cuidado",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Calcetines",
+                  "link": {
+                    "url": "/hombre/accesorios/calcetines",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Fundas",
+                  "link": {
+                    "url": "/accesorios/fundas?map=category-1,category-2,genero&query=/accesorios/fundas/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "hideInMobile": true,
+              "type": "image",
+              "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/ArteMenuCascada_Hombre_400x400.jpg",
+              "text": "Ver todo",
+              "link": {
+                "url": "/hombre",
+                "activeIn": "desktop"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Mujer",
+          "link": {
+            "url": "/mujer",
+            "urlMobile": "/mujer",
+            "activeIn": "desktop"
+          },
+          "subMenu": [
+            {
+              "text": "Calzado",
+              "link": {
+                "url": "/mujer/calzado",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Bota icónica",
+                  "link": {
+                    "url": "/timberland-bota-iconica/mujer",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Botas y hiking",
+                  "link": {
+                    "url": "/mujer/calzado/botas-y-hiking",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Casual",
+                  "link": {
+                    "url": "/mujer/calzado/casual",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Sneakers",
+                  "link": {
+                    "url": "/mujer/calzado/sneakers",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Ropa",
+              "link": {
+                "url": "/mujer/ropa",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Playeras",
+                  "link": {
+                    "url": "/mujer/ropa/playeras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Chalecos y chamarras",
+                  "link": {
+                    "url": "/mujer/ropa/chalecos-y-chamarras",
+                    "activeIn": "all"
+                  }
+                },
+                // {
+                //   "text": "Sudaderas",
+                //   "link": {
+                //     "url": "/mujer/ropa/sudaderas",
+                //     "activeIn": "all"
+                //   }
+                // },
+                {
+                  "text": "Vestidos y pantalones",
+                  "link": {
+                    "url": "/mujer/pantalones/vestidos-y-pantalones",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Accesorios",
+              "link": {
+                "url": "/mujer/accesorios?map=category-1,genero,genero&query=/accesorios/mujer/unisex&searchState",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Agujetas",
+                  "link": {
+                    "url": "/accesorios?map=category-1,category-2,genero&query=/accesorios/agujetas/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Mochilas y bolsas",
+                  "link": {
+                    "url": "/mujer/accesorios/mochilas?map=category-1,category-2,genero,genero&query=/accesorios/mochilas/mujer/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Productos de limpieza",
+                  "link": {
+                    "url": "/productos-de-limpieza-y-cuidado",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Guantes, bufandas y gorras",
+                  "link": {
+                    "url": "/mujer/accesorios/guantes-bufandas-y-gorras",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Calcetas",
+                  "link": {
+                    "url": "/mujer/accesorios/calcetines?map=category-1,category-2,genero&query=/accesorios/calcetines/mujer&searchState",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Fundas",
+                  "link": {
+                    "url": "/accesorios/fundas?map=category-1,category-2,genero&query=/accesorios/fundas/unisex&searchState",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "hideInMobile": true,
+              "type": "image",
+              "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/ArteMenuCascada_Mujer_400x400.jpg",
+              "text": "Ver todo",
+              "link": {
+                "url": "/mujer",
+                "activeIn": "desktop"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Niños",
+          "link": {
+            "url": "/nino",
+            "urlMobile": "/nino",
+            "activeIn": "desktop"
+          },
+          "subMenu": [
+            {
+              "text": "Por edad",
+              "link": {
+                "url": "/nino/compra-por-edad",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Bebés: 0-1 año",
+                  "link": {
+                    "url": "/compra-por-edad/bebes",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Infantiles: 1-5 años",
+                  "link": {
+                    "url": "/compra-por-edad/infantiles",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Niños: 5-9 años",
+                  "link": {
+                    "url": "/compra-por-edad/ninos",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Jóvenes: 9-15 años",
+                  "link": {
+                    "url": "/compra-por-edad/jovenes",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "hideInMobile": true,
+              "type": "image",
+              "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/B_Seccion_Kids.png",
+              "text": "Ver todo",
+              "link": {
+                "url": "/nino",
+                "activeIn": "desktop"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Outlet",
+          "link": {
+            "url": "/outlet",
+            "urlMobile": "/outlet?map=category-1&query=/outlet&searchState",
+            "activeIn": "desktop"
+          },
+          "subMenu": [
+            {
+              "text": "Hombre",
+              "link": {
+                "url": "/outlet/hombre",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Calzado",
+                  "link": {
+                    "url": "/outlet/hombre/calzado",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Ropa",
+                  "link": {
+                    "url": "/outlet/hombre/ropa",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Accesorios",
+                  "link": {
+                    "url": "/outlet/hombre/accesorios",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Mujer",
+              "link": {
+                "url": "/outlet/mujer",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Calzado",
+                  "link": {
+                    "url": "/outlet/mujer/calzado",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Ropa",
+                  "link": {
+                    "url": "/outlet/mujer/ropa",
+                    "activeIn": "all"
+                  }
+                },
+                {
+                  "text": "Accesorios",
+                  "link": {
+                    "url": "/outlet/mujer/accesorios",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Niños",
+              "link": {
+                "url": "/outlet/ninos",
+                "activeIn": "desktop"
+              },
+              "subMenu": [
+                {
+                  "text": "Calzado",
+                  "link": {
+                    "url": "/outlet/ninos/calzado",
+                    "activeIn": "all"
+                  }
+                }
+              ]
+            },
+            {
+              "hideInMobile": true,
+              "type": "image",
+              "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/B_Seccion_Outlet.png",
+              "text": "Ver todo",
+              "link": {
+                "url": "/outlet",
+                "activeIn": "desktop"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  // STICKY HEADER
+  // -------------------------------------------------
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#1-desktop"]
+  },
+  // MAIN HEADER ROW
+  // This shrinks when scrolling
+  // --------------------------------------------------
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "paddingTop": 0
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      // "flex-layout.col#logo-desktop-hotsale",
+      "flex-layout.col#spacer",
+      "flex-layout.col#header-right-side"
+    ]
+  },
+  // LOGO DESKTOP
+  // ---------------------------------
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logos/Timberland_white.svg",
+      "width": "180",
+      "height": "50"
+    }
+  },
+  "flex-layout.col#logo-desktop-hotsale": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-desktop-hotsale"
+    },
+    "children": ["logo#desktop-hotsale"]
+  },
+  "logo#desktop-hotsale": {
+    "props": {
+      "blockClass": "logo-desktop-hotsale-img",
+      "maxWidth": "101px",
+      "title": "Logo",
+      "href": "/hot-sale",
+      "url": "assets/logos/101x95.png",
+      "width": "101",
+      "height": "95"
+    }
+  },
+  // MAIN MENU
+  // ----------------------------------
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "category-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#main-menu"]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  // RIGHT SIDE AREA
+  // -----------------------------------
+  "flex-layout.col#header-right-side": {
+    "children": [
+      // "flex-layout.col#unstack-elements"
+      // "flex-layout.row#sticky-elements"
+      "flex-layout.row#non-sticky",
+      "flex-layout.row#non-sticky-search",
+      "flex-layout.row#sticky"
+    ],
+    "props": {
+      // "horizontalAlign": "right",
+      "verticalAlign": "center",
+      // "preventHorizontalStretch": true,
+      // "preventVerticalStretch": true,
+      "fullWidth": true,
+      "paddingTop": 0
+    }
+  },
+  // NON STICKY
+  // -------------------------------
+  "flex-layout.row#non-sticky": {
+    "children": [
+      "vtex.menu@2.x:menu#topMenu",
+      // "login",
+      // "minicart.v2#non-sticky"
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "non-sticky",
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "minicart.v2#non-sticky": {
+    "props": {
+      "blockClass": "non-sticky-cart"
+    }
+  },
+
+  "flex-layout.row#non-sticky-search": {
+    "children": ["search-bar#desktop"],
+    "props": {
+      "blockClass": "non-sticky-search"
+    }
+  },
+  "flex-layout.row#sticky": {
+    "children": ["flex-layout.col#search-bar", "flex-layout.col#sticky"],
+    // "children": ["search-bar#desktop", "flex-layout.row#sticky-items"],
+    "props": {
+      // "horizontalAlign": "center",
+      "verticalAlign": "center",
+      // "preventHorizontalStretch": true,
+      // "preventVerticalStretch": true,
+      // "fullWidth": true
+      "blockClass": "sticky-items-container"
+    }
+  },
+
+  // Search bar column
+  "flex-layout.col#search-bar": {
+    "children": ["search-bar#desktop"],
+    "props": {
+      "width": "grow",
+      "paddingRight": 3
+    }
+  },
+  "flex-layout.col#sticky": {
+    "children": [
+      "image#desktop_tiendas",
+      "image#desktop_atencion_cliente",
+      "login#sticky",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "sticky-items",
+      "width": "35%"
+    }
+  },
+
+  //code when scrolling on the page
+  "flex-layout.row#sticky-items": {
+    "children": [
+      "image#desktop_tiendas",
+      "image#desktop_atencion_cliente",
+      "login#sticky",
+      "minicart.v2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      //"fullWidth": true
+      "blockClass": "sticky-items"
+    }
+  },
+  //ICON TIENDAS
+  "image#desktop_tiendas": {
+    "props": {
+      "src": "assets/tiendas_white.svg",
+      "link": {
+        "url": "/tiendas"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+  //ICON ATENCION A CLIENTES
+  "image#desktop_atencion_cliente": {
+    "props": {
+      "src": "assets/ayuda_white.svg",
+      "link": {
+        "url": "/preguntas-frecuentes"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+  //login
+  "login#sticky": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "login-block",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky"]
+  },
+  "icon-profile#sticky": {
+    "props": {
+      "size": 20
+    }
+  }
+}

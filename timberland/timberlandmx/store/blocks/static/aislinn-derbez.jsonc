@@ -1,0 +1,415 @@
+{
+  "store.custom#aislinn-derbez": {
+    "blocks": [
+      "responsive-layout.desktop#aislinn-derbez",
+      "responsive-layout.mobile#aislinn-derbez"
+    ]
+  },
+  "responsive-layout.desktop#aislinn-derbez": {
+    "children": [
+      "flex-layout.row#aislinn-derbez",
+      "flex-layout.row#aislinn-derbez-text-center",
+      "flex-layout.row#aislinn-derbez-image",
+      "flex-layout.row#aislinn-derbez-text-final"
+    ]
+  },
+
+  "flex-layout.row#aislinn-derbez": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-image",
+      "flex-layout.col#aislinn-derbez-text"
+    ],
+    "props": {
+      "paddingBottom": 9
+    }
+  },
+  "flex-layout.col#aislinn-derbez-vacio1": {
+    "children": [],
+    "props": {}
+  },
+
+  "flex-layout.col#aislinn-derbez-image": {
+    "children": ["flex-layout.row#aislinn-derbez-image-row"],
+    "props": {
+      "blockClass": "aislinn-derbez-image",
+      "horizontalAlign": "right",
+      "marginRight": 8
+    }
+  },
+  "flex-layout.row#aislinn-derbez-image-row": {
+    "children": ["image#aislinn-derbez"],
+    "props": {
+      "marginTop": 9,
+      "blockClass": "aislinn-derbez-image-row"
+    }
+  },
+
+  "image#aislinn-derbez": {
+    "props": {
+      "blockClass": "image-erica-valencia",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img17-meet.png",
+      "maxHeigh": 100
+    }
+  },
+  "flex-layout.col#aislinn-derbez-text": {
+    "children": [
+      "flex-layout.row#aislinn-derbez-text-row-text",
+      "flex-layout.row#aislinn-derbez-text-row-text-sub"
+    ],
+    "props": {
+      "blockClass": "aislinn-derbez-text"
+    }
+  },
+  "flex-layout.row#aislinn-derbez-text-row-text": {
+    "children": ["rich-text#aislinn-derbez-title-sub"]
+  },
+
+  "flex-layout.row#aislinn-derbez-text-row-text-sub": {
+    "children": ["rich-text#aislinn-derbez-text-sub"],
+    "props": {
+      "blockClass": "aislinn-derbez-text-row-text-sub"
+    }
+  },
+
+  "rich-text#aislinn-derbez-title-sub": {
+    "props": {
+      "text": "AISLINN DERBEZ",
+      "blockClass": "aislinn-derbez-title-sub"
+    }
+  },
+
+  "rich-text#aislinn-derbez-text-sub": {
+    "props": {
+      "text": "###### ACTRIZ, PRODUCTORA Y EMPRENDEDORA FUNDADORA DE @AMAINATURAL. CIUDAD DE MÉXICO \n  Aislinn Derbez está en una constante misión: quiere enseñar a las personas sobre el Consumo Consciente, que se basa en aprender a realizar tus compras obteniendo previamente la mayor cantidad de información sobre el origen del producto, la empresa que lo desarrolla, los materiales que se utilizan, el impacto ambiental que ocasionan, entre muchos otros factores. Para sus seguidores y para nosotros en Timberland, ella es una inspiración para el futuro del consumo responsable y un héroe para crear un mundo más sustentable.",
+      "blockClass": "text-aislinn-derbez"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#aislinn-derbez-text-center": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-col-vacio",
+      "flex-layout.col#aislinn-derbez-col-text",
+      "flex-layout.col#aislinn-derbez-col-vacio2"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#aislinn-derbez-col-vacio": {
+    "children": ["image#aislinn-derbez-comilla1"],
+    "props": {
+      "width": "30%",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#aislinn-derbez-comilla1": {
+    "props": {
+      "blockClass": "aislinn-derbez-comilla1",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-1.png"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-col-text": {
+    "children": ["rich-text#aislinn-derbez-center"]
+  },
+
+  "rich-text#aislinn-derbez-center": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### No es necesario llegar al radicalismo para sentir que estamos aportando algo al planeta. Con pequeñas aportaciones de forma consciente y constante podremos encontrar el equilibrio que buscamos, el que nos hace sentir bien y ayuda a nuestro entorno."
+    }
+  },
+
+  "flex-layout.col#aislinn-derbez-col-vacio2": {
+    "children": ["image#aislinn-derbez-comilla2"],
+    "props": {
+      "blockClass": "aislinn-derbez-col-vacio2",
+      "width": "30%",
+      "horizontalAlign": "left"
+    }
+  },
+  "image#aislinn-derbez-comilla2": {
+    "props": {
+      "blockClass": "aislinn-derbez-comilla2",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-2.png"
+    }
+  },
+
+  "flex-layout.row#aislinn-derbez-image": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-image-one",
+      "flex-layout.col#aislinn-derbez-image-two",
+      "flex-layout.col#aislinn-derbez-image-three",
+      "flex-layout.col#aislinn-derbez-image-four"
+    ],
+    "props": {
+      "blockClass": "row-images-aislinn"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-one": {
+    "children": ["image#aislinn-derbez-image-one"],
+    "props": {
+      "blockClass": "aislinn-derbez-image",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-one": {
+    "children": ["image#aislinn-derbez-image-one"]
+  },
+  "image#aislinn-derbez-image-one": {
+    "props": {
+      "blockClass": "aislinn-derbez-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-01.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-two": {
+    "children": ["image#aislinn-derbez-image-two"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-two": {
+    "props": {
+      "blockClass": "aislinn-derbez-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-02.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-three": {
+    "children": ["image#aislinn-derbez-image-three"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-three": {
+    "props": {
+      "blockClass": "aislinn-derbez-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-03.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-four": {
+    "children": ["image#aislinn-derbez-image-four"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-four": {
+    "props": {
+      "blockClass": "aislinn-derbez-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-04.jpg"
+    }
+  },
+
+  //---------------------------------Description-text---------------------------//
+  "flex-layout.row#aislinn-derbez-text-final": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-text-final-one",
+      "flex-layout.col#aislinn-derbez-text-final-two",
+      "flex-layout.col#aislinn-derbez-text-final-three"
+    ]
+  },
+  "flex-layout.col#aislinn-derbez-text-final-one": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#aislinn-derbez-text-final-two": {
+    "children": [
+      "rich-text#aislinn-derbez-text-final",
+      "rich-text#aislinn-derbez-text-final-2"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#aislinn-derbez-text-final": {
+    "props": {
+      "blockClass": "aislinn-derbez-text-final",
+      "text": "Aislinn es una emprendedora mexicana que ha hecho realidad su sueño lanzando su marca AMAI Natural, que es una serie de alternativas para el cuidado personal con base en plantas medicinales desarrolladas a través de procesos naturales y empleando materiales biodegradables.\n \n  "
+    }
+  },
+  "rich-text#aislinn-derbez-text-final-2": {
+    "props": {
+      "blockClass": "aislinn-derbez-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#aislinn-derbez-text-final-three": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  //-------------------------------------------------mobile----------------------------
+  "responsive-layout.mobile#aislinn-derbez": {
+    "children": [
+      "flex-layout.row#aislinn-derbez-mobile",
+      "flex-layout.row#aislinn-derbez-text-center-mobile",
+      "flex-layout.row#aislinn-derbez-image-mobile",
+      "flex-layout.row#aislinn-derbez-text-final-mobile"
+    ]
+  },
+
+  "flex-layout.row#aislinn-derbez-mobile": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-image-mobile",
+      "flex-layout.col#aislinn-derbez-text-mobile"
+    ],
+    "props": {
+      "paddingBottom": 9,
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#aislinn-derbez-image-mobile": {
+    "children": ["image#aislinn-derbez-mobile"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#aislinn-derbez-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img17-meet.png"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-text-mobile": {
+    "children": [
+      "rich-text#aislinn-derbez-title-sub-mobile",
+      "rich-text#aislinn-derbez-text-sub-mobile"
+    ],
+    "props": {
+      "width": "35%",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#aislinn-derbez-title-sub-mobile": {
+    "props": {
+      "text": "AISLINN DERBEZ",
+      "blockClass": "aislinn-derbez-title-sub",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#aislinn-derbez-text-sub-mobile": {
+    "props": {
+      "text": "###### ACTRIZ, PRODUCTORA Y EMPRENDEDORA FUNDADORA DE @AMAINATURAL. CIUDAD DE MÉXICO \n Aislinn Derbez está en una constante misión: quiere enseñar a las personas sobre el Consumo Consciente, que se basa en aprender a realizar tus compras obteniendo previamente la mayor cantidad de información sobre el origen del producto, la empresa que lo desarrolla, los materiales que se utilizan, el impacto ambiental que ocasionan, entre muchos otros factores. Para sus seguidores y para nosotros en Timberland, ella es una inspiración para el futuro del consumo responsable y un héroe para crear un mundo más sustentable.",
+      "blockClass": "text-aislinn-derbez",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-vacio2-mobile": {
+    "children": [],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#aislinn-derbez-text-center-mobile": {
+    "children": ["flex-layout.col#aislinn-derbez-col-text-mobile"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#aislinn-derbez-col-text-mobile": {
+    "children": ["rich-text#aislinn-derbez-center-mobile"]
+  },
+
+  "rich-text#aislinn-derbez-center-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### No es necesario llegar al radicalismo para sentir que estamos aportando algo al planeta. Con pequeñas aportaciones de forma consciente y constante podremos encontrar el equilibrio que buscamos, el que nos hace sentir bien y ayuda a nuestro entorno."
+    }
+  },
+
+  "flex-layout.row#aislinn-derbez-image-mobile": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-image-one-mobile",
+      "flex-layout.col#aislinn-derbez-image-two-mobile",
+      "flex-layout.col#aislinn-derbez-image-three-mobile",
+      "flex-layout.col#aislinn-derbez-image-four-mobile"
+    ]
+  },
+  "flex-layout.col#aislinn-derbez-image-one-mobile": {
+    "children": ["image#aislinn-derbez-image-one-mobile"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-one-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-01.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-two-mobile": {
+    "children": ["image#aislinn-derbez-image-two-mobile"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-two-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-02.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-three-mobile": {
+    "children": ["image#aislinn-derbez-image-three-mobile"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-three-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-03.jpg"
+    }
+  },
+  "flex-layout.col#aislinn-derbez-image-four-mobile": {
+    "children": ["image#aislinn-derbez-image-four-mobile"],
+    "props": {}
+  },
+  "image#aislinn-derbez-image-four-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Aislinn-Galeria-Timberland-04.jpg"
+    }
+  },
+  "flex-layout.row#aislinn-derbez-text-final-mobile": {
+    "children": [
+      "flex-layout.col#aislinn-derbez-text-final-one-mobile",
+      "flex-layout.col#aislinn-derbez-text-final-two-mobile",
+      "flex-layout.col#aislinn-derbez-text-final-three-mobile"
+    ]
+  },
+  "flex-layout.col#aislinn-derbez-text-final-one-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#aislinn-derbez-text-final-two-mobile": {
+    "children": [
+      "rich-text#aislinn-derbez-text-final-mobile",
+      "rich-text#aislinn-derbez-text-final-2-mobile"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#aislinn-derbez-text-final-mobile": {
+    "props": {
+      "blockClass": "aislinn-derbez-text-final",
+      "text": "Aislinn es una emprendedora mexicana que ha hecho realidad su sueño lanzando su marca AMAI Natural, que es una serie de alternativas para el cuidado personal con base en plantas medicinales desarrolladas a través de procesos naturales y empleando materiales biodegradables. \n \n  "
+    }
+  },
+  "rich-text#aislinn-derbez-text-final-2-mobile": {
+    "props": {
+      "blockClass": "aislinn-derbez-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo: [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#aislinn-derbez-text-final-three-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  }
+}

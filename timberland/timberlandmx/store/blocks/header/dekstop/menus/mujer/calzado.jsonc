@@ -1,0 +1,93 @@
+{
+  // Calzado
+  "flex-layout.col#mujer-column-2": {
+    "children": ["vtex.menu@2.x:menu#mujer-column-2"]
+  },
+
+  "vtex.menu@2.x:menu#mujer-column-2": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-mujeres-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado",
+            "noFollow": true,
+            "tagTitle": "CALZADO",
+            "text": "CALZADO"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-botas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado/botas",
+            "noFollow": true,
+            "tagTitle": "Botas",
+            "text": "Botas"
+          }
+        },
+
+        {
+          "id": "menu-item-mujeres-calzado-de-hiking",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado/hiking",
+            "noFollow": true,
+            "tagTitle": "Calzado de Hiking",
+            "text": "Hiking"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-calzado-casual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado/casual",
+            "noFollow": true,
+            "tagTitle": "Casual",
+            "text": "Casual"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-sandalias",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado/sandalias",
+            "noFollow": true,
+            "tagTitle": "sandalias",
+            "text": "Sandalias"
+          }
+        },{
+          "id": "menu-item-mujeres-sneakers",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/calzado/sneakers",
+            "noFollow": true,
+            "tagTitle": "Sneakers",
+            "text": "Sneakers"
+          }
+        }
+      ]
+    }
+  }
+}

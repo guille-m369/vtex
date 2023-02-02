@@ -1,0 +1,128 @@
+{
+  // Accesorios
+  "flex-layout.col#nino-column-4": {
+    "children": ["vtex.menu@2.x:menu#nino-column-4"]
+  },
+
+  "vtex.menu@2.x:menu#nino-column-4": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ninos-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        {
+          "id": "menu-item-ninos-kit-de-cuidado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Kit de cuidado",
+            "text": "Kit de cuidado"
+          }
+        },
+
+        {
+          "id": "menu-item-ninos-bufandas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Bufandas",
+            "text": "Bufandas"
+          }
+        },
+        {
+          "id": "menu-item-ninos-carteras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Carteras",
+            "text": "Carteras"
+          }
+        },{
+          "id": "menu-item-ninos-cinturones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+          }
+        },{
+          "id": "menu-item-ninos-gorras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Gorras",
+            "text": "Gorras"
+          }
+        },{
+          "id": "menu-item-ninos-gorros",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Gorros",
+            "text": "Gorros"
+          }
+        },{
+          "id": "menu-item-ninos-guantes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Guantes",
+            "text": "Guantes"
+          }
+        },{
+          "id": "menu-item-ninos-mochilas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "Mochilas",
+            "text": "Mochilas"
+          }
+        }
+      ]
+    }
+  }
+}

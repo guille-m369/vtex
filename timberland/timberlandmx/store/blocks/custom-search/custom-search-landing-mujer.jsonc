@@ -1,0 +1,199 @@
+{
+  "store.custom#landing-mujer-botas": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-botas"]
+  },
+  "search-result-layout.customQuery#landing-mujer-botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/botas",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-casual": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-casual"]
+  },
+  "search-result-layout.customQuery#landing-mujer-casual": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/casual",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-hiking": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-hiking"]
+  },
+  "search-result-layout.customQuery#landing-mujer-hiking": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/hiking",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-sandalias": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-sandalias"]
+  },
+  "search-result-layout.customQuery#landing-mujer-sandalias": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/sandalias",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-ropa": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-ropa"]
+  },
+  "search-result-layout.customQuery#landing-mujer-ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/ropa",
+        "mapField":"genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-ropa-chalecos-y-chamarras": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-ropa-chalecos-y-chamarras"]
+  },
+  "search-result-layout.customQuery#landing-mujer-ropa-chalecos-y-chamarras": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/ropa/chalecos-y-chamarras",
+        "mapField":"genero,departamento,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-accesorios": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-accesorios"]
+  },
+  "search-result-layout.customQuery#landing-mujer-accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "mujer/accesorios",
+        "mapField":"genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-banner-1": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-banner-1"]
+  },
+  "search-result-layout.customQuery#landing-mujer-banner-1": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "211",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-mujer-banner-2": {
+    "blocks": ["search-result-layout.customQuery#landing-mujer-banner-2"]
+  },
+  "search-result-layout.customQuery#landing-mujer-banner-2": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "213",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#frescura-y-comodidad": {
+    "blocks": ["search-result-layout.customQuery#frescura-y-comodidad"]
+  },
+  "search-result-layout.customQuery#frescura-y-comodidad": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "312",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

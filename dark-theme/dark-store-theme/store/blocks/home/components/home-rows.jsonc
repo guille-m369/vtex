@@ -1,0 +1,52 @@
+{
+  /*--------------------------------------------Shelf productos destacados ---------------------------------------*/
+  "flex-layout.row#component-shelf-productos-destacados-title": {
+    "children": ["flex-layout.col#component-shelf-productos-destacados-title"],
+    "props": {
+      "blockClass": "dekstop-component-shelf-productos-destacados-title"
+    }
+  },
+
+  "flex-layout.col#component-shelf-productos-destacados-title": {
+    "props": { "horizontalAlign": "center" },
+    "children": ["rich-text#component-shelf-productos-destacados"]
+  },
+  "rich-text#component-shelf-productos-destacados": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Lós más Vendidos",
+      "blockClass": "rich-text-shelf-productos-destacados",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#component-shelf-productos-destacados": {
+    "children": [
+      "list-context.product-list#component-shelf-productos-destacados"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "component-shelf-productos-destacados"
+    }
+  },
+
+  "flex-layout.row#component-coleccion-destacada-title": {
+    "children": ["flex-layout.col#component-coleccion-destacada-title"],
+    "props": {
+      "blockClass": "dekstop-component-shelf-productos-destacados-title"
+    }
+  },
+  "flex-layout.col#component-coleccion-destacada-title": {
+    "props": { "horizontalAlign": "center" },
+    "children": ["rich-text#component-coleccion-destacada"]
+  },
+  "rich-text#component-coleccion-destacada": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Colección Destacada",
+      "blockClass": "rich-text-coleccion-destacada",
+      "font": "t-heading-3"
+    }
+  }
+}

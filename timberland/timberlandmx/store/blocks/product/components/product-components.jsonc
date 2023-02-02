@@ -1,0 +1,268 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 4,
+      "blockClass": "name-product"
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+  "flex-layout.row#price": {
+    "children": [
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price"
+    ],
+    "props": { "blockClass": "row-price" }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["image-grid"]
+  },
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 0,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "marginTop": 5
+    },
+    "children": ["product-selling-price"]
+  },
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": ["product-list-price"]
+  },
+
+  "product-price-savings#summary": {
+    "props": {
+      "markers": ["discount"],
+      "message": "Ahorra {savingsValue}",
+      "blockClass": "summary"
+    }
+  },
+
+  "flex-layout.row#quantityBuyButton": {
+    "children": ["flex-layout.row#quantity", "flex-layout.row#buy-button"],
+    "props": { "blockClass": "quantityBuyButton" }
+  },
+  "flex-layout.row#quantity": {
+    "props": { "blockClass": "row-product-quantity" },
+    "children": ["flex-layout.col#quantity"]
+  },
+  "flex-layout.col#quantity": {
+    "props": { "blockClass": "col-product-quantity" },
+    "children": ["product-quantity"]
+  },
+  "product-quantity": {
+    "props": {
+      "showLabel": false
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": { "paddingLeft": 5, "blockClass": "row-buy-button" },
+    "children": ["flex-layout.col#buy-button"]
+  },
+  "flex-layout.col#buy-button": {
+    "props": { "paddingLeft": 5, "blockClass": "col-buy-button" },
+    "children": ["add-to-cart-button"]
+  },
+  "add-to-cart-button": {
+    "props": { "unavailableText": "No disponible" }
+  },
+  /*Modal guia tallas*/
+  /*---------------------------------------------------------------------------------------------------------*/
+  "modal-trigger#modal-guia-tallas": {
+    "children": ["rich-text#guia-tallas", "modal-layout#guia-tallas"],
+    "props": {
+      "blockClass": "guia-tallas"
+    }
+  },
+  "rich-text#mensaje-guia-tallas": {
+    "props": {
+      "text": "Asegúrate de confirmar tu talla en nuestra guía",
+      "blockClass": "mensaje-guia-tallas"
+    }
+  },
+  "rich-text#guia-tallas": {
+    "props": {
+      "text": "Guía de Tallas",
+      "blockClass": "text-guia-tallas"
+    }
+  },
+  "rich-text#guia-tallas-head": {
+    "props": {
+      "text": "Guía de Tallas",
+      "blockClass": "rich-guia-tallas"
+    }
+  },
+  "modal-layout#guia-tallas": {
+    "children": ["modal-header#guia-tallas", "product-size-info"]
+  },
+  "modal-header#guia-tallas": {
+    "children": ["rich-text#guia-tallas-head"],
+    "props": { "showCloseButton": true, "blockClass": "header-guia-tallas" }
+  },
+  /*Modal guia tallas*/
+  /*---------------------------------------------------------------------------------------------------------*/
+  "modal-trigger#modal-politicas-devoluciones": {
+    "children": [
+      "flex-layout.row#politicas-devoluciones",
+      "modal-layout#politicas-devoluciones"
+    ],
+    "props": { "blockClass": "politicas-devoluciones" }
+  },
+  "flex-layout.row#politicas-devoluciones": {
+    "children": [
+      "flex-layout.col#politicas-devoluciones-car",
+      "flex-layout.col#politicas-devoluciones"
+    ]
+  },
+  "flex-layout.col#politicas-devoluciones": {
+    "children": ["rich-text#politicas-devoluciones"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.col#politicas-devoluciones-car": {
+    "children": ["image#car"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+
+  "image#car": {
+    "props": {
+      "src": "assets/mover-truck.svg",
+      "maxHeight": 24,
+      "marginRight": 12
+    }
+  },
+
+  "rich-text#politicas-devoluciones": {
+    "props": {
+      "text": "Política de Envíos y Devoluciones"
+    }
+  },
+  "modal-layout#politicas-devoluciones": {
+    "children": [
+      "modal-header#politicas-devoluciones",
+      "flex-layout.row#envios-devoluciones-content"
+    ],
+    "props": {
+      "blockClass": "text-politicas-devoluciones"
+    }
+  },
+  "modal-header#politicas-devoluciones": {
+    "children": ["rich-text#politicas-devoluciones"],
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "modal-header-politicas-devoluciones"
+    }
+  },
+  "rich-text#modal-content-politicas-devoluciones": {
+    "props": {
+      "text": "Política de Envíos y Devoluciones"
+    }
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  //shelf
+  // "rich-text#title-shelf-completa-tu-look": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "COMPLETA TU LOOK",
+  //     "blockClass": "title-shelf-completa-tu-look"
+  //   }
+  // },
+  // "flex-layout.row#shelf-completa-tu-look": {
+  //   "children": ["list-context.product-list#shelf-completa-tu-look"],
+  //   "props": { "paddingBottom": 6, "blockClass": "shelf-completa-tu-look" }
+  // },
+  // "list-context.product-list#shelf-completa-tu-look": {
+  //   "blocks": ["product-summary.shelf"],
+  //   "children": ["slider-layout#shelf-completa-tu-look"],
+  //   "props": {
+  //     "orderBy": "OrderByTopSaleDESC",
+  //     "collection": "142"
+  //   }
+  // },
+  // "slider-layout#shelf-completa-tu-look": {
+  //   "props": {
+  //     "showPaginationDots": "always",
+  //     "arrowSize": "25",
+  //     "itemsPerPage": {
+  //       "desktop": 4,
+  //       "tablet": 3,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "fullWidth": false,
+  //     "blockClass": "shelf"
+  //   }
+  // },
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "NO TE LO PIERDAS",
+        "itemsPerPage": 4,
+        "autoplay":{
+          "timeout": 2000,
+          "stopOnHover": true
+        }
+      },
+      "blockClass": "productos-similares"
+    }
+  },
+  "shelf.relatedProducts#2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "accessories",
+      "productList": {
+        "titleText": "COMPLETA TU LOOK",
+        "itemsPerPage": 4,
+        "autoplay":{
+          "timeout": 2000,
+          "stopOnHover": true
+        }
+      },
+      "blockClass": "productos-similares"
+    }
+  }
+}

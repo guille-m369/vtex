@@ -1,0 +1,85 @@
+{
+  "responsive-layout.phone#mobile-product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main-mobile",
+      // "rich-text#title-shelf-completa-tu-look",
+      // "flex-layout.row#shelf-completa-tu-look",
+      "shelf.relatedProducts#2",
+      "product-reviews",
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-main-mobile": {
+    "props": {
+      // "marginBottom": 7,
+      "paddingTop": 4,
+      // "paddingBottom": 7,
+      "blockClass": "mobile"
+    },
+    "children": [
+      "flex-layout.col#stack-mobile",
+      "flex-layout.col#right-col-mobile"
+    ]
+  },
+  "flex-layout.col#stack-mobile": {
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "flex-layout.row#price",
+      "product-images"
+    ],
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "mobile"
+    }
+  },
+  "flex-layout.col#right-col-mobile": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "similar-products-variants",
+      "sku-selector#mobile",
+      "modal-trigger#modal-guia-tallas#mobile",
+      "flex-layout.row#quantityBuyButton",
+      "modal-trigger#modal-politicas-devoluciones",
+      "flex-layout.row#description#mobile"
+    ]
+  },
+  // Changes to heuristic
+  "sku-selector#mobile": {
+    "props": {
+      "displayMode": "select",
+      "maxItems": 50
+    }
+  },
+  "flex-layout.row#description#mobile": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["poduct-description-accordion#mobile"]
+  },
+  "poduct-description-accordion#mobile": {
+    "props": {
+      "collapsed": false
+    }
+  },
+  // Changes to heuristic
+
+  "modal-trigger#modal-guia-tallas#mobile": {
+    "children": ["rich-text#guia-tallas#mobile", "modal-layout#guia-tallas"],
+    "props": {
+      "blockClass": "guia-tallas"
+    }
+  },
+  "rich-text#guia-tallas#mobile": {
+    "props": {
+      "text": "Asegúrate de confirmar tu talla en nuestra **Guía de Tallas**",
+      "blockClass": "mensaje-guia-tallas-mobile"
+    }
+  }
+}

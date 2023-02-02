@@ -1,0 +1,27 @@
+{
+  /*MOBILE */
+  /*-----------------------------------------------------------------------------------------------*/
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#component-footer-row-1",
+
+      "flex-layout.row#mobile-accordion",
+      "flex-layout.row#component-footer-row-3"
+    ],
+    "props": {
+      "blockClass": "footer-layout-mobile"
+    }
+  },
+  /*Footer mobile*/
+  "flex-layout.row#mobile-wrapper": {
+    "children": ["flex-layout.row#mobile-accordion"]
+  },
+  /* Seccion Menu  footer*/
+  "flex-layout.row#mobile-accordion": {
+    "children": ["vtex.menu@2.x:menu#mobile-accordion"],
+    "props": {
+      "blockClass": "row-mobile-accordion",
+      "marginTop": 6
+    }
+  }
+}

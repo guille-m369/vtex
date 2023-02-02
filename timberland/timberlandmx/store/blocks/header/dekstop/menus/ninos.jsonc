@@ -1,0 +1,62 @@
+{
+  "vtex.menu@2.x:submenu#ninos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "main-submenu-container"
+    },
+    "children": ["flex-layout.row#menu-nino"]
+  },
+  "flex-layout.row#menu-nino": {
+    "children": [
+      "flex-layout.col#menu-nino",
+      "flex-layout.col#menu-nino-info-card"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-submenu"
+    }
+  },
+  // Two rows divide the menu
+  "flex-layout.col#menu-nino": {
+    "children": ["flex-layout.row#nino-top-row"],
+    "props": {
+      "width": "75%"
+    }
+  },
+  // TOP ROW
+  // ----------------------------------------
+  // Find each column as their own file insde
+  // the 'hombre' folder
+
+  "flex-layout.row#nino-top-row": {
+    "children": [
+      // "flex-layout.col#destacados-header-nino",
+      "flex-layout.col#nino-column-2",
+      "flex-layout.col#nino-column-3"
+    ],
+    "props": {
+      "marginBottom": 6
+    }
+  },
+
+  // EMPTY COLUMN
+  "flex-layout.col#nino-column-8": {},
+
+  // INFO CARD
+  // -----------------------------------------
+  "flex-layout.col#menu-nino-info-card": {
+    "children": ["info-card#nino"]
+  },
+  "info-card#nino": {
+    "props": {
+      "id": "info-card-womens-menu",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/B_Seccion_Kids.png",
+      "callToActionText": "VER TODO",
+      "callToActionUrl": "/nino",
+      "blockClass": "info-card-main-menu",
+      "textAlignment": "center"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  // Calzado
+  "flex-layout.col#nino-column-3": {
+    "children": ["vtex.menu@2.x:menu#nino-column-3"]
+  },
+
+  "vtex.menu@2.x:menu#nino-column-3": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-ninos-compra-por-edad",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/compra-por-edad",
+            "noFollow": true,
+            "tagTitle": "Compra por edad",
+            "text": "COMPRA POR EDAD"
+          }
+        },
+        {
+          "id": "menu-item-nino-youth",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/compra-por-edad/youth",
+            "noFollow": true,
+            "tagTitle": "YOUTH",
+            "text": "Youth (5-9 años)"
+          }
+        },
+
+        {
+          "id": "menu-item-ninos-junior",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/compra-por-edad/junior",
+            "noFollow": true,
+            "tagTitle": "junior",
+            "text": "Junior (9-13 años)"
+          }
+        }
+      ]
+    }
+  }
+}

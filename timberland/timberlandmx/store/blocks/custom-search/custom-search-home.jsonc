@@ -1,0 +1,333 @@
+{
+  "store.custom#banner-slider-home-1": {
+    "blocks": ["search-result-layout.customQuery#banner-slider-home-1"]
+  },
+  "search-result-layout.customQuery#banner-slider-home-1": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "241",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#banner-slider-home-2": {
+    "blocks": ["search-result-layout.customQuery#banner-slider-home-2"]
+  },
+  "search-result-layout.customQuery#banner-slider-home-2": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "238",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#banner-slider-home-3": {
+    "blocks": ["search-result-layout.customQuery#banner-slider-home-3"]
+  },
+  "search-result-layout.customQuery#banner-slider-home-3": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "239",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#botas": {
+    "blocks": ["search-result-layout.customQuery#botas"]
+  },
+  "search-result-layout.customQuery#botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "botas",
+        "mapField":"categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#hiking": {
+    "blocks": ["search-result-layout.customQuery#hiking"]
+  },
+  "search-result-layout.customQuery#hiking": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hiking",
+        "mapField":"categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#casuales": {
+    "blocks": ["search-result-layout.customQuery#casuales"]
+  },
+  "search-result-layout.customQuery#casuales": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "boat-shoes/sandalias/hombre/mujer/casual",
+        "mapField":"categoria,categoria,genero,genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#ropa": {
+    "blocks": ["search-result-layout.customQuery#ropa"]
+  },
+  "search-result-layout.customQuery#ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "ropa",
+        "mapField":"departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#accesorios": {
+    "blocks": ["search-result-layout.customQuery#accesorios"]
+  },
+  "search-result-layout.customQuery#accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "accesorios",
+        "mapField":"departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#banner-home-1": {
+    "blocks": ["search-result-layout.customQuery#banner-home-1"]
+  },
+  "search-result-layout.customQuery#banner-home-1": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "242",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#banner-home-2": {
+    "blocks": ["search-result-layout.customQuery#banner-home-2"]
+  },
+  "search-result-layout.customQuery#banner-home-2": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "244",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#solar-wave": {
+    "blocks": ["search-result-layout.customQuery#solar-wave"]
+  },
+  "search-result-layout.customQuery#solar-wave": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "302",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#premium-boots": {
+    "blocks": ["search-result-layout.customQuery#premium-boots"]
+  },
+  "search-result-layout.customQuery#premium-boots": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "301",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#brad-street": {
+    "blocks": ["search-result-layout.customQuery#brad-street"]
+  },
+  "search-result-layout.customQuery#brad-street": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "300",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#banner-home-2-2": {
+    "blocks": ["search-result-layout.customQuery#banner-home-2-2"]
+  },
+  "search-result-layout.customQuery#banner-home-2-2": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "245",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#temporada-de-sandalias": {
+    "blocks": ["search-result-layout.customQuery#temporada-de-sandalias"]
+  },
+  "search-result-layout.customQuery#temporada-de-sandalias": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "307",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#nuestra-bota-iconica": {
+    "blocks": ["search-result-layout.customQuery#nuestra-bota-iconica"]
+  },
+  "search-result-layout.customQuery#nuestra-bota-iconica": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "308",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#brillos-primaverales-y-recursos-renovables": {
+    "blocks": ["search-result-layout.customQuery#brillos-primaverales-y-recursos-renovables"]
+  },
+  "search-result-layout.customQuery#brillos-primaverales-y-recursos-renovables": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "309",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

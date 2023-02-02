@@ -1,0 +1,91 @@
+{
+  // INTELIGENT SEARCH FOR DESKTOP
+  // ----------------------------------------
+ /* "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
+      "placeholder": "BUSCA TU PRODUCTO",
+      "attemptPageTypeSearch": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "__unstableProductOriginVtex": true,
+      "maxSuggestedTerms": 10
+    }
+  }*/
+
+  //MOBILE SEARCH BAR
+
+    "trigger#search-trigger": {
+      "children": ["menu-item#search"]
+    },
+    "menu-item#search": {
+      "props": {
+        "iconProps": {
+          "id": "hpa-search",
+          "size": 18,
+          "viewBox": "0 0 18 18"
+        }
+      }
+    },
+    "trigger-layout#search": {
+      "props": {
+        "blockClass": "desktop"
+      },
+      "children": ["search-bar"]
+    },
+    "search-bar": {
+      "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        "openAutocompleteOnFocus": true,
+        "displayMode": "clear-button",
+        "placeholder": "Busca tu producto aquí",
+        // "compactMode": true,
+        "attemptPageTypeSearch": true
+      }
+    },
+    "autocomplete-result-list.v2": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "openAutocompleteOnFocus": true,
+        "__unstableProductOriginVtex": true,
+        "maxSuggestedTerms": 10
+      }
+    },
+  
+    "trigger-layout#search-mobile": {
+      "props": {
+        "blockClass": "mobile"
+      },
+      "children": ["flex-layout.row#search-mobile"]
+    },
+    "flex-layout.row#search-mobile": {
+      "children": ["search-bar"]
+    },
+  
+  
+  //DESKTOP SEARCH BAR
+  "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      // "__unstableProductOriginVtex": true
+      "placeholder": "BUSCA TU PRODUCTO"
+      // "compactMode": true,
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "__unstableProductOriginVtex": true,
+      "maxSuggestedTerms": 10
+    }
+  
+  }
+}

@@ -1,0 +1,12 @@
+{
+  //--------------desktop-breadcrumb--------------------------
+  "flex-layout.row#component-breadcrumb": {
+    "children": ["breadcrumb#component-liga"],
+    "props": { "blockClass": "component-row-breadcrumb-pdp" }
+  },
+  "breadcrumb#component-liga": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

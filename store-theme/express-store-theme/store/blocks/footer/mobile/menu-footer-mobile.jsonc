@@ -1,0 +1,84 @@
+{
+  /*MOBILE*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------------------------------*/
+  /*Menu MOBILE*/
+  "vtex.menu@2.x:menu#mobile-accordion": {
+    "children": [
+      "menu-item#ayuda-mobile",
+      "vtex.menu@2.x:menu#metodos-de-pago",
+      "menu-item#contactanos-mobile"
+
+    ],
+    "props": {
+      "blockClass": "mobile-footer-accordion",
+      "orientation": "vertical"
+    }
+  },
+  /*MENU ITEM ayuda-mobile CATEGORIA*/
+  "menu-item#ayuda-mobile": {
+    "props": {
+      "id": "ayuda-mobile-item",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#ayuda"]
+  },
+  /*SUBMENU OF ITEM ayuda MOBILE*/
+  "vtex.menu@2.x:submenu.accordion#ayuda": {
+    "children": ["vtex.menu@2.x:menu#accordion-ayuda"]
+  },
+  /*MENU OF SUBMENU ITEM ayuda MOBILE*/
+  "vtex.menu@2.x:menu#accordion-ayuda": {
+    "children": [
+      "menu-item#component-cambios-devoluciones",
+      "menu-item#component-terminos-y-condiciones",
+      "menu-item#component-politica-de-privacidad"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  /*MENU ITEM contactanos*/
+  "menu-item#contactanos-mobile": {
+    "props": {
+      "id": "menu-item-Acerca-de-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CONTÁCTANOS",
+        "text": "CONTÁCTANOS"
+      },
+      "blockClass": "title-menu-footer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contactanos"]
+  },
+  /*SUBMENU OF MENU ITEM contactanos*/
+  "vtex.menu@2.x:submenu.accordion#contactanos": {
+    "children": ["vtex.menu@2.x:menu#accordion-contactanos"]
+  },
+  /*MENU OF SUBMENU ITEM contactanos*/
+  "vtex.menu@2.x:menu#accordion-contactanos": {
+    "children": [
+      "menu-item#component-email",
+      "menu-item#component-telefono",
+      "flex-layout.row#footer-redes-sociales"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  /*------------------------------------------------Declaracion del custom-mobile-menu ---------------------------*/
+  "custom-menu": {
+    "props": {
+      "menu": [
+        //MENU Audio y Video
+        {
+          "id": 1,
+          "title": "Audio y Video",
+          "href": "/audio-y-video",
+          "items": [
+            //Submenus Audio y Video
+            //Submenu audio---------------------------------------------------
+            {
+              "title": "Audio",
+              "href": "/audio-y-video/audio",
+              "items": [
+                {
+                  "title": "Audifonos",
+                  "href": "/audio-y-video/audio/audifonos?map=tipo-de-producto"
+                },
+                {
+                  "title": "Parlantes",
+                  "href": "/audio-y-video/audio/parlante?map=tipo-de-producto"
+                },
+                {
+                  "title": "Reproductores de música",
+                  "href": "/audio-y-video/audio/reproductor-de-musica?map=tipo-de-producto"
+                }
+              ]
+            },
+
+            //Submenu Video---------------------------------------------------
+            {
+              "title": "Video",
+              "href": "/audio-y-video/video",
+              "items": [
+                {
+                  "title": "Televisores",
+                  "href": "/audio-y-video/video/televisor?map=tipo-de-producto"
+                }
+              ]
+            }
+            
+          ]
+        },
+        //MENU Celulares y Tablets
+        {
+          "id": 2,
+          "title": "Celulares y Tablets",
+          "href": "/celulares-y-tablets",
+          "items": [
+            //Submenus Celulares y Tablets
+            //Submenu Celulares---------------------------------------------------
+            {
+              "title": "Celulares",
+              "href": "/celulares-y-tablets/celulares",
+              "items": [
+                {
+                  "title": "Smartphones",
+                  "href": "/celulares-y-tablets/celulares/smartphone?map=tipo-de-producto"
+                }
+              ]
+            },
+
+            //Submenu Tablets---------------------------------------------------
+            {
+              "title": "Tablets",
+              "href": "/celulares-y-tablets/tablet",
+              "items": [
+                {
+                  "title": "Tablets",
+                  "href": "/celulares-y-tablets/tablet/tablet?map=tipo-de-producto"
+                }
+              ]
+            }
+            
+          ]
+        },
+        //MENU Computadores
+        {
+          "id": 3,
+          "title": "Computadores",
+          "href": "/computadores",
+          "items": [
+            //Submenus Computadores
+            //Submenu Computadores de Escritorio---------------------------------------------------
+            {
+              "title": "Computadores de Escritorio",
+              "href": "/computadores/de-escritorio",
+              "items": [
+                {
+                  "title": "Computador de Escritorio",
+                  "href": "/computadores/de-escritorio/computador-de-escritorio?map=tipo-de-producto"
+                },
+                {
+                  "title": "PC Todo en Uno",
+                  "href": "/computadores/de-escritorio/pc-todo-en-uno?map=tipo-de-producto"
+                }
+              ]
+            },
+
+            //Submenu Portatiles---------------------------------------------------
+            {
+              "title": "Portatiles",
+              "href": "/computadores/portatiles",
+              "items": [
+                {
+                  "title": "Portatiles",
+                  "href": "/computadores/portatiles/portatil?map=tipo-de-producto"
+                }
+              ]
+            }
+            
+          ]
+        },
+        //MENU Colecciones
+        {
+          "id": 4,
+          "title": "Colecciones",
+          "href": "#",
+          "items": [
+            //Submenus Colecciones
+            //Submenu Ver Todo---------------------------------------------------
+            {
+              "title": "Ver Todo",
+              "href": "/139?map=productClusterIds",
+              "items": [
+                
+              ]
+            }
+            
+          ]
+        }
+      ],
+      "dropRigthMenus": ["HOMBRE"]
+    },
+    "children": [
+      //Hijos que se le mandan al app custom
+      "flex-layout.row#mobile-drawer-row-contact"
+    ]
+  }
+}

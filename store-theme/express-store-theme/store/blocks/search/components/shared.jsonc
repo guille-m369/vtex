@@ -1,0 +1,33 @@
+{
+  // ---------------------------ROWS------------------------
+
+  "flex-layout.row#searchbread": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "marginBottom": 3
+    }
+  },
+
+  // -------------------------------- BLOCKS ---------------------
+
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+  },
+
+  "flex-layout.row#notfound": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

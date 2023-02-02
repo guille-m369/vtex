@@ -1,0 +1,23 @@
+
+
+.title{
+font-weight: bold;
+font-size: 19px;
+}
+
+.img{
+    border: 1px solid rgba(128, 128, 128, 0.548);
+    border-radius: 5px;
+    padding: 0px 4px 0px 4px;
+    
+}
+
+.img:hover{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 14pt;
+  }
+}

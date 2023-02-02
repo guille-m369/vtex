@@ -1,0 +1,35 @@
+.buttonLink :global(.vtex-button) {
+  color: white;
+  background: transparent;
+  border: transparent;
+}
+
+.buttonLink {
+  width: 40px;
+}
+.label {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+.buttonLink :global(.vtex-button):hover {
+  color: #eb8102;
+  background-color: transparent;
+}
+
+:global(.vtex-login-2-x-label) {
+  padding-left: 0.2rem;
+  text-transform: none;
+}
+
+.container :hover {
+  background: transparent !important;
+}
+
+.content--emailAndPassword .optionsSticky,
+.contentFormVisible {
+  width: 100%;
+}
+.container {
+  margin-right: 1.8px;
+}

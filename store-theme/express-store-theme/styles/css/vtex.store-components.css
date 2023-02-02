@@ -1,0 +1,12 @@
+/*home mobile*/
+@media (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-newsletter)
+    :global(.vtex-store-components-3-x-label) {
+    font-size: 1.2rem;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-shelf-productos-destacados),
+  :global(.vtex-rich-text-0-x-paragraph--rich-text-coleccion-destacada) {
+    font-size: 1.2rem;
+  }
+}

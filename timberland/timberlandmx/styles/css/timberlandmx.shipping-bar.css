@@ -1,0 +1,12 @@
+@media (max-width: 700px){
+.fixedBar{
+    background: black;
+}
+.barShipping{
+    margin: 0 0.5rem;
+}
+
+.tagShipping{
+    margin-left: 0 !important;
+}
+}

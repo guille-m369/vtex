@@ -1,0 +1,94 @@
+{
+  // Calzado
+  "flex-layout.col#hombre-column-2": {
+    "children": ["vtex.menu@2.x:menu#hombre-column-2"]
+  },
+
+  "vtex.menu@2.x:menu#hombre-column-2": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-hombres-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado",
+            "noFollow": true,
+            "tagTitle": "CALZADO",
+            "text": "CALZADO"
+          }
+        },
+        {
+          "id": "menu-item-hombres-botas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado/botas",
+            "noFollow": true,
+            "tagTitle": "Botas",
+            "text": "Botas"
+          }
+        },
+
+        {
+          "id": "menu-item-hombres-calzado-de-hiking",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado/hiking",
+            "noFollow": true,
+            "tagTitle": "Calzado de Hiking",
+            "text": "Hiking"
+          }
+        },
+        {
+          "id": "menu-item-hombres-calzado-casual",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado/casual",
+            "noFollow": true,
+            "tagTitle": "Calzado-Casual",
+            "text": "Casual"
+          }
+        },
+        {
+          "id": "menu-item-hombres-boat-shoes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado/boat-shoes",
+            "noFollow": true,
+            "tagTitle": "Boat Shoes",
+            "text": "Boat Shoes"
+          }
+        },
+        {
+          "id": "menu-item-hombres-SNEAKERS-SNEAKERS-BOOTS",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/calzado/sneakers",
+            "noFollow": true,
+            "tagTitle": "SNEAKERS",
+            "text": "Sneakers"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "responsive-layout.mobile": {
+    "children": [
+      "list-context.image-list#component-principal-banner",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-destacados",
+      "flex-layout.row#component-coleccion-destacada-title",
+      "flex-layout.row#mobile-coleccion-destacada-image",
+      "newsletter"
+    ]
+  },
+  "flex-layout.row#mobile-coleccion-destacada-image": {
+    "props": {
+      "blockClass": "mobile-coleccion-destacada-image"
+    },
+    "children": ["flex-layout.col#mobile-coleccion-destacada-image"]
+  },
+  "flex-layout.col#mobile-coleccion-destacada-image": {
+    "props": { "horizontalAlign": "center" },
+    "children": ["image#mobile-coleccion-destacada"]
+  },
+  "image#mobile-coleccion-destacada": {
+    "props": {
+      "src": "assets/home/coleccion-destacada.png",
+      "link": {
+        "url": "/"
+      },
+      "text": "",
+      "maxHeight": 700
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "projectName": "drawer",
+  "projectOwner": "vtex-apps",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "docs/README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Radu1749",
+      "name": "Radu1749",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51535501?v=4",
+      "profile": "https://github.com/Radu1749",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rayra-alencar",
+      "name": "rayra-alencar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28907161?v=4",
+      "profile": "https://github.com/rayra-alencar",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "renanguerraa1",
+      "name": "Renan Guerra",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/69531548?v=4",
+      "profile": "https://github.com/renanguerraa1",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}

@@ -1,0 +1,30 @@
+.categoria {
+  margin: 15px 0;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .categoria {
+    font-size: 12px;
+  }
+}
+/*-----------------------------------pdp------------------------------*/
+
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--component-mobile-categoria)
+.categoria{
+  padding-left: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-categoria)
+.categoria{
+margin-bottom: 0;
+margin-top: 9px;
+padding-left: 0;
+}
+

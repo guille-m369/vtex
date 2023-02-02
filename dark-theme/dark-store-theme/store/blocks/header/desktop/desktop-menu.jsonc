@@ -1,0 +1,54 @@
+{
+  /*Item-------------------------------------*/
+  "menu-item#desktop-header-menu-item-categorias": {
+    "props": {
+      "id": "desktop-header-menu-item-categorias",
+      "type": "custom",
+      //"iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      },
+      "iconProps": {
+        "id": "hpa-hamburguer-menu",
+        //"id": "nav-caret--down",
+
+        "size": 20,
+        "viewBox": "0 0 20 20"
+        //"activeClassName": "rebel-pink",
+        //"mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      // "iconToTheleft": true,
+
+      "blockClass": "desktop-main-menu-title"
+      //"children":["flex-layout.row#desktop-top"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu#categorias-menu"]
+  },
+  "vtex.menu@2.x:submenu#categorias-menu": {
+    "props": {
+      "width": "100%",
+      "blockClass": "main-submenu-container"
+    },
+    "children": ["flex-layout.row#categorias-menu"]
+  },
+  "flex-layout.row#categorias-menu": {
+    "children": ["flex-layout.col#categorias-col"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main-submenu",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#categorias-col": {
+    "children": ["custom-menu"],
+    "props": {
+      // " width": "400px"
+    }
+  }
+}

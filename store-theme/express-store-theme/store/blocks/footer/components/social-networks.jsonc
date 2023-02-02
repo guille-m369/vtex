@@ -1,0 +1,35 @@
+{
+  /*Seccion social network images*/
+  /*Ron of images social network*/
+  "flex-layout.row#footer-redes-sociales": {
+    "children": ["flex-layout.col#footer-redes-sociales"],
+    "props": {
+      "blockClass": "row-image-item-footer",
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.col#footer-redes-sociales": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  /*Seccion social network images*/
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "#",
+          "name": "Facebook"
+        },
+        {
+          "url": "#",
+          "name": "Instagram"
+        },
+        {
+          "url": "#",
+          "name": "Youtube"
+        }
+      ]
+    }
+  }
+}

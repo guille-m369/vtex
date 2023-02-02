@@ -1,0 +1,102 @@
+{
+  "store.custom#bape": {
+    "blocks": ["search-result-layout.customQuery#bape"]
+  },
+  "search-result-layout.customQuery#bape": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "489",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#bape",
+      "search-result-layout.mobile#bape",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#bape": {
+    "children": ["flex-layout.row#container-search-result-desktop-bape"],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "showFacetQuantity": false,
+      "hiddenFacets": {
+        "priceRange": false,
+        "specificationFilters": {
+          "hiddenFilters": [{ "name": "Marca" }, { "name": "Precio" }]
+        }
+      }
+    }
+  },
+  "flex-layout.row#container-search-result-desktop-bape": {
+    "children": ["flex-layout.col#container-search-result-desktop-bape"]
+  },
+  "flex-layout.col#container-search-result-desktop-bape": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#row-breadcrumb",
+      "flex-layout.row#banner-bape",
+      "flex-layout.row#result",
+      "back-to-top-button"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "marginRight": 5
+    }
+  },
+  "flex-layout.row#banner-bape": {
+    "children": ["flex-layout.col#banner-bape"],
+    "props": {
+      "blockClass": "imageBanner"
+    }
+  },
+  "flex-layout.col#banner-bape": {
+    "children": ["image#banner-bape"]
+  },
+  "image#banner-bape": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/bape_collection_plp.jpg",
+      "blockClass": ["image-banner-result-search", "image-banner-result-search-bape-mobile"],
+      "width": "100%",
+      "maxHeight": 200
+    }
+  },
+
+  "search-result-layout.mobile#bape": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#stycky-mobile",
+      "flex-layout.row#search-count-mobile",
+      "flex-layout.row#banner-bape",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "showFacetQuantity": false,
+      "hiddenFacets": {
+        "priceRange": false,
+        "specificationFilters": {
+          "hiddenFilters": [{ "name": "Marca" }, { "name": "Precio" }]
+        }
+      }
+    }
+  }
+
+}

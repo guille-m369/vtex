@@ -1,0 +1,171 @@
+{
+  "search-result-layout.desktop": {
+    "children": ["flex-layout.row#container-search-result-desktop"],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "showFacetQuantity": false,
+      "hiddenFacets": {
+        "priceRange": false,
+        "specificationFilters": {
+          "hiddenFilters": [{ "name": "Marca" }, { "name": "Precio" }]
+        }
+      }
+    }
+  },
+  "flex-layout.row#container-search-result-desktop": {
+    "children": ["flex-layout.col#container-search-result-desktop"]
+  },
+  "flex-layout.col#container-search-result-desktop": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#row-breadcrumb",
+      "flex-layout.row#banner",
+      "flex-layout.row#result",
+      "back-to-top-button"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "marginRight": 5
+    }
+  },
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner": {
+    "children": ["flex-layout.col#banner"],
+    "props": {
+      "blockClass": "imageBanner"
+    }
+  },
+  "flex-layout.col#banner": {
+    "children": ["flex-layout.row#searchtitle", "image#banner"]
+  },
+  "flex-layout.row#searchtitle": {
+    "children": ["search-title.v2"],
+    "props": {
+      "blockClass": "searchTitle"
+    }
+  },
+  "image#banner": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-search-plp.jpg",
+      "blockClass": "image-banner-result-search",
+      "width": "100%",
+      "maxHeight": 200
+    }
+  },
+
+  "flex-layout.row#result": {
+    "children": ["flex-layout.col#content"],
+    "props": {
+      "blockClass": "desktop-search-result",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "marginTop": 6
+    }
+  },
+  "flex-layout.col#content": {
+    "children": ["flex-layout.row#products"],
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "marginLeft": 2,
+      "marginRight": 2
+    }
+  },
+
+  "flex-layout.row#products": {
+    "children": ["flex-layout.col#filter", "flex-layout.col#container"],
+    "props": {
+      "blockClass": "desktop-search-content-products"
+    }
+  },
+
+  "flex-layout.col#filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#container": {
+    "children": [
+      //"flex-layout.row#searchbread",
+      "flex-layout.row#productCount-order",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#product-container",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "blockClass": "desktop-container",
+      "width": "80%"
+    }
+  },
+
+  "flex-layout.row#productCount-order": {
+    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "height": "auto",
+      "blockClass": "desktop-search-productCount-order"
+    }
+  },
+  "flex-layout.row#row-breadcrumb": {
+    "children": ["flex-layout.col#breadcrumb"]
+  },
+  "flex-layout.col#breadcrumb": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "breadcrumbCol"
+    }
+  },
+  "flex-layout.col#productCount": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "productCountCol"
+    }
+  },
+
+  "flex-layout.col#orderby": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByCol"
+    }
+  },
+
+  "flex-layout.row#product-container": {
+    "children": ["flex-layout.col#products"],
+    "props": { "marginTop": 5 }
+  },
+  "flex-layout.col#products": {
+    "children": ["search-content"]
+  },
+  "flex-layout.row#fetchprevious": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["search-fetch-previous"]
+  },
+  "flex-layout.row#fetchmore": {
+    "props": {
+      "marginTop": 7
+    },
+    "children": ["search-fetch-more"]
+  },
+
+  "back-to-top-button": {
+    "props": {
+      "display": "caret-icon"
+    }
+  }
+}

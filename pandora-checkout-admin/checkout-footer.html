@@ -1,0 +1,220 @@
+<style>
+    .footerCheck {
+    background-color: #27251f;
+    color: #fff;
+    font-family: 'PanDisplay';
+    text-align: center;
+    justify-content: center;
+
+    }
+
+    .containerFooter {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: xx-large;
+    }
+
+    .containerFooter a {
+        color: #f2a1b2;
+    }
+
+    
+
+    @media (min-width: 64rem){
+
+        .footerCheck .containerFooter div {
+            margin: 28px 40px;
+        }
+    }
+
+    .dcx-pagamentos {
+    background-color: #f6f6f6;
+    }
+
+    .dcx-pagamentos .dcx-stamps__cards--credit, .dcx-pagamentos .dcx-stamps__cards--security {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .dcx-pagamentos .dcx-stamps__cards--credit li, .dcx-pagamentos .dcx-stamps__cards--security li {
+        margin-right: 8px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .dcx-pagamentos .dcx-stamps__cards--credit li, .dcx-pagamentos .dcx-stamps__cards--security li {
+        margin-right: 8px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    @media (min-width: 48rem){
+
+        .dcx-pagamentos {
+            padding: 30px 0;
+        }
+
+        .dcx-copyright {
+            padding: 37px 0;
+        }
+
+        .dcx-pagamentos .dcx-stamps {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dcx-pagamentos .dcx-stamps__pagamento, .dcx-pagamentos .dcx-stamps__selos {
+            width: 50%;
+        }
+
+        .dcx-pagamentos .dcx-stamps__pagamento, .dcx-pagamentos .dcx-stamps__selos {
+            width: 50%;
+        }
+
+        .dcx-pagamentos .dcx-stamps__cards--security li {
+            margin-right: 34px;
+        }
+
+        .dcx-copyright__container {
+            display: flex;
+        }
+
+        .dcx-copyright__content {
+            width: 50%;
+        }
+
+        .dcx-copyright__selos {
+            width: 50%;
+            justify-content: flex-end;
+            margin-top: 0;
+            display: flex;
+        }
+    }
+
+    .dcx-copyright__content {
+        color: #5d5955;
+        font-size: 12px;
+    }
+
+    .dcx-copyright {
+        background-color: #fff;
+        padding: 16px 0;
+    }
+
+    .dcx-copyright__developedby, .dcx-copyright__poweredby {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dcx-copyright__poweredby {
+        margin-right: 38px;
+    }
+
+    .dcx-copyright__developedby img, .dcx-copyright__poweredby img {
+        max-height: 24px;
+        -o-object-fit: none;
+        object-fit: none;
+    }
+
+    .dcx-copyright__selos_container {
+            display: flex;
+        }
+
+    @media (max-width: 640px){
+        .containerFooter {
+            display: block;
+        }
+
+        .containerFooter div {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .dcx-copyright__selos {
+            position: relative;
+            height: 30px;
+        }
+        .dcx-copyright__selos_container {
+            display: flex;
+            padding-top: 1rem;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+    }
+  
+  .sac-spcapital {
+  	font-size: 17px;
+  }
+
+  .sac-rgmetropolitanas {
+  	font-size: 17px;
+  }
+
+</style>
+
+<div class="footerCheck">
+    <div class="containerFooter">
+        <div class="col sac-spcapital">
+          <small>Teléfono: </small>
+          <a href="tel:+55 (11) 4130-8933">(11) 4130-8933</a>
+        </div>
+        <div class="col sac-rgmetropolitanas">
+          <small>Email: </small>
+          <a href="tel:+55 4003-1627">4003-1627</a>
+        </div>
+    </div>
+  </div>
+
+  <footer class="dcx-footer-page" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="dcx-pagamentos">
+      <div class="container">
+        <div class="dcx-stamps">
+          <div class="dcx-stamps__pagamento">
+            <div class="dcx-stamps__title"><h3>Formas de pago</h3></div>
+            <ul class="dcx-stamps__cards dcx-stamps__cards--credit">
+              <li><img src="/arquivos/visaG.png" alt="visa"></li>
+              <li><img src="/arquivos/masterG.png" alt="MasterCard"></li>
+              <li><img src="/arquivos/amexG.png" alt="amex"></li>
+              <li><img src="/arquivos/dinnersG.png" alt="Diners Club"></li>        
+              <li><img src="/arquivos/efectyG.png" alt="Efecty"></li>
+              <li><img src="/arquivos/pseG.png" alt="PSE"></li>
+              <li><img src="/arquivos/boleto.png" alt="Boleto"></li>
+            </ul>
+          </div> 
+          <!-- <div class="dcx-stamps__selos">
+            <div class="dcx-stamps__title"><h3>Selos de Segurança</h3></div>
+            <ul class="dcx-stamps__cards dcx-stamps__cards--security">
+              <li><img src="/arquivos/segvtex.png" alt="vtex"></li>
+              <li><img src="/arquivos/digicert.png" alt="vtex"></li>
+              <li><img src="/arquivos/yourviews.png" alt="vtex"></li>
+              <li><img src="/arquivos/google.png" alt="vtex"></li>
+            </ul>
+          </div>                        -->
+        </div>
+      </div>
+    </div>
+    <div class="dcx-copyright">
+      <div class="container">
+        <div class="dcx-copyright__container">
+          <div class="dcx-copyright__content">
+            <div class="dcx-copyright__direitos"> 2011-2021 © Todos los derechos reservados </div>
+            <span class="dcx-copyright__endereco"> PANDORA Colombia. Rua Henri Dunant, 1383 - São Paulo - SP</span>
+          </div>   
+          <div class="dcx-copyright__selos">
+            <div class="dcx-copyright__selos_container">
+                <div class="dcx-copyright__poweredby"> 
+                  <img src="/arquivos/vtexG.png" alt="vtex">
+                </div>
+                <div class="dcx-copyright__developedby">
+                  <img src="/arquivos/vtexG.png" alt="vtex">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div>
+  </div></div></footer>

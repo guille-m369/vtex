@@ -1,0 +1,55 @@
+{
+  "search-result-layout.desktop#hot-sale": {
+    "children": ["flex-layout.row#container-search-result-desktop-hot-sale"],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "showFacetQuantity": false,
+      "hiddenFacets": {
+        "priceRange": false,
+        "specificationFilters": {
+          "hiddenFilters": [{ "name": "Marca" }, { "name": "Precio" }]
+        }
+      }
+    }
+  },
+  "flex-layout.row#container-search-result-desktop-hot-sale": {
+    "children": ["flex-layout.col#container-search-result-desktop-hot-sale"]
+  },
+  "flex-layout.col#container-search-result-desktop-hot-sale": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#row-breadcrumb",
+      "flex-layout.row#banner-hot-sale",
+      "flex-layout.row#result",
+      "back-to-top-button"
+    ],
+    "props": {
+      "marginLeft": 5,
+      "marginRight": 5
+    }
+  },
+
+  "flex-layout.row#banner-hot-sale": {
+    "children": ["flex-layout.col#banner-hot-sale"],
+    "props": {
+      "blockClass": "imageBanner"
+    }
+  },
+  "flex-layout.col#banner-hot-sale": {
+    "children": ["image#banner-hot-sale"]
+  },
+  "image#banner-hot-sale": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/HotSaleSeccionBanner.jpg",
+      "blockClass": "image-banner-result-search",
+      "width": "100%",
+      "maxHeight": 200
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true,
+      "blockClass": "filter-block"
+    }
+  }
+}

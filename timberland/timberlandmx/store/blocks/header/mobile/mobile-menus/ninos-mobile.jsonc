@@ -1,0 +1,60 @@
+{
+  // nino
+
+  "menu-item#mobile-nino-header": {
+    "props": {
+      "id": "mobile-menu-nino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "width": "100%",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino",
+        "noFollow": true,
+        "tagTitle": "nino",
+        "text": "Niños"
+      },
+      "blockClass": "mobile-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#nino"]
+  },
+  "vtex.menu@2.x:submenu.accordion#nino": {
+    "children": ["vtex.menu@2.x:menu#accordion-nino"],
+    "props": { "width": "100%" }
+  },
+  "vtex.menu@2.x:menu#accordion-nino": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-items",
+      "items": [
+        {
+          "id": "mobile-menu-item-ninos-calzado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino/calzado",
+            "noFollow": true,
+            "tagTitle": "Calzado",
+            "text": "Calzado"
+          }
+        },
+        {
+          "id": "mobile-menu-item-ninos-compra-por-edad",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/junior--9-13-anos-/youth--5-9-anos-/infant--1-4-anos-?map=categoria-de-tamano,categoria-de-tamano,categoria-de-tamano",
+            "noFollow": true,
+            "tagTitle": "Compra por edad",
+            "text": "Compra por edad"
+          }
+        }
+      ]
+    }
+  }
+}

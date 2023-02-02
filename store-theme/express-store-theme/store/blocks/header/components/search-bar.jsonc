@@ -1,0 +1,29 @@
+{
+  "flex-layout.col#component-search-bar": {
+    "props": {
+      "blockClass": "component-search-bar",
+      "verticalAlign": "middle",
+      "marginRight": 6
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      // "__unstableProductOriginVtex": true
+      "placeholder": "Busca tu producto",
+      // "compactMode": true,
+      "attemptPageTypeSearch": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "__unstableProductOriginVtex": true,
+      "maxSuggestedTerms": 10
+    }
+  
+  }
+}

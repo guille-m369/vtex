@@ -1,0 +1,73 @@
+{
+  // nature
+
+  "menu-item#mobile-outlet-header": {
+    "props": {
+      "id": "mobile-menu-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "width": "100%",
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": true,
+        "tagTitle": "outlet",
+        "text": "Outlet"
+      },
+      "blockClass": "mobile-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#outlet"]
+  },
+  "vtex.menu@2.x:submenu.accordion#outlet": {
+    "children": ["vtex.menu@2.x:menu#accordion-outlet"],
+    "props": { "width": "100%" }
+  },
+  "vtex.menu@2.x:menu#accordion-outlet": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-items",
+      "items": [
+        {
+          "id": "mobile-menu-item-outlet",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/outlet",
+            "noFollow": true,
+            "tagTitle": "Outlet",
+            "text": "Outlet"
+          }
+        },
+        {
+          "id": "mobile-menu-item-ultimas-piezas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/outlet/ultimas-piezas",
+            "noFollow": true,
+            "tagTitle": "Últimas piezas",
+            "text": "Últimas piezas"
+          }
+        },
+        {
+          "id": "mobile-menu-item-novedades-en-rebajas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/outlet/rebajas/novedades",
+            "noFollow": true,
+            "tagTitle": "Novedades en rebajas",
+            "text": "Novedades en rebajas"
+          }
+        }
+      ]
+    }
+  }
+}

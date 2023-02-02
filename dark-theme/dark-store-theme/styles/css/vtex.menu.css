@@ -1,0 +1,28 @@
+/*------------------footer---------------------*/
+.menuItem--title-menu:first-child .styledLinkContent--title-menu {
+    font-weight: bold;
+    cursor: auto;
+    color: #DEDEDE;
+  }
+
+  .accordionIcon--isOpen,
+  .accordionIcon--isClosed {
+    visibility: hidden;
+    display: flex;
+    right: 2px;
+    bottom: 1em;
+  }
+  .accordionIcon--isOpen::after {
+    visibility: visible;
+    content: url(https://ecomsurmxqa.vteximg.com.br/arquivos/angle-up.svg);
+    display: block;
+  }
+  .accordionIcon--isClosed::after {
+    visibility: visible;
+    content: url(https://ecomsurmxqa.vteximg.com.br/arquivos/angle-down.svg);
+    display: block;
+  }
+:global(.vtex-menu-2-x-menuItem){
+  padding-top: 5px;
+padding-bottom: 5px;
+}

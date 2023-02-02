@@ -1,0 +1,120 @@
+/*----------------------------desktop--------------------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--row-container-footer-1),
+:global(.vtex-flex-layout-0-x-flexRow--row-footer-container-mobile-1) {
+  background: #362c2d;
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-container-footer-1)
+  :global(.vtex-store-components-3-x-container),
+:global(.vtex-flex-layout-0-x-flexRow--row-container-footer-2)
+  :global(.vtex-store-components-3-x-container) {
+  max-width: 1440px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-footer), 
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-footers) {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: default !important;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu-footers) 
+:global(.vtex-menu-2-x-styledLinkContent--title-menu-footers):hover{
+  color: #fff !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--title-menu-footer) 
+ :global(.vtex-menu-2-x-styledLinkContent--title-menu-footer):hover {
+  color: #fff !important;
+ 
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-container-footer-1)
+  :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0 !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--item-menu-footer) {
+  color: #fff;
+  line-height: 2rem;
+}
+/*-----------------------container 2 desktop -------------*/
+
+:global(.vtex-flex-layout-0-x-flexRow--row-container-footer-2),
+:global(.vtex-flex-layout-0-x-flexRow--row-footer-container-mobile-2) {
+  background: #282321;
+  color: white;
+}
+:global(.vtex-rich-text-0-x-strong--rich-text-social-networks),
+:global(.vtex-rich-text-0-x-strong--rich-text-pago-seguro) {
+  color: white;
+  font-weight: 700;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--images-social-netwoks)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-flexRow--logos-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+:global(.vtex-flex-layout-0-x-flexRow--image-metodos-pagos)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+  padding-right: 1rem;
+}
+:global(.vtex-rich-text-0-x-paragraph--rich-text-company-footer) {
+  color: white;
+  font-size: 12px;
+}
+
+
+:global(.vtex-menu-2-x-accordionIcon--title-menu-footer) {
+    color: #eb8102;
+    font-size: 24px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--desktop-logo-footer){
+  text-align: center !important;
+}
+/*------------------------tablet-----------*/
+@media screen and (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRow--row-footer-container-mobile-2){
+    padding-bottom: 6rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) 
+  :global(.vtex-styleguide-9-x-input) {
+    width: 400px;
+    max-width: 400px !important;
+   }
+   :global(.vtex-menu-2-x-styledLinkContainer--title-menu-footer),
+  :global(.vtex-menu-2-x-menuItem--title-menu-footer)
+  :global(.vtex-menu-2-x-submenuAccordion) {
+    margin: 0 ;
+    padding: 0;
+  }
+}
+
+/*------------------mobile---------------------*/
+:global(.vtex-flex-layout-0-x-flexRowContent--images-social-netwoks),
+:global(.vtex-flex-layout-0-x-flexRowContent--image-metodos-pagos),
+:global(.vtex-flex-layout-0-x-flexRowContent--logos-footer) {
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  :global(.vtex-menu-2-x-styledLinkContent--title-menu-footer){
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  :global(.vtex-menu-2-x-styledLinkContainer--title-menu-footer),
+  :global(.vtex-menu-2-x-menuItem--title-menu-footer)
+  :global(.vtex-menu-2-x-submenuAccordion) {
+    margin: 0 ;
+    padding: 0;
+  }
+  
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) 
+  :global(.vtex-styleguide-9-x-input) {
+     max-width: 160px !important;
+   }
+   :global(.vtex-rich-text-0-x-container--rich-text-social-networks),
+   :global(.vtex-rich-text-0-x-container--rich-text-pago-seguro){
+     padding-top: 0.5rem;
+   }
+   :global(.vtex-flex-layout-0-x-flexRow--image-metodos-pagos){
+     padding-bottom: 0.5rem;
+   }
+}

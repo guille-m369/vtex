@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#landing-home": {
+    "children": [
+      "flex-layout.col#botas-home",
+      "flex-layout.col#botas-mujer-home",
+      "flex-layout.col#hiking-mobile",
+      "flex-layout.col#casual-mobile",
+      "flex-layout.col#ropa-mobile",
+      "flex-layout.col#accesorios-mobile"
+    ],
+    "props": {
+      "blockClass": "imagenes-home",
+      "horizontalAlign": "center",
+      "paddingTop": 8,
+      "paddingBottom": 9
+    }
+  },
+  "flex-layout.col#botas-home": {
+    "children": ["custom-infocard#botas-hombre-home"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#botas-hombre-home": {
+    "props": {
+      "width": "150px",
+      "height": "80px",
+      "blockClass": "hombre-bota",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Mens/botas-hombre.svg",
+      "link": "/hombre/calzado/botas"
+    }
+  },
+  "flex-layout.col#botas-mujer-home": {
+    "children": ["custom-infocard#botas-mujer-home"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#botas-mujer-home": {
+    "props": {
+      "width": "150px",
+      "height": "80px",
+      "blockClass": "mujer-bota",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/botas-mujer.svg",
+      "link": "/mujer/calzado/botas"
+    }
+  },
+  "flex-layout.col#casual-mobile": {
+    "children": ["custom-infocard#casual-mobile"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#casual-mobile": {
+    "props": {
+      "width": "150px",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Mens/Iconos_Web_02.svg",
+      "link": "/casual"
+    }
+  },
+  "flex-layout.col#hiking-mobile": {
+    "children": ["custom-infocard#hiking-mobile"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#hiking-mobile": {
+    "props": {
+      "width": "150px",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Mens/Iconos_Web_04.svg",
+      "link": "/hiking"
+    }
+  },
+
+  "flex-layout.col#ropa-mobile": {
+    "children": ["custom-infocard#ropa-mobile"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#ropa-mobile": {
+    "props": {
+      "width": "150px",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Mens/Iconos_Web_07.svg",
+      "link": "/ropa"
+    }
+  },
+  "flex-layout.col#accesorios-mobile": {
+    "children": ["custom-infocard#accesorios-mobile"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "custom-infocard#accesorios-mobile": {
+    "props": {
+      "width": "150px",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Mens/Iconos_Web_08.svg",
+      "link": "/accesorios"
+    }
+  }
+}

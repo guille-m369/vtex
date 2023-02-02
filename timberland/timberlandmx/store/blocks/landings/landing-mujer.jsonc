@@ -1,0 +1,288 @@
+{
+  "store.custom#landing-mujer": {
+    "blocks": [
+      "responsive-layout.desktop#landing-mujer",
+      "responsive-layout.tablet#landing-mujer",
+      "responsive-layout.phone#landing-mujer"
+    ]
+  },
+
+  "responsive-layout.desktop#landing-mujer": {
+    "children": ["flex-layout.row#landing-mujer-content-mujer"]
+  },
+
+  "responsive-layout.tablet#landing-mujer": {
+    "children": ["flex-layout.row#landing-mujer-content-mujer"]
+  },
+  "responsive-layout.phone#landing-mujer": {
+    "children": [
+      "flex-layout.row#landing-mujer-title-mujer",
+      "flex-layout.row#landing-mujer",
+      "flex-layout.row#feature-content-1-phone-landing-mujer",
+      "flex-layout.row#feature-content-2-mobile-landing-mujer",
+      "rich-text#title-destacados-mujer",
+      "flex-layout.row#shelf-mujer"
+    ]
+  },
+
+  "flex-layout.row#landing-mujer-content-mujer": {
+    "children": ["flex-layout.col#landing-mujer-content-mujer"]
+  },
+  "flex-layout.col#landing-mujer-content-mujer": {
+    "children": [
+      "flex-layout.row#landing-mujer-title-mujer",
+      "flex-layout.row#landing-mujer",
+      "flex-layout.row#feature-1", //
+      "flex-layout.row#feature-2", //
+      "rich-text#title-destacados-mujer",
+      "flex-layout.row#shelf-mujer"
+    ],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+  "flex-layout.row#landing-mujer": {
+    "children": [
+      "flex-layout.col#botas-mujer",
+      "flex-layout.col#casual-mujer",
+      "flex-layout.col#hiking-mujer",
+      "flex-layout.col#sandalias-mujer",
+      "flex-layout.col#ropa-mujer",
+      "flex-layout.col#accesorios-mujer"
+    ],
+    "props": {
+      "blockClass": "imagenes-landings",
+      "justify": "center",
+      "paddingTop": 8,
+      "paddingBottom": 9
+    }
+  },
+
+  "flex-layout.row#landing-mujer-title-mujer": {
+    "children": ["rich-text#title-landing-mujer"]
+  },
+
+  "rich-text#title-landing-mujer": {
+    "props": {
+      "text": "# MUJERES",
+      "blockClass": "title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  //imagenes
+
+  "flex-layout.col#botas-mujer": {
+    "children": ["custom-infocard#botas-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#casual-mujer": {
+    "children": ["custom-infocard#casual-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#hiking-mujer": {
+    "children": ["custom-infocard#hiking-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#sandalias-mujer": {
+    "children": ["custom-infocard#sandalias-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#ropa-mujer": {
+    "children": ["custom-infocard#ropa-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#accesorios-mujer": {
+    "children": ["custom-infocard#accesorios-mujer"],
+    "props": {
+      "blockClass": "images",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "custom-infocard#botas-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_Wmns_01.svg",
+      "link": "/mujer/botas"
+    }
+  },
+  "custom-infocard#casual-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_Wmns_04.svg",
+      "link": "/mujer/casual"
+    }
+  },
+  "custom-infocard#hiking-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_Wmns_02.svg",
+      "link": "/mujer/hiking"
+    }
+  },
+
+  "custom-infocard#sandalias-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_Wmns_03.svg",
+      "link": "/mujer/sandalias"
+    }
+  },
+
+  "custom-infocard#ropa-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_07.svg",
+      "link": "/mujer/ropa"
+    }
+  },
+  "custom-infocard#accesorios-mujer": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "assets/Iconos_1/Womns/Iconos_Web_Wmns_06.svg",
+      "link": "/mujer/accesorios"
+    }
+  },
+
+  //section1
+
+  // FEATURED CONTENT 1-DESKTOP
+  //-------------------------------------------------------------------
+
+  //DECLARA HASTA ARRIBA  //
+  //
+  "flex-layout.row#feature-1": {
+    "children": ["flex-layout.col#feature-1"],
+    "props": {
+      "marginBottom": 0,
+      "marginTop": 5,
+      "blockClass": "feature-3-home"
+    }
+  },
+
+  "flex-layout.col#feature-1": {
+    "children": ["custom-infocard#feature-1"]
+  },
+
+  "custom-infocard#feature-1": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-sandalias-landing-desktop.jpg",
+      "link": "temporada-de-sandalias"
+    }
+  },
+
+  //
+  "flex-layout.row#feature-2": {
+    "children": ["custom-infocard#feature-2"],
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 7,
+      "blockClass": "row-banner-landing-mujer"
+    }
+  },
+
+  /*banner sin boton*/
+  "custom-infocard#feature-2": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-frescura-y-comodidad-desktop.jpg",
+      "link": "frescura-y-comodidad"
+    }
+  },
+
+  //shelf
+
+  "rich-text#title-destacados-mujer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PRODUCTOS DESTACADOS",
+      "font": "t-heading-3",
+      "blockClass": "prod-dest"
+    }
+  },
+  "flex-layout.row#shelf-mujer": {
+    "children": ["list-context.product-list#shelf-mujer"],
+    "props": {
+      "paddingBottom": 7
+    }
+  },
+  "list-context.product-list#shelf-mujer": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-mujer"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "154"
+    }
+  },
+  "slider-layout#shelf-mujer": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  /*------------------------------Mobile--------------------------------------------------------*/
+
+  "flex-layout.row#feature-content-1-phone-landing-mujer": {
+    "children": ["custom-infocard#feature-mujer-mobile-1"],
+    "props": {
+      "marginTop": 5,
+      "blockClass": "container-info-card-landing-mujer-1-mobile"
+    }
+  },
+  "custom-infocard#feature-mujer-mobile-1": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-landing-sandalias-mobile.jpg",
+      "link": "dulce-innovacion"
+    }
+  },
+  "flex-layout.row#feature-content-2-mobile-landing-mujer": {
+    "children": ["custom-infocard#feature-mujer-mobile-2"],
+    "props": {
+      "marginTop": 5,
+      "blockClass": "row-banner-landing-mujer"
+    }
+  },
+  "custom-infocard#feature-mujer-mobile-2": {
+    "props": {
+      "width": "100%",
+      "maxHeight": "auto",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/banner-landing-frescura-mobile.jpg",
+      "link": "dulce-innovacion"
+    }
+  }
+}

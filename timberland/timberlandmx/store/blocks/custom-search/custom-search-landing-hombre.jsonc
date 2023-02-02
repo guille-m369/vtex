@@ -1,0 +1,242 @@
+{
+  "store.custom#landing-hombre-botas": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-botas"]
+  },
+  "search-result-layout.customQuery#landing-hombre-botas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hombre/botas",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-casual": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-casual"]
+  },
+  "search-result-layout.customQuery#landing-hombre-casual": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hombre/casual",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-hiking": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-hiking"]
+  },
+  "search-result-layout.customQuery#landing-hombre-hiking": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hombre/hiking",
+        "mapField":"genero,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-ropa": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-ropa"]
+  },
+  "search-result-layout.customQuery#landing-hombre-ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hombre/ropa",
+        "mapField":"genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-accesorios": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-accesorios"]
+  },
+  "search-result-layout.customQuery#landing-hombre-accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "hombre/accesorios",
+        "mapField":"genero,departamento",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-banner-1": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-banner-1"]
+  },
+  "search-result-layout.customQuery#landing-hombre-banner-1": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "210",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#landing-hombre-banner-2": {
+    "blocks": ["search-result-layout.customQuery#landing-hombre-banner-2"]
+  },
+  "search-result-layout.customQuery#landing-hombre-banner-2": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "212",
+        "mapField":"productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#hombre-calcetines": {
+    "blocks": ["search-result-layout.customQuery#hombre-calcetines"]
+  },
+  "search-result-layout.customQuery#hombre-calcetines": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByScoreDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 20,
+        "queryField": "233",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#dulce-innovacion": {
+    "blocks": ["search-result-layout.customQuery#hombre-dulce-innovacion"]
+  },
+  "search-result-layout.customQuery#hombre-dulce-innovacion": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "310",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#esenciales-para-tus-viajes": {
+    "blocks": ["search-result-layout.customQuery#hombre-esenciales-para-tus-viajes"]
+  },
+  "search-result-layout.customQuery#hombre-esenciales-para-tus-viajes": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "311",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#botas-hiv5": {
+    "blocks": ["search-result-layout.customQuery#botas-hiv5"]
+  },
+  "search-result-layout.customQuery#botas-hiv5": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "315",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#sweetpants": {
+    "blocks": ["search-result-layout.customQuery#sweetpants"]
+  },
+  "search-result-layout.customQuery#sweetpants": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "316",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+  
+}

@@ -1,0 +1,82 @@
+{
+  // Accesorios
+  "flex-layout.col#mujer-column-4": {
+    "children": ["vtex.menu@2.x:menu#mujer-column-4"]
+  },
+
+  "vtex.menu@2.x:menu#mujer-column-4": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-mujeres-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/accesorios",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+
+        {
+          "id": "menu-item-mujeres-mochilas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "mujer/accesorios/mochilas-y-bolsas",
+            "noFollow": true,
+            "tagTitle": "Mochilas y Bolsas",
+            "text": "Mochilas y Bolsas"
+          }
+        },
+        
+        {
+          "id": "menu-item-mujeres-limpieza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href":  "/mujer/accesorios/productos-de-limpieza",
+            "noFollow": true,
+            "tagTitle": "Productos de Limpieza",
+            "text": "Productos de Limpieza"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-calcetines",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href":  "/mujer/accesorios/guantes-bufandas-y-gorras",
+            "noFollow": true,
+            "tagTitle": "Guantes Bufandas y Gorras",
+            "text": "Guantes Bufandas y Gorras"
+          }
+        },
+        { 
+          "id": "menu-item-mujeres-fundas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href":  "/mujer/accesorios/fundas",
+            "noFollow": true,
+            "tagTitle": "fundas",
+            "text": "Fundas"
+          }
+        }
+      ]
+    }
+  }
+}

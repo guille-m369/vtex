@@ -1,0 +1,122 @@
+:global(.vtex-account__page-body) a[href*="/cancel"] {
+  display: none !important;
+}
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/cancel"],
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/edit"],
+:global(.vtex-pageHeader__children) a[href="#/cards/new"] {
+  display: none;
+}
+.sc-launcher {
+  bottom: 50px !important;
+}
+:global(.vtex-search-2-x-didYouMeanPrefix),
+:global(.vtex-search-2-x-suggestionsListPrefix) {
+  font-size: 1rem;
+}
+:global(.vtex-search-2-x-didYouMeanTerm) a,
+:global(.vtex-search-2-x-suggestionsListItem) a,
+:global(.vtex-search-2-x-suggestionsList) li:not(:first-child):before {
+  color: #eb8102;
+  font-size: 1rem;
+}
+/*-------------carrito*/
+/*:global(.vtex-checkout-summary-0-x-summarySmallContent)
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(3){
+  display: none;
+}*/
+
+:global(.vtex-reviews-and-ratings-2-x-writeReviewContainer)
+  :global(.c-action-primary.hover-c-action-primary) {
+  visibility: hidden;
+  position: relative;
+  display: block;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-writeReviewContainer)
+  :global(.c-action-primary.hover-c-action-primary):after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Escribe un comentario sobre este producto";
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) h3 {
+  visibility: hidden;
+  position: relative;
+  display: block;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer) h3:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Agregar comentario sobre este producto";
+}
+:global(.vtex-reviews-and-ratings-2-x-starpicker) :global(.vtex-input__label) {
+  visibility: hidden;
+  position: relative;
+  display: block;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-starpicker)
+  :global(.vtex-input__label):after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Califica el producto de 1 a 5 estrellas";
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer)
+  :global(.mv3):nth-child(3)
+  :global(.vtex-input__label) {
+  visibility: hidden;
+  position: relative;
+  display: block;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer)
+  :global(.mv3):nth-child(3)
+  :global(.vtex-input__label):after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Nombre";
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer)
+  :global(.mv3):nth-child(4)
+  :global(.vtex-textarea__label) {
+  visibility: hidden;
+  position: relative;
+  display: block;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer)
+  :global(.mv3):nth-child(4)
+  :global(.vtex-textarea__label):after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Escribe tu comentario";
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formContainer)
+  :global(.mv3):nth-child(5):before {
+  content: "Solo publicaremos información relacionada con la evaluación del producto en mencion. Si tienes dudas o sugerencias puedes escribirnos a: servicioalcliente@timberland.com.mx o contactarnos por el chatbot que encuentras en la página";
+  display: block;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+/* Solo publicaremos información relacionada con la
+evaluación del producto en mencion
+Si tienes dudas o sugerencias puedes escribirnos a:
+servicioalcliente@timberland.com.mx
+ o contactarnos por el
+chatbot que encuentras en la página */

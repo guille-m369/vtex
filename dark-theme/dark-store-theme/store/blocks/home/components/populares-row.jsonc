@@ -1,0 +1,54 @@
+{
+  /* CATEGORIA POPULARES  - rich text */
+  "rich-text#categoria-populares":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Categorías Populares",
+      "blockClass": "rich-text-populares"
+    }
+  },
+  "rich-text#categoria-populares-2":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Consulte todas nuestras categorías para obtener lo que necesita.",
+      "blockClass": "rich-text-populares-2"
+    }
+  },
+  /* CATEGORIA POPULARES  - rich text */
+
+
+  /* CATEGORIA POPULARES  - row cards*/ 
+  "flex-layout.row#categoria-populares": {
+    "children": [
+      "info-card#computadora",
+      "info-card#tv",
+      "info-card#playstation5",
+      "info-card#bocinas",
+      "info-card#celulares",
+      "info-card#reloj"
+    ],
+    "props": {
+      "blockClass": "categoria-populares-container"
+    }
+  },
+  /* CATEGORIA POPULARES  - row cards*/
+
+  
+  /* CATEGORIA POPULARES  - Button */
+  "flex-layout.row#categoria-populares-button":{
+    "children":["link#categoria-populares"],
+    "props":{
+      "blockClass":"categoria-populares-button-row"
+    }
+  },
+  "link#categoria-populares":{
+    "props": {
+      "href": "/categorias",
+      "label": "Ver todas las categorías",
+      "blockClass": "categoria-populares-button"
+    }
+  }
+}
+/* CATEGORIA POPULARES  - Button */

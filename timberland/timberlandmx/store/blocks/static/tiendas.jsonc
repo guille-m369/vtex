@@ -1,0 +1,11 @@
+{
+  "store.custom#tiendas": {
+    "blocks": ["flex-layout.row#tiendas"]
+  },
+  "flex-layout.row#tiendas": {
+    "children": ["map"],
+    "props": {
+      "paddingBottom": 10
+    }
+  }
+}

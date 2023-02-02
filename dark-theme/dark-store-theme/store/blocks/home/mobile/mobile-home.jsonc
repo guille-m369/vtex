@@ -1,0 +1,32 @@
+{
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#component-main-banner",
+      "flex-layout.row#contact",
+      "slider-layout#home",
+      "flex-layout.row#categoria-populares-button",
+      "flex-layout.row#component-banner-ipad",
+      "flex-layout.row#component-banner-applewatch",
+      "flex-layout.row#component-shelf-productos-destacados-title",
+      "flex-layout.row#component-shelf-productos-destacados"
+    ]
+  },
+
+  "slider-layout#home": {
+    "children": [
+      "info-card#computadora",
+      "info-card#tv",
+      "info-card#playstation5",
+      "info-card#bocinas",
+      "info-card#celulares",
+      "info-card#reloj"
+    ],
+    "props":{
+      "blockclass":"slider-layout-categoria-populares",
+      "itemsPerPage": {
+        "tablet": 2,
+        "phone": 1
+      }
+    }
+}
+}

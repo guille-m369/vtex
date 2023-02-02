@@ -1,0 +1,11 @@
+{
+  "product-description-accordion": {
+    "component": "ProductDescription"
+  },
+  "accordion-example": {
+    "component": "AccordionText"
+  },
+  "product-description-list":{
+    "component": "ProductDescriptionList"
+  }
+}

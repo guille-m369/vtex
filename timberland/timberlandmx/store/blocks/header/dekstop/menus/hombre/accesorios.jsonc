@@ -1,0 +1,120 @@
+{
+  // Accesorios
+  "flex-layout.col#hombre-column-4": {
+    "children": ["vtex.menu@2.x:menu#hombre-column-4"]
+  },
+
+  "vtex.menu@2.x:menu#hombre-column-4": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-hombres-accesorios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios",
+            "noFollow": true,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        {
+          "id": "menu-item-hombres-carteras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/carteras",
+            "noFollow": true,
+            "tagTitle": "Carteras",
+            "text": "Carteras"
+          }
+        },
+        {
+          "id": "menu-item-hombres-cinturones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/cinturones",
+            "noFollow": true,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+          }
+        },
+        {
+          "id": "menu-item-hombres-gorras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/gorras",
+            "noFollow": true,
+            "tagTitle": "Gorras",
+            "text": "Gorras"
+          }
+        },
+        {
+          "id": "menu-item-hombres-mochilas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/mochilas",
+            "noFollow": true,
+            "tagTitle": "Mochilas",
+            "text": "Mochilas"
+          }
+        },
+        {
+          "id": "menu-item-hombres-limpieza",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/productos-de-limpieza",
+            "noFollow": true,
+            "tagTitle": "Productos de Limpieza",
+            "text": "Productos de Limpieza"
+          }
+        },
+        {
+          "id": "menu-item-calcetines",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/calcetines",
+            "noFollow": true,
+            "tagTitle": "Calcetines",
+            "text": "Calcetines"
+          }
+        }, {
+          "id": "menu-item-fundas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/fundas",
+            "noFollow": true,
+            "tagTitle": "fundas",
+            "text": "Fundas"
+          }
+        }
+        
+       
+      ]
+    }
+  }
+}

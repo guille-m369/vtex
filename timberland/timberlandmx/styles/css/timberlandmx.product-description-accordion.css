@@ -1,0 +1,21 @@
+.title {
+  font-size: 19px;
+  -webkit-appearance: none !important;
+}
+
+.subTitleTable {
+  font-size: 16px;
+  -webkit-appearance: none !important;
+}
+
+.iconTable{
+  width: 150px;
+  height: 100px;
+} 
+
+ /* .table{
+  margin-bottom: 2rem;
+} */
+.titleTable{
+  font-family: 'GT-Flexa-TBL';
+}

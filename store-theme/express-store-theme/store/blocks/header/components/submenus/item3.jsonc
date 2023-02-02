@@ -1,0 +1,56 @@
+{
+  "vtex.menu@2.x:submenu#item3": {
+    "children": ["vtex.menu@2.x:menu#submenu-item3"]
+  },
+  "vtex.menu@2.x:menu#submenu-item3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#item3-subitem-1",
+      "menu-item#item3-subitem-2",
+      "menu-item#item3-subitem-3"
+    ]
+  },
+
+  "menu-item#item3-subitem-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "subitem-1",
+        "text": "subitem-1"
+      }
+    }
+  },
+
+  "menu-item#item3-subitem-2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "subitem-2",
+        "text": "subitem-2"
+      }
+    }
+  },
+  "menu-item#item3-subitem-3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "subitem-3",
+        "text": "subitem-3"
+      }
+    }
+  }
+}

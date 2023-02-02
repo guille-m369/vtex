@@ -1,0 +1,22 @@
+:global(.vtex-account__page-body) a[href*="/cancel"] {
+  display: none !important;
+}
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/cancel"],
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/edit"],
+:global(.vtex-pageHeader__children) a[href="#/cards/new"] {
+  display: none;
+}
+
+/*Esto se hace en este archivo para que funcione*/
+:global(.vtex-reviews-and-ratings-1-x-summaryContainer .review__rating--count) {
+  display: none;
+}
+
+:global(.vtex-minicart-2-x-drawer) :global(.vtex-dropdown__container) select,
+:global(.vtex-minicart-2-x-popupWrapper)
+  :global(.vtex-dropdown__container)
+  select {
+  background: #121212;
+  color: #dedede;
+}

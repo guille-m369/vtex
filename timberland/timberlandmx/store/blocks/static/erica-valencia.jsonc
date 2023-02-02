@@ -1,0 +1,398 @@
+{
+  "store.custom#erica-valencia": {
+    "blocks": [
+      "responsive-layout.desktop#erica-valencia",
+      "responsive-layout.mobile#erica-valencia"
+    ]
+  },
+  "responsive-layout.desktop#erica-valencia": {
+    "children": [
+      "flex-layout.row#erica-valencia",
+      "flex-layout.row#erica-valencia-text-center",
+      "flex-layout.row#erica-valencia-image",
+      "flex-layout.row#erica-valencia-text-final"
+    ]
+  },
+
+  "flex-layout.row#erica-valencia": {
+    "children": [
+      "flex-layout.col#erica-valencia-image",
+      "flex-layout.col#erica-valencia-text"
+    ],
+    "props": {}
+  },
+
+  "flex-layout.col#erica-valencia-image": {
+    "children": ["flex-layout.row#erica-valencia-image-row"],
+    "props": {
+      "blockClass": "erica-valencia-image",
+      "horizontalAlign": "right",
+      "marginRight": 8
+    }
+  },
+  "flex-layout.row#erica-valencia-image-row": {
+    "children": ["image#erica-valencia"],
+    "props": {
+      "marginTop": 9,
+      "blockClass": "erica-valencia-image-row"
+    }
+  },
+
+  "image#erica-valencia": {
+    "props": {
+      "blockClass": "image-erica-valeria",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img16-meet.png"
+    }
+  },
+  "flex-layout.col#erica-valencia-text": {
+    "children": [
+      "flex-layout.row#erica-valencia-text-row-text",
+      "flex-layout.row#erica-valencia-text-row-text-sub"
+    ],
+    "props": {
+      "blockClass": "erica-valencia-text"
+    }
+  },
+  "flex-layout.row#erica-valencia-text-row-text": {
+    "children": ["rich-text#erica-valencia-title-sub"]
+  },
+
+  "flex-layout.row#erica-valencia-text-row-text-sub": {
+    "children": ["rich-text#erica-valencia-text-sub"],
+    "props": {
+      "blockClass": "erica-valencia-text-row-text-sub"
+    }
+  },
+
+  "rich-text#erica-valencia-title-sub": {
+    "props": {
+      "text": "ERICA VALENCIA",
+      "blockClass": "erica-valencia-title-sub"
+    }
+  },
+
+  "rich-text#erica-valencia-text-sub": {
+    "props": {
+      "text": "###### ARQUITECTA Y COACH HOLÍSTICA FUNDADORA DE [@ectagono](https://www.instagram.com/ectagono/) CIUDAD DE MÉXICO \n  Erica es una apasionada de la sustentabilidad y la restauración ambiental. Le gusta encontrar nuevas maneras en que las personas puedan realizar una reconexión con el medio ambiente, con su comunidad y consigo mismas. Esta labor la inició como un hobby y ahora es el objetivo principal de [Ectágono](https://ectagono.com/), la empresa que fundó y de la cual es Directora General.",
+      "blockClass": "text-erica-valencia"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#erica-valencia-text-center": {
+    "children": [
+      "flex-layout.col#erica-valencia-col-vacio",
+      "flex-layout.col#erica-valencia-col-text",
+      "flex-layout.col#erica-valencia-col-vacio2"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "flex-layout.col#erica-valencia-col-vacio": {
+    "children": ["image#erica-valencia-comilla1"],
+    "props": {
+      "width": "30%",
+      "horizontalAlign": "right"
+    }
+  },
+  "image#erica-valencia-comilla1": {
+    "props": {
+      "blockClass": "erica-valencia-comilla1",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-1.png"
+    }
+  },
+  "flex-layout.col#erica-valencia-col-text": {
+    "children": ["rich-text#erica-valencia-center"]
+  },
+
+  "rich-text#erica-valencia-center": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### Comenzar con pequeñas acciones significa que estamos abonando a un gran impacto positivo (no tenemos que realizar las mismas tod@s, podemos ser tan creativos como queramos), y cada semana podemos ir sumando nuevas que vayan haciendo que nuestros estilos de vida sean más sustentables"
+    }
+  },
+
+  "flex-layout.col#erica-valencia-col-vacio2": {
+    "children": ["image#erica-valencia-comilla2"],
+    "props": {
+      "blockClass": "erica-valencia-col-vacio2",
+      "width": "30%",
+      "horizontalAlign": "left"
+    }
+  },
+  "image#erica-valencia-comilla2": {
+    "props": {
+      "blockClass": "erica-valencia-comilla2",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/comillas-2.png"
+    }
+  },
+
+  "flex-layout.row#erica-valencia-image": {
+    "children": [
+      "flex-layout.col#erica-valencia-image-one",
+      "flex-layout.col#erica-valencia-image-two",
+      "flex-layout.col#erica-valencia-image-three",
+      "flex-layout.col#erica-valencia-image-four"
+    ],
+    "props": {
+      "blockClass": "erica-valencia-image",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-one": {
+    "children": ["image#erica-valencia-image-one"]
+  },
+  "image#erica-valencia-image-one": {
+    "props": {
+      "blockClass": "erica-valencia-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-01.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-two": {
+    "children": ["image#erica-valencia-image-two"]
+  },
+  "image#erica-valencia-image-two": {
+    "props": {
+      "blockClass": "erica-valencia-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-02.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-three": {
+    "children": ["image#erica-valencia-image-three"]
+  },
+  "image#erica-valencia-image-three": {
+    "props": {
+      "blockClass": "erica-valencia-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-03.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-four": {
+    "children": ["image#erica-valencia-image-four"]
+  },
+  "image#erica-valencia-image-four": {
+    "props": {
+      "blockClass": "erica-valencia-image-one",
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-04.jpg"
+    }
+  },
+
+  //---------------------------------Description-text---------------------------//
+  "flex-layout.row#erica-valencia-text-final": {
+    "children": [
+      "flex-layout.col#erica-valencia-text-final-one",
+      "flex-layout.col#erica-valencia-text-final-two",
+      "flex-layout.col#erica-valencia-text-final-three"
+    ]
+  },
+  "flex-layout.col#erica-valencia-text-final-one": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#erica-valencia-text-final-two": {
+    "children": [
+      "rich-text#erica-valencia-text-final",
+      "rich-text#erica-valencia-text-final-2"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#erica-valencia-text-final": {
+    "props": {
+      "blockClass": "erica-valencia-text-final",
+      "text": "En Ectágono existe un gran interés por ayudar a que todos los mexicanos tomen decisiones más sustentables en todos los ámbitos de sus vidas: en sus casas, en sus oficinas, en sus escuelas. Se busca que la sustentabilidad sea lo que permee no sólo sus pensamientos, sino también sus acciones cotidianas. \n  \n  [Acércate a Erica](https://www.instagram.com/ericavalenciat/) como voluntario en sus iniciativas o para descubrir cómo ser un Héroe de la Naturaleza.\n \n  "
+    }
+  },
+  "rich-text#erica-valencia-text-final-2": {
+    "props": {
+      "blockClass": "erica-valencia-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo: [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#erica-valencia-text-final-three": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  //-------------------------------------------------mobile----------------------------
+  "responsive-layout.mobile#erica-valencia": {
+    "children": [
+      "flex-layout.row#erica-valencia-mobile",
+      "flex-layout.row#erica-valencia-text-center-mobile",
+      "flex-layout.row#erica-valencia-image-mobile",
+      "flex-layout.row#erica-valencia-text-final-mobile"
+    ]
+  },
+
+  "flex-layout.row#erica-valencia-mobile": {
+    "children": [
+      "flex-layout.col#erica-valencia-image-mobile",
+      "flex-layout.col#erica-valencia-text-mobile"
+    ],
+    "props": {
+      "paddingBottom": 9,
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#erica-valencia-image-mobile": {
+    "children": ["image#erica-valencia-mobile"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#erica-valencia-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img16-meet.png"
+    }
+  },
+  "flex-layout.col#erica-valencia-text-mobile": {
+    "children": [
+      "rich-text#erica-valencia-title-sub-mobile",
+      "rich-text#erica-valencia-text-sub-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#erica-valencia-title-sub-mobile": {
+    "props": {
+      "text": "ERICA VALENCIA",
+      "blockClass": "erica-valencia-title-sub",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#erica-valencia-text-sub-mobile": {
+    "props": {
+      "text": "###### ARQUITECTA Y COACH HOLÍSTICA FUNDADORA DE [@ectagono](https://www.instagram.com/ectagono/) CIUDAD DE MÉXICO \n  Erica es una apasionada de la sustentabilidad y la restauración ambiental. Le gusta encontrar nuevas maneras en que las personas puedan realizar una reconexión con el medio ambiente, con su comunidad y consigo mismas. Esta labor la inició como un hobby y ahora es el objetivo principal de [Ectágono](https://ectagono.com/), la empresa que fundó y de la cual es Directora General.",
+      "blockClass": "text-erica-valencia",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#erica-valencia-vacio2-mobile": {
+    "children": [],
+    "props": {
+      "width": "20%"
+    }
+  },
+
+  //---------------------------------------------rich-text-center--------------------
+  "flex-layout.row#erica-valencia-text-center-mobile": {
+    "children": ["flex-layout.col#erica-valencia-col-text-mobile"],
+    "props": {
+      "marginTop": 5
+    }
+  },
+
+  "flex-layout.col#erica-valencia-col-text-mobile": {
+    "children": ["rich-text#erica-valencia-center-mobile"]
+  },
+
+  "rich-text#erica-valencia-center-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### Comenzar con pequeñas acciones significa que estamos abonando a un gran impacto positivo (no tenemos que realizar las mismas tod@s, podemos ser tan creativos como queramos), y cada semana podemos ir sumando nuevas que vayan haciendo que nuestros estilos de vida sean más sustentables"
+    }
+  },
+
+  "flex-layout.row#erica-valencia-image-mobile": {
+    "children": [
+      "flex-layout.col#erica-valencia-image-one-mobile",
+      "flex-layout.col#erica-valencia-image-two-mobile",
+      "flex-layout.col#erica-valencia-image-three-mobile",
+      "flex-layout.col#erica-valencia-image-four-mobile"
+    ]
+  },
+  "flex-layout.col#erica-valencia-image-one-mobile": {
+    "children": ["image#erica-valencia-image-one-mobile"],
+    "props": {}
+  },
+  "image#erica-valencia-image-one-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-01.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-two-mobile": {
+    "children": ["image#erica-valencia-image-two-mobile"],
+    "props": {}
+  },
+  "image#erica-valencia-image-two-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-02.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-three-mobile": {
+    "children": ["image#erica-valencia-image-three-mobile"],
+    "props": {}
+  },
+  "image#erica-valencia-image-three-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-03.jpg"
+    }
+  },
+  "flex-layout.col#erica-valencia-image-four-mobile": {
+    "children": ["image#erica-valencia-image-four-mobile"],
+    "props": {}
+  },
+  "image#erica-valencia-image-four-mobile": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/EricaValencia-Galeria-Timberland-04.jpg"
+    }
+  },
+  "flex-layout.row#erica-valencia-text-final-mobile": {
+    "children": [
+      "flex-layout.col#erica-valencia-text-final-one-mobile",
+      "flex-layout.col#erica-valencia-text-final-two-mobile",
+      "flex-layout.col#erica-valencia-text-final-three-mobile"
+    ]
+  },
+  "flex-layout.col#erica-valencia-text-final-one-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  },
+
+  "flex-layout.col#erica-valencia-text-final-two-mobile": {
+    "children": [
+      "rich-text#erica-valencia-text-final-mobile",
+      "rich-text#erica-valencia-text-final-2-mobile"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "rich-text#erica-valencia-text-final-mobile": {
+    "props": {
+      "blockClass": "erica-valencia-text-final",
+      "text": "En Ectágono existe un gran interés por ayudar a que todos los mexicanos tomen decisiones más sustentables en todos los ámbitos de sus vidas: en sus casas, en sus oficinas, en sus escuelas. Se busca que la sustentabilidad sea lo que permee no sólo sus pensamientos, sino también sus acciones cotidianas. \n  \n  [Acércate a Erica](https://www.instagram.com/ericavalenciat/) como voluntario en sus iniciativas o para descubrir cómo ser un Héroe de la Naturaleza.\n \n  "
+    }
+  },
+  "rich-text#erica-valencia-text-final-2-mobile": {
+    "props": {
+      "blockClass": "erica-valencia-text-final-2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Durante toda la temporada, presentaremos a los Héroes que han marcado una diferencia positiva en el mundo: [conoce más héroes aquí](/meet-our-heroes). Obtén más información sobre nuestro compromiso con el medio ambiente y nuestras comunidades en nuestra página de [sustentabilidad](/meet-our-heroes)."
+    }
+  },
+  "flex-layout.col#erica-valencia-text-final-three-mobile": {
+    "children": [],
+    "props": {
+      "width": "25%"
+    }
+  }
+}

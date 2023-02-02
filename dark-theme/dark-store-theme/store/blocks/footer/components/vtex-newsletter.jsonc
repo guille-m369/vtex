@@ -1,0 +1,134 @@
+{
+  "flex-layout.col#footer-component-newsletter": {
+    "props": {
+      "paddingLeft": 7,
+      "width": "30%",
+      "blockClass": "footer-component-newsletter"
+    },
+    "blocks": [],
+
+    "children": ["newsletter-form"]
+    
+  },
+
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#newsletter-text",
+      "flex-layout.row#newsletter-input",
+      "flex-layout.row#newsletter-checkbox"
+    ],
+    "props": {
+      "blockClass": "newsletter-form",
+      "SuccessState": "flex-layout.row#newsletter-form-success"
+    }
+  },
+  "flex-layout.row#newsletter-form-success": {
+    "props": {
+      "blockClass": "newsletter-form-success"
+    },
+    "children": ["newsletter-form#success"]
+  },
+  "newsletter-form#success": {
+    "children": [
+    
+      //"flex-layout.row#newsletter-input",
+      "flex-layout.row#newsletter-success"
+      //"flex-layout.row#newsletter-checkbox"
+    ],
+    "props": {}
+  },
+  "flex-layout.row#newsletter-text":{
+    "children":["flex-layout.col#newsletter-text"]
+  },
+  "flex-layout.col#newsletter-text":{
+    "children":["rich-text#newsletter-text"]
+  },
+  "rich-text#newsletter-text":{
+ "props":{
+   "blockClass": "newsletter-text",
+   "text": "Correo electrónico"
+ }
+  },
+
+
+  "flex-layout.row#newsletter-input": {
+    "props": {
+      //"preventHorizontalStretch": true
+      "blockClass": "newsletter-input"
+    },
+    "children": [
+      
+      "flex-layout.col#newsletter-email",
+      "flex-layout.col#newsletter-button"
+    ]
+  },
+  "flex-layout.col#newsletter-email": {
+    "props": {
+      "blockClass": "newsletter-email",
+      "width": "45%"
+    },
+    "children": ["newsletter-input-email"]
+  },
+  "flex-layout.col#newsletter-button": {
+    "children": ["newsletter-submit"],
+    "props": {
+      "blockClass": "newsletter-button"
+    }
+  },
+
+  
+  "flex-layout.row#newsletter-success": {
+    "props": {
+      //"preventHorizontalStretch": true
+      "blockClass": "newsletter-success"
+    },
+    "children": ["flex-layout.col#newsletter-success"]
+  },
+  "flex-layout.col#newsletter-success": {
+    "children": ["rich-text#newsletter-success"],
+    "props": {
+      "blockClass": "newsletter-success"
+    }
+  },
+  "rich-text#newsletter-success": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Su correo se ha regixstrado exitosamente.**",
+      "blockClass": "newsletter-success"
+    }
+  },
+  "flex-layout.row#newsletter-checkbox": {
+    "children": ["newsletter-checkbox-confirmation"],
+    "props": {
+      "blockClass": "newsletter-checkbox"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "newsletter-input-email",
+      // "inputLabel":"Para todos los nuevos usuarios que se suscriban a la lista de correo de Levi's® Entérate primero que nadie de ofertas especiales, novedades, eventos y más.",
+      "placeholderText": "nombre@correo.com"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "blockClass": "newsletter-submit",
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "blockClass": "text-confirmation",
+      "checkboxLabel": "Acepto {firstLink} y la {secondLink}",
+      "firstLabelLink": {
+        "url": "/aviso-privacidad",
+        "text": "Términos y Condiciones"
+      },
+      "secondLabelLink": {
+        "url": "/aviso-privacidad",
+        "text": "Politica de Privacidad"
+      }
+    }
+  }
+}

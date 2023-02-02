@@ -1,0 +1,61 @@
+{
+  //---------------------------logos-paypal-and-vtex---------------------*//
+
+  "flex-layout.row#footer-logos-ecomsur-and-vtex":{
+    "children":["flex-layout.col#footer-logos-texto",
+      "flex-layout.col#footer-logos-ecomsur-and-vtex"],
+      "props":{
+        "blockClass": "footer-logos-ecomsur-and-vtex"
+      }
+  },
+  "flex-layout.col#footer-logos-texto":{
+    "children":["rich-text#footer-logos-texto"],
+    "props":{
+      "blockClass": "footer-logos-texto"
+    }
+  },
+  "rich-text#footer-logos-texto":{
+    "props":{
+      "blockClass": "footer-logos-texto",
+      "text": "©2021 - eshop Demo"
+    }
+  },
+  "flex-layout.col#footer-logos-ecomsur-and-vtex":{
+    "children":["flex-layout.row#footer-logos-ecomsur-sub-and-vtex"],
+    "props":{
+      "blockClass": "footer-logos-ecomsur-and-vtex"
+    }
+  },
+  
+  "flex-layout.row#footer-logos-ecomsur-sub-and-vtex":{
+    "children":["flex-layout.col#footer-logo-ecomsur","flex-layout.col#footer-logo-vtex"]
+  },
+
+  "flex-layout.col#footer-logo-ecomsur":{
+    "children":["image#logo-ecomsur"],
+    "props":{
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#footer-logo-vtex":{
+    "children":["image#logo-vtex"],
+    "props":{
+      "blockClass": "footer-logo-vtex",
+      
+      "width": "25%"
+      
+    }
+  },
+  
+  "image#logo-ecomsur":{
+    "props":{
+      "src": "assets/footer/ecomsur_logo.svg"
+    }
+  },
+  "image#logo-vtex":{
+    "props":{
+      "src": "assets/footer/vtex_logo.svg"
+    }
+  }
+
+}

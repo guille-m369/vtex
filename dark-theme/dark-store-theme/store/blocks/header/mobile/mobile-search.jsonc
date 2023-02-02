@@ -1,0 +1,23 @@
+{
+  "trigger#search-trigger": {
+    "children": ["image#search-button"]
+  },
+  "menu-item#search": {
+    "props": {
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 25,
+        "viewBox": "0 0 18 18"
+      }
+    }
+  },
+  "trigger-layout#search-mobile": {
+    "props": {
+      "blockClass": "mobile"
+    },
+    "children": ["flex-layout.row#search-mobile"]
+  },
+  "flex-layout.row#search-mobile": {
+    "children": ["search-bar#mobile-intelli"]
+  }
+}

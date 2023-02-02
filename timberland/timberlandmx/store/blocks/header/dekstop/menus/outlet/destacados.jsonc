@@ -1,0 +1,109 @@
+{
+    // Destacados
+    "flex-layout.col#outlet-column-1": {
+      "children": ["vtex.menu@2.x:menu#outlet-column-1"]
+    },
+  
+    "vtex.menu@2.x:menu#outlet-column-1": {
+      "props": {
+        "blockClass": "main-menu-items",
+        "orientation": "vertical",
+        "items": [
+          {
+            "id": "menu-item-outlet-destacados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/outlet/destacados",
+              "noFollow": true,
+              "tagTitle": "",
+              "text": ""
+            }
+          },
+          /*
+          {
+            "id": "menu-item-ninos-lanzamientos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/156/nino?map=productClusterIds,genero",
+              "noFollow": true,
+              "tagTitle": "Lanzamientos",
+              "text": "Lanzamientos"
+            }
+          },
+          {
+            "id": "menu-item-ninos-lo-nuevo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/152/nino?map=productClusterIds,genero",
+              "noFollow": true,
+              "tagTitle": "Lo nuevo",
+              "text": "Lo nuevo"
+            }
+          },*/
+  
+          {
+            "id": "menu-item-outlet-ultimas-piezas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/outlet/ultimas-piezas",
+              "noFollow": true,
+              "tagTitle": "Ultimas piezas",
+              "text": "Últimas piezas"
+            }
+          },
+          {
+            "id": "menu-item-outlet-basicos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/outlet/no-te-lo-pierdas",
+              "noFollow": true,
+              "tagTitle": "No te lo pierdas",
+              "text": "No te lo pierdas"
+            }
+          },
+          {
+            "id": "menu-item-outlet-novedades",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href":  "/outlet/rebajas/novedades",
+              "noFollow": true,
+              "tagTitle": "Novedades en rebajas",
+              "text": "Novedades en rebajas"
+            }
+          },
+          {
+            "id": "menu-item-outlet-favoritos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href":  "/outlet/rebajas/favoritos",
+              "noFollow": true,
+              "tagTitle": "Favoritos rebajas",
+              "text": "Favoritos rebajas"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

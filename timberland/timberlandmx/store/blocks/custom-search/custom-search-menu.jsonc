@@ -1,0 +1,160 @@
+{
+  "store.custom#bota-iconica-hombre": {
+    "blocks": ["search-result-layout.customQuery#bota-iconica-hombre"]
+  },
+  "search-result-layout.customQuery#bota-iconica-hombre": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "466",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#bota-iconica-mujer": {
+    "blocks": ["search-result-layout.customQuery#bota-iconica-mujer"]
+  },
+  "search-result-layout.customQuery#bota-iconica-mujer": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "467",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#outlet": {
+    "blocks": ["search-result-layout.customQuery#outlet"]
+  },
+  "search-result-layout.customQuery#outlet": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet",
+        "mapField": "category-1",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-theme-fix": {
+    "blocks": ["search-result-layout.customQuery#outlet-theme-fix"]
+  },
+  "search-result-layout.customQuery#outlet-theme-fix": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet",
+        "mapField": "category-1",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-hombre": {
+    "blocks": ["search-result-layout.customQuery#outlet-hombre"]
+  },
+  "search-result-layout.customQuery#outlet-hombre": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet/hombre",
+        "mapField": "category-1,genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-mujer": {
+    "blocks": ["search-result-layout.customQuery#outlet-mujer"]
+  },
+  "search-result-layout.customQuery#outlet-mujer": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet/mujer",
+        "mapField": "category-1,genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-ninos": {
+    "blocks": ["search-result-layout.customQuery#outlet-ninos"]
+  },
+  "search-result-layout.customQuery#outlet-ninos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet/nino",
+        "mapField": "category-1,genero",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#productos-de-limpieza": {
+    "blocks": ["search-result-layout.customQuery#productos-de-limpieza"]
+  },
+  "search-result-layout.customQuery#productos-de-limpieza": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "468",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

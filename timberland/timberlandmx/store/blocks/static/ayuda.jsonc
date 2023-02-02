@@ -1,0 +1,256 @@
+{
+  "store.custom#preguntas-frecuentes": {
+    "blocks": [
+      "responsive-layout.desktop#preguntas-frecuentes",
+      "responsive-layout.mobile#preguntas-frecuentes"
+    ]
+  },
+
+  "responsive-layout.desktop#preguntas-frecuentes": {
+    "children": ["flex-layout.row#preguntas-frecuentes-content"]
+  },
+
+  "responsive-layout.mobile#preguntas-frecuentes": {
+    "children": ["flex-layout.row#preguntas-frecuentes-content"]
+  },
+
+  "flex-layout.row#preguntas-frecuentes-content": {
+    "children": ["flex-layout.col#preguntas-frecuentes-content"],
+    "props": {
+      "paddingBottom": 10,
+      "blockClass": "row-preguntas-frecuentes-content"
+    }
+  },
+  "flex-layout.col#preguntas-frecuentes-content": {
+    "children": ["accordion-text"],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+
+  "accordion-text": {
+    "props": {
+      "contenido": [
+        {
+          "title": "Covid-19",
+          "content": [
+            {
+              "subtitle": "¿Se retrasará mi pedido debido a la incidencia del coronavirus?",
+              "paragraph": "Estamos intentando cumplir con los tiempos estimados de entrega, sin embargo en ocasiones puede extenderse hasta 10 días hábiles por la contingencia. De antemano te pedimos una disculpa por las molestias que esto pueda ocasionar"
+            },
+            {
+              "subtitle": "¿Puedo devolver durante la Contingencia Sanitaria?",
+              "paragraph": "Nuestra garantía de satisfacción es incondicional. Si crees que los productos Timberland adquiridos en nuestro sitio web no son lo que esperabas,  puedes devolver tu pedido y solicitar tu reembolso. Adicional, recuerda que durante este periodo de Contingencia Sanitaria el plazo para realizar una devolución se ha extendido a 30 días a partir de la fecha de recepción de tu pedido."
+            }
+          ]
+        },
+        {
+          "title": "Pasos para comprar",
+          "content": [
+            {
+              "subtitle": "",
+              "paragraph": "1. Primero, busca el producto que deseas. Te puedes ayudar de la barra de categorías para segmentar tu búsqueda."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "2. Cuando estés en el producto, selecciona el color, la talla y la cantidad. Luego presiona agregar al carro."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "3. Haz click en el ícono de bolsa ubicado en la esquina superior derecha y presiona en Cerrar Pedido para ver el detalle en tu Carrito de Compra. Aquí puedes modificar la cantidad, quitar productos, y agregar un código de descuento. Presiona en Finalizar Compra para continuar."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "4. Ingresa tus datos de identificación y presiona en Ir a la Entrega."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "5. Ingresa los datos de entrega. Aquí podrás ver el plazo estimado de entrega, y el costo de envío para tu dirección. Presiona Ir para el Pago."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "6. Escoge el medio de pago, ingresa los datos de su tarjeta, y presiona el botón Comprar Ahora. Cuando hayas terminado, te identificará un número de pedido y llegará un comprobante a tu correo electrónico."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "¡Listo! Sólo debes esperar a que el pedido llegue a tu domicilio"
+            },
+            {
+              "subtitle": "",
+              "paragraph": "Míralo en video: https://www.youtube.com/watch?v=M_BSmzDjT8w"
+            }
+          ]
+        },
+
+        {
+          "title": "Pedidos",
+          "content": [
+            {
+              "subtitle": "¿Es necesario crear una cuenta para comprar en Timberland online ?",
+              "paragraph": "No es necesario crear una cuenta para comprar en Timberland Online. Unicamente sigue el proceso de checkout y se te solicitarán los datos necesarios para realizar tu compra"
+            },
+            {
+              "subtitle": "¿Qué métodos de pago se aceptan?",
+              "paragraph": "Aceptamos PayPal, Tarjetas de Crédito Visa, MasterCard y American Express, Tarjetas de Débito Visa y MasterCard y Pagos en efectivo a través de Oxxo"
+            },
+
+            {
+              "subtitle": "¿Cómo modificar un pedido?",
+              "paragraph": "Una vez que tu orden ha sido creada, no podemos editar los productos seleccionados por lo que en caso de haber tenido algún error al momento de generar tu compra es muy importante que te contactes inmediatamente a nuestro centro de atención al cliente: 5584381815 para poder ayudarte con la anulación de tu compra y puedas realizar una nueva. En caso de haber ingresado mail tu dirección de entrega o mail, por favor envía un correo a: servicioalcliente@timberland.com.mx con tú número de pedido para que podamos apoyarte con el soporte necesario para que tu entrega se lleve en tiempo y forma. "
+            },
+            {
+              "subtitle": "Restricciones de tiempos",
+              "paragraph": "Para poder proceder ante cualquier inconveniente con tu entrega, es importante que consideres los siguientes términos. "
+            },
+            {
+              "subtitle": "¿Cuánto tiempo tarda en actualizar un reporte con la mensajería? ",
+              "paragraph": "generado ante la mensajería tiene un tiempo de respuesta mínimo de 72 hrs. hábiles, esto dependiendo del tipo de incidencia. "
+            },
+            {
+              "subtitle": "¿Cuánto tiempo tengo para reportar un faltante en mi pedido? ",
+              "paragraph": "En caso de que tu pedido haya llegado incompleto te pedimos enviarnos un correo con la siguiente información: "
+            },
+            {
+              "subtitle": "",
+              "paragraph": ". Fotografía de la guía adherida al empaque "
+            },
+            {
+              "subtitle": "",
+              "paragraph": ". Fotografía de empaque exterior mostrando toda la caja / bolsa "
+            },
+            {
+              "subtitle": "",
+              "paragraph": ". Fotografía de empaque interior, mostrando toda la caja (si tu paquete llegó en bolsa no aplica). "
+            },
+            {
+              "subtitle": "",
+              "paragraph": ". Fotografías de daño en contenido  "
+            },
+            {
+              "subtitle": "",
+              "paragraph": ". Fotografías mostrando los signos de violación, (en casos de sustracción)   "
+            },
+            {
+              "subtitle": "",
+              "paragraph": "*Todas las fotografías deben ser claras para que tu reporte preceda.* Esto es máximo veinticuatro (24) horas naturales después de haber recibido tu pedido, vencido este término, se entenderá aceptado tácitamente el producto. "
+            },
+            {
+              "subtitle": "¿Qué hacer si mi pedido fue entregado, pero no lo tengo yo? ",
+              "paragraph": "En caso de no reconocer la entrega de tu paquete, es muy importante que lo reportes inmediatamente con nosotros para poder hacer el seguimiento correspondiente con nuestra mensajería. Esto debe ser dentro de los 5 días naturales posteriores a la fecha de entrega. Pasado este tiempo, podemos dar el seguimiento, sin embargo, el tiempo de respuesta puede demorar hasta 15 días hábiles y quedará sujeto a los términos y condiciones de las mensajerías."
+            }
+          ]
+        },
+        {
+          "title": "Productos ",
+          "content": [
+            {
+              "subtitle": "¿Qué garantía tienen mis productos?",
+              "paragraph": "Nuestra garantía de satisfacción es incondicional. Si crees que los productos Timberland adquiridos en nuestro sitio web no son lo que esperabas,  puedes devolver tu pedido y solicitar tu reembolso en los siguientes 30 días a partir de la fecha de recepción de tu pedido."
+            },
+            {
+              "subtitle": "¿Cuál es mi talla Timberlad?",
+              "paragraph": "Algunos de nuestros productos vienen más amplios, por lo que si es la primera vez que compras un calzado Timberland te recomendamos revisar nuestra guía de tallas para verficar que estés pidiendo el tamaño que mejor se ajuste a tu pie. "
+            },
+            {
+              "subtitle": "¿Qué tan amplias son las botas Timberland?",
+              "paragraph": "Las botas Timberland se diseñaron amplias por un tema de confort para los pies y para agregar calcetas gruesas en el invierno. Pero también se debe considerar el tipo de pie de cada persona.  Por lo que si es la primera vez que comprarás unas botas Timbeland te recomendamos revisar nuestra guía de tallas y realizar la prueba de medida del pie que recomendamos para que tengas el mejor fit."
+            },
+            {
+              "subtitle": "¿Dónde puedo conseguir Timberland PRO?",
+              "paragraph": "Timberland PRO es una línea de productos especializada para trabajo profesional en distintos temas industriales, ya que cuentan con características de seguridad muy específicas para distintas necesidades. Estos productos siempre vienen identificados con la palabra PRO junto al logotipo de Timberland y se venden en algunas tiendas especializadas en nuestro país como Berrendo https://berrendo.com/171-timberland-pro.  Las botas que se encuentran en esta página web son de estilo de vida / moda y no cuentan con casquillo o algún tipo de sistema de seguridad para trabajo pesado."
+            },
+            {
+              "subtitle": "¿Cuál es la diferencia entre WATERPROOF y TIMBERDRY?",
+              "paragraph": "Ambas tecnologías brindan una protección a prueba de agua, sin embargo, si existe una diferencia: El proceso de WATERPROOF se realiza con un tratamiento que se le impregna a la piel a base de silicona, misma que vamos a encontrar en el exterior del calzado, por otra parte, TIMBERDRY es una membrana que vamos a encontrar en el interior del calzado, hecha de (PET) plástico reciclado. Ambas tecnologías hacen que tu calzado sea 100% a prueba de agua, manteniendo tus pies secos en todo momento. Para el caso de los calzados que sólo tienen TIMBERDRY, si notarás que el calzado se moja en la parte externa pero la humedad no pasará a tus pies."
+            },
+            {
+              "subtitle": "¿Qué es DEFENDER?",
+              "paragraph": "DEFENDER es el recubrimiento con el que cuentan algunos de nuestros productos, identificados con el logotipo de esta tecnología. Este recibrimiento sirve para proteger tu calzado de ciertos accidentes que pudieras tener al derramar ciertos líquidos comunes sobre tu calzado, permitiendo que puedan limpiarce de manera fácil y haciendo que duren más tiempo limpios."
+            },
+            {
+              "subtitle": "¿Qué tipo de ropa me puede servir si viajo a un lugar muy frío?",
+              "paragraph": "Te recomendamos nuestras chamarras con tecnologia Thermore, que sin duda son la mejor opcion para cualquier actividad en el exterior, en donde la nieve es el protagonista de la escena, nuestras chamarras con tecnologia Thermore te ayudan regular la temperatura al mantener el calor por mas tiempo gracias a las esferas inteligentes que sustituyen las plumas de ganso, te recomendamos que veas nuestro catálogo de productos con tecnologias adicionales."
+            },
+            {
+              "subtitle": "¿Cuál es el calzado ideal si voy a un lugar con mucha nieve?",
+              "paragraph": "Te recomendamos nuestra bota iconica de 6 pulgadas que ademas de ser WATERPROOF con lo cual mantendrás tus pies secos, su tecnología PRIMALOFT ayudará a que mantengan una temperatura más calida y su suela de caucho  te  dará mejor tracción y soporte en la pisada. Te recomendamos que veas nuestro catálogo de productos con tecnologias adicionales WATERPROOF o TIMBERDRY que son ideales para esos climas. "
+            },
+            {
+              "subtitle": "¿Cómo puedo identificar los favoritos de la marca?",
+              "paragraph": "En nuestra pagina podras identificarlos como Nerverouts, estos productos son aquellos que siempre veras vigentes en cualquier temporada, puedes encontrarlos seccionados en nuestra pagina online. "
+            },
+            {
+              "subtitle": "¿Qué tipo de calzado me puede ayudar a mejorar mi postura ó algún padecimiento médico?",
+              "paragraph": "Ninguno de nuestros productos están diseñados para corregir, mejorar o atender ningún tema médico u ortopédico, por lo que si tienes algún padecimiento deberás consultar con tu médico el tipo de calzado especializado que pueda recomendarte."
+            },
+            {
+              "subtitle": "¿Dónde puedo conseguir calzado de colaboraciones o ediciones especiales de temporadas pasadas?",
+              "paragraph": "Los productos en colaboración que ofrece Timberland son ediciones limitadas y que sólo están disponibles por cierto tiempo, por lo que una vez que se agotan no vuelven a estar disponibles."
+            },
+            {
+              "subtitle": "¿Qué tengo que hacer si la talla o el producto que busco están agotados en la página?",
+              "paragraph": "Debido a la popularidad de algunos de nuestros productos, estos se agotan muy rápido, sin embargo existe la posibilidad de ver si aún están disponibles en alguna de nuestras Boutiques Timberland (Tienda física)o por medio de nuestros distribuidores oficiales como Liverpool o El Placio de Hierro, por lo que te invitamos a visitar nuestro directorio de tiendas para que encuentres la más cercana a tu ubicación."
+            },
+            {
+              "subtitle": "¿Cómo puedo mantener en buenas condiciones mi productos favoritos?",
+              "paragraph": "Te recomendamos utilizar nuestro producto de limpieza que estan hechos de materiales naturales que impiden que sean tóxicos para el medio ambiente. Puedes conocer más sobre ellos en nuestro catálogo, donde encontrarás más detalles sobre el uso de cada uno y sus aplicaciones. "
+            },
+            {
+              "subtitle": "¿Con qué materiales fabrica Timberlad sus productos?",
+              "paragraph": "La mayoría de nuestros productos son hechos con pieles de tanerias certificadas por ser responsables con el medio ambiente, ya que hacemos nuestro mayor esfuerzo por ser una marca sustentable, por lo que encontrarás  que usamos diversos materiales reciclados en la elaboración de nuestros productos, como: "
+            },
+            {
+              "subtitle": "",
+              "paragraph": "Caucho natura y caucho reciclado PET reciclado Nylon reciclado Algodon orgánico"
+            },
+            { "subtitle": "", "paragraph": "PET reciclado" },
+            { "subtitle": "", "paragraph": "Nylon reciclado" },
+            { "subtitle": "", "paragraph": "Algodon orgánico" }
+          ]
+        },
+        {
+          "title": "Políticas de cancelación",
+          "content": [
+            {
+              "subtitle": "",
+              "paragraph": "Para poder solicitar la cancelación de una compra es necesario que te comuniques a nuestro centro de atención al cliente: 5584381815 dentro de las 24 hrs. naturales a partir de la creación de la orden.  De esta forma nuestro equipo confirmará si el estado de tu pedido aún permite la cancelación. En caso de que ya no sea posible, podrás solicitar la devolución una vez que hayas recibido tu pedido."
+            }
+          ]
+        },
+        {
+          "title": "Facturación",
+          "content": [
+            {
+              "subtitle": "¿Puedo realizar factura de mi compra, y como puedo solicitarla? ",
+              "paragraph": "Si deseas facturar tu compra, es necesario hacerlo dentro del mes natural en curso de la fecha de compra."
+            },
+            {
+              "subtitle": "¿Puedo realizar factura de mi compra, y como puedo solicitarla? ",
+              "paragraph": "Si deseas facturar tu compra, es necesario hacerlo dentro del mes natural en curso de la fecha de compra."
+            },
+            {
+              "subtitle": "",
+              "paragraph": "Mándanos un correo a servicioalcliente@timberland.com.mx con los siguientes datos:"
+            },
+            { "subtitle": "", "paragraph": "*Número de Orden." },
+            { "subtitle": "", "paragraph": "*Correo electrónico." },
+            { "subtitle": "", "paragraph": "*Fecha de compra." },
+            { "subtitle": "", "paragraph": "*Razón social" },
+            { "subtitle": "", "paragraph": "*RFC." },
+            { "subtitle": "", "paragraph": "*Domicilio Fiscal." },
+            { "subtitle": "", "paragraph": "*Calle y Número." },
+            { "subtitle": "", "paragraph": "*Colonia " },
+            { "subtitle": "", "paragraph": "*Municipio " },
+            { "subtitle": "", "paragraph": "*Estado " },
+            { "subtitle": "", "paragraph": "*Código Postal " },
+            { "subtitle": "", "paragraph": "*Método de Pago  " },
+            { "subtitle": "", "paragraph": "*Uso de CDFI  " },
+            { "subtitle": "", "paragraph": "*Correo electrónico  " },
+            {
+              "subtitle": "¿Cuanto tiempo tengo para solicitar mi factura?",
+              "paragraph": "Si deseas facturar tu compra, es necesario hacerlo dentro del mes en curso de la fecha de compra, de otra manera, no será posible generar la factura."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

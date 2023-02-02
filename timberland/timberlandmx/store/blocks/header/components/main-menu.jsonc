@@ -1,0 +1,115 @@
+{
+  // MAIN MENU
+  // We are only putting the top menu in here
+  // The inside of each category will have its
+  // own file
+  "vtex.menu@2.x:menu#main-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#hombre-header",
+      "menu-item#mujer-header",
+      "menu-item#ninos-header",
+      //"menu-item#nature-needs-heroes-header",
+      "menu-item#outlet-header"
+    ]
+  },
+
+  // HOMBRE
+
+  "menu-item#hombre-header": {
+    "props": {
+      "id": "menu-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecciones-hombres",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "HOMBRE"
+      },
+      "blockClass": "main-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#hombre"]
+  },
+
+  // MUJER
+
+  "menu-item#mujer-header": {
+    "props": {
+      "id": "menu-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecciones-mujeres",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "MUJER"
+      },
+      "blockClass": "main-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#mujer"]
+  },
+
+  // ninos
+
+  "menu-item#ninos-header": {
+    "props": {
+      "id": "menu-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecciones-ninos",
+        "noFollow": true,
+        "tagTitle": "Ninos",
+        "text": "NIÑOS"
+      },
+      "blockClass": "main-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ninos"]
+  },
+
+  // NATURE NEEDS HEROES
+
+  "menu-item#nature-needs-heroes-header": {
+    "props": {
+      "id": "menu-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/meet-our-heroes",
+        "noFollow": true,
+        "tagTitle": "Nature needs heores",
+        "text": "NATURE NEEDS HEROES"
+      },
+      "blockClass": "main-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu-nature-needs-heroes"]
+  },
+  "menu-item#outlet-header": {
+    "props": {
+      "id": "menu-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": true,
+        "tagTitle": "Nature needs heores",
+        "text": "OUTLET"
+      },
+      "blockClass": "main-menu-block"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#outlet"]
+  }
+}

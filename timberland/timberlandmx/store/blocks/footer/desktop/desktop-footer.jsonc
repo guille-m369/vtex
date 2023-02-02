@@ -1,0 +1,66 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#row-container-footer-1",
+      "flex-layout.row#row-container-footer-2"
+    ]
+  },
+
+  "flex-layout.row#row-container-footer-1": {
+    "children": ["flex-layout.col#col-container-footer-1"],
+    "props": { "blockClass": "row-container-footer-1" }
+  },
+  "flex-layout.col#col-container-footer-1": {
+    "children": [
+      "flex-layout.row#image-logo-timberland",
+      "flex-layout.row#footer-menu-desktop"
+    ],
+    "props": {
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  /*-----------------------------------------------------------------------------------------------------------------*/
+
+  "flex-layout.row#footer-menu-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#categorias",
+      "vtex.menu@2.x:menu#footer-ayuda",
+      "vtex.menu@2.x:menu#footer-marca",
+      "vtex.menu@2.x:menu#footer-mi-cuenta"
+    ],
+    "props": {
+      "blockClass": "footer-menu-desktop",
+      "paddingTop": 4,
+      "paddingBottom": 8
+    }
+  },
+  /*------------------------------conyainer 2---------------*/
+  "flex-layout.row#row-container-footer-2": {
+    "children": [
+      "flex-layout.col#col-container-footer-2_1",
+      "flex-layout.col#col-container-footer-2_2"
+    ],
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 8,
+      "blockClass": "row-container-footer-2"
+    }
+  },
+  "flex-layout.col#col-container-footer-2_1": {
+    "children": [
+      "rich-text#social-networks",
+      "flex-layout.row#social-networks",
+      "rich-text#pago-seguro",
+      "flex-layout.row#partner-logo-pagos",
+      "rich-text#company-left",
+      "flex-layout.row#logos-footer"
+    ], "props":{
+      "paddingLeft":5,
+      "paddingRight":5
+    }
+  },
+  "flex-layout.col#col-container-footer-2_2": {
+    "children": ["customNewsletter"]
+  }
+}

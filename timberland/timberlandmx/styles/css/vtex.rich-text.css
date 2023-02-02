@@ -1,0 +1,121 @@
+/* Popup cupon */
+:global(.vtex-rich-text-0-x-paragraph--outline-text-cupon) {
+  font-family: "GT-Flexa-BlackOutline-TBL";
+  font-size: 45px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+:global(.vtex-rich-text-0-x-paragraph--bold-text-cupon) {
+  font-family: "GT-Flexa-TBL";
+  font-size: 90px;
+  margin: 0;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+}
+:global(.vtex-rich-text-0-x-paragraph--small-text-cupon) {
+  color: #fff;
+  margin: 0;
+}
+:global(.vtex-rich-text-0-x-paragraph--fechas-text-cupon) {
+  font-size: 35px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-strong--fechas-text-cupon) {
+  color: #fff;
+}
+:global(.vtex-rich-text-0-x-paragraph--normal-bold-text-cupon) {
+  font-family: "GT-Flexa-TBL";
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+}
+:global(.vtex-rich-text-0-x-paragraph--code-text-area-number-text) {
+  font-size: 20px;
+  text-align: right;
+  color: #000;
+}
+:global(.vtex-rich-text-0-x-paragraph--code-text-area-number-number) {
+  font-size: 80px;
+  line-height: 0.8;
+}
+:global(.vtex-rich-text-0-x-paragraph--code-text-area-code-text) {
+  color: #000;
+}
+:global(.vtex-rich-text-0-x-paragraph--cta-area-first-text) {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+}
+:global(.vtex-rich-text-0-x-paragraph--cta-area-second-text) {
+  font-family: "GT-Flexa-TBL";
+  color: #000;
+  margin: 0;
+  font-size: 35px;
+  line-height: 1;
+}
+:global(.vtex-rich-text-0-x-paragraph--cta-area-third-text) {
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+}
+
+@media screen and (max-width: 510px) {
+  :global(.vtex-rich-text-0-x-paragraph--outline-text-cupon) {
+    font-size: 30px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--bold-text-cupon) {
+    font-size: 60px;
+    margin-bottom: 1rem;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--fechas-text-cupon) {
+    font-size: 25px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--normal-bold-text-cupon) {
+    font-size: 18px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--code-text-area-number-number) {
+    font-size: 50px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--code-text-area-number-text) {
+    font-size: 12px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--code-text-area-code-text) {
+    font-size: 16px;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--cta-area-first-text) {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--cta-area-third-text) {
+    font-size: 12px;
+  }
+}
+/* Popup cupon */
+
+/* landing-product-care-header */
+:global(.vtex-rich-text-0-x-wrapper--shelf-landing-product-care-header) {
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  font-family: "GT-Flexa-TBL";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+:global(.vtex-rich-text-0-x-wrapper--PC_shelfTitle){
+  width: 90%;
+}
+:global(.vtex-rich-text-0-x-wrapper--PC_shelfTitle){
+  font-size: 18px;
+}
+:global(.vtex-rich-text-0-x-wrapper--PC_shelfTitle) :global(.vtex-rich-text-0-x-paragraph){
+  line-height: normal;
+}

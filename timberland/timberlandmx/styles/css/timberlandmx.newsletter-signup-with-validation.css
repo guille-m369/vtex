@@ -1,0 +1,311 @@
+/*------------------desktop----------*/
+/* .NewsletterContainer {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: -2.25rem;
+} */
+.TitleNewsletter {
+  font-weight: 700;
+  font-size: 22px !important;
+  color: black;
+  text-align: center;
+  font-family: "GT-Flexa-TBL";
+}
+.TitleNewsletterFooter {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.apellidoNewsLetterContainer {
+  width: 45%;
+  border: 1px solid black;
+  height: 30px;
+  text-align: center;
+  font-size: 15px !important;
+  font-family: "GT-Flexa-TBL";
+}
+.nombreNewsLetterContainer {
+  width: 45%;
+  border: 1px solid black;
+  height: 30px;
+  text-align: center;
+  font-size: 15px !important;
+  font-family: "GT-Flexa-TBL";
+}
+.HeadingNewsLetter {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.HeadingNewsLetterFooter {
+  color: #eb8102;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.inputNewsLetterContainer {
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 15px !important;
+  font-family: "GT-Flexa-TBL";
+  margin-top: 1rem;
+}
+
+.inputNewsLetterContainerFooter {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 0;
+}
+
+.SubmitButtonCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.MessageLevel1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "GT-Flexa-TBL";
+}
+
+.UserName {
+  color: #f47b00;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "GT-Flexa-TBL";
+}
+
+.MessageLevel2 {
+  font-size: 20px;
+  font-family: "GT-Flexa-TBL";
+  text-transform: uppercase;
+}
+.cuponMsj--popup-home{
+  color: #f47b00;
+}
+.cuponArea--popup-home{
+  font-family: "GT-Flexa-TBL";
+  border: 1px solid;
+  font-size: 22px;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+
+.PopupContainer {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  background-color: "#ededed";
+}
+
+.BrandName {
+  color: #e02631;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "GT-Flexa-TBL";
+}
+
+.FooterContainer {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  background-color: "#282321";
+}
+
+.MessageLevel3 {
+  font-size: 15px;
+}
+
+.MessageLevel4 {
+  font-size: 15px;
+}
+.SubmitButtonFooter {
+  height: 50px;
+  background: #eb8102;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+  margin-left: 4px;
+}
+.SubmitButton {
+  height: 40px;
+  background: #f47b00;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 30%;
+  border-radius: 0;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.LinkStyle {
+  font-size: 16px;
+  margin-left: 12px;
+  color: gray !important;
+}
+.LinkStyleFooter,
+.LinkStyleFooter :last-child {
+  font-size: 16px;
+  color: white !important;
+}
+
+.LinkStyleup {
+  font-size: 20px;
+  color: #000000c4 !important;
+  display: flex;
+  justify-content: center;
+  font-family: "GT-Flexa-TBL";
+}
+
+
+/*---------------mobile----------*/
+@media screen and (max-width: 1024px) {
+  .inputNewsLetterContainer {
+    height: 30px;
+    width: 100%;
+  }
+  .SubmitButtonFooter {
+    height: 30px;
+  }
+  .SubmitButton {
+    height: 30px;
+    width: 40%;
+  }
+}
+/*---------------mobile----------*/
+@media screen and (max-width: 600px) {
+  .TitleNewsletter {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  .HeadingNewsLetter {
+    font-size: 14px;
+  }
+  .inputNewsLetterContainer {
+    height: 30px;
+    width: 100%;
+  }
+  .SubmitButtonFooter {
+    height: 30px;
+  }
+  .SubmitButton {
+    height: 30px;
+    width: 40%;
+  }
+
+  .SubmitButtonFooter {
+    margin-left: 0;
+    margin-top: 0.3rem;
+  }
+  .SubmitButton {
+    margin-left: 0;
+    margin-top: 0.3rem;
+  }
+}
+:global(.vtex-modal-layout-0-x-headerContent) {
+  width: 100px;
+  height: 57px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-popup) {
+  height: 116px;
+  margin-top: -1.5rem;
+}
+
+.FooterNewsletter {
+  color: white !important;
+}
+
+.Logo_title {
+  color: #e02631;
+  font-size: 25px;
+}
+
+.Title_descuento {
+  color: #e02631;
+  font-size: 37px;
+}
+
+.MessageButton {
+  background-color: #f47b00;
+  border: none;
+  color: white;
+  margin: 1rem 0;
+  border-radius: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tcLink--popup-home{
+  color: #000;
+  text-decoration: none;
+}
+.tcLink--popup-home:hover{
+  text-decoration: underline;
+}
+
+/* Modal del cupon 10% */
+.formWrapper--popup-home{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem 0;
+}
+.inputField{
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.input50{
+  width: 48%;
+  text-align: center;
+}
+.inputField .input{
+  width: 100%;
+  padding: 7px 10px;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.checksArea{
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 550px){
+  .input50{
+    width: 100%;
+  }
+  .checksArea{
+    margin-bottom: 1rem;
+  }
+  .checkPromos{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ResponseContainer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .MessageLevel2, .MessageLevel3, .cuponArea--popup-home, .MessageLevel4{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

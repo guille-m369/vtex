@@ -1,0 +1,225 @@
+{
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop-top-bar",
+      "flex-layout.row#desktop-main-bar",
+      "flex-layout.row#desktop-menu"
+      //"flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop-top-bar": {
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#spacer", "flex-layout.col#desktop-top-menu"]
+  },
+  "flex-layout.col#desktop-top-menu": {
+    "props": {
+      "verticalAlign": "right"
+    },
+    "children": ["vtex.menu@2.x:menu#top-menu"]
+  },
+  "vtex.menu@2.x:menu#top-menu": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-envios-devoluciones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Envíos y Devoluciones",
+            "text": "Envíos y Devoluciones"
+          }
+        },
+        {
+          "id": "menu-item-localizar-tienda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tiendas",
+            "noFollow": false,
+            "tagTitle": "Localizar tienda",
+            "text": "Localizar tienda"
+          }
+        },
+        {
+          "id": "menu-item-ayuda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Ayuda",
+            "text": "Ayuda"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.row#desktop-main-bar": {
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      //"flex-layout.col#spacer",
+      "flex-layout.col#component-search-bar",
+      //"flex-layout.col#spacer",
+      "login#sticky",
+      //"minicart.v2"
+      "custom-cart-label"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "flex-layout.row#desktop-menu": {
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#desktop-header-main-menu",
+      "flex-layout.col#desktop-bottom-menu",
+      "flex-layout.col#spacer",
+      "flex-layout.col#desktop-bottom-right-menu"
+    ]
+  },
+  "flex-layout.col#desktop-header-main-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "desktop-header-main-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#main-menu"]
+  },
+  "flex-layout.col#desktop-bottom-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#desktop-bottom-menu"]
+  },
+  "vtex.menu@2.x:menu#desktop-bottom-menu": {
+    "props": {
+      "blockClass": "bottom-menu",
+      "items": [
+        {
+          "id": "menu-item-envios-devoluciones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/home-office",
+            "noFollow": false,
+            "tagTitle": "Promociones",
+            "text": "Promociones"
+          }
+        },
+        {
+          "id": "menu-item-localizar-tienda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/categorias",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+          }
+        },
+        {
+          "id": "menu-item-ayuda",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Soporte",
+            "text": "Soporte"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.col#desktop-bottom-right-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#desktop-bottom-right-menu"]
+  },
+  "vtex.menu@2.x:menu#desktop-bottom-right-menu": {
+    "props": {
+      "blockClass": "bottom-menu-right",
+      "items": [
+        {
+          "id": "menu-item-rastrear-orden",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Rastrear Orden",
+            "text": "Rastrear Orden"
+          }
+        }
+      ]
+    }
+  },
+
+  // MAIN MENU se tiene que borrar
+  // ----------------------------------
+  "flex-layout.col#main-menu-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "main-menu-desktop"
+    },
+    "children": ["vtex.menu@2.x:menu#main-menu"]
+  },
+  "custom-cart-label": {
+    "children": ["minicart.v2"]
+  },
+  "flex-layout.col#cart": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "desktop-header-top-menu"
+      // "marginRight": 2
+    },
+    "children": ["custom-cart-label"]
+  }
+}

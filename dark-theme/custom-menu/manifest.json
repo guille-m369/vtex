@@ -1,0 +1,25 @@
+{
+  "name": "custom-menu",
+  "vendor": "demoecomsur",
+  "version": "0.0.1",
+  "title": "Store Drawer",
+  "description": "The VTEX Drawer",
+  "builders": {
+    "messages": "1.x",
+    "react": "3.x",
+    "store": "0.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.store-icons": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.responsive-values": "0.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.device-detector": "0.x"
+  },
+  "mustUpdateAt": "2020-03-28",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

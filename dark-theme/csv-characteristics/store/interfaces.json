@@ -1,0 +1,8 @@
+{
+  "csv-characteristics": {
+    "component": "CsvCharacteristics"
+  },
+  "custom-product-description": {
+    "component": "CustomProductDescription"
+  }
+}

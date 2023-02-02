@@ -1,0 +1,339 @@
+:global(.vtex-flex-layout-0-x-flexColChild--images) .CustomInfocardContainer {
+  border: 1px solid;
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  justify-content: end;
+  border-radius: 50%;
+  background-color: #282828;
+}
+
+.topLeftContainer--third {
+  background-color: #000000;
+  color: #DEDEDE;
+}
+.topLeftContainer--third-plp {
+  background-color: #000000;
+  color: #DEDEDE;
+}
+
+.mainContainer--third-plp{
+  max-height: 300px;
+}
+
+.ctaButton--third {
+  background-color: #0f59d2;
+  height: 48px;
+  border-radius: 5px;
+  width: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ctaButton--third-plp {
+  background-color: #0f59d2;
+  height: 48px;
+  border-radius: 5px;
+  width: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaButton--third:hover {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background: rgb(8 75 185);
+}
+.ctaButton--third-plp:hover {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background: rgb(8 75 185);
+}
+/* Landing waterproof */
+
+.title--third {
+  color: #ffc94c;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title--third-plp {
+  color: #ffc94c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title1--third {
+  font-size: 20px;
+  font-weight: bold;
+}
+.title1--third-plp {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title2--third {
+  font-size: 54px;
+  font-weight: bold;
+  color: #DEDEDE;
+}
+
+.title2--third-plp {
+  font-size: 54px;
+  font-weight: bold;
+  color: #DEDEDE;
+}
+
+.title3--third {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.title3--third-plp {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.copy--third {
+  font-size: 16px;
+}
+.copy--third-plp {
+  font-size: 16px;
+}
+.ctaContainer--third {
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-top: 3%;
+}
+.ctaContainer--third-plp {
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 1029px) {
+  /*set the margin just to desktop */
+  .topLeftContainer--third {
+    background-color: #000000;
+    color:#DEDEDE;
+    min-width: 40% !important;
+    min-height: 500px;
+  }
+  .topLeftContainer--third-plp {
+    background-color: #000000;
+    color:#DEDEDE;
+    min-width: 40% !important;
+    /* min-height: 500px; */
+  }
+  .title--third {
+    color: #ffc94c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    
+  }
+
+  .title--third-plp {
+    color: #ffc94c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    
+  }
+  .title1--third {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+  .title1--third-plp {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+  .title2--third {
+    font-size: 54px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: #DEDEDE;
+  }
+  .title2--third-plp {
+    font-size: 54px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: #DEDEDE;
+  }
+
+  .title3--third {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+
+  .title3--third-plp {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+
+  .copy--third {
+    font-size: 16px;
+    margin-left: 20%;
+  }
+
+  .copy--third-plp {
+    font-size: 16px;
+    margin-left: 20%;
+  }
+
+  .ctaContainer--third {
+    margin-left: 20%;
+    
+    margin-top: 7%;
+  }
+
+  .ctaContainer--third-plp {
+    margin-left: 20%;
+    
+
+  }
+}
+
+.bottomRightContainer--third {
+  background-color: black;
+}
+
+.bottomRightContainer--third-plp {
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .topLeftContainer--third {
+    text-align: center;
+  }
+  .topLeftContainer--third-plp {
+   display: flex;
+   align-items: center;
+  }
+  .bottomRightContainer--third-plp {
+    background-color: black;
+  }
+  .ctaContainer--third {
+    justify-content: center;
+  }
+
+  .ctaContainer--third-plp {
+    justify-content: center;
+  }
+  .title--third {
+    color: #ffc94c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0.5rem;
+  }
+  .title--third-plp {
+    color: #ffc94c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0.5rem;
+  }
+  .ctaButton--third {
+    background-color: #0f59d2;
+    height: 48px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctaButton--third-plp {
+    background-color: #0f59d2;
+    height: 48px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title1--third {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0.7rem;
+  }
+  .title1--third-plp {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0.7rem;
+  }
+
+  .title2--third {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 0%;
+    color: #DEDEDE;
+  }
+  .title2--third-plp {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 0%;
+    color: #DEDEDE;
+  }
+
+  .title3--third {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-top: 0.5rem;
+  }
+
+  .title3--third-plp {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-top: 0.5rem;
+  }
+
+  .copy--third {
+    font-size: 16px;
+    margin-left: 0%;
+  }
+
+  .copy--third-plp {
+    font-size: 16px;
+    margin-left: 0%;
+  }
+
+  .ctaContainer--third {
+    margin-left: 0%;
+  }
+
+  .ctaContainer--third-plp {
+    margin-left: 0%;
+  }
+}
+
+
+/*----------------------------pdp---------------------------*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--mobile-pago-seguro-logo)
+.CustomInfocardContainer{
+  border: 1px solid; 
+width: 80px;
+height: 80px;
+padding: 15px;
+justify-content: end;
+border-radius: 50%;
+background-color: #282828; 
+}

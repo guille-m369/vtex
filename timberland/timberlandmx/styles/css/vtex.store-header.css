@@ -1,0 +1,484 @@
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: displayk;
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+}
+:global(.vtex-flex-layout-0-x-flexRow--non-sticky-search) {
+  padding-right: 1rem;
+}
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid #282321;
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    background: #282321;
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #282321;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--sticky-items)
+  :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sticky-items)
+  :global(.vtex-menu-2-x-styledLinkIcon) {
+  padding-top: 0.3rem;
+}
+
+:global(.vtex-store-drawer-0-x-openIconContainer) {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+/* MOBILE LOGO */
+
+:global(.vtex-store-components-3-x-logoImage--logo-mobile) {
+  /* background-color: red; */
+  margin-top: 0.7rem;
+  height: 50px;
+  margin-bottom: -0.2rem;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoImage--logo-mobile) {
+  /*margin-top: 0;*/
+}
+
+/* MOBILE SEARCH WHEN STICKY */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  height: 100% !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--main-menu-block) {
+  font-size: 18px;
+}
+/* :global(.vtex-sticky-layout-0-x-wrapper--stuck) */
+
+/* STICKY CART */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+/* BOTTOM HEADER ICONS */
+
+:global(.vtex-store-components-3-x-imageElement--bottom-header-icon) {
+  height: 1.3rem;
+  padding-top: 0.9rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+/* STICY ICONS */
+
+:global(.vtex-store-components-3-x-imageElement--header-icon) {
+  height: 1.3rem;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Change margin Items menu
+:global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+} */
+
+/*Change font size Items menu right*/
+:global(.vtex-flex-layout-0-x-flexRowContent--non-sticky)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 12px;
+}
+/*----------------------banner header ----------*/
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-main-menu) {
+  width: 100% !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-main-menu) {
+  background-size: contain !important;
+  max-width: 300px;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-main-menu)
+  :global(.vtex-button):hover {
+  background: #eb8102;
+  border: #eb8102 solid;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+/*Header backgroundcolor*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-main-menu) {
+  background-size: contain !important;
+}
+/*////////////////////////////////////////////*/
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-styleguide-9-x-input) {
+  background-color: #dfdfdf;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input__suffix) {
+  border-radius: 0;
+  background-color: #dfdfdf;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-banner-result-search) {
+  height: 200px;
+}
+
+/* SEARCH ON DESKTOP */
+/* .main-header */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) .searchBarContainer {
+  /* max-width: 500px; */
+  margin-right: 1rem;
+  /* transition: ease-in; */
+  padding-top: 0%;
+  /* width: 400px; */
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .searchBarContainer {
+  margin-right: 0%;
+  /* transition: ease-in; */
+  padding-top: 0.75rem;
+}
+
+/* LOGO SIZE ON MOBILE */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  .logoContainer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* SEARCH ON MOBILE */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  :global(.vtex-styleguide-9-x-input) {
+  max-width: 160px;
+  font-size: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-size: 12px;
+}
+
+/**---------------------------------flex ------------*/
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding: 0 0.5rem;
+}
+@media screen and (min-width: 40em) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-link),
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-link),
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    padding: 0 0.25rem;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  background-color: #282321;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  /* align-items: center; */
+  /* padding: 0.625rem 0.5rem; */
+  background-color: #282321;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link)
+  :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header)
+  :global(.vtex-menu-2-x-styledLink) {
+  color: white;
+  font-weight: bold;
+  /* font-size: 14px; */
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile)
+  :global(.vtex-menu-2-x-menuItem) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bottom-header-mobile) {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 998;
+  justify-content: space-between;
+}
+/* MOBILE BOTTOM STICKY HEADER */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile) {
+  /* align-items: center; */
+  /* padding: 0.625rem 0.5rem; */
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile):global(.vtex-menu-2-x-menuItem) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bottom-header-mobile) {
+  height: 50px;
+}
+/* HIDE TOP RIGHT ROW */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--non-sticky) {
+  display: none;
+}
+:global(.vtex-menu-2-x-menuItem--mobile-submenu-items) {
+  margin: 0.5rem 0;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--non-sticky-search) {
+  display: none;
+}
+/* hide sticky elements */
+
+:global(.vtex-flex-layout-0-x-flexRow--sticky-items-container) {
+  display: none;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRow--sticky-items-container) {
+  display: block;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-menu-2-x-submenuWrapper--main-submenu-container) {
+  margin-top: 0;
+}
+/* make sticky items column flex */
+
+:global(.vtex-flex-layout-0-x-flexCol--sticky-items) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* header no padding */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding: 0;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*Aling right search mobile*/
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  :global(.vtex-input-prefix__group) {
+  padding-right: 10px;
+}
+
+/*---------------------------------------*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--sticky-items)
+  :global(.vtex-button__label) {
+  padding: 0;
+  margin: 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--sticky-items)
+  :global(.vtex-button) {
+  margin: auto;
+  width: 30px;
+}
+/*Ajustar icon de mi cuenta en header*/
+:global(.vtex-flex-layout-0-x-flexRow--sticky-items-container)
+  :global(.vtex-flex-layout-0-x-flexColChild--sticky-items) {
+  display: flex;
+  text-align: end;
+}
+:global(.vtex-flex-layout-0-x-flexRow--non-sticky)
+  :global(.vtex-login-2-x-buttonLink) {
+  width: 140px;
+}
+
+/*----------------------------*/
+/* PROMISES LAYOUT */
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--home-promises) {
+  background: #00000029;
+  height: 35px;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--home-promises):global(.vtex-rich-text-0-x-strong) {
+  color: #282321;
+}
+
+.sliderArrows--home-promises {
+  color: #282321;
+}
+@media screen and (max-width: 700px) {
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--home-promises)
+    :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 12px;
+    padding: 0 0.5rem;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile)
+  :global(.vtex-store-components-3-x-logoContainer) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+:global(.vtex-store-components-3-x-searchIcon) {
+  color: #eb8102;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--main-submenu-container) {
+  border-top: 1px solid #000;
+  margin-top: 1.5rem;
+  opacity: 0.97;
+}
+:global(.vtex-flex-layout-0-x-flexRow--main-submenu) {
+  width: 90%;
+}
+:global(.vtex-menu-2-x-submenu--main-submenu-container) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header)
+  :global(.vtex-menu-2-x-styledLink) {
+  color: #fff;
+  font-weight: 700;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--main-menu-items)
+  :global(.vtex-menu-2-x-styledLink--main-menu-items)
+  :global(.vtex-menu-2-x-styledLinkContent--main-menu-items) {
+  color: #282321;
+  padding-top: 1rem;
+  white-space: normal;
+}
+:global(.vtex-menu-2-x-menuItem--main-menu-items):first-child
+  :global(.vtex-menu-2-x-styledLinkContent--main-menu-items) {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--main-menu-items):hover {
+  color: #eb8102 !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-main-menu) {
+  padding-top: 60%;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-main-menu)
+  :global(.vtex-button) {
+  background: rgba(250, 247, 247, 0.65);
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  width: 160px;
+}
+
+/*---------------------mobile menu nav------------*/
+:global(.vtex-menu-2-x-menuContainerNav--mobile-menu) {
+  width: 100%;
+  height: 100%;
+}
+:global(.vtex-menu-2-x-menuItem--mobile-menu-block) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--mobile-menu-block) {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  margin: 0.7rem 0;
+}
+:global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #eb8102 !important;
+}

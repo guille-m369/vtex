@@ -1,0 +1,31 @@
+{
+    "store.custom#garantias": {
+      "blocks": ["flex-layout.row#garantias-content"]
+    },
+    "flex-layout.row#garantias-content": {
+      "children": ["flex-layout.col#garantias-content"],
+      "props": {
+        "marginTop": 7,
+        "marginBottom": 7, "blockClass":"garantias-content"
+      }
+    },
+    "flex-layout.col#garantias-content": {
+      "children": ["flex-layout.row#garantias"],
+      "props": {
+        "marginLeft": 7,
+        "marginRight": 7
+      }
+    },
+    "flex-layout.row#garantias": {
+      "children": ["rich-text#title-garantias"]
+    },
+  
+    "rich-text#title-garantias": {
+      "props": {
+        "blockClass": "title-garantias",
+        "text": "## Garantía \n\n  Todos nuestros productos cuentan con una garantía de 90 días a partir de la fecha de compra. En caso de requerir hacer valida tu garantía por favor envía un correo a: servicioalcliente@timberland.com.mx con la siguiente información: \n\n Número de orden \n\n Fotografías del producto en el estado en que se encuentra y del defecto o daño por el cuál estas solicitando tu garantía. \n\n Explicar el defecto y/o detalle de forma clara. \n\n Nombre y SKU del producto(s). \n\n *Si tu reclamación de garantía es por defecto del producto y aún no lo has usado, el producto deberá estar en las mismas condiciones en las que se envió, con caja, etiquetas y envolturas intactas. En caso de que tu garantía sea por defecto en alguna de las tecnologías de tu producto no será necesario presentar su empaque original. \n\n Una vez recibida la información enviaremos a revisión de nuestros expertos la evidencia del producto, quienes determinará si procede.Es importante hacer de tu conocimiento que el tiempo de respuesta para este tipo de solicitudes puede demorar hasta 72 hrs. hábiles. Posteriormente se te enviará la guía de retorno para poder realizar el reembolso correspondiente.*En los casos en que estás solicitando garantía por defecto en las tecnologías, los tiempos de respuesta pueden superar las 72 horas mientras nuestros expertos verifican y hacen pruebas sobre el producto.\n\n De proceder tu solicitud, te estaremos compartiendo por ese mismo medio la etiqueta de retorno junto con los pasos a seguir para poder procesar la devolución y una vez retornado y confirmada la revisión del paquete, se emitirá el reembolso correspondiente de lo pagado por el producto para que puedas realizar una compra nueva. Este proceso demora 30 días hábiles a partir de la fecha de recepción del paquete. \n\n En caso de requerir apoyo o tener más dudas con nuestros procesos puedes comunicarte al siguiente número de teléfono: 5584381815 donde con gusto te apoyaremos. ### Serán considerados defectos de fábrica los siguientes puntos: \n\n Rasgaduras en la piel, cuello, suela, plantilla o forro interno de origen. \n\n Ruptura en la piel, cuello, suela, plantilla o forro interno de origen. \n\n Botones, cierres, broches o algún otro accesorio descocido o roto. \n\n  Defectos de fábrica de productos en los que el defecto requiere pruebas de calidad por parte de corporativo, tales como: \n\n 1) Fallas en la tecnología Waterproof sin filtraciones en el calzado perceptibles. \n\n 2) Fallas en alguna tecnología de textil o accesorios que no es perceptible. \n\n ### No serán considerados como defecto y por lo tanto la garantía no aplica en los siguientes casos: \n\n 1. Daños al producto por mal uso \n\n Reclamos derivados del uso inadecuado del producto que hubieran ocasionado daños irreparables en piel, suela, cuello, forro interno, tela, costuras, botones y broches; así como del uso inadecuado de nuestros productos de limpieza. \n\n 2. Uso de productos de limpieza ajenos a la marca que como resultado de su aplicación dañen el producto. \n\n 3. Padecimientos médicos \n\n No se aceptarán las devoluciones de productos derivadas de reclamos por padecimientos médicos. Los productos Timberland® no cuentan con la tecnología para tratar ningún padecimiento médico. El uso de los productos es responsabilidad del cliente. \n\n 4. Cambio de tallas disparejas \n\n Vencido el plazo de Garantía de producto establecido, no procederán las devoluciones de calzado que vengan con tallas distintas en el mismo par. "
+      }
+    }
+  }
+ 
+  

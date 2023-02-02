@@ -1,0 +1,28 @@
+{
+  // Destacados
+  "flex-layout.col#nature-needs-heroes-column-1": {
+    "children": ["vtex.menu@2.x:menu#nature-needs-heroes-column-1"]
+  },
+
+  "vtex.menu@2.x:menu#nature-needs-heroes-column-1": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-nature-needs-heroes-lo-nuevo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/meet-our-heroes",
+            "noFollow": true,
+            "tagTitle": "Conoce Nuestros heroes",
+            "text": "CONOCE A NUESTROS HÉROES"
+          }
+        }
+      ]
+    }
+  }
+}

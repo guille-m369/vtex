@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+  .question {
+    font-size: 14px;
+  }
+  .content {
+    font-size: 12px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-ayuda-content){
+    display: contents;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--row-ayuda-content)
+  :global(.vtex-flex-layout-0-x-flexColChild){
+    width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-ayuda-content)
+    :global(.vtex-flex-layout-0-x-flexCol) {
+      margin: 0;
+  }
+  
+  .content{
+    max-width: 330px;
+    text-align: justify;
+    margin: auto;
+    word-wrap: break-word;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--row-ayuda-content){
+    padding-bottom: 2rem !important;
+  }
+}
+
+.question {
+  -webkit-appearance: none !important;
+}
+

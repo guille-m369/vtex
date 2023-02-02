@@ -1,0 +1,109 @@
+{
+  /* ENTREGA GRATIS - infocard and rich text */
+  "custom-infocard#entrega-gratis": {
+    "props": {
+      "width": "48px",
+      "maxHeight": "auto",
+      "src": "assets/logos/entrega-gratis.svg",
+      "link": "/"
+    }
+  },
+  "rich-text#title-infocard-envios-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envíos gratis",
+      "blockClass": "rich-text-title"
+    }
+  },
+  "rich-text#title-infocard-envios-subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envío gratis en todas las ordenes",
+      "blockClass": "rich-text-subtitle"
+    }
+  },
+  /* ENTREGA GRATIS - infocard and rich text */
+
+  /* SUPORTE 24 HORAS  - infocard and rich text */
+  "custom-infocard#24horas": {
+    "props": {
+      "width": "48px",
+      "maxHeight": "auto",
+      "src": "assets/logos/24-horas.svg",
+      "link": "/"
+    }
+  },
+  "rich-text#title-infocard-suporte-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Suporte 24 / 7",
+      "blockClass": "rich-text-title"
+    }
+  },
+  "rich-text#title-infocard-suporte-subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Comunícate con nosotros",
+      "blockClass": "rich-text-subtitle"
+    }
+  },
+  /* SUPORTE 24 HORAS  - infocard and rich text */
+
+  /* DEVOLUCIONES  - infocard and rich text */
+  "custom-infocard#reembolso": {
+    "props": {
+      "width": "48px",
+      "maxHeight": "auto",
+      "src": "assets/logos/reembolso.svg",
+      "link": "/"
+    }
+  },
+  "rich-text#title-infocard-devoluciones-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Devoluciones",
+      "blockClass": "rich-text-title"
+    }
+  },
+  "rich-text#title-infocard-devoluciones-subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Devuélvelo dentro de 15 días",
+      "blockClass": "rich-text-subtitle"
+    }
+  },
+  /* DEVOLUCIONES  - infocard and rich text */
+
+  /* PAGO SEGURO  - infocard and rich text */
+  "custom-infocard#pago-seguro": {
+    "props": {
+      "width": "48px",
+      "maxHeight": "auto",
+      "src": "assets/logos/seguridad-de-pago.svg",
+      "link": "/"
+    }
+  },
+  "rich-text#title-infocard-pago-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pago seguro",
+      "blockClass": "rich-text-title"
+    }
+  },
+  "rich-text#title-infocard-pago-subtitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aceptamos todas las tarjetas",
+      "blockClass": "rich-text-subtitle"
+    }
+  }
+  /* PAGO SEGURO  - infocard and rich text */
+}

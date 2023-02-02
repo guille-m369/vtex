@@ -1,0 +1,76 @@
+{
+  "store.custom#nuestra-historia": {
+    "blocks": ["flex-layout.row#historia"]
+  },
+  "flex-layout.row#historia": {
+    "children": ["flex-layout.col#historia"], "props":{ "paddingBottom":7, "blockClass":"historia-container"}
+  },
+  "flex-layout.col#historia": {
+    "children": [
+      "image#nuestra-historia",
+      "flex-layout.row#content-text-historia"
+    ],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+  "image#nuestra-historia": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/nuestra-historia.jpg",
+      "blockClass": "image-nuestra-historia"
+    }
+  },
+
+  "flex-layout.row#content-text-historia": {
+    "children": ["flex-layout.col#content-text-historia"]
+  },
+  "flex-layout.col#content-text-historia": {
+    "children": [
+      "rich-text#text-historia",
+      "rich-text#title-mejor-producto",
+      "rich-text#text-mejor-producto",
+      "rich-text#title-comunidades-fuertes",
+      "rich-text#text-comunidades-fuertes",
+      "rich-text#title-mundo-verde",
+      "rich-text#text-mundo-verde"
+    ],
+    "props": { "blockClass": "content-text-historia" }
+  },
+  //-----------------Text-historia----------------------------
+  "rich-text#text-historia": {
+    "props": {
+      "text": "\nTrabajo duro, innovación y amor por la naturaleza son todas partes importantes de la historia de Timberland. Y lo han sido desde nuestros inicios.\n\n  Todo comenzó en 1952 cuando nuestro fundador, Nathan Swartz, compró una parte de la Abington Shoe Company. Donde trabajó duro y aprendió el negocio cuando llegó a los Estados Unidos como inmigrante y, eventualmente compró la otra parte de la empresa a su socio e invitó a sus hijos a formar parte del negocio.\n\n La Abington Shoe Company pronto se mudó a la población de Newmarket, New Hampshire, localizada en un pequeño rincón del estado de Nueva Inglaterra conocido por sus majestuosas montañas, densos bosques, ríos, lagos y acceso a las costas del Este de los Estados Unidos de América. Esta parte del mundo tiene todo tipo de climas extremos como ventiscas, tormentas, inviernos muy duros y veranos calurosos.\n\n Salir a la intemperie en cualquiera de estos climas era un problema, que Timberland nació para resolver.\n\n En 1973 se inventó nuestra bota original a prueba de agua (Waterproof), y se llamó “Timberland”. Eran resistentes, estaban muy bien armadas y - gracias al innovadora técnica de inyección en molde, la cual era nueva para la industria del calzado en esa época - les dieron una gran resistencia a los elementos. Estas “botas amarillas” premium definieron los nuevos estándares para el desempeño de la tecnología “Waterproof” en la industria del calzado. Pronto se popularizaron igualmente entre los entusiastas de la exploración y los exteriores, quienes necesitaban protección en todo tipo de condiciones climáticas y los trabajadores que necesitaban equipo resistente y confiable, así como entre muchos otros que sólo querían un par de botas que lucieran muy bien.\n\n Estas botas definieron nuestra marca. Fueron tan revolucionarias para su época que en 1978, se cambió el nombre de la compañía a Timberland.\n\n La herencia de trabajo duro, innovación y amor por la naturaleza de Timberland continua hasta la fecha. Estamos aquí para inspirar y equipar al mundo para salir, trabajar juntos y hacer de este mundo un lugar mejor. Hoy seguimos teniendo contacto con la naturaleza, ya sea justo saliendo de nuestra puerta o viajando a lugares más remotos. La encontramos en las ciudades, los suburbios o en el campo. Es donde trabajamos, jugamos y conectamos el uno con el otro. Es por ello que estamos en una misión, la de convertir nuestra empresa en una fuerza de cambio positivo. Estamos comprometidos en hacer de nuestro mundo un lugar más verde, nuestras comunidades más fuertes y mejorar nuestros productos para tener el menor impacto posible en el medio ambiente.\n\n Esta misión no es nada nuevo.\n\n"
+    }
+  },
+  "rich-text#title-mejor-producto": {
+    "props": {
+      "text": "MEJOR PRODUCTO\n\n",
+      "blockClass": "subtitle-nuestra-historia"
+    }
+  },
+  "rich-text#text-mejor-producto": {
+    "props": {
+      "text": "Cuando diseñamos una bota, un zapato, una chamarra, un par de lentes o incluso una camiseta nuevos, no solo tienen que verse genial, debemos considerar su impacto en la naturaleza. Desde que presentamos nuestras originales botas impermeables (waterproof), nos hemos centrado en fabricar productos innovadores que lleven a la gente a los exteriores, hechos con materiales respetuosos con el medio ambiente y diseñados para durar años. Nuestro objetivo no solo es minimizar nuestro impacto en el medio ambiente a través de los productos que fabricamos, sino que algún día seamos net positive. \n\nNuestras innovaciones en productos a lo largo de los años:\n\n**1968**: La familia Swartz introduce la tecnología impermeable de moldeo por inyección a la industria del calzado, lo que nos permite crear algunas de las primeras botas de piel verdaderamente impermeables.\n\n **1973**: Es el debut de nuestra original bota waterproof garantizada, llamada Timberland.\n\n **1978**: Presentamos nuestro primer zapato casual cosido a mano con pieles de primera calidad y detalles artesanales.\n\n **1979**: Lanzamiento de nuestro primer calzado náutico, que ofrece una elaboración artesanal de primera calidad a las personas durante el verano.\n\n **1980**: Comercializamos nuestros productos fuera de Estados Unidos por primera vez, comenzando en Italia.\n\n **1988**: Presentamos la colección de ropa Timberland®.\n\n **1999**: Lanzamiento de la serie Timberland PRO®, que brinda rendimiento y protección a trabajadores calificados en todas partes.\n\n **2005**: Timberland cofunda el Leather Working Group (LWG) y se compromete públicamente a obtener solo pieles de curtidurías que obtengan una calificación plata / oro de las auditorías de LWG. \n\n**2007**: Se presenta la bota Earthkeepers® original, fabricada con materiales reciclados, orgánicos y renovables.\n\n **2013**: El equivalente a 128 millones de botellas de agua de plástico se recicla en nuestro calzado, desde 2009. Para 2018, ese número aumenta a más de 345 millones.\n\n**2018**: Creamos el material ReBotl™ para el calzado y ropa que está hecho con plástico reciclado.\n\n **2019**: El diseñador de moda británico Christopher Raeburn es nombrado Director Creativo Global de Timberland, trayendo consigo una filosofía de creación de productos REMADE, REDUCED, REYCLED.\n\n"
+    }
+  },
+  "rich-text#title-comunidades-fuertes": {
+    "props": {
+      "text": "COMUNIDADES MÁS FUERTES\n\n",
+      "blockClass": "subtitle-nuestra-historia"
+    }
+  },
+  "rich-text#text-comunidades-fuertes": {
+    "props": {
+      "text": "Creemos en el poder de las comunidades prósperas para acelerar el cambio global con una voz unificada y apasionada. Y apoyamos los oficios especializados como una forma poderosa de construir comunidades más fuertes a través del servicio. Cada empleado de Timberland de tiempo completo recibe hasta 40 horas de tiempo remunerado para trabajar como voluntario en sus comunidades. Hemos servido más de 1.2 millones de horas en todo el mundo, con el objetivo de llegar a 1.5 millones de horas durante 2020.\n\n Nuestros esfuerzos de servicio comunitario a lo largo de los años:\n\n **1989**: Nuestro primer evento de servicio comunitario se lleva a cabo con City Year, un grupo nacional de servicio juvenil.\n\n **1992**: Lanzamos el programa de voluntariado para empleados The Path of Service™ a través del cual los empleados podían utilizar hasta 16 horas de tiempo libre remunerado para ser voluntarios. En 1995, ampliamos el beneficio hasta 40 horas pagadas.\n\n **1998**: Celebramos nuestro primer evento anual Serv-a-palooza en toda la Compañía. Cada año, toda la empresa sale de nuestras oficinas y tiendas para ofrecerse como voluntaria en comunidades de todo el mundo.\n\n **2001**: Timberland PRO se asocia con SkillsUSA para ayudar a promover los oficios entre los jóvenes de Estados Unidos.\n\n **2014**: Llegamos al millón de horas de servicio comunitario global.\n\n **2017**: Timberland se convierte en un Empleador de Servicio Nacional de CNCS (Corporation for National and Community Service), lo que garantiza que cualquier alumno verificado del Cuerpo de Paz o AmeriCorps sea considerado para oportunidades laborales corporativas en la empresa.\n\n **2019** : Firmamos el compromiso de la Generación T para apoyar a los futuros estudiantes y a los recién graduados de los oficios especializados.\n\n"
+    }
+  },
+  "rich-text#title-mundo-verde": {
+    "props": {
+      "text": "UN MUNDO MÁS VERDE\n\n",
+      "blockClass": "subtitle-nuestra-historia"
+    }
+  },
+  "rich-text#text-mundo-verde": {
+    "props": {
+      "text": "Los árboles y los espacios verdes urbanos tienen el poder de mejorar la calidad de nuestro planeta y nuestro bienestar inspanidual. Limpian el aire, previenen la erosión, ahorran agua, reducen el estrés y mucho más. La plantación de árboles juega un papel importante en nuestro compromiso con el medio ambiente. Hemos plantado millones de árboles en todo el mundo, empoderando a miles de pequeños agricultores en el proceso. Desde 2001, hemos plantado más de 10.2 millones de árboles en todo el mundo. Nuestro objetivo es plantar 50 millones de árboles más para 2025 porque un futuro más verde es un futuro mejor.\n\n Nuestro compromiso con el medio ambiente a lo largo de los años:\n\n**1993**: Adoptamos la plataforma de ética ambiental denominada Ceres. Ceres aborda los mayores desafíos de sostenibilidad del mundo, incluido el cambio climático, la escasez y la contaminación del agua, los lugares de trabajo no equitativos.\n\n **1997**: Celebramos nuestro primer evento de voluntarios para empleados del Día de la Tierra en toda la empresa y no nos hemos perdido un año desde entonces.\n\n **2001**: Comienzan los esfuerzos de reforestación del desierto de Horqin. Nos asociamos con la ONG japonesa Green Network para plantar árboles en el desierto de Horqin de China para sofocar las tormentas de arena y mejorar la calidad del aire en toda la región.\n\n **2006**: Timberland lanza el programa Global Stewards. Cada año, 30 empleados dedicados de todo el mundo se ofrecen como voluntarios más allá de sus trabajos diarios para liderar nuestra agenda ambiental y de servicio en sus ubicaciones.\n\n**2010**: Timberland se asocia con Smallholder Farmers Alliance (SFA) para desarrollar un modelo empresarial agroforestal sostenible en Haití a través de una red de viveros de árboles. Se han plantado cinco millones de árboles para 2015, mientras que al mismo tiempo se aumentan los rendimientos de los cultivos y los mever-producto de vida de miles de pequeños agricultores.\n\n **2015**: En América del Norte, nos comprometimos a restaurar o crear espacios verdes urbanos equivalentes al tamaño de nuestras tiendas retail en 5 ciudades en 5 años. Terminamos 2 años antes y, en 2018, nos comprometemos a ecologizar otros 500,000 pies cuadrados en ciudades de Estados Unidos para 2023.\n\n**2017**: Nuevamente nos asociamos con SFA y aprovechamos su modelo agroforestal para traer el cultivo de algodón de regreso a Haití por primera vez en 30 años. Los primeros cultivos comerciales se cosechan en 2019.\n\n **2018**: Se planta nuestro árbol número diez millones, alcanzando nuestra meta para 2020, 2 años antes de lo programado.\n\n**2019**: Establecimos el objetivo de plantar 50 millones de árboles más para 2025. Un proyecto clave que apoyamos es la Gran Muralla Verde, un movimiento liderado por África para cultivar una línea de árboles en todo el ancho del continente para combatir el cambio climático, la sequía, hambruna, conflicto y migración."
+    }
+  }
+}

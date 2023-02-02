@@ -1,0 +1,39 @@
+.container {
+    background-color: white;
+    display: flex;
+  justify-content: center;
+  }
+  
+  @media (min-width: 800px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+  @media (max-width: 540px) {
+    
+    .text {
+        color: #ad0605;
+        font-weight: bold;
+        font-size: 10px !important;
+    }
+      .countdown {
+        color: black;
+        font-weight: bold;
+        background-color: white;
+        font-size: 10px !important;
+      }
+  }
+  
+  .text {
+    color: #ad0605;
+    font-size: 20px;  
+    font-weight: bold;
+}
+  
+  .countdown {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+  }
+  

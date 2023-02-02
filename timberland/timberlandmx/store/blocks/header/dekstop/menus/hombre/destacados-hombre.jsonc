@@ -1,0 +1,68 @@
+{
+  // Destacados
+  "flex-layout.col#destacados-header-hombre": {
+    "children": ["vtex.menu@2.x:menu#hombre-column-1"]
+  },
+
+  "vtex.menu@2.x:menu#hombre-column-1": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-hombres-destacados",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/153?map=productClusterIds",
+            "noFollow": true,
+            "tagTitle": "DESTACADOS",
+            "text": "DESTACADOS"
+          }
+        },
+        // {
+        //   "id": "menu-item-hombres-lanzamiento",
+        //   "type": "custom",
+        //   "iconId": null,
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/152?map=productClusterIds",
+        //     "noFollow": true,
+        //     "tagTitle": "Lo nuevo",
+        //     "text": "Lo nuevo"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-hombres-lo-nuevo",
+        //   "type": "custom",
+        //   "iconId": null,
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/224?map=productClusterIds",
+        //     "noFollow": true,
+        //     "tagTitle": "Últimas Piezas",
+        //     "text": "Últimas Piezas"
+        //   }
+        // },
+        {
+          "id": "menu-item-hombres-basicos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/basicos",
+            "noFollow": true,
+            "tagTitle": "Basicos",
+            "text": "Básicos"
+          }
+        }
+
+      ]
+    }
+  }
+}

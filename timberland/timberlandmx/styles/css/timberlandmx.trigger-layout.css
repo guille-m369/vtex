@@ -1,0 +1,66 @@
+/* Header Search */
+
+.layoutContainer--desktop--active {
+  width: 250px;
+}
+
+.layoutContainer--desktop--inactive {
+  width: 0px;
+}
+
+.layoutContainer--desktop {
+  transition: width 0.6s;
+}
+
+.layoutContainer--mobile :global(.vtex-input__suffix),
+.layoutContainer--desktop :global(.vtex-input__suffix) {
+  display: none;
+}
+
+.layoutContainer--mobile--active {
+  height: 62px;
+}
+
+.layoutContainer--mobile--active
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  display: block;
+}
+
+.layoutContainer--mobile--inactive {
+  height: 0;
+}
+
+.layoutContainer--mobile--inactive
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  display: none;
+}
+
+.layoutContainer--mobile {
+  transition: height 0.3s;
+}
+
+.layoutContainer :global(.vtex-input-prefix__group) {
+  border-radius: 0px;
+}
+
+.layoutContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-bottom: 1px solid #3f3f40;
+}
+
+/* PDP Add to car bar */
+
+.layoutContainer--add-cart-bar--inactive {
+  display: none;
+}
+
+.layoutContainer--add-cart-bar--active {
+  display: initial;
+}
+
+/* Fixes */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  .layoutContainer--mobile--active {
+  position: relative;
+  top: 4rem;
+}

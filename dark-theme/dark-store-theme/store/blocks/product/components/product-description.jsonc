@@ -1,0 +1,184 @@
+{
+  //Accordion definitions
+  "flex-layout.row#desktop-product-description-accordion": {
+    "children": ["flex-layout.col#desktop-accordion-product-description"],
+    "props": {
+      "blockClass": "product-description-accordio",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#desktop-product-specification-accordion": {
+    "children": ["flex-layout.col#desktop-accordion-product-specification"]
+  },
+  "flex-layout.row#mobile-product-specification-accordion": {
+    "children": ["flex-layout.col#mobile-accordion-product-specification"]
+  },
+  "flex-layout.row#desktop-product-comment-accordion": {
+    "children": ["flex-layout.col#desktop-accordion-comment"]
+  },
+  // Descripción del producto ---------------------------------------
+  // Accordion Product description container
+  "flex-layout.col#desktop-accordion-product-description": {
+    "children": ["vtex.menu@2.x:menu#desktop-accordion-product-description"],
+    "props": {
+      "blockClass": "container-product-description-info"
+    }
+  },
+  // Acordion Product description Definition --------------------------
+  "vtex.menu@2.x:menu#desktop-accordion-product-description": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#product-description"]
+  },
+  "menu-item#product-description": {
+    "props": {
+      "id": "menu-item-support-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "product-title",
+        "text": "Descripción"
+      },
+      "blockClass": "title-product-description-accordion"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#product-description"]
+  },
+  "vtex.menu@2.x:submenu.accordion#product-description": {
+    "children": ["vtex.menu@2.x:menu#principal-product-description"]
+  },
+  // Product description item -----------------------------------------
+  "vtex.menu@2.x:menu#principal-product-description": {
+    "children": ["flex-layout.col#col-product-description-item-principal"]
+  },
+  "flex-layout.col#col-product-description-item-principal": {
+    "children": ["flex-layout.col#desktop-description-mobile"],
+    "props":{
+      "blockClass": "col-product-description-item-principal"
+    }
+  },
+  "flex-layout.col#desktop-description-mobile": {
+    "children": ["custom-product-description"]
+  },
+
+  // Especificaciones del producto ---------------------------------------
+  // Accordion Product specification container
+  "flex-layout.col#desktop-accordion-product-specification": {
+    "children": ["vtex.menu@2.x:menu#desktop-accordion-product-specification"],
+    "props": {
+      "blockClass": "container-product-description-info"
+    }
+  },
+  // Acordion Product specification Definition --------------------------
+  "vtex.menu@2.x:menu#desktop-accordion-product-specification": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#product-specification"]
+  },
+  "menu-item#product-specification": {
+    "props": {
+      "id": "menu-item-product-specification",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "product-specification",
+        "text": "Especificaciones técnicas"
+      },
+      "blockClass": "title-product-description-accordion"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#product-specification"]
+  },
+  "vtex.menu@2.x:submenu.accordion#product-specification": {
+    "children": ["vtex.menu@2.x:menu#principal-product-specification"]
+  },
+  // Product specification item -----------------------------------------
+  "vtex.menu@2.x:menu#principal-product-specification": {
+    "children": ["flex-layout.col#col-product-specification-item-principal"]
+  },
+  "flex-layout.col#col-product-specification-item-principal": {
+    "children": ["flex-layout.col#desktop-specification"]
+  },
+  "flex-layout.col#desktop-specification": {
+    "children": ["csv-characteristics"]
+  },
+
+  // Comentarios del producto -------------------------------------
+  // Accordion Comment container
+  "flex-layout.col#desktop-accordion-comment": {
+    "children": ["vtex.menu@2.x:menu#desktop-accordion-comment"],
+    "props": {
+      "blockClass": "container-product-description-info"
+    }
+  },
+  // Acordion Product description Definition --------------------------
+  "vtex.menu@2.x:menu#desktop-accordion-comment": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#product-comment"]
+  },
+  "menu-item#product-comment": {
+    "props": {
+      "id": "menu-item-product-comment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "product comment",
+        "text": "Calificación y Reseñas"
+      },
+      "blockClass": "title-product-description-accordion"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#product-comment"]
+  },
+  "vtex.menu@2.x:submenu.accordion#product-comment": {
+    "children": ["vtex.menu@2.x:menu#principal-product-comment"]
+  },
+  // Product description item -----------------------------------------
+  "vtex.menu@2.x:menu#principal-product-comment": {
+    "children": ["flex-layout.col#col-product-comment-item-principal"]
+  },
+  "flex-layout.col#col-product-comment-item-principal": {
+    "children": ["flex-layout.row#desktop-reviews"]
+  },
+
+  //MOBILE------------------------------------------------------
+  "flex-layout.col#mobile-accordion-product-specification": {
+    "children": ["vtex.menu@2.x:menu#mobile-accordion-product-specification"],
+    "props": {
+      "blockClass": "container-product-description-info"
+    }
+  },
+  // Acordion Product specification Definition --------------------------
+  "vtex.menu@2.x:menu#mobile-accordion-product-specification": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#mobile-product-specification"]
+  },
+  "menu-item#mobile-product-specification": {
+    "props": {
+      "id": "menu-item-product-specification",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "product-specification",
+        "text": "Ver especificaciones"
+      },
+      "blockClass": "title-product-description-accordion"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#product-specification"]
+  }
+}

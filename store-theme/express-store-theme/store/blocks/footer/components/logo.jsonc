@@ -1,0 +1,40 @@
+{
+  //logo de la tienda
+  "flex-layout.row#component-footer-row-1": {
+    "children": ["flex-layout.col#component-logo-col"],
+    "props": { "blockClass": "component-footer-row-1", "marginTop": 6 }
+  },
+
+  "flex-layout.col#component-logo-col": {
+    "children": ["logo"],
+    "props": { "horizontalAlign": "center" }
+  },
+
+  //Logos de ecomsur y vtex
+  "flex-layout.row#component-footer-row-3": {
+    "children": ["image#ecomsur", "image#vtex"],
+    "props": { "blockClass": "component-footer-row-3", "marginTop": 6 }
+  },
+
+  "flex-layout.col#component-logos-container": {
+    "children": ["image#ecomsur", "image#vtex"],
+    "props": { "horizontalAlign": "center", "preventVerticalStretch": true }
+  },
+  "image#ecomsur": {
+    "props": {
+      "src": "assets/footer/logo_ecomsur.svg",
+      "link": {
+        "url": "https://www.ecomsur.com/"
+      },
+      "text": "",
+      "maxHeight": 44
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/footer/logo_vtex.svg",
+      "text": "",
+      "maxHeight": 44
+    }
+  }
+}

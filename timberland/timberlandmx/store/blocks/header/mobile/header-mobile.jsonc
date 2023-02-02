@@ -1,0 +1,211 @@
+{
+  // MOBILE
+  // ------------------------------------
+  "header-layout.mobile": {
+    "children": [
+      "custom-menu#nuevo",
+      "slider-layout#promises"
+      // "sticky-layout#1-mobile",
+      // "slider-layout#promises",
+      // // "shipping-bar",
+      // "flex-layout.row#2-mobile"
+      // // "countdownText"
+    ]
+  },
+  // STICKY TOP
+  // only logo and search
+  // ----------------------------------------
+  "sticky-layout#1-mobile": {
+    "children": 
+    ["flex-layout.row#1-mobile",
+      "trigger-layout#search-mobile"],
+    "props": { "position": "top" }
+  },
+  "flex-layout.row#1-mobile": {
+    // "children": ["logo#mobile", "search-bar"],
+    "children": ["drawer","flex-layout.row#logo", "flex-layout.row#mobile-search"],
+    "props": {
+      "blockClass": "main-header-mobile",
+      // "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colGap": 2
+    }
+  },
+  "flex-layout.col#draw": {
+    "children": ["drawer"],
+    "props": {
+      "width": "33%"
+    }
+  },
+  "flex-layout.row#logo": {
+    "children": ["logo#mobile"],
+    "props": {
+      "width": "33%"
+    }
+  },
+
+  "flex-layout.row#mobile-search": {
+    "props":{
+      "blockClass":"hoka",
+      "width":"33%"
+    },
+    "children": [
+      "flex-layout.col#mobile-search",
+      "flex-layout.col#mobile-minicart"
+    ]
+  },
+
+  "flex-layout.col#mobile-search":{
+    "props":{
+      "width":"15%",
+      "blockClass": "search"
+    },
+    "children":["trigger#search-trigger"]
+  }, 
+  "flex-layout.col#mobile-minicart":{
+    "props":{
+      "blockClass": "minicart",
+      "width":"15%"
+    },
+    "children":["minicart.v2"]
+  },
+  // "flex-layout.col#mobile-login":{
+  //   "props":{
+  //     "blockClass": "login"
+  //     // "width":"33%"
+  //   },
+  //   "children":["login#sticky-mobile"]
+  // },
+
+
+  /// BOTTOM STICKY
+  // Drawer, user, cart, locations and help
+  // TODO: links are still just placeholders.
+  // ----------------------------------------
+  "sticky-layout#2-mobile": {
+    "children": ["flex-layout.row#2-mobile"],
+    "props": { "position": "bottom" }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      // "drawer",
+      // "login",
+      // "login#sticky-mobile",
+      // "minicart.v2",
+      // "flex-layout.col#mobile-login",
+      "image#user",
+      "image#tiendas",
+      "image#ayuda"
+    ],
+
+    "props": {
+      "blockClass": "bottom-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  //login
+  "login#sticky-mobile": {
+    "props": {
+      // "iconLabel": "Mi cuenta",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "labelClasses": "login-label",
+      "blockClass": "login-block-mobile",
+      "logInButtonBehavior": "link"
+    },
+    "blocks": ["icon-profile#sticky-mobile"]
+  },
+  "icon-profile#sticky-mobile": {
+    "props": {
+      "size": 20
+    }
+  },
+  // ICON LINKS
+  //---------------------------------------
+  "image#user": {
+    "props": {
+      "src": "assets/mi_cuenta_white.svg",
+      "link": {
+        "url": "/login"
+      },
+      "blockClass": "bottom-header-icon"
+    }
+  },
+  "image#tiendas": {
+    "props": {
+      "src": "assets/tiendas_white.svg",
+      "link": {
+        "url": "/tiendas"
+      },
+      "blockClass": "bottom-header-icon"
+    }
+  },
+  "image#ayuda": {
+    "props": {
+      "src": "assets/ayuda_white.svg",
+      "link": {
+        "url": "/preguntas-frecuentes"
+      },
+      "blockClass": "bottom-header-icon"
+    }
+  },
+  "minicart.v2#mobile": {
+    "props": {
+      "blockClass": "mobile-cart"
+    }
+  },
+  // MOBILE DRAWER
+  // ----------------------------------------
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#mobile-hombre-header",
+      "menu-item#mobile-mujer-header",
+      "menu-item#mobile-nino-header",
+      "menu-item#mobile-outlet-header"
+      // "flex-layout.col#logo-mobile-hotsale"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-menu"
+    }
+  },
+  "flex-layout.col#logo-mobile-hotsale": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"logo-mobile-hotsale"
+    },
+    "children": ["logo#mobile-hotsale"]
+  },
+  "logo#mobile-hotsale": {
+    "props": {
+      "blockClass":"logo-mobile-hotsale-img",
+      "maxWidth": "101px",
+      "title": "Logo",
+      "href": "/hot-sale",
+      "url": "assets/logos/101x95.png",
+      "width": "101",
+      "height": "95"
+    }
+  },
+  // MOBILE LOGO
+  // ----------------------------------------
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/home/LogoTimberland-Tree.svg",
+      // "height": 40
+      "mobileWidth": 150,
+      "mobileHeight": 35,
+      "blockClass": "logo-mobile"
+    }
+  }
+}

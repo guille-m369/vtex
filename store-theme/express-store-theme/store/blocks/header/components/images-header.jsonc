@@ -1,0 +1,21 @@
+{
+  "image#tiendas": {
+    "props": {
+      "src": "assets/header/tiendas.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  },
+
+  "image#ayuda": {
+    "props": {
+      "src": "assets/header/ayuda.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-icon"
+    }
+  }
+}

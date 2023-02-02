@@ -1,0 +1,829 @@
+{
+  "store.custom#meet-our-heroes": {
+    "blocks": [
+      "responsive-layout.desktop#meet",
+      "responsive-layout.mobile#meet"
+    ]
+  },
+  "responsive-layout.desktop#meet": {
+    "children": ["flex-layout.row#meet-our-heroes"]
+  },
+  "responsive-layout.mobile#meet": {
+    "children": ["flex-layout.row#meet-our-heroes"]
+  },
+  //--------------row privacidad----------------------------
+  "flex-layout.row#meet-our-heroes": {
+    "children": ["flex-layout.col#meet-our-heroes"],
+    "props": {
+      "blockClass": "meet-our-heroes-container"
+    }
+  },
+  "flex-layout.col#meet-our-heroes": {
+    "children": [
+      "flex-layout.row#image-principal",
+      "flex-layout.row#content-text-meet",
+      "flex-layout.row#title-text-meet",
+      "flex-layout.row#bloque-one",
+      "flex-layout.row#content-EARTH RALLY",
+      "flex-layout.row#bloque-two",
+      "flex-layout.row#ESTILOS",
+      "flex-layout.row#bloque-three",
+      "flex-layout.row#ESTILOS-2",
+      "flex-layout.row#bloque-four",
+      "flex-layout.row#ESTILOS-3",
+      "flex-layout.row#text-heroes",
+      "flex-layout.row#collections-meet"
+    ],
+
+    "props": {
+      "marginLeft": 7,
+      "marginRight": 7,
+      "blockClass": "block-meet-our-mobile"
+    }
+  },
+  "flex-layout.row#image-principal": {
+    "children": ["info-card#image-principal"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "info-card#image-principal": {
+    "props": {
+      "blockClass": "block-meet-our",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/meet-our-heroes.jpg",
+      "isFullModeStyle": true,
+      "headline": "![Earthkeeprs Logo](assets/meet-heroes/LogoNNH_Logos.png)",
+      "callToActionMode": "none",
+      "textPosition": "center",
+      "textMode": "richtext"
+    }
+  },
+
+  //-----------------------------------text-content------------------------//
+  "flex-layout.row#content-text-meet": {
+    "children": ["rich-text#content-text-meet"]
+  },
+  "rich-text#content-text-meet": {
+    "props": {
+      "blockClass": "content-text-meet",
+      "text": " ### **CREEMOS QUE UN FUTURO MÁS VERDE ES UN FUTURO MEJOR. ESTAMOS COMPROMETIDOS A CREAR MEJORES PRODUCTOS, COMUNIDADES MÁS FUERTES Y UN MUNDO MÁS VERDE. HACEMOS UN LLAMADO A PERSONAS REALES, HÉROES REALES PARA QUE MARQUEN LA DIFERENCIA TODOS LOS DÍAS Y LOGRAR UN CAMBIO REAL.** ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  //-----------------------------------text-title------------------------//
+  "flex-layout.row#title-text-meet": {
+    "children": ["rich-text#title-text-meet"]
+  },
+  "rich-text#title-text-meet": {
+    "props": {
+      "text": " ### CONOCE A NUESTROS HÉROES ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  //-----------------------------bloque one-----------------------------------//
+
+  "flex-layout.row#bloque-one": {
+    "children": [
+      "flex-layout.col#bloq1",
+      "flex-layout.col#bloq2",
+      "flex-layout.col#bloq3"
+    ],
+    "props": {
+      "blockClass": "col-bloques"
+    }
+  },
+  "flex-layout.col#bloq1": {
+    "children": ["info-card#LOYLE-CARNER", "info-card#LOYLE-CARNER-image"],
+    "props": {
+      "blockClass": "bloq1"
+    }
+  },
+  "info-card#LOYLE-CARNER": {
+    "props": {
+      "blockClass": "text-LOYLE-CARNER",
+      "headline": "LOYLE CARNER.",
+      "subhead": "Un músico con causa. Londres.",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#LOYLE-CARNER-image": {
+    "props": {
+      "blockClass": "LOYLE-CARNER-image",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img1-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------image bloque one-------------------------------//
+
+  "flex-layout.col#bloq2": {
+    "children": ["info-card#bloque-uno-img"],
+    "props": {
+      "blockClass": "bloq2",
+      "marginLeft": 1
+    }
+  },
+  "info-card#bloque-uno-img": {
+    "props": {
+      "blockClass": "bloque-uno-img",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img2-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------------rich-text bloque one-------------------------------//
+  "flex-layout.col#bloq3": {
+    "children": ["rich-text#bloque-uno-text"],
+    "props": {
+      "blockClass": "bloq3"
+    }
+  },
+  "rich-text#bloque-uno-text": {
+    "props": {
+      "blockClass": "bloque-uno-text",
+      "text": " **NACIDO AL SUR DE LONDRES, EL ARTISTA DE HIP-HOP LOYLE CARNER ES UN ACTIVISTA SOCIAL CON EMPATÍA REAL PARA ESTA COMUNIDAD. LOYLE SE ENFOCA EN MEJORAR EL MEDIO AMBIENTE PORQUE HA VISTO DE PRIMERA MANO LOS EFECTOS POSITIVOS QUE LAS INTERACCIONES CON LA NATURALEZA PUEDEN TENER EN LAS PERSONAS.** \n “No siempre se consideró cool, pero ahora más personas ven que es bueno cuidar el medio ambiente. Y eso es importante porque solo tenemos uno. Abre los ojos. Recoge basura. Haz cosas por las personas que te importan y ellas harán cosas por las personas que les importan, y así sucesivamente”."
+    }
+  },
+
+  //-----------------------------------EARTH RALLY---------------------------//
+
+  "flex-layout.row#content-EARTH RALLY": {
+    "children": ["flex-layout.col#content-EARTH RALLY"],
+    "props": {
+      "blockClass": "content-EARTH-RALLY",
+      "marginTop": 8,
+      "marginBottom": 8
+    }
+  },
+
+  "flex-layout.col#content-EARTH RALLY": {
+    "children": [
+      "flex-layout.row#EARTH RALLY-text",
+      "flex-layout.row#EARTH RALLY",
+      "flex-layout.row#EARTH-RALLY-2"
+    ]
+  },
+
+  "flex-layout.row#EARTH RALLY-text": {
+    "children": ["flex-layout.col#EARTH RALLY-text"]
+  },
+  "flex-layout.col#EARTH RALLY-text": {
+    "children": ["rich-text#EARTH RALLY-text"],
+    "props": { "marginLeft": 7 }
+  },
+  "rich-text#EARTH RALLY-text": {
+    "props": {
+      "blockClass": "ESTILOS-text-border",
+      "text": "### CONOCE EARTH RALLY"
+    }
+  },
+
+  "flex-layout.row#EARTH RALLY": {
+    "children": ["image#EARTH RALLY-image"],
+    "props": {
+      "blockClass": "col-EARTH RALLY"
+    }
+  },
+  "image#EARTH RALLY-image": {
+    "props": {
+      "src": "assets/meet-heroes/img3-meet.png"
+    }
+  },
+  "flex-layout.row#EARTH-RALLY-2": {
+    "children": ["flex-layout.col#EARTH-RALLY-2"]
+  },
+  "flex-layout.col#EARTH-RALLY-2": {
+    "children": [
+      "rich-text#EARTH-RALLY-2-text",
+      "info-card#earth-rally-meet-our"
+    ]
+  },
+  "rich-text#EARTH-RALLY-2-text": {
+    "props": {
+      "blockClass": "ESTILOS-text-border",
+      "text": "**Earth Rally Knit Oxford**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#earth-rally-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/150?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+  //-----------------------------bloque two-----------------------------------//
+
+  "flex-layout.row#bloque-two": {
+    "children": [
+      "flex-layout.col#bloq1-two",
+      "flex-layout.col#bloq2-two",
+      "flex-layout.col#bloq3-two"
+    ],
+    "props": {
+      "blockClass": "col-bloques"
+    }
+  },
+  "flex-layout.col#bloq1-two": {
+    "children": ["info-card#ALICE", "info-card#ALICE-image"],
+    "props": {
+      "blockClass": "bloq1"
+    }
+  },
+  "info-card#ALICE": {
+    "props": {
+      "blockClass": "text-LOYLE-CARNER",
+      "headline": "ALICE AEDY.",
+      "subhead": "Fotoperiodista y activista por un mundo más verde. Londres.",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#ALICE-image": {
+    "props": {
+      "blockClass": "LOYLE-CARNER-image",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img4-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------image bloque two-------------------------------//
+
+  "flex-layout.col#bloq2-two": {
+    "children": ["info-card#bloque-dos-img"],
+    "props": {
+      "marginLeft": 1
+    }
+  },
+  "info-card#bloque-dos-img": {
+    "props": {
+      "blockClass": "bloque-uno-img",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img5-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------------rich-text bloque two-------------------------------//
+  "flex-layout.col#bloq3-two": {
+    "children": ["rich-text#bloque-two"],
+    "props": {
+      "blockClass": "bloq3"
+    }
+  },
+  "rich-text#bloque-two": {
+    "props": {
+      "text": " **A TRAVÉS DE SU TRABAJO COMO FOTOPERIODISTA Y REALIZADORA DE DOCUMENTALES, ALICE ABORDA PROBLEMAS AMBIENTALES Y SOCIALES A TRAVÉS DE LAS HISTORIAS DE PERSONAS REALES QUE CONOCE. HA ABORDADO LA MIGRACIÓN FORZADA Y EL CAMBIO CLIMÁTICO, Y UTILIZA ESTAS POTENTES HISTORIAS PARA INSPIRAR Y ANIMAR A OTROS A QUE TOMEN ACCIONES.** \n “Es un momento emocionante. Estamos cambiando las actitudes sociales al cambiar el consumismo. La gente está siendo más consciente. Cada vez más personas quieren tener un impacto positivo en el planeta”."
+    }
+  },
+
+  //------------------------------ESTILOS------------------------//
+
+  "flex-layout.row#ESTILOS": {
+    "children": [
+      "flex-layout.col#vacio",
+      "flex-layout.col#emerald-bay",
+      "flex-layout.col#lightweight-parka"
+    ],
+    "props": {
+      "marginBottom": 8,
+      "marginTop": 8,
+      "blockClass": "conoce-estilos-meet-our"
+    }
+  },
+  "flex-layout.col#vacio": {
+    "children": ["rich-text#ESTILOS-2-text"],
+    "props": { "marginLeft": 8 }
+  },
+
+  "flex-layout.col#emerald-bay": {
+    "children": [
+      "image#emerald-bay",
+      "rich-text#emerald-bay-text"
+      /*"info-card#emerald-bay-meet-our"*/
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "image#emerald-bay": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img6-meet.jpg"
+    }
+  },
+
+  "rich-text#emerald-bay-text": {
+    "props": {
+      "text": "**Emerald Bay Knit Sneaker**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#emerald-bay-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/*",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+  "flex-layout.col#lightweight-parka": {
+    "children": [
+      "image#lightweight-parka",
+      "rich-text#lightweight-parka-text",
+      "info-card#lightweight-parka-meet-our"
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "image#lightweight-parka": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img7-meet.jpg"
+    }
+  },
+
+  "rich-text#lightweight-parka-text": {
+    "props": {
+      "text": "**Lightweight Parka**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#lightweight-parka-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/147?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+
+  //-----------------------------bloque-three-----------------------------------//
+
+  "flex-layout.row#bloque-three": {
+    "children": [
+      "flex-layout.col#bloq1-three",
+      "flex-layout.col#bloq2-three",
+      "flex-layout.col#bloq3-three"
+    ],
+    "props": {
+      "blockClass": "col-bloques"
+    }
+  },
+  "flex-layout.col#bloq1-three": {
+    "children": ["info-card#JACK", "info-card#JACK-image"],
+    "props": {
+      "blockClass": "bloq1"
+    }
+  },
+  "info-card#JACK": {
+    "props": {
+      "blockClass": "text-LOYLE-CARNER",
+      "headline": "JACK HARRIES.",
+      "subhead": "Cineasta para la conciencia ambiental. Londres",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#JACK-image": {
+    "props": {
+      "blockClass": "LOYLE-CARNER-image",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img8-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------image bloque three-------------------------------//
+
+  "flex-layout.col#bloq2-three": {
+    "children": ["info-card#bloque-tres-img"],
+    "props": {
+      "marginLeft": 1
+    }
+  },
+  "info-card#bloque-tres-img": {
+    "props": {
+      "blockClass": "bloque-uno-img",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img9-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+
+  //-------------------------rich-text bloque three-------------------------------//
+  "flex-layout.col#bloq3-three": {
+    "children": ["rich-text#bloque-three"],
+    "props": {
+      "blockClass": "bloq3"
+    }
+  },
+  "rich-text#bloque-three": {
+    "props": {
+      "text": " **EL CATALIZADOR DE LA CARRERA DE JACK COMO REALIZADOR DE DOCUMENTALES FUE UN VIAJE EN EL 2015 A GREENLAND, CUANDO VIO UNA ENORME PIEZA DE HIELO ROMPERSE EN EL MAR. ÉL ESPERABA VER MÁS PERSONAS EN LAS CALLES PROTESTANDO Y EXIGIENDO ACCIONES PARA EL CAMBIO CLIMÁTICO.** \n “Una cosa que pretendo hacer es cambiar la percepción del ambientalismo. Crecer siendo ecologista nunca fue cool y me parece una locura porque todos realmente nos preocupamos por la salud del medio ambiente. Quiero hacerlo cool. Quiero que los jóvenes crezcan para ser ecologistas”."
+    }
+  },
+  //------------------------------ESTILOS-2------------------------//
+
+  "rich-text#ESTILOS-2-text": {
+    "props": {
+      "blockClass": "ESTILOS-text-border",
+      "text": "### CONOCE LOS ESTILOS"
+    }
+  },
+  "flex-layout.row#ESTILOS-2": {
+    "children": [
+      "flex-layout.col#vacio-2",
+      "flex-layout.col#garrison-trail",
+      "flex-layout.col#mounthigh-jacket"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
+      "blockClass": "ESTILOS-2-meet-our"
+    }
+  },
+  "flex-layout.col#vacio-2": {
+    "children": ["rich-text#ESTILOS-2-text"],
+    "props": { "marginLeft": 8 }
+  },
+
+  "flex-layout.col#garrison-trail": {
+    "children": [
+      "image#garrison-trail",
+      "rich-text#garrison-trail-text",
+      "info-card#garrison-trail-meet-our"
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "rich-text#garrison-trail-text": {
+    "props": {
+      "text": "**Garrison Trail**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#garrison-trail-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/146?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+
+  "image#garrison-trail": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img10-meet.jpg"
+    }
+  },
+  "flex-layout.col#mounthigh-jacket": {
+    "children": [
+      "image#mounthigh-jacket",
+      "rich-text#mounthigh-jacket-text",
+      "info-card#mounthigh-jacket-meet-our"
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "image#mounthigh-jacket": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img11-meet.jpg"
+    }
+  },
+  "rich-text#mounthigh-jacket-text": {
+    "props": {
+      "text": "**Mount High Jacket**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#mounthigh-jacket-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/145?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+  //-----------------------------bloque-four-----------------------------------//
+
+  "flex-layout.row#bloque-four": {
+    "children": [
+      "flex-layout.col#bloq1-four",
+      "flex-layout.col#bloq2-four",
+      "flex-layout.col#bloq3-four"
+    ],
+    "props": {
+      "blockClass": "col-bloques"
+    }
+  },
+  "flex-layout.col#bloq1-four": {
+    "children": ["info-card#YANG", "info-card#YANG-image"],
+    "props": {
+      "blockClass": "bloq1"
+    }
+  },
+  "info-card#YANG": {
+    "props": {
+      "blockClass": "text-LOYLE-CARNER",
+      "headline": "YO YANG.",
+      "subhead": "Actor y partidario de proyectos eco-conscientes.",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#YANG-image": {
+    "props": {
+      "blockClass": "LOYLE-CARNER-image",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img12-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+  //-------------------image bloque four-------------------------------//
+
+  "flex-layout.col#bloq2-four": {
+    "children": ["info-card#bloque-cuatro-img"],
+    "props": {
+      "marginLeft": 1
+    }
+  },
+  "info-card#bloque-cuatro-img": {
+    "props": {
+      "blockClass": "bloque-uno-img",
+      "imageUrl": "https://timberlandmx.vteximg.com.br/arquivos/img13-meet.jpg",
+      "isFullModeStyle": true,
+      "callToActionMode": "none"
+    }
+  },
+
+  //-------------------------rich-text bloque four-------------------------------//
+  "flex-layout.col#bloq3-four": {
+    "children": ["rich-text#bloque-three"],
+    "props": {
+      "blockClass": "bloq3"
+    }
+  },
+  "rich-text#bloque-four": {
+    "props": {
+      "text": " **YO YANG ES UN ACTOR DE TAIPEI CON UNA PASIÓN POR LOS EXTERIORES. CREE QUE NO PUEDE SOLO USAR PALABRAS, DEBE “ACTUAR CON LO QUE DICE” PARA SER UN HÉROE DE LA NATURALEZA.** \n “Soy actor y apoyo actividades locales de caridad y proyectos ecológicos. Me gustaría ser un ejemplo para las personas que hacen el bien por la naturaleza”."
+    }
+  },
+  //------------------------------ESTILOS-3------------------------//
+  "flex-layout.row#ESTILOS-3-text": {
+    "children": ["flex-layout.col#ESTILOS-3-text"],
+    "props": {
+      "marginBottom": "3",
+      "marginTop": "8"
+    }
+  },
+  "flex-layout.col#ESTILOS-3-text": {
+    "children": ["rich-text#ESTILOS-3-text"],
+    "props": {
+      "marginLeft": "10"
+    }
+  },
+  "rich-text#ESTILOS-3-text": {
+    "props": {
+      "blockClass": "ESTILOS-text-border",
+      "text": "# CONOCE LOS ESTILOS"
+    }
+  },
+  "flex-layout.row#ESTILOS-3": {
+    "children": [
+      "flex-layout.col#vacio-3",
+      "flex-layout.col#waterproof-boot",
+      "flex-layout.col#mount-tecumseh-worker-jacket"
+    ],
+    "props": {
+      "marginBottom": 8,
+      "marginTop": 8,
+      "blockClass": "ESTILOS-3-meet-our"
+    }
+  },
+  "flex-layout.col#vacio-3": {
+    "children": ["rich-text#ESTILOS-2-text"],
+    "props": { "marginLeft": 8 }
+  },
+
+  "flex-layout.col#waterproof-boot": {
+    "children": [
+      "image#waterproof-boot",
+      "rich-text#waterproof-boot-text",
+      "info-card#waterproof-boot-meet-our"
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "image#waterproof-boot": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img14-meet.jpg"
+    }
+  },
+  "rich-text#waterproof-boot-text": {
+    "props": {
+      "text": "**Timberland® Premium 6″ Waterproof Boot**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#waterproof-boot-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/148?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+
+  "flex-layout.col#mount-tecumseh-worker-jacket": {
+    "children": [
+      "image#mount-tecumseh-worker-jacket",
+      "rich-text#mount-tecumseh-worker-jacket-text",
+      "info-card#mount-tecumseh-worker-jacket-meet-our"
+    ],
+    "props": {
+      "blockClass": "ESTILOS"
+    }
+  },
+
+  "image#mount-tecumseh-worker-jacket": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img15-meet.jpg"
+    }
+  },
+
+  "rich-text#mount-tecumseh-worker-jacket-text": {
+    "props": {
+      "text": "**Mount Tecumseh Worker Jacket**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#mount-tecumseh-worker-jacket-meet-our": {
+    "props": {
+      "blockClass": "earth-rally-meet-our",
+      "callToActionMode": "button",
+      "subhead": "",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/144?map=productClusterIds",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+  //------------------------text-------------------------------//
+  "flex-layout.row#text-heroes": {
+    "children": ["rich-text#heroes"]
+  },
+  "rich-text#heroes": {
+    "props": {
+      "blockClass": "rich-text-heroes-mexico",
+      "text": " ## CONOCE A LOS HÉROES EN MÉXICO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  // 3 Call to action
+  // ------------------------------------------------
+  "flex-layout.row#collections-meet": {
+    "children": [
+      "flex-layout.col#collection1-meet",
+      "flex-layout.col#collection2-meet",
+      "flex-layout.col#collection3-meet"
+    ],
+    "props": {
+      "blockClass": "collections-home",
+      "marginBottom": 8
+    }
+  },
+
+  // COLLECTION 1
+  // --------------------------------------------
+  "flex-layout.col#collection1-meet": {
+    "children": [
+      "image#image-collection1-meet",
+      "info-card#call-to-action-collection1-meet"
+    ],
+    "props": {
+      "blockClass": "col-categories1"
+    }
+  },
+
+  "image#image-collection1-meet": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img16-meet.png"
+    }
+  },
+  "info-card#call-to-action-collection1-meet": {
+    "props": {
+      "blockClass": "collection-cta",
+      "callToActionMode": "button",
+      "headline": "ERICA VALENCIA",
+      "subhead": "Arquitecta y Coach Holística fundadora de @Ectagono Ciudad de México",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/back-meet-our-heroes/erica-valencia",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+
+  // COLLECTION 2
+
+  "flex-layout.col#collection2-meet": {
+    "children": [
+      "image#image-collection2-meet",
+      "info-card#call-to-action-collection2-meet"
+    ],
+    "props": {
+      "blockClass": "col-categories2"
+    }
+  },
+
+  "image#image-collection2-meet": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img17-meet.png"
+    }
+  },
+  "info-card#call-to-action-collection2-meet": {
+    "props": {
+      "blockClass": "collection-cta",
+      "callToActionMode": "button",
+      "headline": "AISLINN DERBEZ",
+      "subhead": "Actriz, productora y emprendedora, fundadora de @amainatural Ciudad de México",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/back-meet-our-heroes/aislinn-derbez",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  },
+
+  // COLLECTION 3
+  //---------------------------------------------
+
+  "flex-layout.col#collection3-meet": {
+    "children": [
+      "image#image-collection3-meet",
+      "info-card#call-to-action-collection3-meet"
+    ],
+    "props": {
+      "blockClass": "col-categories3"
+    }
+  },
+
+  "image#image-collection3-meet": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/img18-meet.png"
+    }
+  },
+  "info-card#call-to-action-collection3-meet": {
+    "props": {
+      "blockClass": "collection-cta",
+      "callToActionMode": "button",
+      "headline": "MAJAHUITA",
+      "subhead": "Emprendedora, fundadora de Huerto Palo Verde. @elhuertopaloverde Guadalajara",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/back-meet-our-heroes/irma-ochoa",
+      "textAlignment": "center",
+      "textPosition": "center",
+      "isFullModeStyle": true
+    }
+  }
+}

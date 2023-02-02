@@ -1,0 +1,263 @@
+{
+  "store.custom#outlet-hombre-calzado": {
+    "blocks": ["search-result-layout.customQuery#outlet-hombre-calzado"]
+  },
+  "search-result-layout.customQuery#outlet-hombre-calzado": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "478",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-hombre-ropa": {
+    "blocks": ["search-result-layout.customQuery#outlet-hombre-ropa"]
+  },
+  "search-result-layout.customQuery#outlet-hombre-ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "479",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-hombre-accesorios": {
+    "blocks": ["search-result-layout.customQuery#outlet-hombre-accesorios"]
+  },
+  "search-result-layout.customQuery#outlet-hombre-accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "480",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-mujer-calzado": {
+    "blocks": ["search-result-layout.customQuery#outlet-mujer-calzado"]
+  },
+  "search-result-layout.customQuery#outlet-mujer-calzado": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "481",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-mujer-ropa": {
+    "blocks": ["search-result-layout.customQuery#outlet-mujer-ropa"]
+  },
+  "search-result-layout.customQuery#outlet-mujer-ropa": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "482",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-mujer-accesorios": {
+    "blocks": ["search-result-layout.customQuery#outlet-mujer-accesorios"]
+  },
+  "search-result-layout.customQuery#outlet-mujer-accesorios": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "483",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-ninos-calzado": {
+    "blocks": ["search-result-layout.customQuery#outlet-ninos-calzado"]
+  },
+  "search-result-layout.customQuery#outlet-ninos-calzado": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "484",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+
+  "store.custom#outlet-destacados": {
+    "blocks": ["search-result-layout.customQuery#outlet-destacados"]
+  },
+  "search-result-layout.customQuery#outlet-destacados": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "nino/157",
+        "mapField": "genero,productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  
+  "store.custom#outlet-ultimas-piezas": {
+    "blocks": ["search-result-layout.customQuery#outlet-ultimas-piezas"]
+  },
+  "search-result-layout.customQuery#outlet-ultimas-piezas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "226",
+        "mapField": "productClusterIds",
+        
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "store.custom#outlet-no-te-lo-pierdas": {
+    "blocks": ["search-result-layout.customQuery#outlet-no-te-lo-pierdas"]
+  },
+  "search-result-layout.customQuery#outlet-no-te-lo-pierdas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "228",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-rebajas": {
+    "blocks": ["search-result-layout.customQuery#outlet-rebajas"]
+  },
+  "search-result-layout.customQuery#outlet-rebajas": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "outlet/ropa/hombre/mujer/unisex/calzado/accesorios",
+        "mapField": "categoria,categoria,genero,genero,genero,categoria,categoria",
+        "orderByField": "OrderByReleaseDateDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-rebajas-novedades": {
+    "blocks": ["search-result-layout.customQuery#outlet-rebajas-novedades"]
+  },
+  "search-result-layout.customQuery#outlet-rebajas-novedades": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "229",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "store.custom#outlet-rebajas-favoritos": {
+    "blocks": ["search-result-layout.customQuery#outlet-rebajas-favoritos"]
+  },
+  "search-result-layout.customQuery#outlet-rebajas-favoritos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "227",
+        "mapField": "productClusterIds",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#outlet",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

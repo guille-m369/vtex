@@ -1,0 +1,80 @@
+{
+  // Ropa
+  "flex-layout.col#mujer-column-3": {
+    "children": ["vtex.menu@2.x:menu#mujer-column-3"]
+  },
+
+  "vtex.menu@2.x:menu#mujer-column-3": {
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-mujeres-ropa",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/ropa",
+            "noFollow": true,
+            "tagTitle": "ROPA",
+            "text": "ROPA"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-playeras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/ropa/playeras",
+            "noFollow": true,
+            "tagTitle": "Playeras",
+            "text": "Playeras"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-chalecos-y-chamarras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/ropa/chalecos-y-chamarras",
+            "noFollow": true,
+            "tagTitle": "Chalecos y Chamarras",
+            "text": "Chalecos y Chamarras"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-sudaderas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/ropa/sudaderas",
+            "noFollow": true,
+            "tagTitle": "Sudaderas",
+            "text": "Sudaderas"
+          }
+        },
+        {
+          "id": "menu-item-mujeres-vestidos-y-pantalones",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/mujer/pantalones/vestidos-y-pantalones",
+            "noFollow": true,
+            "tagTitle": "Vestidos y Pantalones",
+            "text": "Vestidos y Pantalones"
+          }
+        }
+      ]
+    }
+  }
+}

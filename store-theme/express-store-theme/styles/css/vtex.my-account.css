@@ -1,0 +1,9 @@
+:global(.vtex-account__page-body) a[href*="/cancel"] {
+  display: none !important;
+}
+
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/cancel"],
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) a[href*="/edit"],
+:global(.vtex-pageHeader__children) a[href="#/cards/new"] {
+  display: none;
+}

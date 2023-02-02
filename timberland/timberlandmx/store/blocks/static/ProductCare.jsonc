@@ -1,0 +1,254 @@
+{
+  "store.custom#ProductCare": {
+    "blocks": ["flex-layout.row#ProductCare-content"]
+  },
+  "flex-layout.row#ProductCare-content": {
+    "children": ["flex-layout.col#ProductCare-content"],
+    "props": { "blockClass": "product-care-container", "paddingBottom": 8 }
+  },
+  "flex-layout.col#ProductCare-content": {
+    "children": [
+      "flex-layout.row#title-ProductCare",
+      "flex-layout.row#img1-ProductCare",
+      "flex-layout.row#text-one-ProductCare",
+      // "flex-layout.row#img2-ProductCare",
+      "flex-layout.row#text-two-ProductCare",
+      "flex-layout.row#video-ProductCare",
+      "flex-layout.row#text-three-ProductCare",
+      "flex-layout.row#procutcs-2",
+      "rich-text#title-shelf-product-care",
+      "flex-layout.row#shelf-product-care"
+    ],
+    "props": {
+      "marginRight": 7,
+      "marginLeft": 7
+    }
+  },
+  "flex-layout.row#title-ProductCare": {
+    "children": ["rich-text#title-ProductCare"]
+  },
+  "rich-text#title-ProductCare": {
+    "props": {
+      "text": " ## **RECOMENDACIONES PARA MANTENER TU**  \n  ## **CALZADO LIMPIO Y PROTEGIDO**  ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "product-care-title"
+    }
+  },
+  "flex-layout.row#img1-ProductCare": {
+    "children": ["image#img1-ProductCare"]
+  },
+  "image#img1-ProductCare": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/DSC_9682.jpg",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "flex-layout.row#text-one-ProductCare": {
+    "children": ["rich-text#text-one-ProductCare"]
+  },
+  "rich-text#text-one-ProductCare": {
+    "props": {
+      "text": " ###### El calzado Timberland fue hecho para cualquier momento. Creado para recorrer las calles de la ciudad, para vivir aventuras diferentes fuera de los planes cotidianos y para explorar y conocer nuevos lugares. Sin embargo, con el tiempo, tu calzado mostrará algunos signos de uso y desgaste. Si bien estas marcas añaden carácter, nadie querrá verlas con manchas o rayadas. \n ###### Por suerte, podemos mostrarte cómo pulirlo y cuidarlo para lograr un aspecto renovado al brindarle mantenimiento y protección con nuestros productos: bálsamos y espumas amigables con el medio ambiente y especialmente diseñados para los materiales premium de nuestros productos. ",
+      "blockClass": "text-product-care"
+    }
+  },
+  "flex-layout.row#text-two-ProductCare": {
+    "children": ["rich-text#text-two-ProductCare"]
+  },
+  "rich-text#text-two-ProductCare": {
+    "props": {
+      "text": "###### **¿CÓMO LIMPIAR TUS TIMBS?** \n ###### Te presentamos nuestra guía de limpieza para mantener tus botas impecables en sencillos pasos, cuídalas y protégelas para que se vean siempre relucientes. ",
+      "blockClass": "text-product-care"
+    }
+  },
+  "video#background": {
+    "props": {
+      "width": "100%",
+      "controlsType": "native",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/dXOe62G5gX8",
+      "blockClass": "product-care-video"
+    }
+  },
+  "flex-layout.row#video-ProductCare": {
+    "children": ["flex-layout.col#video-ProductCare"]
+  },
+  "flex-layout.col#video-ProductCare": {
+    "children": ["video#background"]
+  },
+  "iframe#video-ProductCare": {
+    "props": {
+      "src": "https://www.youtube.com/embed/dXOe62G5gX8",
+      "width": "100%",
+      "height": "550"
+    }
+  },
+  // ------------------- columns ----------------------------------
+  "flex-layout.row#text-three-ProductCare": {
+    "children": ["flex-layout.col#dry-cleaning", "flex-layout.col#renew"],
+    "props": {
+      // "colGap": 8
+    }
+  },
+  "flex-layout.col#dry-cleaning": {
+    "children": [
+      "rich-text#text-three-ProductCare",
+      "image#img3-ProductCare",
+      "rich-text#text-three-ProductCare-text"
+    ],
+    "props": {
+      // "horizontalAlign": "center"
+      "preventVerticalStretch": true,
+      "marginLeft": 6,
+      "marginRight": 6
+    }
+  },
+  "rich-text#text-three-ProductCare": {
+    "props": {
+      "text": " ###### **DRY CLEANING KIT**"
+    }
+  },
+  "image#img3-ProductCare": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/DSC_9660.jpg",
+      "width": "100%"
+    }
+  },
+  "rich-text#text-three-ProductCare-text": {
+    "props": {
+      "text": "###### Nuestro calzado fue diseñado para acompañarte cada día, por eso hemos desarrollado este kit de limpieza en seco para mantenerlo limpio. \n ###### Utiliza la barra para frotar el calzado con movimientos de vaivén. En el caso de manchas difíciles, humedece la barra y frota la zona. Deja que se seque. Levanta la pelusa cepillándola suavemente. \n ###### **Consejo:**  No te olvides de limpiar la barra después de cada uso. \n ###### **Apto para:**  Ante y nubuck, nylon, sintético, tela, lona. \n",
+      "blockClass": "text-product-care"
+    }
+  },
+  "flex-layout.col#renew": {
+    "children": [
+      "rich-text#text-four-ProductCare",
+      "image#img4-ProductCare",
+      "rich-text#text-four-ProductCare-text"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "marginLeft": 6,
+      "marginRight": 6
+    }
+  },
+  "rich-text#text-four-ProductCare": {
+    "props": {
+      "text": "###### **RENEWBUCK™ FOAMING CLEANER**"
+    }
+  },
+  "image#img4-ProductCare": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/DSC_9656.jpg",
+      "width": "100%"
+    }
+  },
+  "rich-text#text-four-ProductCare-text": {
+    "props": {
+      "text": "###### **RENEWBUCK™ FOAMING CLEANER** \n ###### Dale a tus botas un poco de atención al pulirlas de nuevo y que tengan un aspecto similar a su estado original, esto con nuestro limpiador Renewbuck™ Foaming Cleaner. Esta fórmula de espuma a base de agua está desarrollada específicamente para su uso en nuestros productos de alta calidad compuestos de suede y nubuck. Para empezar a utilizarlo, quita la suciedad superficial de tu calzado con la barra de pulido y el cepillo de nylon; utiliza un paño limpio y seco. Aplica el limpiador de espuma en toda el área afectada, después pasa nuevamente el paño limpio para eliminar cualquier exceso. Finalmente, cepilla de nuevo, de forma suave, para restaurar la textura.\n ###### **Consejo:** No limpies sobre las manchas ya que pueden causar ligeras diferencias de sombra. \n ###### **Apto para:** Ante y nubuck, nylon, cuero engrasado, cuero liso, sintético, tela, lona. \n  "
+    }
+  },
+  //-------------------
+  "flex-layout.row#procutcs-2": {
+    "children": ["flex-layout.col#balm", "flex-layout.col#wax"],
+    "props": {
+      // "colGap": 8
+    }
+  },
+  "flex-layout.col#balm": {
+    "children": [
+      "rich-text#text-five-ProductCare",
+      "image#img5-ProductCare",
+      "rich-text#text-five-ProductCare-text"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "marginLeft": 6,
+      "marginRight": 6
+    }
+  },
+  "rich-text#text-five-ProductCare": {
+    "props": {
+      "text": " ###### **BALM PROOFER™ ALL PURPOSE PROTECTOR**"
+    }
+  },
+  "image#img5-ProductCare": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/DSC_9655.jpg",
+      "width": "100%"
+    }
+  },
+  "rich-text#text-five-ProductCare-text": {
+    "props": {
+      "text": "###### Balm Proofer™ Water & Stain Repellent restaura la repelencia al agua y protege contra las manchas en la mayoría de las telas y piel. La fórmula está diseñada a base de agua, lo que significa que es más amigable con en el medio ambiente y al mismo tiempo proporciona una resistente protección. Puedes aplicarlo en botas de trabajo pesado de la línea Timberland Pro, en modelos tipo Euro Hikers para los excursionistas del campo y la ciudad, en un par de Earthkeepers o en las clásicas botas de 6 pulgadas. \n ###### Utiliza el producto con el atomizador de manera uniforme, a una distancia de 15 a 20 centímetros hasta que toda la superficie esté cubierta y permite que el producto se seque por completo durante 24 hrs. Realiza está acción iniciando el día en el que adquiriste tus botas, posteriormente todos los días durante un par de semanas y finalmente una vez por semana a partir de entonces.\n ###### **Consejo:** Acelera el tiempo de secado utilizando tu secadora de cabello. Funciona muy bien en todos los materiales y accesorios. \n ###### **Apto para:**  Ante y nubuck, nylon, cuero engrasado, cuero liso, sintético, tela, lona.",
+      "blockClass": "text-product-care"
+    }
+  },
+  "flex-layout.col#wax": {
+    "children": [
+      "rich-text#text-six-ProductCare",
+      "image#img6-ProductCare",
+      "rich-text#text-six-ProductCare-text"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "marginLeft": 6,
+      "marginRight": 6
+    }
+  },
+  "rich-text#text-six-ProductCare": {
+    "props": {
+      "text": " ###### **WAXIMUM™ WAXED LEATHER PROTECTOR**"
+    }
+  },
+  "image#img6-ProductCare": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/DSC_9658.jpg",
+      "width": "100%"
+    }
+  },
+  "rich-text#text-six-ProductCare-text": {
+    "props": {
+      "text": " ###### **WAXIMUM™ WAXED LEATHER PROTECTOR** \n ###### Hidrata y protege, al mismo tiempo que minimiza las grietas y sequedad. Es la fuente de la juventud para pieles enceradas y engrasadas. Hecho con solo dos ingredientes naturales: cera de abejas y aceite de coco. \n ###### Aplica una capa fina y uniforme sobre toda la zona, una vez limpia y seca. Frota minuciosamente. \n ###### **Consejo:**  Úsalo en pieles aceitadas o enceradas (no utilizar en ante, suede o nubuck) – simplemente espárcelo en la piel usando la esponja. No lo pulas. \n ###### **Apto para:**  Cuero engrasado, cuero liso ",
+      "blockClass": "text-product-care"
+    }
+  },
+  //shelf
+  "rich-text#title-shelf-product-care": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CONOCE TODAS NUESTRAS SOLUCIONES DE PRODUCT CARE",
+      "font": "t-heading-3",
+      "blockClass": "prod-dest"
+    }
+  },
+  "flex-layout.row#shelf-product-care": {
+    "children": ["list-context.product-list#shelf-product-care"]
+  },
+  "list-context.product-list#shelf-product-care": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-product-care"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "142"
+    }
+  },
+  "slider-layout#shelf-product-care": {
+    "props": {
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

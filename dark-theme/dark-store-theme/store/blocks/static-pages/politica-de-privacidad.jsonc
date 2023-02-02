@@ -1,0 +1,65 @@
+{
+    "store.custom#politica-de-privacidad": {
+      "blocks": [
+        "responsive-layout.desktop#politica-de-privacidad",
+        "responsive-layout.mobile#politica-de-privacidad"
+      ]
+    },
+    "responsive-layout.desktop#politica-de-privacidad": {
+      "children": ["flex-layout.row#desktop-politica-de-privacidad"]
+    },
+  
+    "flex-layout.row#desktop-politica-de-privacidad": {
+      "children": ["flex-layout.col#desktop-politica-de-privacidad"],
+      "props": {
+        "blockClass": "static-row"
+      }
+    },
+  
+    "flex-layout.col#desktop-politica-de-privacidad": {
+      "children": [
+        "flex-layout.row#politica-de-privacidad-title",
+        "flex-layout.row#politica-de-privacidad-content"
+      ]
+    },
+  
+    //--------------------------politica-de-privacidad-mobile---------------------------------//
+  
+    "responsive-layout.mobile#politica-de-privacidad": {
+      "children": ["flex-layout.row#mobile-politica-de-privacidad"]
+    },
+    "flex-layout.row#mobile-politica-de-privacidad": {
+      "children": ["flex-layout.col#mobile-politica-de-privacidad"]
+    },
+  
+    "flex-layout.col#mobile-politica-de-privacidad": {
+      "children": [
+        "flex-layout.row#politica-de-privacidad-title",
+        "flex-layout.row#politica-de-privacidad-content"
+      ],
+      "props": {}
+    },
+  
+    //----------------------------Components ---------------------------------------//
+    "flex-layout.row#politica-de-privacidad-title": {
+      "children": ["rich-text#politica-de-privacidad-title"],
+      "props": {
+        "blockClass": "title"
+      }
+    },
+    "flex-layout.row#politica-de-privacidad-content": {
+      "children": ["rich-text#politica-de-privacidad-content"],
+      "props": { "blockClass": "static-row-content" }
+    },
+    "rich-text#politica-de-privacidad-title": {
+      "props": {
+        "text": "## Política de privacidad"
+      }
+    },
+    "rich-text#politica-de-privacidad-content": {
+      "props": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\n\n ### Lorem Ipsum \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    }
+  }
+  

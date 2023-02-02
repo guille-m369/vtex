@@ -1,0 +1,54 @@
+{
+  "version": "0.0.0",
+  "name": "product-specifications-list",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "lint:locales": "intl-equalizer",
+    "test": "cd ./react && yarn test"
+  },
+  "intl-equalizer": {
+    "referenceLocale": "en",
+    "localeDirectory": "messages"
+  },
+  "husky": {},
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@types/whatwg-fetch": "0.0.33",
+    "@vtex/intl-equalizer": "^2.4.2",
+    "@vtex/prettier-config": "^0.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-vtex": "^12.3.2",
+    "eslint-config-vtex-react": "^6.3.2",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2",
+    "styled-import": "^0.3.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@the_basketcase/image-zoom": "0.0.4",
+    "accordion-collapse-react-native": "^0.3.1",
+    "axios": "^0.20.0",
+    "react-collapsed": "^3.0.0-6",
+    "react-content-zoom": "^1.0.3",
+    "react-image-zoom": "^1.3.1",
+    "react-keyboard-input-hook": "^1.0.0",
+    "react-multi-carousel": "^2.5.5",
+    "react-native-video-controls": "^2.6.0",
+    "react-player": "^2.6.2",
+    "react-zoomable-img": "^1.0.2",
+    "style-it": "^2.1.4",
+    "use-swipe-hook": "^1.0.4"
+  }
+}

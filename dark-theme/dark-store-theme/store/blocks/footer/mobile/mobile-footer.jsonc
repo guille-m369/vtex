@@ -1,0 +1,198 @@
+{
+    "footer-layout.mobile": {
+  
+      "children": [
+        "flex-layout.row#footer-mobile-newsletter-text",
+        "flex-layout.row#footer-mobile-newsletter",
+        "flex-layout.row#footer-mobile-menu",
+        "flex-layout.row#footer-mobile-redes-sociales",
+        "flex-layout.row#footer-mobile-section-ecomsur"
+      ]
+    },
+    "flex-layout.row#footer-mobile-newsletter-text":{
+        "children":["flex-layout.col#footer-mobile-newsletter-text"],
+        "props":{
+           
+            "blockClass": "mobile-component-NewsLetter-text"
+        }
+    },
+
+    "flex-layout.col#footer-mobile-newsletter-text":{
+      "children":["rich-text#component-NewsLetter-Title"],
+      "props":{
+      "horizontalAlign": "center"
+      }
+    },
+  
+
+    /*-----------------------------newsletter----------------------*/
+    "flex-layout.row#footer-mobile-newsletter": {
+      "props": {
+        "paddingTop": 5,
+        "paddingBottom": 5,
+        "blockClass":"newsletter-container-mobile"
+      },
+      "children": [
+        "flex-layout.col#footer-mobile-newsletter"
+      ]
+    },
+    "flex-layout.col#footer-mobile-newsletter":{
+      "children":["newsletter-form"],
+      "props":{
+        "marginRight": 4,
+        "marginLeft": 4
+      }
+    },
+
+    //--------------------menu----------------------//
+    "flex-layout.row#footer-mobile-menu":{
+        "children":[
+            "vtex.menu@2.x:menu#mobile-categorias",
+            "vtex.menu@2.x:menu#accordion-support",
+            "vtex.menu@2.x:menu#tiendas",
+            "vtex.menu@2.x:menu#accordion-servicio-cliente"
+        ],
+        "props":{
+            "blockClass":"footer-mobile-container"
+        }
+    },
+
+    //--------------------------redes-sociales-------------------------//
+  
+    "flex-layout.row#footer-mobile-redes-sociales":{
+      "children":
+      ["flex-layout.row#footer-mobile-section-e-shop",
+        "flex-layout.row#footer-mobile-logo-redes-sociales",
+        "flex-layout.row#footer-mobile-section-metodos-de-pago"],
+      "props":{
+        "preventHorizontalStretch": true,
+        "blockClass": "footer-mobile-redes-sociales"
+      }
+    },
+
+    "flex-layout.row#footer-mobile-section-e-shop":{
+      "children":["flex-layout.col#footer-section-e-shop"],
+      "props":{
+        "blockClass": "footer-mobile-section-e-shop"
+      }
+    },
+    "flex-layout.row#footer-mobile-logo-redes-sociales":{
+      "children":[
+        "flex-layout.row#footer-mobile-text-redes-sociales",
+        "flex-layout.row#footer-mobile-img-redes-sociales"],
+        "props":{
+       
+          "blockClass": "footer-mobile-logo-redes-sociales"
+        }
+    },
+    "flex-layout.row#footer-mobile-text-redes-sociales":{
+      "children":["flex-layout.col#footer-mobile-text-redes-sociales"],
+      "props":{
+        "preventHorizontalStretch": true
+      }
+    },
+    "flex-layout.col#footer-mobile-text-redes-sociales":{
+      "children":["rich-text#footer-redes-sociales-text"]
+    },
+
+    "flex-layout.row#footer-mobile-img-redes-sociales":{
+      "children":[
+        "flex-layout.col#footer-mobile-img-twitter",
+        "flex-layout.col#footer-mobile-img-facebook",
+        "flex-layout.col#footer-mobile-img-instagram"],
+        "props":{
+          "preserveLayoutOnMobile": "true"
+        }
+      },
+        "flex-layout.col#footer-mobile-img-twitter":{
+          "children":[
+            "image#footer-redes-sociales-twitter"
+          ],
+          "props":{
+            "width": "45%",
+            "blockClass": "footer-mobile-redes-sociales-twitter"
+          }
+        },
+        "flex-layout.col#footer-mobile-img-facebook":{
+          "children":[
+            "image#footer-redes-sociales-facebook"
+            
+          ],
+          "props":{
+            "blockClass": "footer-mobile-redes-sociales-facebook"
+          }
+        },
+       
+        "flex-layout.col#footer-mobile-img-instagram":{
+          "children":[
+            "image#footer-redes-sociales-instragram"
+          ],
+          "props":{
+            "blockClass": "footer-mobile-img-instagram"
+          }
+        },
+
+        "flex-layout.row#footer-mobile-section-metodos-de-pago":{
+          "children":["flex-layout.row#footer-mobile-text-metodos-de-pago",
+          "flex-layout.row#footer-mobile-image-metodos-de-pago"],
+          "props":{
+            "blockClass": "footer-mobile-section-metodos-de-pago"
+          }
+
+
+        },
+        "flex-layout.row#footer-mobile-text-metodos-de-pago":{
+          "children":["flex-layout.col#footer-mobile-text-metodos-de-pago"]
+        },
+        "flex-layout.col#footer-mobile-text-metodos-de-pago":{
+          "children":["rich-text#footer-metodos-de-pago-text"]
+        },
+        "flex-layout.row#footer-mobile-image-metodos-de-pago":{
+          "children":["flex-layout.col#footer-mobile-image-metodos-de-pago-paypal","flex-layout.col#footer-mobile-image-metodos-de-pago-vtex"],
+          "props":{
+            "preserveLayoutOnMobile": "true"
+          }
+        },
+        "flex-layout.col#footer-mobile-image-metodos-de-pago-paypal":{
+          "children":["image#footer-metodos-de-pago-img-paypal"],
+          "props":{
+            "blockClass":"footer-mobile-image-metodos-de-pago-paypal"
+          }
+        },
+        "flex-layout.col#footer-mobile-image-metodos-de-pago-vtex":{
+          "children":["image#footer-metodos-de-pago-img-mercadopago"]
+        },
+        "flex-layout.row#footer-mobile-section-ecomsur":{
+          "children":["flex-layout.col#footer-mobile-section-eshop-demo",
+          "flex-layout.row#footer-mobile-section-logo-ecomsur",
+        "flex-layout.row#footer-mobile-section-vtex"],
+        "props":{
+          "blockClass": "footer-mobile-section-ecomsur",
+          "preserveLayoutOnMobile": "true"
+        }
+        },
+        "flex-layout.col#footer-mobile-section-eshop-demo":{
+          "children":["rich-text#footer-logos-texto"],
+          "props":{
+            "blockClass": "flex-layout.col#footer-mobile-section-eshop-demo",
+            "width": "50%"
+          }
+        },
+        "flex-layout.row#footer-mobile-section-logo-ecomsur":{
+          "children":["image#logo-ecomsur"],
+          "props":{
+            "blockClass": "footer-mobile-section-logo-ecomsur"
+          }
+        },
+        "flex-layout.row#footer-mobile-section-vtex":{
+          "children":["image#logo-vtex"],
+          "props":{
+            "blockClass": "footer-mobile-section-vtex"
+          }
+          
+        }
+
+
+    
+  }
+  

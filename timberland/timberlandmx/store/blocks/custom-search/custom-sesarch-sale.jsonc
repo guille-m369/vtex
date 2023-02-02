@@ -1,0 +1,22 @@
+{
+  "store.custom#sale": {
+    "blocks": ["search-result-layout.customQuery#sale"]
+  },
+  "search-result-layout.customQuery#sale": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "437",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByBestDiscountDESC",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

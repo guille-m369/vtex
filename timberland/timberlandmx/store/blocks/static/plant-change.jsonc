@@ -1,0 +1,272 @@
+{
+  "store.custom#plant-change": {
+    "blocks": ["flex-layout.row#plant-change"]
+  },
+  "flex-layout.row#plant-change": {
+    "children": ["flex-layout.col#plant-change"],
+    "props": { "marginBottom": 7, "blockClass": "plant-change-container" }
+  },
+  "flex-layout.col#plant-change": {
+    "children": [
+      "image#plant-change-map",
+      "rich-text#title-plant-change",
+      "rich-text#text-plant-change",
+      "flex-layout.row#plant-change-great-green",
+      "flex-layout.row#smallholder",
+      "flex-layout.row#trees-future",
+      "flex-layout.row#green-network",
+      "flex-layout.row#lagunas-parque",
+      "flex-layout.row#justdiggit",
+      "flex-layout.row#american",
+      "flex-layout.row#TREEDOM"
+    ],
+    "props": { "marginLeft": 7, "marginRight": 7 }
+  },
+  "image#plant-change-map": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/mapa.png",
+      "blockClass": "image-plant-change"
+    }
+  },
+
+  "rich-text#title-plant-change": {
+    "props": {
+      "text": "### PLANT THE CHANGE™",
+      "blockClass": "title-plant-change"
+    }
+  },
+  "rich-text#text-plant-change": {
+    "props": {
+      "text": "Reconocemos el poder de los árboles para mejorar la calidad de nuestro planeta y el bienestar individual. Ellos nos alimentan, cobijan y nos sostienen, por eso debemos defenderlos. Es por eso que nos hemos comprometido audazmente a plantar 50 millones de árboles en todo el mundo durante los próximos 5 años.\n\nPara hacer realidad este compromiso, nos hemos aliado con siete socios de todo el mundo. Ellos nos están ayudando no solo a plantar árboles, sino también a limpiar nuestro aire, fortalecer nuestras comunidades y crear oportunidades económicas. Juntos Plantaremos el Cambio - Plant The Change™.\n\nTe presentamos a los socios que nos están ayudando a crear este mundo más verde para todos.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*----------------------plant-change-great-green--------------------------------*/
+  "flex-layout.row#plant-change-great-green": {
+    "children": [
+      "flex-layout.col#plant-change-great-green-image",
+      "flex-layout.col#plant-change-great-green-text"
+    ]
+  },
+  "flex-layout.col#plant-change-great-green-image": {
+    "children": ["image#plant-change-great-green-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#plant-change-great-green-text": {
+    "children": ["rich-text#plant-change-great-green-text"]
+  },
+
+  "image#plant-change-great-green-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/GreenWall.png",
+      "maxHeight": 200,
+      "blockClass": "image-plant-change-green-wall"
+    }
+  },
+  "rich-text#plant-change-great-green-text": {
+    "props": {
+      "text": "**GREAT GREEN WALL** \n\nGreat Green Wall es un movimiento urgente para cultivar una línea de árboles de 8,000 km en todo el ancho de África para combatir el cambio climático, la sequía, el hambre, los conflictos y la migración. Timberland se está asociando con la Convención de las Naciones Unidas de Lucha contra la Desertificación (United Nations Convention to Combat Desertification - UNCCD) y Connect4Climate - World Bank Group, en una campaña global para hacer crecer una nueva maravilla del mundo en todo el continente africano.\n\nNuestro socio en la plantación de árboles en la Gran Muralla Verde, TreeAid, ha plantado más de 16 millones de árboles desde 1987 y ha regenerado muchos más para traer esperanza a la gente de Mali plantando árboles para luchar contra la desertificación y la migración masiva.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*----------------------SMALLHOLDER --------------------------------*/
+  "flex-layout.row#smallholder": {
+    "children": [
+      "flex-layout.col#smallholder-text",
+      "flex-layout.col#smallholder-image"
+    ]
+  },
+  "flex-layout.col#smallholder-image": {
+    "children": ["image#smallholder-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#smallholder-text": {
+    "children": ["rich-text#smallholder-text"]
+  },
+
+  "image#smallholder-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/SmallFarmers.png",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#smallholder-text": {
+    "props": {
+      "text": "**SMALLHOLDER FARMERS ALLIANCE**\n\nSmallholder Farmers Alliance (SFA) trabaja para alimentar y reforestar un Haití renovado, utilizando un nuevo modelo agroforestal en el que los pequeños agricultores plantan árboles para obtener créditos que intercambian por semillas, herramientas, capacitación y otros servicios agrícolas y comunitarios.\n\n• Hemos trabajado con la SFA desde 2010 para plantar cerca de 7.5 millones de árboles en Haití y mejorar la agricultura.\n\n• En el futuro, trabajaremos con la SFA para usar la moneda de los árboles para reintroducir el algodón en Haití, lo que dará como resultado un cultivo de exportación de alto valor que está directamente relacionado con la plantación de más árboles.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*--------------------------trees-future----------------------------*/
+  "flex-layout.row#trees-future": {
+    "children": [
+      "flex-layout.col#trees-future-image",
+      "flex-layout.col#trees-future-text"
+    ]
+  },
+  "flex-layout.col#trees-future-image": {
+    "children": ["image#trees-future-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#trees-future-text": {
+    "children": ["rich-text#trees-future-text"]
+  },
+
+  "image#trees-future-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/TreesForFuture.png",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#trees-future-text": {
+    "props": {
+      "text": "**TREES FOR THE FUTURE**\n\nFundada en 1989, Trees for the Future trabaja para mejorar los medios de vida de los agricultores empobrecidos, revitalizando las tierras degradadas. Para hacerlo, brindan a los agricultores semillas de árboles, capacitación técnica y asistencia para la planificación in situ. \n\n•  Trees for the Future ha plantado más de 115 millones de árboles en decenas de países y ha revitalizado cientos de miles de acres de suelo.\n\n•  Nos estamos asociando con Trees for the Future para educar y empoderar a los agricultores en Kenia y Senegal para plantar árboles alrededor de sus cultivos para aumentar sus rendimientos y poder vivir mejor.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*----------------------Green network --------------------------------*/
+  "flex-layout.row#green-network": {
+    "children": [
+      "flex-layout.col#green-network-text",
+      "flex-layout.col#green-network-image"
+    ]
+  },
+  "flex-layout.col#green-network-image": {
+    "children": ["image#green-network-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#green-network-text": {
+    "children": ["rich-text#green-network-text"]
+  },
+
+  "image#green-network-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/GrenNetwork.png",
+      "maxHeight": 200,
+      "blockClass": "plant-change-image"
+    }
+  },
+  "rich-text#green-network-text": {
+    "props": {
+      "text": "**GREEN NETWORK**\n\nDesde 2001, nos asociamos con la ONG japonesa Green Network para plantar árboles en el desierto de Horqin, para sofocar tormentas de arena y mejorar la calidad del aire en la región de Asia oriental y el Pacífico. Green Network es una ONG ambiental de base con sede en Yokohama, Japón. Tiene el compromiso de cultivar la conciencia ambiental y aumentar la conciencia y el entusiasmo del público para participar en la prevención y el control de la desertificación.\n\n• Juntos, hemos plantado más de 2,6 millones de árboles desde 2001.\n\n• En el futuro, nos asociaremos con Green Network para expandir la iniciativa de reforestación para combatir la desertificación para mejorar la calidad del aire de la región y revivir la agricultura local.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*--------------------------Lagunas Parque----------------------------*/
+  "flex-layout.row#lagunas-parque": {
+    "children": [
+      "flex-layout.col#lagunas-parque-image",
+      "flex-layout.col#lagunas-parque-text"
+    ]
+  },
+  "flex-layout.col#lagunas-parque-image": {
+    "children": ["image#lagunas-parque-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#lagunas-parque-text": {
+    "children": ["rich-text#lagunas-parque-text"]
+  },
+
+  "image#lagunas-parque-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/LasLagunas.png",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#lagunas-parque-text": {
+    "props": {
+      "text": "**LAS LAGUNAS PARQUE ECOLÓGICO**\n\nHemos trabajado con el Parque Ecológico Las Lagunas en Santiago, República Dominicana para cultivar plántulas de árboles para distribuirlas a las comunidades locales necesitadas.\n\n•  Estos árboles brindan sombra, limpian el aire y ofrecen fruta fresca a los miembros de la comunidad.\n\n•  Somos dueños de una fábrica de calzado en la República Dominicana y los empleados de nuestra fábrica se ofrecen como voluntarios para trabajar con Las Lagunas en proyectos de ecologización durante todo el año.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*---------------------- JUSTDIGGIT --------------------------------*/
+  "flex-layout.row#justdiggit": {
+    "children": [
+      "flex-layout.col#justdiggit-text",
+      "flex-layout.col#justdiggit-image"
+    ]
+  },
+  "flex-layout.col#justdiggit-image": {
+    "children": ["image#justdiggit-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#justdiggit-text": {
+    "children": ["rich-text#justdiggit-text"]
+  },
+
+  "image#justdiggit-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/JustDigg.png",
+      "blockClass": "plant-change-image",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#justdiggit-text": {
+    "props": {
+      "text": "**JUSTDIGGIT**\n\nJustdiggit empodera a las comunidades locales para restaurar paisajes degradados para enfriar el planeta a través de técnicas como la Regeneración Natural Administrada por Agricultores (Farmer Managed Natural Regeneration - FMNR).\n\n• Esta técnica recupera millones de árboles con grandes beneficios para la naturaleza, la vida silvestre, las personas y el clima.\n\n• Nos asociamos con Justdiggit para volver a cultivar millones de árboles en zonas rurales de Tanzania",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*--------------------------AMERICAN----------------------------*/
+  "flex-layout.row#american": {
+    "children": [
+      "flex-layout.col#american-image",
+      "flex-layout.col#american-text"
+    ]
+  },
+  "flex-layout.col#american-image": {
+    "children": ["image#american-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#american-text": {
+    "children": ["rich-text#american-text"]
+  },
+
+  "image#american-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/AmericanForests.png",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#american-text": {
+    "props": {
+      "text": "**AMERICAN FORESTS**\n\nFundada en 1875 como la Asociación Forestal Estadounidense, American Forests es la organización nacional de conservación más antigua de los Estados Unidos. Hoy en día, American Forests crea bosques saludables y resistentes desde ciudades hasta áreas silvestres que brindan beneficios esenciales para el clima, las personas, el agua y la vida silvestre.\n\n•  American Forests ha plantado más de 60 millones de árboles en los últimos 30 años\n\n•  Nos asociamos con American Forests para plantar árboles en seis ecosistemas clave en los Estados Unidos.",
+      "blockClass": "text-plant-change"
+    }
+  },
+  /*---------------------- TREEDOM --------------------------------*/
+  "flex-layout.row#TREEDOM": {
+    "children": [
+      "flex-layout.col#TREEDOM-text",
+      "flex-layout.col#TREEDOM-image"
+    ]
+  },
+  "flex-layout.col#TREEDOM-image": {
+    "children": ["image#TREEDOM-image"],
+    "props": { "width": "30%" }
+  },
+
+  "flex-layout.col#TREEDOM-text": {
+    "children": ["rich-text#TREEDOM-text"]
+  },
+
+  "image#TREEDOM-image": {
+    "props": {
+      "src": "https://timberlandmx.vteximg.com.br/arquivos/Treedom.png",
+
+      "maxHeight": 200
+    }
+  },
+  "rich-text#TREEDOM-text": {
+    "props": {
+      "text": "**TREEDOM**\n\nTreedom es una empresa con sede en la Unión Europea que promueve proyectos agroforestales en todo el mundo. Todos los árboles son plantados directamente por agricultores locales y aportan beneficios ambientales, sociales y financieros a sus comunidades.\n\n• Desde su fundación en 2010, se han plantado más de 600,000 árboles en África, América del Sur e Italia.\n\n• Nos asociamos con Treedom para plantar árboles en Ghana como parte del proyecto Great Green Wall de África.No solo estamos plantando árboles; estamos plantando un futuro más verde. Asegúrate de estar atento para realizar un seguimiento del progreso de lo que haremos.",
+      "blockClass": "text-plant-change"
+    }
+  }
+}
